@@ -257,10 +257,8 @@ interacciones de las muestras usan exclusivamente datos ficticios locales.
   y el formato histórico, por petición de Pol. No quedan archivos con prefijo 05.
 - Git inicializado en `as-abogados/` el 17-09-2026, con rama inicial `main`
   y remoto `origin` apuntando al repositorio indicado por Pol. Primer commit
-  local creado por petición de Pol. El push a `main` ha sido rechazado con
-  HTTP 403: la cuenta autenticada `PatriciaEchaverria` no tiene permiso de
-  escritura en el repositorio. Pendientes resolver el acceso, repetir el push
-  y publicar la demo en GitHub Pages.
+  subido a `main` con la cuenta `antonio-segura-abogados`; la rama local sigue
+  `origin/main`. La publicación de la demo en GitHub Pages sigue pendiente.
 - Planificación editorial y funcional documentada el 17-09-2026: 24 fichas de
   instrucciones, estructura por parejas, 18 vistas propuestas y ocho guías.
   La primera ejecución añade tres variantes de la pareja 12–13, una maqueta
@@ -287,8 +285,7 @@ interacciones de las muestras usan exclusivamente datos ficticios locales.
    Firma: Pol Surriel; nombre completo: Pol Surriel Muixench.
 3. Desarrollar las siguientes escenas autónomas y parejas del libro según
    prioridad editorial. Reutilizar componentes sin crear un recorrido global.
-4. Resolver el permiso de escritura y hacer push a `main`; configurar GitHub
-   Pages, publicar la demo y probar las URLs.
+4. Configurar GitHub Pages, publicar la demo y probar las URLs.
 5. Generar QR estables e incorporarlos a la maquetación.
 6. Exportar el PDF, verificar cada página y pedir una prueba física antes de
    imprimir los ejemplares de entrega.
