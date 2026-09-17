@@ -29,12 +29,13 @@ que explique el proyecto y a su promotor. Incluirá códigos QR que abran pantal
 concretas de una demo navegable. Esa demo será un *vertical slice*: una parte
 acotada pero convincente de la experiencia que se podría desarrollar para ellos.
 
-Más adelante se publicará en **GitHub Pages desde una cuenta dedicada a esta
+La demo está publicada en **GitHub Pages desde una cuenta dedicada a esta
 candidatura**. El repositorio indicado es
 `https://github.com/antonio-segura-abogados/antonio-segura-abogados.github.io.git`,
 configurado como remoto `origin` del repositorio local en `as-abogados/`.
-La URL prevista es `https://antonio-segura-abogados.github.io/`; la publicación
-y su verificación siguen pendientes.
+URL pública: `https://antonio-segura-abogados.github.io/`. Publicación desde
+`main`, carpeta `/docs`, verificada el 17-09-2026: HTML y recursos responden
+HTTP 200 y coinciden con la compilación local. Prueba interactiva pendiente.
 
 ```text
 as-abogados/
@@ -44,6 +45,7 @@ as-abogados/
 │   ├── muestras/            Comparativas y generadores de las pruebas de interior
 │   ├── planificacion/       Encargo y paginación propuesta
 │   └── PLAN-EDITORIAL.md    Relato y estructura propuesta de 24 páginas
+├── docs/                    Compilación publicada en GitHub Pages
 ├── vertical/                Aplicación de demostración
 ├── anexos/                  Investigación de contacto, futuro CV y otros apoyos
 ├── recursos-compartidos/
@@ -202,8 +204,12 @@ npm run build
 npm run preview
 ```
 
-`npm run build` comprueba TypeScript y genera `vertical/dist/`. Se publica
-exclusivamente esa carpeta. El servidor de desarrollo y el de previsualización
+`npm run build` comprueba TypeScript y genera `vertical/dist/` para pruebas
+locales. `npm run build:pages` comprueba TypeScript y regenera `docs/`, la carpeta
+publicada por GitHub Pages. Para actualizar la web, ejecutar ese comando,
+incluir `docs/` en el commit junto con los cambios de código y hacer push a
+`main`. El comando reemplaza el contenido generado de `docs/`; no editarlo a mano.
+Se incluye `.nojekyll` y la licencia de la fuente. Pages sirve únicamente `docs/`. El servidor de desarrollo y el de previsualización
 mostrarán su URL local al arrancar. `npm run typecheck` permite comprobar solo
 los tipos. No hay backend, autenticación, cobros ni recogida de datos personales. Las
 interacciones de las muestras usan exclusivamente datos ficticios locales.
@@ -258,7 +264,8 @@ interacciones de las muestras usan exclusivamente datos ficticios locales.
 - Git inicializado en `as-abogados/` el 17-09-2026, con rama inicial `main`
   y remoto `origin` apuntando al repositorio indicado por Pol. Primer commit
   subido a `main` con la cuenta `antonio-segura-abogados`; la rama local sigue
-  `origin/main`. La publicación de la demo en GitHub Pages sigue pendiente.
+  `origin/main`. Demo publicada en GitHub Pages desde `main → /docs`;
+  compilación y recursos públicos verificados el 17-09-2026.
 - Planificación editorial y funcional documentada el 17-09-2026: 24 fichas de
   instrucciones, estructura por parejas, 18 vistas propuestas y ocho guías.
   La primera ejecución añade tres variantes de la pareja 12–13, una maqueta
@@ -273,7 +280,8 @@ interacciones de las muestras usan exclusivamente datos ficticios locales.
   renderizados y revisados, tamaño A5 y fuentes incrustadas comprobados. El
   navegador integrado no estaba disponible: prueba interactiva web pendiente,
   al igual que la prueba física. La escena está disponible en el servidor local
-  mientras siga abierto; no existe todavía URL pública.
+  mientras siga abierto. Demo publicada y recursos HTTP verificados;
+  la prueba interactiva sigue pendiente por falta de navegador disponible.
 
 ## Próximos pasos
 
@@ -285,7 +293,8 @@ interacciones de las muestras usan exclusivamente datos ficticios locales.
    Firma: Pol Surriel; nombre completo: Pol Surriel Muixench.
 3. Desarrollar las siguientes escenas autónomas y parejas del libro según
    prioridad editorial. Reutilizar componentes sin crear un recorrido global.
-4. Configurar GitHub Pages, publicar la demo y probar las URLs.
+4. Probar las interacciones de la demo publicada y mantener `docs/` actualizado
+   con `npm run build:pages` antes de cada publicación.
 5. Generar QR estables e incorporarlos a la maquetación.
 6. Exportar el PDF, verificar cada página y pedir una prueba física antes de
    imprimir los ejemplares de entrega.

@@ -17,7 +17,8 @@ El menú inferior es ilustrativo. La acción documental usa un ejemplo y deja
 la revisión pendiente; no recoge archivos. No hay estado global ni persistencia.
 La recarga y el reinicio restauran cada escena. Ver [muestra visual](diseno/seguimiento/README.md).
 
-Ejecutar `npm ci`, `npm run dev` y `npm run build` desde `../`. El lockfile está
+Ejecutar `npm ci`, `npm run dev` y `npm run build` desde `../`.
+Para publicar, ejecutar `npm run build:pages` desde esa misma carpeta. El lockfile está
 allí; no generar otro aquí. TypeScript/build verificados. Prueba interactiva
 pendiente por indisponibilidad del navegador integrado en esta sesión.
 
@@ -34,31 +35,49 @@ La compilación incluye automáticamente la licencia de la fuente en
 ## Direcciones permanentes para QR
 
 Se usa `HashRouter`. Las URLs implementadas y las pendientes se registran en
-`../recursos-compartidos/qr/destinos.json`. Ninguna tiene todavía URL pública ni
-QR definitivo. La publicación continúa prevista para la cuenta dedicada de GitHub Pages.
+`../recursos-compartidos/qr/destinos.json`. La demo está publicada; HTML y
+recursos verificados por HTTP el 17-09-2026. Quedan comprobar interacciones
+y lectura física de los QR antes de imprimir. Las rutas propuestas sin
+implementar siguen mostrando la pantalla de dirección no disponible.
 
 La base relativa de Vite (`./`) y las rutas con `#` permiten que el mismo
 contenido compilado funcione en una raíz o subcarpeta de GitHub Pages.
-Ejemplo de estructura, todavía sin URL real:
+URL pública de la escena de seguimiento:
 
 ```text
-https://CUENTA.github.io/REPOSITORIO/#/expediente
+https://antonio-segura-abogados.github.io/#/expediente
 ```
 
 Después de imprimir un QR, conservar su ruta. Si una pantalla cambia de sitio,
 añadir una redirección en la aplicación. No renombrar la cuenta/repositorio
 sin una estrategia para conservar los enlaces impresos.
 
-## Publicación futura
+## Publicación en GitHub Pages
 
-Cuando se decida la cuenta y el repositorio, configurar GitHub Pages con GitHub
-Actions. El build será `npm ci && npm run build` desde `as-abogados/` si el
-repositorio contiene todo este workspace, o desde la raíz si el repositorio
-empieza en esta carpeta. El artefacto será `as-abogados/vertical/dist/` o
-`vertical/dist/`, respectivamente.
+La fuente de Pages es **Deploy from a branch → main → /docs**. El sitio está
+publicado en `https://antonio-segura-abogados.github.io/`. La carpeta `docs/`
+del repositorio se sirve en la raíz de la URL pública, sin añadir `/docs/`.
 
-No hay publicación automática configurada todavía, porque no se ha elegido el
-repositorio. No publicar la carpeta raíz completa como contenido del sitio.
+Desde la raíz del repositorio (`as-abogados/`):
+
+```sh
+npm run build:pages
+git add docs
+# Incluir también los cambios de código que originan esta compilación.
+git commit -m "Actualizar demo publicada"
+git push origin main
+```
+
+`build:pages` comprueba TypeScript y genera `docs/index.html`, assets y licencia.
+Reemplaza el contenido de `docs/`: es una salida generada, no editarla a mano.
+`vertical/public/.nojekyll` se copia automáticamente para servir archivos estáticos.
+El build habitual (`npm run build`) sigue generando `vertical/dist/` para pruebas.
+
+Cada push a `main` publica lo que esté compilado en `docs/`; GitHub no ejecuta
+Vite en esta configuración. El resto del repositorio no forma parte del sitio.
+Despliegue verificado el 17-09-2026: HTML y todos los recursos responden HTTP 200
+y coinciden con los archivos locales. Prueba interactiva pendiente porque el
+navegador integrado no está disponible.
 
 Referencias consultadas el 14-09-2026:
 [despliegue estático de Vite](https://vite.dev/guide/static-deploy),

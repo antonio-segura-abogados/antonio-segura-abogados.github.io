@@ -1,6 +1,6 @@
 {
   "publicBaseUrl": "https://antonio-segura-abogados.github.io/",
-  "status": "URL indicada por Pol; QR generados para maquetación; sitio GitHub Pages devuelve HTTP 404; publicación pendiente",
+  "status": "Demo publicada en GitHub Pages desde main /docs; HTML y recursos HTTP verificados el 17-09-2026; pruebas interactivas y lectura física pendientes",
   "routes": [
     {
       "id": "inicio",
