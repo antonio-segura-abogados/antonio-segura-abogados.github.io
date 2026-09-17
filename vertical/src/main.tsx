@@ -6,6 +6,7 @@ import favicon from '../../recursos-compartidos/assets/marca/favicon.png';
 import '../../recursos-compartidos/estilos/base.css';
 import './app.css';
 import './product.css';
+import './acompanamiento.css';
 
 document.querySelector<HTMLLinkElement>('link[rel="icon"]')!.href = favicon;
 

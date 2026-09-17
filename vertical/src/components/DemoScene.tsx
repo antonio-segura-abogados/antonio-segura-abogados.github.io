@@ -10,9 +10,10 @@ const sections: { icon: IconName; label: string }[] = [
   { icon: 'profile', label: 'Perfil' },
 ];
 
-export function DemoScene({ title, label, guide, children, onReset, navigation = false, note }: {
+export function DemoScene({ title, label, guide, children, onReset, navigation = false, note, activeSection = 'home', workspace = false }: {
   title: string; label: string; guide: GuideStep[];
   children: (highlight?: string) => ReactNode; onReset: () => void; navigation?: boolean; note?: string;
+  activeSection?: IconName; workspace?: boolean;
 }) {
   const [params] = useSearchParams();
   const [tour, setTour] = useState<number | null>(params.get('tour') === '1' ? 0 : null);
@@ -23,16 +24,16 @@ export function DemoScene({ title, label, guide, children, onReset, navigation =
       <span><span className="demo-dot" />Demo · datos ficticios</span>
       <div><button onClick={() => setTour(0)}>Ver guía</button><button onClick={() => { setTour(null); onReset(); }}>Reiniciar</button></div>
     </aside>
-    <div className="scene-stage">
-      <div className="device-frame" data-capture="phone">
-        <div className="device-status" aria-hidden="true"><span>9:41</span><i /><span className="device-signal">▮▮▮ ▰</span></div>
+    <div className={`scene-stage ${workspace ? 'scene-stage--workspace' : ''}`}>
+      <div className={workspace ? 'workspace-frame' : 'device-frame'} data-capture={workspace ? 'workspace' : 'phone'}>
+        {!workspace && <div className="device-status" aria-hidden="true"><span>9:41</span><i /><span className="device-signal">▮▮▮ ▰</span></div>}
         <main className="client-screen" id="contenido" aria-label={title}>
-          <header className="client-header"><img src={logo} alt="Antonio Segura Abogados y Gestores" /><span className="avatar" aria-label="Lucía, perfil de ejemplo">L</span></header>
-          <div className="case-label"><span>{label}</span><span>Tu espacio AS</span></div>
+          <header className="client-header"><img src={logo} alt="Antonio Segura Abogados y Gestores" /><span className="avatar" aria-label={workspace ? 'Equipo de gestión, ejemplo' : 'Lucía, perfil de ejemplo'}>{workspace ? 'AS' : 'L'}</span></header>
+          <div className="case-label"><span>{label}</span><span>{workspace ? 'Gestión del despacho' : 'Tu espacio AS'}</span></div>
           <div className="device-scroll"><div className="screen-content">{children(tour === null ? undefined : guide[tour].target)}</div></div>
-          {navigation && <nav className="bottom-menu" aria-label="Secciones de la app (muestra visual)">{sections.map((section, i) => <span key={section.icon} className={`menu-item ${i === 0 ? 'is-active' : ''}`} aria-current={i === 0 ? 'page' : undefined}><Icon name={section.icon} /><span>{section.label}</span></span>)}</nav>}
+          {navigation && <nav className="bottom-menu" aria-label="Secciones de la app (muestra visual)">{sections.map(section => <span key={section.icon} className={`menu-item ${section.icon === activeSection ? 'is-active' : ''}`} aria-current={section.icon === activeSection ? 'page' : undefined}><Icon name={section.icon} /><span>{section.label}</span></span>)}</nav>}
         </main>
-        <div className="device-home" aria-hidden="true"><i /></div>
+        {!workspace && <div className="device-home" aria-hidden="true"><i /></div>}
       </div>
       {tour !== null && <aside className="tour-panel" role="region" aria-label={`Guía: ${title}`}>
         <div className="tour-header"><span>GUÍA · {tour + 1} / {guide.length}</span><button aria-label="Cerrar guía" onClick={() => setTour(null)}>×</button></div>

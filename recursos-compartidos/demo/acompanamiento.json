@@ -1,0 +1,38 @@
+{
+  "documentos": [
+    { "id": "pasaporte", "nombre": "Pasaporte", "archivo": "pasaporte-ejemplo.pdf", "estado": "recibido", "detalle": "Copia recibida. El equipo aún debe revisarla." },
+    { "id": "nacimiento", "nombre": "Certificado de nacimiento", "archivo": "certificado-ejemplo.pdf", "estado": "subsanar", "detalle": "En este ejemplo falta una página. Aporta una copia completa." },
+    { "id": "domicilio", "nombre": "Documento de domicilio", "archivo": "domicilio-ejemplo.pdf", "estado": "pendiente", "detalle": "El equipo ha solicitado una copia en este caso ficticio." },
+    { "id": "consulta", "nombre": "Resumen de la consulta", "archivo": "consulta-ejemplo.pdf", "estado": "validado", "detalle": "Resumen revisado por el equipo en este ejemplo." }
+  ],
+  "puntos": [
+    { "id": "centro", "nombre": "Punto Centro", "distancia": "0,4 km", "horario": "L–V · 09:00–20:00", "x": 170, "y": 90 },
+    { "id": "estacion", "nombre": "Punto Estación", "distancia": "0,9 km", "horario": "L–S · 10:00–19:00", "x": 75, "y": 160 },
+    { "id": "mercado", "nombre": "Punto Mercado", "distancia": "1,6 km", "horario": "L–V · 08:00–18:00", "x": 270, "y": 155 }
+  ],
+  "envio": {
+    "referencia": "DEMO-0142",
+    "estados": ["Preparado", "Entregado en el punto", "En tránsito", "Recibido por AS", "En devolución", "Devuelto"],
+    "preparacion": ["Revisa la instrucción del despacho sobre el original.", "Protege el documento y añade la hoja de identificación.", "Conserva el resguardo de la entrega."]
+  },
+  "practica": {
+    "fuente": "https://examenes.cervantes.es/sites/default/files/manual-ccse-2026-def.pdf",
+    "edicion": "Manual CCSE 2026, Instituto Cervantes",
+    "nota": "Preguntas propias sobre contenidos del manual. Práctica de demostración, no examen oficial.",
+    "preguntas": [
+      { "id": "capital", "enunciado": "Señala la capital del país.", "opciones": ["Sevilla", "Madrid", "Zaragoza"], "correcta": 1, "explicacion": "Madrid es la capital española.", "pagina": 7 },
+      { "id": "camaras", "enunciado": "Para el Parlamento español, ¿qué pareja es correcta?", "opciones": ["Congreso y Senado", "Gobierno y ayuntamientos", "Tribunales y ministerios"], "correcta": 0, "explicacion": "El Parlamento tiene dos cámaras: Congreso y Senado.", "pagina": 9 },
+      { "id": "constitucion", "enunciado": "¿A qué año corresponde la Constitución actual?", "opciones": ["1986", "1992", "1978"], "correcta": 2, "explicacion": "Se aprobó en referéndum en diciembre de 1978.", "pagina": 6 },
+      { "id": "cee", "enunciado": "Elige el año de entrada de España en la CEE.", "opciones": ["1986", "2002", "1975"], "correcta": 0, "explicacion": "La incorporación tuvo lugar el 1 de enero de 1986.", "pagina": 8 },
+      { "id": "estrellas", "enunciado": "¿Cuántas estrellas tiene la bandera europea?", "opciones": ["27", "15", "12"], "correcta": 2, "explicacion": "Su diseño muestra doce estrellas, colocadas en círculo.", "pagina": 8 }
+    ]
+  },
+  "consulta": {
+    "mensajes": [
+      { "autor": "Lucía", "texto": "Ya he añadido la copia. ¿Cómo sabré si hace falta el original?", "hora": "09:42" },
+      { "autor": "Equipo AS", "texto": "Primero revisaremos la copia. Si necesitamos el original, aparecerán las instrucciones en tu expediente.", "hora": "10:05" }
+    ],
+    "citas": ["Jueves 24 sep. · 10:30", "Jueves 24 sep. · 16:00", "Viernes 25 sep. · 12:00"],
+    "resumen": ["Revisar la copia aportada antes de pedir un original.", "Avisar a Lucía desde su expediente si necesita subsanar algo.", "Mantener las instrucciones y el resumen junto a la documentación."]
+  }
+}

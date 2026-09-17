@@ -1,0 +1,15 @@
+{
+  "ruta": { "id": "residencia-demo", "nombre": "Residencia · ruta de ejemplo", "version": 1, "tipo": "Caso de demostración", "pasos": [
+    { "id": "entrevista", "titulo": "Entrevista inicial", "tipo": "Formulario", "instruccion": "Completa la entrevista para que el equipo pueda revisar tu situación." },
+    { "id": "documentos", "titulo": "Preparar documentación", "tipo": "Documentos", "instruccion": "Adjunta una copia completa y legible. El equipo te indicará si falta algo." },
+    { "id": "revision", "titulo": "Revisión del equipo", "tipo": "Revisión profesional", "instruccion": "El equipo revisa los documentos antes de continuar." },
+    { "id": "presentacion", "titulo": "Presentación del trámite", "tipo": "Gestión del despacho", "instruccion": "Recibirás una confirmación cuando se registre la presentación del ejemplo." },
+    { "id": "resolucion", "titulo": "Seguimiento de resolución", "tipo": "Seguimiento", "instruccion": "Consulta el estado. El equipo te explicará los siguientes pasos." }
+  ]},
+  "cambio": { "titulo": "Actualizar las instrucciones documentales", "motivo": "Cambio ficticio de procedimiento para mostrar la gestión de versiones. No representa una novedad real del BOE.", "instruccion": "Adjunta una copia completa, con todas las páginas en orden. Revisa que las fechas se lean antes de enviarla.", "vigencia": "2026-10-01" },
+  "expedientes": [
+    { "id": "lucia-demo", "nombre": "Lucía · AS-0142", "paso": "Preparar documentación", "version": 1, "completados": 1, "elegible": true },
+    { "id": "omar-demo", "nombre": "Omar · AS-0187", "paso": "Revisión completada", "version": 1, "completados": 3, "elegible": false }
+  ],
+  "excepcion": { "titulo": "Comprobación adicional", "instruccion": "El equipo revisará contigo una particularidad documental antes de continuar." }
+}
