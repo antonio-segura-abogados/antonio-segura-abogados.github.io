@@ -1,0 +1,37 @@
+/* Base A5 horizontal. Interior con márgenes; portada con fondo hasta el corte.
+   Importar después de recursos-compartidos/estilos/base.css.
+   El sangrado de portada se añade al exportar el PDF de producción.
+   Cada .pagina debe corresponder a UNA página física. Revisar el PDF al maquetar. */
+@page { size: A5 landscape; margin: 0; }
+.pagina {
+  width: var(--as-print-width);
+  min-height: var(--as-print-height);
+  padding: var(--as-print-margin-top) var(--as-print-margin-outer)
+    var(--as-print-margin-bottom) var(--as-print-margin-inner);
+  background: var(--as-white);
+  font-size: var(--as-print-body-size);
+  line-height: 1.5;
+  break-after: page;
+}
+.pagina.par {
+  padding-left: var(--as-print-margin-outer);
+  padding-right: var(--as-print-margin-inner);
+}
+.pagina.portada {
+  padding: 0;
+  height: var(--as-print-height);
+  background: var(--as-print-cover-background);
+}
+.pagina:last-child { break-after: auto; }
+.pagina h1 { font-size: 28pt; }
+.pagina h2 { font-size: 20pt; }
+.pagina h3 { font-size: 13pt; }
+.pagina small { font-size: var(--as-print-small-size); }
+.pagina figure, .pagina .qr { break-inside: avoid; }
+.pagina .qr img { width: var(--as-print-qr-size); height: var(--as-print-qr-size); }
+@media print {
+  html, body { margin: 0; padding: 0; background: white; }
+  body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .solo-pantalla { display: none !important; }
+  .pagina { margin: 0; box-shadow: none; }
+}

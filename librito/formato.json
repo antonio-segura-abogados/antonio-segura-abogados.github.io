@@ -1,0 +1,27 @@
+{
+  "estado": "base de trabajo; pendiente de prueba física y presupuesto",
+  "formato": "A5 horizontal",
+  "anchoMm": 210,
+  "altoMm": 148,
+  "encuadernacion": "dos grapas al caballete",
+  "paginasObjetivoIncluidasCubiertas": 24,
+  "multiploPaginas": 4,
+  "sangradoMm": 0,
+  "alternativaConSangradoMm": 3,
+  "portada": {
+    "fondo": "as-blue-brand",
+    "sangradoMm": 3,
+    "sangradoConfirmadoPorImprenta": false,
+    "margenSeguridadMm": 10
+  },
+  "margenesMm": { "interior": 15, "exterior": 12, "superior": 14, "inferior": 15 },
+  "papelInteriorGm2": 100,
+  "papelCubiertaGm2": 200,
+  "acabado": "mate, sin plastificado",
+  "cuerpoPt": 10.5,
+  "interlineado": 1.5,
+  "resolucionImagenesPpp": 300,
+  "qrTamanoConZonaSilencioMm": 28,
+  "qrZonaSilencioModulos": 4,
+  "exportacion": "PDF en páginas individuales, orden de lectura, fuentes incrustadas, escala 100%"
+}

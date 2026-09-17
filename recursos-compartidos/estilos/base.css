@@ -1,0 +1,30 @@
+@import './fuentes.css';
+@import './tokens.css';
+
+*, *::before, *::after { box-sizing: border-box; }
+html { color-scheme: light; }
+body {
+  margin: 0;
+  font-family: var(--as-font-sans);
+  font-weight: var(--as-font-weight-body);
+  line-height: var(--as-leading-body);
+  color: var(--as-color-text);
+  background: var(--as-color-background);
+  font-synthesis: none;
+}
+h1, h2, h3, h4 {
+  color: var(--as-color-heading);
+  font-weight: var(--as-font-weight-heading);
+  line-height: var(--as-leading-heading);
+  letter-spacing: var(--as-tracking-heading);
+  margin: 0 0 0.75em;
+}
+p { margin: 0 0 1em; }
+a { color: var(--as-color-action); text-underline-offset: 0.2em; }
+a:hover { color: var(--as-color-action-hover); }
+img { display: block; max-width: 100%; height: auto; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+:focus-visible { outline: 3px solid var(--as-blue-medium); outline-offset: 4px; }
+::selection { background: var(--as-blue-dark); color: var(--as-white); }

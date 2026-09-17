@@ -1,0 +1,46 @@
+{
+  "id": "seguimiento-v1",
+  "persona": "Lucía",
+  "identificador": "AS-2026-0142",
+  "objetivo": "Nacionalidad por residencia",
+  "saludo": "Hola, Lucía.",
+  "titular": "Tu próximo paso, claro.",
+  "accion": "Completar documentación",
+  "resumen": "Falta un documento para que el equipo pueda revisar tu expediente.",
+  "cta": "Ver qué falta",
+  "pasoActual": 2,
+  "pasos": [
+    { "id": "entrevista", "nombre": "Entrevista", "estado": "completed", "detalle": "Ya conocemos tu situación", "responsable": "Tú y el despacho" },
+    { "id": "documentacion", "nombre": "Documentación", "estado": "current", "detalle": "Un documento pendiente", "responsable": "Tu turno" },
+    { "id": "revision", "nombre": "Revisión del equipo", "estado": "upcoming", "detalle": "Comprobamos lo que has aportado", "responsable": "El despacho" },
+    { "id": "presentacion", "nombre": "Presentación", "estado": "upcoming", "detalle": "Te avisaremos cuando se presente", "responsable": "El despacho" },
+    { "id": "resolucion", "nombre": "Resolución", "estado": "waiting", "detalle": "Seguimiento de la respuesta oficial", "responsable": "La Administración" }
+  ],
+  "documentos": [
+    { "nombre": "Pasaporte vigente", "estado": "Recibido", "detalle": "Copia de ejemplo aportada" },
+    { "nombre": "Certificado de nacimiento", "estado": "Pendiente", "detalle": "Añade una copia completa y legible" }
+  ],
+  "instrucciones": ["Prepara una copia completa y legible.", "Incluye todas las páginas del documento.", "El equipo revisará la copia y te indicará si necesita el original."],
+  "tipos": [
+    { "nombre": "Originales", "detalle": "Entrega con resguardo" },
+    { "nombre": "Práctica", "detalle": "Sesiones para el examen" },
+    { "nombre": "Servicios", "detalle": "Encargos concretos" },
+    { "nombre": "Espera", "detalle": "Avisos al cambiar el estado" }
+  ],
+  "editorial": {
+    "seguimiento": {
+      "titulo": ["Tu expediente,", "siempre claro."],
+      "intro": "El cliente ve dónde está su proceso, qué tiene que hacer y cuándo debe esperar al despacho.",
+      "puntos": [
+        { "titulo": "Una siguiente acción", "texto": "Lo importante aparece primero." },
+        { "titulo": "Un estado comprensible", "texto": "Se distingue entre tu turno, revisión y espera." },
+        { "titulo": "Todo a mano", "texto": "Documentos, práctica y consultas en el mismo espacio." }
+      ]
+    },
+    "paso": {
+      "titulo": ["Cada paso,", "una acción."],
+      "intro": "Cada etapa reúne las instrucciones, los documentos y el responsable. El cliente sabe cómo avanzar; el despacho recibe la información con contexto."
+    }
+  },
+  "nota": "Caso y documentos ficticios. La secuencia es ilustrativa, no una lista de requisitos jurídicos."
+}

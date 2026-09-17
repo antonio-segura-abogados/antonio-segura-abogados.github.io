@@ -1,0 +1,58 @@
+/* Colores observados en segura-abogados.com el 14-09-2026.
+   Ver ../investigacion/identidad-visual.md para procedencia y decisiones. */
+:root {
+  --as-blue-brand: #0192e5;
+  --as-blue-light: #47b5ff;
+  --as-blue-medium: #2172bc;
+  --as-blue-dark: #06283d;
+  --as-white: #ffffff;
+  --as-gray-50: #f4f4f4;
+  --as-gray-200: #e4e4e4;
+  --as-gray-600: #464646;
+  --as-gray-800: #262626;
+  --as-gray-900: #161616;
+  --as-sand: #e7cea6;
+  --as-green-pale: #deecdf;
+
+  /* Roles propuestos para esta candidatura; no son un manual oficial. */
+  --as-color-brand: var(--as-blue-brand);
+  --as-color-accent: var(--as-blue-light);
+  --as-color-action: var(--as-blue-medium);
+  --as-color-action-hover: var(--as-blue-dark);
+  --as-color-background: var(--as-white);
+  --as-color-surface: var(--as-gray-50);
+  --as-color-border: var(--as-gray-200);
+  --as-color-heading: var(--as-gray-900);
+  --as-color-text: var(--as-gray-600);
+  --as-color-on-action: var(--as-white);
+
+  --as-font-sans: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+  --as-font-weight-body: 400;
+  --as-font-weight-label: 600;
+  --as-font-weight-heading: 700;
+  --as-leading-body: 1.65;
+  --as-leading-heading: 1.2;
+  --as-tracking-heading: -0.015em;
+
+  --as-space-1: 0.25rem;
+  --as-space-2: 0.5rem;
+  --as-space-3: 0.75rem;
+  --as-space-4: 1rem;
+  --as-space-6: 1.5rem;
+  --as-space-8: 2rem;
+  --as-space-12: 3rem;
+  --as-radius-small: 0.25rem;
+  --as-radius-medium: 0.75rem;
+
+  --as-print-width: 210mm;
+  --as-print-height: 148mm;
+  --as-print-cover-background: var(--as-blue-brand);
+  --as-print-cover-bleed: 3mm;
+  --as-print-margin-inner: 15mm;
+  --as-print-margin-outer: 12mm;
+  --as-print-margin-top: 14mm;
+  --as-print-margin-bottom: 15mm;
+  --as-print-body-size: 10.5pt;
+  --as-print-small-size: 8.5pt;
+  --as-print-qr-size: 28mm;
+}

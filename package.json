@@ -1,0 +1,13 @@
+{
+  "name": "as-abogados",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["vertical"],
+  "scripts": {
+    "dev": "npm run dev --workspace vertical",
+    "build": "npm run build --workspace vertical",
+    "preview": "npm run preview --workspace vertical",
+    "typecheck": "npm run typecheck --workspace vertical"
+  },
+  "engines": { "node": ">=20.19.0" }
+}

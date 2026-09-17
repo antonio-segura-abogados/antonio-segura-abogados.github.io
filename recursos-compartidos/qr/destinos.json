@@ -1,0 +1,72 @@
+{
+  "publicBaseUrl": "https://antonio-segura-abogados.github.io/",
+  "status": "URL indicada por Pol; QR generados para maquetación; sitio GitHub Pages devuelve HTTP 404; publicación pendiente",
+  "routes": [
+    {
+      "id": "inicio",
+      "path": "/",
+      "implemented": true,
+      "printReady": false,
+      "qrGenerated": true,
+      "qrUrl": "https://antonio-segura-abogados.github.io/#/",
+      "qrSvg": "generados/inicio.svg"
+    },
+    {
+      "id": "entrevista",
+      "path": "/entrevista",
+      "implemented": false,
+      "printReady": false,
+      "qrGenerated": true,
+      "qrUrl": "https://antonio-segura-abogados.github.io/#/entrevista",
+      "qrSvg": "generados/entrevista.svg"
+    },
+    {
+      "id": "expediente",
+      "path": "/expediente",
+      "implemented": true,
+      "printReady": false,
+      "scene": "autónoma; muestra local",
+      "qrGenerated": true,
+      "qrUrl": "https://antonio-segura-abogados.github.io/#/expediente?tour=1",
+      "qrSvg": "generados/expediente.svg"
+    },
+    {
+      "id": "documentos",
+      "path": "/documentos",
+      "implemented": false,
+      "printReady": false,
+      "qrGenerated": true,
+      "qrUrl": "https://antonio-segura-abogados.github.io/#/documentos",
+      "qrSvg": "generados/documentos.svg"
+    },
+    {
+      "id": "consultas",
+      "path": "/consultas",
+      "implemented": false,
+      "printReady": false,
+      "qrGenerated": true,
+      "qrUrl": "https://antonio-segura-abogados.github.io/#/consultas",
+      "qrSvg": "generados/consultas.svg"
+    },
+    {
+      "id": "paso-documentacion",
+      "path": "/expediente/pasos/documentacion",
+      "implemented": true,
+      "printReady": false,
+      "scene": "autónoma; muestra local",
+      "qrGenerated": true,
+      "qrUrl": "https://antonio-segura-abogados.github.io/#/expediente/pasos/documentacion",
+      "qrSvg": "generados/paso-documentacion.svg"
+    }
+  ],
+  "external": [
+    {
+      "id": "informe-anthropic",
+      "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf",
+      "description": "Economic Scenarios for Transformative AI; enlace oficial aportado por Pol",
+      "qrGenerated": true,
+      "printReady": false,
+      "qrSvg": "generados/informe-anthropic.svg"
+    }
+  ]
+}

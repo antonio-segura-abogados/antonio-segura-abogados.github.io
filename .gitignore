@@ -1,0 +1,12 @@
+node_modules/
+vertical/dist/
+*.tsbuildinfo
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+librito/exportaciones/
+anexos/privado/
+recursos-compartidos/investigacion/web/
+

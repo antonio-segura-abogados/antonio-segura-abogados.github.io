@@ -1,0 +1,246 @@
+{
+  "estado": "portada 03 elegida; interiores 12–13 rechazados; desarrollo en orden desde página 2; UX conservada",
+  "fecha": "2026-09-17",
+  "formato": "A5 horizontal",
+  "paginasIncluidasCubiertas": 24,
+  "parejasEnfrentadas": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      18,
+      19
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      22,
+      23
+    ]
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "id": "portada",
+      "origen": "Portada existente; continuidad solicitada",
+      "titulo": "Quiero ser vuestro director tecnológico",
+      "instrucciones": "../slides/01-portada/INSTRUCCIONES.md",
+      "carpeta": "../slides/01-portada"
+    },
+    {
+      "pagina": 2,
+      "id": "presentacion",
+      "origen": "S02",
+      "titulo": "Una candidatura personal, con una propuesta concreta",
+      "instrucciones": "../slides/02-presentacion/INSTRUCCIONES.md",
+      "carpeta": "../slides/02-presentacion"
+    },
+    {
+      "pagina": 3,
+      "id": "direccion-tecnologica",
+      "origen": "S03-IA (primera slide 3)",
+      "titulo": "La próxima década exige dirección tecnológica",
+      "instrucciones": "../slides/03-direccion-tecnologica/INSTRUCCIONES.md",
+      "carpeta": "../slides/03-direccion-tecnologica"
+    },
+    {
+      "pagina": 4,
+      "id": "cadena-de-valor",
+      "origen": "S03-CADENA (segunda slide 3)",
+      "titulo": "De la primera consulta a la resolución",
+      "instrucciones": "../slides/04-cadena-de-valor/INSTRUCCIONES.md",
+      "carpeta": "../slides/04-cadena-de-valor"
+    },
+    {
+      "pagina": 5,
+      "id": "oportunidad",
+      "origen": "S04, pregunta de apertura",
+      "titulo": "Una experiencia más sencilla. Una operación capaz de crecer",
+      "instrucciones": "../slides/05-oportunidad/INSTRUCCIONES.md",
+      "carpeta": "../slides/05-oportunidad"
+    },
+    {
+      "pagina": 6,
+      "id": "referente-campmany",
+      "origen": "S04, referencia de mercado",
+      "titulo": "Un referente de servicio jurídico digital",
+      "instrucciones": "../slides/06-referente-campmany/INSTRUCCIONES.md",
+      "carpeta": "../slides/06-referente-campmany"
+    },
+    {
+      "pagina": 7,
+      "id": "modelo-operativo",
+      "origen": "S04, argumentos de negocio",
+      "titulo": "Qué podemos aprender de ese modelo",
+      "instrucciones": "../slides/07-modelo-operativo/INSTRUCCIONES.md",
+      "carpeta": "../slides/07-modelo-operativo"
+    },
+    {
+      "pagina": 8,
+      "id": "concepto-app",
+      "origen": "S05",
+      "titulo": "Tu app de extranjería",
+      "instrucciones": "../slides/08-concepto-app/INSTRUCCIONES.md",
+      "carpeta": "../slides/08-concepto-app"
+    },
+    {
+      "pagina": 9,
+      "id": "entrevista",
+      "origen": "S06",
+      "titulo": "Una primera entrevista que prepara el trabajo del abogado",
+      "instrucciones": "../slides/09-entrevista/INSTRUCCIONES.md",
+      "carpeta": "../slides/09-entrevista"
+    },
+    {
+      "pagina": 10,
+      "id": "opciones",
+      "origen": "S07, pantalla p1",
+      "titulo": "Entender las opciones antes de decidir",
+      "instrucciones": "../slides/10-opciones/INSTRUCCIONES.md",
+      "carpeta": "../slides/10-opciones"
+    },
+    {
+      "pagina": 11,
+      "id": "contratacion",
+      "origen": "S07, pantallas p2 y p3",
+      "titulo": "Elegir acompañamiento y contratar",
+      "instrucciones": "../slides/11-contratacion/INSTRUCCIONES.md",
+      "carpeta": "../slides/11-contratacion"
+    },
+    {
+      "pagina": 12,
+      "id": "seguimiento",
+      "origen": "S08, home",
+      "titulo": "Saber dónde estoy y qué viene después",
+      "instrucciones": "../slides/12-seguimiento/INSTRUCCIONES.md",
+      "carpeta": "../slides/12-seguimiento"
+    },
+    {
+      "pagina": 13,
+      "id": "paso-actual",
+      "origen": "S05, tipos de paso; S08, seguimiento",
+      "titulo": "Cada paso se convierte en una acción concreta",
+      "instrucciones": "../slides/13-paso-actual/INSTRUCCIONES.md",
+      "carpeta": "../slides/13-paso-actual"
+    },
+    {
+      "pagina": 14,
+      "id": "documentos",
+      "origen": "S08, gestión documental",
+      "titulo": "Mis documentos, ordenados y revisados",
+      "instrucciones": "../slides/14-documentos/INSTRUCCIONES.md",
+      "carpeta": "../slides/14-documentos"
+    },
+    {
+      "pagina": 15,
+      "id": "originales",
+      "origen": "S08, entrega de originales",
+      "titulo": "Cuando hace falta un original, también hay un proceso",
+      "instrucciones": "../slides/15-originales/INSTRUCCIONES.md",
+      "carpeta": "../slides/15-originales"
+    },
+    {
+      "pagina": 16,
+      "id": "practica",
+      "origen": "S09",
+      "titulo": "Preparar el examen en sesiones breves",
+      "instrucciones": "../slides/16-practica/INSTRUCCIONES.md",
+      "carpeta": "../slides/16-practica"
+    },
+    {
+      "pagina": 17,
+      "id": "consultas",
+      "origen": "S10",
+      "titulo": "Consultas conectadas con el expediente",
+      "instrucciones": "../slides/17-consultas/INSTRUCCIONES.md",
+      "carpeta": "../slides/17-consultas"
+    },
+    {
+      "pagina": 18,
+      "id": "configurador",
+      "origen": "S11, rutas por tipología",
+      "titulo": "Actualizar los procesos desde un configurador",
+      "instrucciones": "../slides/18-configurador/INSTRUCCIONES.md",
+      "carpeta": "../slides/18-configurador"
+    },
+    {
+      "pagina": 19,
+      "id": "cambios-y-excepciones",
+      "origen": "S11, ruta personalizada y aplicación del cambio",
+      "titulo": "Aplicar un cambio con control sobre cada expediente",
+      "instrucciones": "../slides/19-cambios-y-excepciones/INSTRUCCIONES.md",
+      "carpeta": "../slides/19-cambios-y-excepciones"
+    },
+    {
+      "pagina": 20,
+      "id": "beneficios",
+      "origen": "S12",
+      "titulo": "Más alcance, menos trabajo repetido",
+      "instrucciones": "../slides/20-beneficios/INSTRUCCIONES.md",
+      "carpeta": "../slides/20-beneficios"
+    },
+    {
+      "pagina": 21,
+      "id": "puesta-en-marcha",
+      "origen": "Propuesta editorial añadida, no slide original",
+      "titulo": "Cómo llevaría esta propuesta a la práctica",
+      "instrucciones": "../slides/21-puesta-en-marcha/INSTRUCCIONES.md",
+      "carpeta": "../slides/21-puesta-en-marcha"
+    },
+    {
+      "pagina": 22,
+      "id": "curriculum",
+      "origen": "S13 y materiales posteriores",
+      "titulo": "Pol Surriel: experiencia relevante",
+      "instrucciones": "../slides/22-curriculum/INSTRUCCIONES.md",
+      "carpeta": "../slides/22-curriculum"
+    },
+    {
+      "pagina": 23,
+      "id": "conversacion",
+      "origen": "S13, fotos aportadas y cierre editorial",
+      "titulo": "Experiencia en equipos. Una conversación sobre vuestro próximo paso",
+      "instrucciones": "../slides/23-conversacion/INSTRUCCIONES.md",
+      "carpeta": "../slides/23-conversacion"
+    },
+    {
+      "pagina": 24,
+      "id": "contraportada",
+      "origen": "Petición expresa de cierre",
+      "titulo": "Contraportada",
+      "instrucciones": "../slides/24-contraportada/INSTRUCCIONES.md",
+      "carpeta": "../slides/24-contraportada"
+    }
+  ]
+}
