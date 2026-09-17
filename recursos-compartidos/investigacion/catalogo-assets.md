@@ -62,6 +62,17 @@ oficina.jpg       6def75e75c61b9be4559126b331063acc31120e1dcf68dbc3ef071d0e480ac
 logo-azul-web.jpg 69873ba067f9eab7678d374266b09104851b2555fd36ba9e11723c7ddf3a71df
 ```
 
+## Referente Campmany: actualización del 17-09-2026
+
+Se incorporan el logo y la ilustración oficial de la página Premium para la
+variante 02 de la página 6. Los dos SVG originales, sus PNG derivados a 1800 px
+y el registro de URLs, fechas y hashes se conservan en
+[referentes/campmany/](../assets/referentes/campmany/README.md).
+
+Son recursos de Campmany. El render conserva su diseño, colores y proporciones;
+los PNG ofrecen más de 600 ppp a su tamaño en el libro. No se incorporan a la
+demo ni se presentan como recursos propios de AS.
+
 ## Fuentes locales
 
 | Archivo | Fuente |
@@ -90,3 +101,9 @@ adjunta corresponde a la tipografía, no a las imágenes ni a la marca.
 La copia local de HTML/CSS está en `investigacion/web/`, fuera de los assets
 del sitio y excluida de Git. El nuevo proyecto no incluye el backlog TMS ajeno
 a la propuesta ni sus credenciales.
+
+## Cierre 14–24 y presentación web
+
+`assets/demo/14-19/` contiene las seis capturas de React y su procedencia; se obtienen con el mismo marco que abre el QR. `assets/mapas/` conserva geometría y procedencia Natural Earth (dominio público). La página 23 usa las fotos originales de `tmp/fotos/tech-lead-viewnext.png` y `team-surreal-boost.png`, completas y sin retoque.
+
+Por petición posterior de Pol, los renders de las 24 páginas se publican en la home. Se generan WebP y miniaturas desde los `index` seleccionados; las fotos y contacto aparecen dentro de las páginas maquetadas. Los documentos originales no se copian como anexos de la web.

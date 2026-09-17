@@ -1,0 +1,25 @@
+{
+  "titulo": "¿Cómo va lo mío?",
+  "intro": "La respuesta estaría en su móvil: dónde está el expediente, qué toca hacer y quién tiene el siguiente turno.",
+  "estados": [
+    {
+      "titulo": "Tu turno",
+      "texto": "Aportar lo pendiente."
+    },
+    {
+      "titulo": "El despacho",
+      "texto": "Revisar y presentar."
+    },
+    {
+      "titulo": "Administración",
+      "texto": "Resolver la solicitud."
+    }
+  ],
+  "beneficio": "Menos dudas sobre el estado del expediente.",
+  "captura": "12-seguimiento.png",
+  "qr": "expediente",
+  "qrTitulo": "Abre tu expediente",
+  "qrDetalle": "Explora la home y consulta la siguiente acción.",
+  "puente": "UN ESTADO ÚTIL LLEVA A UNA ACCIÓN CONCRETA.",
+  "estado": "desarrollada, pendiente de revisión de Pol"
+}

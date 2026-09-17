@@ -1,0 +1,29 @@
+{
+  "titulo": "Tu app de extranjería.",
+  "intro": "Convertiría la experiencia de AS en un servicio que acompaña al cliente, desde la primera duda hasta su siguiente paso.",
+  "indice": [
+    {
+      "verbo": "Entender",
+      "detalle": "La primera entrevista",
+      "paginas": "09"
+    },
+    {
+      "verbo": "Elegir",
+      "detalle": "Opciones y acompañamiento",
+      "paginas": "10–11"
+    },
+    {
+      "verbo": "Avanzar",
+      "detalle": "Expediente y documentos",
+      "paginas": "12–15"
+    },
+    {
+      "verbo": "Resolver",
+      "detalle": "Práctica, consultas y gestión",
+      "paginas": "16–19"
+    }
+  ],
+  "captura": "08-objetivo.png",
+  "puente": "ASÍ EMPIEZA EL ACOMPAÑAMIENTO.",
+  "estado": "desarrollada, pendiente de revisión de Pol"
+}

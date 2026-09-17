@@ -1,0 +1,76 @@
+{
+  "fecha": "2026-09-17",
+  "resultado": "correcto",
+  "navegador": "Chrome headless",
+  "capturas": [
+    {
+      "archivo": "14-documentos.png",
+      "ruta": "/documentos",
+      "selector": "[data-capture=\"phone\"]",
+      "escala": 3,
+      "origen": "React en Chrome; misma escena del QR"
+    },
+    {
+      "archivo": "15-originales.png",
+      "ruta": "/originales",
+      "selector": "[data-capture=\"phone\"]",
+      "escala": 3,
+      "origen": "React en Chrome; misma escena del QR"
+    },
+    {
+      "archivo": "16-practica.png",
+      "ruta": "/practica",
+      "selector": "[data-capture=\"phone\"]",
+      "escala": 3,
+      "origen": "React en Chrome; misma escena del QR"
+    },
+    {
+      "archivo": "17-consultas.png",
+      "ruta": "/consultas/sala-demo",
+      "selector": "[data-capture=\"phone\"]",
+      "escala": 3,
+      "origen": "React en Chrome; misma escena del QR"
+    },
+    {
+      "archivo": "18-configurador.png",
+      "ruta": "/gestion/rutas/residencia-demo",
+      "selector": "[data-capture=\"board\"]",
+      "escala": 3,
+      "origen": "React en Chrome; misma escena del QR"
+    },
+    {
+      "archivo": "19-cambios.png",
+      "ruta": "/gestion/cambios",
+      "selector": "[data-capture=\"board\"]",
+      "escala": 3,
+      "origen": "React en Chrome; misma escena del QR"
+    }
+  ],
+  "rutas": [
+    "/documentos",
+    "/originales",
+    "/practica",
+    "/consultas",
+    "/consultas/sala-demo",
+    "/perfil",
+    "/gestion/rutas",
+    "/gestion/rutas/residencia-demo",
+    "/gestion/cambios",
+    "/gestion/expedientes/lucia-demo"
+  ],
+  "anchosMoviles": [
+    320,
+    390
+  ],
+  "pruebas": [
+    "Documentos: filtros, subsanación, recibido distinto de validado, reinicio",
+    "Originales: preparación, incidencia, recepción pendiente de revisión y devolución",
+    "Práctica: respuesta incorrecta, puntuación única, cinco preguntas, repaso y reinicio",
+    "Consultas: mensaje local, reserva, controles visuales y resumen",
+    "Configurador: vista previa, orden, nuevo paso, revisión invalidada al editar, fecha y publicación",
+    "Cambios: aplicación explícita, progreso conservado, excepción individual y cancelación del borrador",
+    "Diez URLs: acceso directo, guía y ausencia de desbordamiento a 320 y 390 px",
+    "Sin errores de JavaScript"
+  ],
+  "limitacion": "Demostraciones con estado local; no servicios reales conectados"
+}

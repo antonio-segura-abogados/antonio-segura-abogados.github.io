@@ -1,0 +1,37 @@
+{
+  "titulo": "Yo lideraría la puesta en marcha.",
+  "intro": "Empezaría por una ruta de extranjería, con el equipo jurídico cerca y decisiones apoyadas en lo que ocurra en el piloto.",
+  "fases": [
+    {
+      "titulo": "Observar",
+      "texto": "Entender la demanda y dónde se pierde tiempo.",
+      "decision": "Elegir la primera ruta."
+    },
+    {
+      "titulo": "Pilotar",
+      "texto": "Probar el recorrido con un grupo acotado.",
+      "decision": "Ajustar con el equipo."
+    },
+    {
+      "titulo": "Medir",
+      "texto": "Contrastar tiempo, coste y avance por caso.",
+      "decision": "Comprobar el valor."
+    },
+    {
+      "titulo": "Ampliar",
+      "texto": "Extender lo que funciona a nuevas rutas.",
+      "decision": "Decidir el siguiente paso."
+    }
+  ],
+  "roles": [
+    {
+      "titulo": "Mi responsabilidad",
+      "texto": "Producto, tecnología, prioridades y coordinación de la implantación."
+    },
+    {
+      "titulo": "Vuestro criterio",
+      "texto": "Validación jurídica, calidad del servicio y decisiones sobre cada caso."
+    }
+  ],
+  "puente": "Esta propuesta es una muestra de cómo quiero aportar dentro del despacho."
+}

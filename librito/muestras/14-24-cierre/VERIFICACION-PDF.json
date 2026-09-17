@@ -1,0 +1,96 @@
+{
+  "fecha": "2026-09-17",
+  "resultado": "correcto",
+  "paginasNuevas": 11,
+  "paginasTotales": 24,
+  "parejasNuevas": [
+    "14–15",
+    "16–17",
+    "18–19",
+    "20–21",
+    "22–23"
+  ],
+  "formatoMm": [
+    210,
+    148
+  ],
+  "originales01a13": "idénticos al render anterior",
+  "qrPngDecodificados": 13,
+  "qrLeidosDesdePdf300ppp": 13,
+  "qrEnPapel": [
+    {
+      "pagina": 3,
+      "destino": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf",
+      "tamanoMm": 28.0
+    },
+    {
+      "pagina": 9,
+      "destino": "https://antonio-segura-abogados.github.io/#/entrevista?tour=1",
+      "tamanoMm": 28.0
+    },
+    {
+      "pagina": 10,
+      "destino": "https://antonio-segura-abogados.github.io/#/opciones?tour=1",
+      "tamanoMm": 28.0
+    },
+    {
+      "pagina": 11,
+      "destino": "https://antonio-segura-abogados.github.io/#/planes?tour=1",
+      "tamanoMm": 28.0
+    },
+    {
+      "pagina": 12,
+      "destino": "https://antonio-segura-abogados.github.io/#/expediente?tour=1",
+      "tamanoMm": 28.0
+    },
+    {
+      "pagina": 13,
+      "destino": "https://antonio-segura-abogados.github.io/#/expediente/pasos/documentacion?tour=1",
+      "tamanoMm": 28.0
+    },
+    {
+      "pagina": 14,
+      "destino": "https://antonio-segura-abogados.github.io/#/documentos?tour=1",
+      "tamanoMm": 28.0
+    },
+    {
+      "pagina": 15,
+      "destino": "https://antonio-segura-abogados.github.io/#/originales?tour=1",
+      "tamanoMm": 28.0
+    },
+    {
+      "pagina": 16,
+      "destino": "https://antonio-segura-abogados.github.io/#/practica?tour=1",
+      "tamanoMm": 28.0
+    },
+    {
+      "pagina": 17,
+      "destino": "https://antonio-segura-abogados.github.io/#/consultas?tour=1",
+      "tamanoMm": 28.0
+    },
+    {
+      "pagina": 18,
+      "destino": "https://antonio-segura-abogados.github.io/#/gestion/rutas/residencia-demo?tour=1",
+      "tamanoMm": 27.0
+    },
+    {
+      "pagina": 19,
+      "destino": "https://antonio-segura-abogados.github.io/#/gestion/cambios?tour=1",
+      "tamanoMm": 27.0
+    },
+    {
+      "pagina": 24,
+      "destino": "https://antonio-segura-abogados.github.io/#/",
+      "tamanoMm": 28.0
+    }
+  ],
+  "metodo": "Apple Vision; contenido exacto comparado con el destino registrado y el enlace PDF",
+  "fuentes": "Plus Jakarta Sans incrustada; límites de texto comprobados por generar.py",
+  "sha256": {
+    "cierre-14-24.pdf": "9b3d9dbc6c8d9440bd4bd2b0334bfc4c5e0270d82ef9779a75dd2d3931f693dd",
+    "parejas-14-23.pdf": "8d7f31bc78b63d461416fe651c59bf7d555db8f90c2cc6dfb430c5cf1dac250d",
+    "librito-completo-01-24.pdf": "672542656d6fe8189557c25580de9ada9a0d102f002296448c44c90a525119ba"
+  },
+  "pruebaFisica": "pendiente",
+  "produccion": "PDF A5 de revisión; sangrado de cubiertas e imposición por cerrar con imprenta"
+}

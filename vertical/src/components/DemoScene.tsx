@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
-import { useSearchParams } from 'react-router';
+import { Link, useSearchParams } from 'react-router';
 import logo from '../../../recursos-compartidos/assets/marca/logo-azul-web.jpg';
 import { Icon, type IconName } from './Icon';
 
@@ -41,7 +41,7 @@ export function DemoScene({ title, label, guide, children, onReset, navigation =
         <div className="tour-controls"><button disabled={tour === 0} onClick={() => setTour(tour - 1)}>Anterior</button><button className="tour-next" onClick={() => setTour(tour === guide.length - 1 ? null : tour + 1)}>{tour === guide.length - 1 ? 'Explorar la escena' : 'Siguiente'}<span aria-hidden="true">→</span></button></div>
       </aside>}
     </div>
-    <p className="scene-caption">Propuesta de Pol Surriel para Antonio Segura Abogados.<br />{note || 'Ejemplo interactivo con datos ficticios.'}</p>
+    <p className="scene-caption">Propuesta de Pol Surriel para Antonio Segura Abogados.<br />{note || 'Ejemplo interactivo con datos ficticios.'}<br /><Link to="/">Volver a la presentación</Link></p>
   </div>;
 }
 

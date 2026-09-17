@@ -1,0 +1,57 @@
+{
+  "fecha": "2026-09-17",
+  "navegador": "Chrome headless, perfil temporal",
+  "capturas": [
+    {
+      "archivo": "08-objetivo.png",
+      "ruta": "/entrevista?vista=objetivo",
+      "origen": "Captura de React en Chrome; móvil HTML/CSS compartido",
+      "escala": 3
+    },
+    {
+      "archivo": "09-entrevista.png",
+      "ruta": "/entrevista",
+      "origen": "Captura de React en Chrome; móvil HTML/CSS compartido",
+      "escala": 3
+    },
+    {
+      "archivo": "10-opciones.png",
+      "ruta": "/opciones",
+      "origen": "Captura de React en Chrome; móvil HTML/CSS compartido",
+      "escala": 3
+    },
+    {
+      "archivo": "11-planes.png",
+      "ruta": "/planes",
+      "origen": "Captura de React en Chrome; móvil HTML/CSS compartido",
+      "escala": 3
+    },
+    {
+      "archivo": "11-contratacion.png",
+      "ruta": "/contratacion",
+      "origen": "Captura de React en Chrome; móvil HTML/CSS compartido",
+      "escala": 3
+    },
+    {
+      "archivo": "12-seguimiento.png",
+      "ruta": "/expediente",
+      "origen": "Captura de React en Chrome; móvil HTML/CSS compartido",
+      "escala": 3
+    },
+    {
+      "archivo": "13-documentacion.png",
+      "ruta": "/expediente/pasos/documentacion",
+      "origen": "Captura de React en Chrome; móvil HTML/CSS compartido",
+      "escala": 3
+    }
+  ],
+  "pruebas": [
+    "entrevista: desconocido, resumen, edición y reinicio",
+    "opciones: detalle y selección",
+    "planes: importes mensual/anual, redondeo, resumen y confirmación",
+    "documentación: recibido distinto de revisado, aislamiento y recarga",
+    "seis URLs: acceso directo y guía a 320 y 390 px",
+    "sin errores de JavaScript ni desbordamientos horizontales"
+  ],
+  "resultado": "correcto"
+}

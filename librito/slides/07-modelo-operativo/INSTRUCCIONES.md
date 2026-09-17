@@ -1,6 +1,6 @@
 # Qué podemos aprender de ese modelo
 
-Estado: **ficha de planificación**, 17-09-2026. Página propuesta **7/24**;
+Estado: **variante revisada en su punto 2, pendiente de revisión**, 17-09-2026. Página propuesta **7/24**;
 identificador estable `modelo-operativo`. Pareja enfrentada 6–7.
 Origen: **S04, argumentos de negocio**.
 
@@ -24,13 +24,53 @@ Explicar mecanismos económicos que AS podría explorar: asincronía, procesos r
 
 **QR / demo:** No necesario.
 
-**Criterio de contenido:** Estas afirmaciones del encargo se conservan como hipótesis. No están verificadas como estructura interna de Campmany ni como ahorros de AS. La edición formal no se apoyará en «abogados baratos».
+**Criterio de contenido:** Estas afirmaciones del encargo se conservan como hipótesis. No están verificadas como estructura interna de Campmany ni como ahorros de AS. La comparación salarial se plantea para perfiles equivalentes, sin inventar cifras.
+
+La última aclaración de Pol que figura al final de esta ficha recupera la
+comparación salarial y prevalece sobre la exclusión anterior.
 
 ## Referencias
 
 - [FUENTES-PROPUESTA.md](../../../recursos-compartidos/investigacion/FUENTES-PROPUESTA.md)
 
 Aplicar las [reglas comunes de diseño y variantes](../../PLAN-EDITORIAL.md).
-Esta ficha no crea un diseño ni implementa la pantalla. Al desarrollar,
-guardar las variantes completas en esta misma carpeta y anotar la elegida.
+Guardar las variantes completas en esta misma carpeta y anotar la elegida.
 
+## Variante desarrollada
+
+[01 · Crecer también es organizar mejor.](variantes/01-procesos/README.md),
+pendiente de revisión. Se desarrolla después de la 6, dentro de la dirección
+que Pol pide continuar.
+
+Tres relaciones causa y efecto: clientes a distancia → más mercado; equipo
+distribuido → menor coste salarial; procesos reutilizables → más tiempo jurídico.
+El texto habla en primera persona de lo que Pol exploraría para AS y explicita
+la validación futura de demanda, costes y tiempo por expediente.
+
+El cierre, «Ahora, la idea toma forma: tu app de extranjería», prepara la página
+8. Se mantiene la diferencia entre una oportunidad planteada y un ahorro ya
+medido, y se conserva el encargo original sin modificarlo.
+
+## Corrección anterior de Pol: punto 2 (sustituida)
+
+> En el punto 2 no menciones menor costo por contratar gente q no tenga sueldos de barcelona
+
+Esta corrección dio lugar a una versión centrada en capacidad y coordinación,
+sin comparación salarial. Se conserva como referencia histórica; la aclaración
+siguiente sustituye esa exclusión.
+
+## Última aclaración de Pol: incluir la comparación salarial
+
+> añade las comparaciones salariales a ese punto 2 porfavor.
+
+El punto 2 mantiene el equipo distribuido y añade **menor coste salarial** como
+beneficio buscado: «Explorar salarios inferiores a los de Barcelona para perfiles
+equivalentes». Se presenta como propuesta por validar, sin cifras inventadas.
+La pareja 6–7 y la lectura acumulada 1–7 incorporan esta versión.
+
+## Render vigente y publicación
+
+Petición posterior de Pol: un `index.pdf` y un `index.png` en la raíz de cada
+diapositiva, como render de la variante elegida, y la presentación completa en
+la home del vertical. [Selección común](../../seleccion.json) y
+[compilador](../../COMPILAR.md). Los `index` se regeneran, no se editan a mano.

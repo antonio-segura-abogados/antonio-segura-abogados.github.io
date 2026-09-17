@@ -1,6 +1,6 @@
 # Experiencia en equipos. Una conversación sobre vuestro próximo paso
 
-Estado: **ficha de planificación**, 17-09-2026. Página propuesta **23/24**;
+Estado: **desarrollada; pendiente de revisión de Pol**, 17-09-2026. Página **23/24**;
 identificador estable `conversacion`. Pareja enfrentada 22–23.
 Origen: **S13, fotos aportadas y cierre editorial**.
 
@@ -16,7 +16,7 @@ conserva el resto y las aclaraciones posteriores.
 > 
 > listo, no he puesto una foto par cada una pero varias he podido poner
 
-## Desarrollo propuesto, pendiente de revisión
+## Desarrollo previsto en la planificación de origen
 
 Acompañar el CV con imágenes de su trayectoria y dejar una invitación clara a hablar.
 
@@ -35,6 +35,22 @@ Acompañar el CV con imágenes de su trayectoria y dejar una invitación clara a
 - [BASE-CV.md](../../../anexos/BASE-CV.md)
 
 Aplicar las [reglas comunes de diseño y variantes](../../PLAN-EDITORIAL.md).
-Esta ficha no crea un diseño ni implementa la pantalla. Al desarrollar,
-guardar las variantes completas en esta misma carpeta y anotar la elegida.
+Las instrucciones de origen se conservan arriba. El resultado actual se registra debajo.
 
+
+## Implementación de la continuación
+
+Petición posterior de Pol: «implementa las que faltan». Se desarrollan las páginas 14–24 en orden.
+
+Fotos originales completas de VIEWNEXT y Surreal Boost, pies por experiencia y contacto del CV. Sin retoque ni identificación de otras personas.
+
+Variante actual: [`01-equipo`](variantes/01-equipo/README.md), con texto editable, PDF y PNG. No equivale a aprobación del diseño.
+
+Ver [tanda 14–24 y comprobaciones](../../muestras/14-24-cierre/README.md).
+
+## Render vigente y publicación
+
+Petición posterior de Pol: un `index.pdf` y un `index.png` en la raíz de cada
+diapositiva, como render de la variante elegida, y la presentación completa en
+la home del vertical. [Selección común](../../seleccion.json) y
+[compilador](../../COMPILAR.md). Los `index` se regeneran, no se editan a mano.

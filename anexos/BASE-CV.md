@@ -1,6 +1,6 @@
 # Base de contenido para el CV del librito
 
-17-09-2026. Documento de planificación, no CV maquetado. Fuente principal:
+17-09-2026. Base de contenido utilizada en el CV maquetado de p. 22. Fuente principal:
 [exportación de LinkedIn aportada por Pol](../tmp/linkedin.pdf), dos páginas,
 leídas y revisadas visualmente. Pol indica expresamente que las skills están
 desactualizadas y pide centrarse en las experiencias. Se omiten de la selección.
@@ -108,3 +108,7 @@ Denominación oficial del grado y, si Pol quiere enriquecer el CV, uno o dos
 proyectos/resultados concretos del puesto actual. Los cargos, periodos y material
 visual ya permiten una primera versión. Elegir los pies de foto al maquetar sin
 inventar fecha, evento, participantes ni avales de las empresas.
+
+## Versión maquetada
+
+La [página 22](../librito/slides/22-curriculum/variantes/01-experiencias/README.md) recoge VIEWNEXT, Surreal Boost, docencia y formación. La [página 23](../librito/slides/23-conversacion/variantes/01-equipo/README.md) incorpora las dos fotos principales completas, sin retoque, junto al contacto. Pendientes de revisión de Pol. Se conserva la denominación inglesa del grado del exportado.

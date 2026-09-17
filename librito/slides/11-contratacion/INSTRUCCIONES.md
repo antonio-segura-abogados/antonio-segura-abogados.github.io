@@ -1,6 +1,6 @@
 # Elegir acompañamiento y contratar
 
-Estado: **ficha de planificación**, 17-09-2026. Página propuesta **11/24**;
+Estado: **variante desarrollada, pendiente de revisión de Pol**, 17-09-2026. Página propuesta **11/24**;
 identificador estable `contratacion`. Pareja enfrentada 10–11.
 Origen: **S07, pantallas p2 y p3**.
 
@@ -20,9 +20,9 @@ conserva el resto y las aclaraciones posteriores.
 
 Mostrar la diferencia entre la ruta jurídica escogida, la suscripción y los servicios adicionales.
 
-**Composición:** Comparativa breve de dos planes y detalle ampliado de compra. Evitar dos móviles enteros pequeños. La secuencia interactiva mantiene p1 → p2 → p3.
+**Composición:** Comparativa breve de dos planes y detalle ampliado de compra. Evitar dos móviles enteros pequeños. El relato mantiene p1 → p2 → p3; cada escena web carga sus propios datos.
 
-**QR / demo:** Compartido con p. 10; posible entrada directa #/planes?demo=contratacion&tour=1 si el diseño justifica otro QR.
+**QR / demo:** Entrada directa #/planes?tour=1; QR propio en la página 11.
 
 **Criterio de contenido:** Todos los precios son ilustrativos, con importes coherentes y coste periódico separado de pago único. Pago simulado sin tarjeta ni pasarela externa.
 
@@ -33,6 +33,30 @@ Mostrar la diferencia entre la ruta jurídica escogida, la suscripción y los se
 - [PLAN-DEMO.md](../../../vertical/PLAN-DEMO.md)
 
 Aplicar las [reglas comunes de diseño y variantes](../../PLAN-EDITORIAL.md).
-Esta ficha no crea un diseño ni implementa la pantalla. Al desarrollar,
-guardar las variantes completas en esta misma carpeta y anotar la elegida.
+La variante desarrollada figura a continuación. Conservar futuras variantes
+en esta misma carpeta y anotar la elegida tras la revisión.
 
+
+## Tanda de seis páginas: desarrollo vigente
+
+> haz una tanda de 6 diapositivas
+
+Se desarrollan las páginas 08–13 en orden. Se conserva la dirección de la
+portada diagonal y de 02–07, con la UX dentro de móviles hechos en HTML/CSS.
+La paginación mantiene las parejas enfrentadas 8–9, 10–11 y 12–13.
+
+**Variante actual:** [01-acompanamiento](variantes/01-acompanamiento/README.md), pendiente de revisión.
+
+Dos planes ficticios: 19/29 € al mes o 190/290 € al año. Resumen y confirmación simulada en panel; /contratacion es también autónoma.
+
+**URL de esta escena:** `#/planes?tour=1`. QR vectorial de 28 mm, con tutorial opcional y reinicio. Cada URL es autónoma.
+
+Las interfaces se capturan desde el navegador; las cifras y el caso son ficticios.
+El generador conserva los PDF originales de 01–07 y todas las variantes rechazadas.
+
+## Render vigente y publicación
+
+Petición posterior de Pol: un `index.pdf` y un `index.png` en la raíz de cada
+diapositiva, como render de la variante elegida, y la presentación completa en
+la home del vertical. [Selección común](../../seleccion.json) y
+[compilador](../../COMPILAR.md). Los `index` se regeneran, no se editan a mano.

@@ -1,0 +1,5 @@
+{
+  "modulo": "slides/01-portada/generar-disenos.py",
+  "funcion": "diagonal",
+  "canvasDirecto": true
+}

@@ -1,8 +1,8 @@
 # Plan de las escenas de demostración
 
 17 de septiembre de 2026. **Alcance corregido por Pol: una URL, una escena
-autónoma.** Se han desarrollado las primeras muestras de seguimiento y detalle;
-las demás vistas son propuestas. Relación con el papel: [plan editorial](../librito/PLAN-EDITORIAL.md).
+autónoma.** Las 18 vistas previstas están cubiertas por 16 escenas, el índice de
+demos y el detalle local de opciones. La home muestra la presentación completa. Relación con el papel: [plan editorial](../librito/PLAN-EDITORIAL.md).
 
 ## Decisión que prevalece sobre el planteamiento anterior
 
@@ -13,8 +13,8 @@ las demás vistas son propuestas. Relación con el papel: [plan editorial](../li
 El plan inicial proponía un recorrido conectado y estado global. Esa parte queda
 sustituida: **no es necesario construir una aplicación completa, enlazar sus
 secciones ni completar pantallas anteriores**. Cada QR abre el ejemplo que
-explica su página del librito. El orden de desarrollo depende de la idea que se
-quiera mostrar; empezar por la home no es un requisito arquitectónico.
+explica su página del librito. Las URLs no se necesitan entre sí. La instrucción editorial posterior de Pol
+es desarrollar las páginas en orden; esa es la secuencia de trabajo vigente.
 
 Cada pantalla podrá tener interacciones locales, paneles, estados y tutorial si
 ayudan a entender la propuesta. Por ejemplo, comparar planes en la misma escena
@@ -39,10 +39,11 @@ Puede reutilizarse en otras escenas si resulta útil, sin obligación de represe
 una única sesión que avance entre páginas. Cada estado se identifica por su propio
 contexto. Se conservan fechas fijas y ejemplos precargados.
 
-Antes de desarrollar opciones jurídicas habrá que fijar el perfil ilustrativo y
-contrastar su contenido. La entrevista distingue llegada a España de residencia
-legal y admite «no lo sé». No certifica elegibilidad. La propuesta anterior de
-origen colombiano y sin vínculo matrimonial con español sigue siendo una hipótesis.
+El perfil ilustrativo está fijado en `demo/entrada.json`: origen colombiano,
+llegada en mayo de 2022 y residencia legal desde julio de 2023. Se contrastó
+el artículo 22 del Código Civil y la información del Ministerio de Justicia. La entrevista distingue llegada a España de residencia
+legal y admite «no lo sé». No certifica elegibilidad. El ejemplo no afirma que
+exista elegibilidad confirmada ni promete un plazo de resolución.
 
 Las tres tarjetas de opciones pueden mostrar una opción a valorar, una condicionada
 y una de preparación/revisión. Otra posibilidad es mostrar tres perfiles distintos.
@@ -50,39 +51,39 @@ y una de preparación/revisión. Otra posibilidad es mostrar tres perfiles disti
 requisitos, tiempo de resolución y plan comercial. No simular que pagar o contestar
 preguntas provoca una aprobación inmediata.
 
-## Catálogo de vistas propuestas
+## Catálogo de vistas implementadas
 
-Son 18 vistas para explicar ideas, **no una secuencia que deba completarse**.
+Son 18 vistas de producto para explicar ideas, **no una secuencia que deba completarse**.
 Cada ruta que se implemente cargará directamente sus datos. Se podrán agrupar
 estados secundarios en un panel de la misma escena cuando simplifique la muestra.
 Los parámetros van dentro del fragmento: `…/#/entrevista?tour=1`.
 
 | ID | URL o vista prevista | Qué muestra y qué se puede probar localmente | Papel / estado |
 | --- | --- | --- | --- |
-| V00 | `/` | Índice de muestras disponibles | 8, 24; índice local implementado |
-| V01 | `/entrevista` | Chat estructurado, objetivo, respuestas editables, rama «no lo sé» y resumen | 9; pendiente |
-| V02 | `/opciones` | Tres tarjetas; condiciones y estados de aplicabilidad | 10; pendiente |
-| V03 | `/opciones/:id` o panel | Detalle de una opción: requisitos, pasos, documentos y costes | 10; pendiente |
-| V04 | `/planes` | Dos planes, mensual/anual y total coherente | 11; pendiente |
-| V05 | `/contratacion` | Compra precargada, desglose y confirmación simulada | 11; pendiente |
-| V06 | `/expediente` | Home, una siguiente acción, recorrido, responsables y menú ilustrativo | 12; primera versión local |
-| V07 | `/expediente/pasos/documentacion` | Instrucciones, dos documentos y aportación de ejemplo | 13; primera versión local |
-| V08 | `/documentos` | Recibido, revisión, subsanación y validado como estados diferentes | 14; pendiente |
-| V09 | `/originales` | Puntos ficticios, preparación, resguardo y tracking | 15; pendiente |
-| V10 | `/practica` | Sesión breve, correcciones explicadas y repaso | 16; pendiente |
-| V11 | `/consultas` | Hilo escrito, documentos de contexto y reserva ficticia | 17; pendiente |
-| V12 | `/consultas/sala-demo` o panel | Sala ilustrativa, controles y resumen | 17; pendiente |
-| V13 | `/perfil` | Perfil ficticio, plan y preferencias | Apoyo; opcional, pendiente |
-| V14 | `/gestion/rutas` | Catálogo de plantillas y versiones | 18; pendiente |
-| V15 | `/gestion/rutas/:id` | Editor y previsualización en la misma escena | 18; pendiente |
-| V16 | `/gestion/cambios` | Cambio ficticio, diferencias, afectados y revisión jurídica | 19; pendiente |
-| V17 | `/gestion/expedientes/:id` | Excepción individual y previsualización local del cliente | 19; pendiente |
+| V00 | `/demos` | Índice de muestras disponibles; `/` muestra el librito | 8, 24; implementado |
+| V01 | `/entrevista` | Chat estructurado, objetivo, respuestas editables, rama «no lo sé» y resumen | 9; implementada |
+| V02 | `/opciones` | Tres tarjetas; condiciones y estados de aplicabilidad | 10; implementada |
+| V03 | `/opciones/:id` o panel | Detalle de una opción: requisitos, pasos, documentos y costes | 10; implementada |
+| V04 | `/planes` | Dos planes, mensual/anual y total coherente | 11; implementada |
+| V05 | `/contratacion` | Compra precargada, desglose y confirmación simulada | 11; implementada |
+| V06 | `/expediente` | Home, una siguiente acción, recorrido, responsables y menú ilustrativo | 12; revisada con marco HTML/CSS |
+| V07 | `/expediente/pasos/documentacion` | Instrucciones, dos documentos y aportación de ejemplo | 13; revisada con guía propia |
+| V08 | `/documentos` | Recibido, revisión, subsanación y validado como estados diferentes | 14; implementada |
+| V09 | `/originales` | Puntos ficticios, preparación, resguardo y tracking | 15; implementada |
+| V10 | `/practica` | Sesión breve, correcciones explicadas y repaso | 16; implementada |
+| V11 | `/consultas` | Hilo escrito, documentos de contexto y reserva ficticia | 17; implementada |
+| V12 | `/consultas/sala-demo` o panel | Sala ilustrativa, controles y resumen | 17; implementada |
+| V13 | `/perfil` | Perfil ficticio y preferencias locales | Apoyo; implementada |
+| V14 | `/gestion/rutas` | Catálogo de plantillas y versiones | 18; implementada |
+| V15 | `/gestion/rutas/residencia-demo` | Editor y previsualización en la misma escena | 18; implementada |
+| V16 | `/gestion/cambios` | Cambio ficticio, diferencias, afectados y revisión jurídica | 19; implementada |
+| V17 | `/gestion/expedientes/lucia-demo` | Excepción individual y previsualización local del cliente | 19; implementada |
 
-Las rutas de detalle aún no desarrolladas son orientativas. No se implementarán
-pantallas de apoyo solo para que todos los botones de una app parezcan operativos.
+Los detalles de opciones se muestran en un panel. Las rutas de gestión tienen
+ejemplos concretos precargados. El menú de producto sigue siendo ilustrativo.
 Los elementos decorativos no se presentan como enlaces activos sin destino.
 
-## Estado de la primera escena
+## Estado de seguimiento y documentación
 
 - `/expediente`: home, menú inferior ilustrativo, detalle en diálogo y guía de
   tres pasos. `?tour=1` abre la guía. También se puede abrir, cerrar y repetir.
@@ -93,12 +94,28 @@ Los elementos decorativos no se presentan como enlaces activos sin destino.
 - «Reiniciar» restaura el estado local; una recarga también comienza de nuevo.
   No hay almacenamiento global ni sincronización entre escenas.
 - Datos y textos: `recursos-compartidos/demo/seguimiento.json`, compartido con
-  la maqueta del librito. La interfaz del papel es un dibujo vectorial editorial;
-  **todavía no es una captura de navegador**.
-- TypeScript y build comprobados. Prueba interactiva en navegador pendiente:
-  el navegador integrado no estaba disponible en esta sesión.
+  la maqueta del librito. Las páginas 12–13
+  vigentes utilizan capturas reales de navegador dentro del marco HTML/CSS.
+- TypeScript/build y pruebas interactivas con Chrome comprobados: recibido
+  frente a revisado, reinicio, acceso directo y recarga. Guía también en el detalle.
 
-## Tutoriales propuestos
+## Entrevista, opciones y contratación
+
+- `/entrevista`: objetivo, tres preguntas preparadas, fecha legal diferenciada
+  de llegada, «No lo sé», resumen y edición. `?vista=objetivo` abre el selector inicial.
+- `/opciones`: tres tarjetas con estados distintos. Cada una abre un detalle;
+  elegir cambia solo el estado de esta escena. El contenido requiere revisión profesional.
+- `/planes`: 19/29 € al mes o 190/290 € al año (ficticios, IVA incluido). Total
+  en céntimos y equivalente mensual redondeado; gastos y trámites separados.
+- La elección del plan abre un panel de resumen y confirmación simulada.
+  `/contratacion` carga ese resumen directamente, con estado propio.
+- Todas las entradas incluyen guía opcional, cierre, anterior/siguiente y reinicio.
+- Marco y guías en `components/DemoScene.tsx`; datos comunes de los ejemplos en
+  `recursos-compartidos/demo/entrada.json`. Estado con hooks locales.
+- Probados casos relevantes y seis URLs a 320/390 px; capturas y registro en
+  `librito/muestras/08-13-app/VERIFICACION-UI.json`.
+
+## Tutoriales implementados
 
 Guías breves, opcionales, repetibles, de 3–5 pasos. No avanzan por tiempo y no
 requieren visitar otro capítulo. Botones visibles de cerrar, anterior y siguiente.
@@ -134,8 +151,8 @@ oficiales con AS, BOE, Cervantes u operadores de mensajería. Las fuentes y la
 trayectoria de Pol son reales; no se mockea el contenido jurídico como si fuese ley.
 
 Precios en una única tabla por escena, importes en céntimos, total anual exacto,
-equivalente mensual etiquetado y cuota separada de trámites/tasas/gastos. Los
-19,99/29,99 € del boceto siguen siendo ejemplos pendientes de decidir.
+equivalente mensual etiquetado y cuota separada de trámites/tasas/gastos. La tanda 08–13
+utiliza 19/29 € mensuales y 190/290 € anuales como ejemplos, con IVA incluido.
 
 ## Reutilización proporcionada al alcance
 
@@ -149,8 +166,8 @@ Estado con hooks locales. Añadir un modelo compartido solo cuando dos component
 lo necesiten; no anticipar un motor de expedientes, autenticación, backend o CRM.
 Una escena puede contener su propio contexto/reducer si lo requiere su interacción.
 
-El configurador será un caso especial: editor y previsualización **dentro de la
-misma escena** usarán la misma definición de pasos. No hace falta modificar otras
+El configurador es un caso especial: editor y previsualización **dentro de la
+misma escena** usan la misma definición de pasos. No hace falta modificar otras
 URLs. Versiones, vigencia, aprobación y excepciones pueden mostrarse con un ejemplo
 pequeño: v1, borrador v2, dos expedientes ficticios y una condición sencilla.
 Los expedientes existentes conservan su versión; una excepción individual no
@@ -158,9 +175,10 @@ modifica la plantilla de todos. No se promete adaptar cualquier norma sin códig
 
 ## Orden de desarrollo y comprobación
 
-1. Probar la dirección visual con las páginas 12–13 y su escena. **En revisión.**
+1. La UX de seguimiento se conserva; las maquetaciones 12–13 se han rechazado.
+   Fijar la dirección del libro desde la apertura 2–3, siguiendo el orden de lectura.
 2. Elegir sistema visual y componentes comunes que merezca la pena reutilizar.
-3. Desarrollar escenas según prioridad editorial, en cualquier orden: entrevista,
+3. Desarrollar las escenas al llegar a su capítulo del librito: entrevista,
    opciones/planes, documentos/originales, práctica, consultas, configurador.
 4. Revisar cada URL de forma independiente: acceso directo, recarga, reinicio,
    contenido y móvil. Probar sus interacciones locales y su guía cuando existan.
@@ -172,8 +190,32 @@ estados documentales; aislamiento de versiones en el configurador. No añadir
 pruebas de un recorrido global que no se ha pedido. TypeScript/build al cambiar
 código. Las comprobaciones futuras no se dan por ejecutadas.
 
-## Pendiente
+## Acompañamiento y operación implementados
 
-Elegir variante interior, revisar las muestras, concretar opciones y contenido
-jurídico, decidir precios ficticios, preparar otras escenas, elegir cuenta/repositorio
-y publicar. El resto del proyecto mantiene el plan editorial de 24 páginas.
+`acompanamiento.json` contiene documentos, puntos logísticos, práctica y consulta.
+`gestion.json` contiene una ruta v1, un cambio ficticio v2 y dos expedientes.
+Los datos alimentan escenas locales, sin sincronización entre URLs.
+
+- Documentos: filtro, instrucciones de subsanación y copia recibida pendiente de revisión.
+- Originales: punto, preparación, resguardo, incidencia, recepción y devolución.
+- Práctica: cinco preguntas propias, explicación referenciada, puntos por respuesta y repaso de errores.
+- Consultas: mensaje local, reserva ficticia, sala visual y resumen; sin cámara o micrófono.
+- Perfil: preferencias locales, sin traducción ni notificaciones conectadas.
+- Rutas: editor y vista cliente, orden y nuevo paso. Editar invalida la revisión; publicar conserva los casos abiertos.
+- Cambios: aplicación explícita solo a Lucía, avance conservado, excepción individual con vista previa y cancelación del borrador.
+
+Las diez nuevas URLs y las seis anteriores se han probado a 320/390 px. Registros:
+[14–24](../librito/muestras/14-24-cierre/VERIFICACION-UI.json) y
+[08–13](../librito/muestras/08-13-app/VERIFICACION-UI.json).
+
+## Presentación en la home
+
+`/` muestra las 24 páginas seleccionadas como imágenes optimizadas. Hay flechas,
+teclado, miniaturas, índice, ampliación, texto accesible y PDF descargable. La
+URL `/#/?pagina=14` permite abrir directamente una página. Su botón contextual
+abre la demo asociada; todas mantienen sus rutas QR anteriores. No se inserta un
+visor PDF. `/demos` conserva el índice de experiencias.
+
+El [compilador](../librito/COMPILAR.md) produce las imágenes a partir de la misma
+selección que los `index` y el PDF. GitHub Actions regenera y publica con cada
+push a `main`. La revisión de Pol y la prueba física siguen pendientes.

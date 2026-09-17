@@ -1,0 +1,41 @@
+{
+  "titulo": "Pol Surriel. Desarrollo, equipos y formación.",
+  "subtitulo": "Desarrollo, equipos y formación.",
+  "experiencias": [
+    {
+      "empresa": "VIEWNEXT",
+      "fechas": "2022–actualidad",
+      "cargos": [
+        {
+          "titulo": "TechLead · consultoría y estrategia tecnológica",
+          "fechas": "dic. 2023–actualidad"
+        },
+        {
+          "titulo": "Senior Software Engineer",
+          "fechas": "dic. 2022–dic. 2023"
+        }
+      ]
+    },
+    {
+      "empresa": "Surreal Boost",
+      "fechas": "jun. 2019–may. 2022",
+      "cargo": "Cofundador · junior producer · graphics programmer",
+      "detalle": "Coordinación de un equipo multidisciplinar de 8 personas, decisiones de producción y negociación con interlocutores."
+    },
+    {
+      "empresa": "Docencia",
+      "fechas": "2021–2022",
+      "lineas": [
+        "FCI · Big Data y programación · jun.–dic. 2022",
+        "Institut Tecnològic de Barcelona · DAM / DAW",
+        "Programación y mentoría de proyectos · dic. 2021–sep. 2022"
+      ]
+    }
+  ],
+  "formacion": [
+    "UB / ENTI · Interactive Digital Content · 2018–2024",
+    "UAB · Posgrado en IT Project Management · 2018–2019"
+  ],
+  "nota": "Síntesis del CV aportado. Trayectoria completa: linkedin.com/in/psurriel",
+  "puente": "Una base técnica, experiencia de equipo y vocación de hacer las cosas comprensibles."
+}

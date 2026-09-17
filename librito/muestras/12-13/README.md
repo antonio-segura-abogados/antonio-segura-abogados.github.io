@@ -1,7 +1,8 @@
-# Primera muestra de interior: páginas 12–13
+# Muestra rechazada: páginas 12–13
 
-17-09-2026. Tres variantes desarrolladas; **ninguna elegida**. Portada de referencia:
-03 diagonal. A5 horizontal, páginas enfrentadas, interior con margen blanco.
+**Rechazada por Pol el 17-09-2026.** Se conserva como historial. Las tres
+maquetaciones se consideran descartadas y no son candidatas a elección. La UX
+web sí ha recibido valoración positiva. Continuar desde la apertura y en orden.
 
 ## Revisar
 
@@ -18,10 +19,9 @@
 | 02 Diagonal | Campo azul y oscuro inclinado, pantalla superpuesta. Detalle vertical y tipos de acción al lado | Mayor relación visual con la portada elegida |
 | 03 Anotada | Pantalla central con llamadas numeradas. Detalle y acciones en banda horizontal | Explicar una interfaz más densa o un mecanismo |
 
-**Recomendación de diseño:** usar la 01 como base para páginas de producto y
-reservar la fuerza de la 02 para aperturas o momentos de énfasis. Es una propuesta,
-no una selección atribuida a Pol. La 03 sirve de alternativa cuando convenga
-explicar elementos concretos de una interfaz.
+La recomendación anterior de usar la 01 como base queda retirada. No reutilizar
+esta muestra para fijar el interior. La [apertura nueva](../01-03-apertura/README.md)
+sustituye ese punto de partida.
 
 ## Qué comparten
 
@@ -52,7 +52,7 @@ y recarga devuelven el estado inicial. No se solicita ningún archivo real.
 ## Archivos por página y reproducción
 
 Cada carpeta de [seguimiento](../../slides/12-seguimiento/INSTRUCCIONES.md) y
-[paso actual](../../slides/13-paso-actual/INSTRUCCIONES.md) contiene `variantes/`
+[paso actual](../../slides/13-paso-actual/INSTRUCCIONES.md) contiene `descartadas/`
 con sus tres propuestas. Cada una tiene `pagina.pdf`, `pagina.png`, `fuente.json`
 y una ficha propia. El generador común evita duplicar seis implementaciones.
 

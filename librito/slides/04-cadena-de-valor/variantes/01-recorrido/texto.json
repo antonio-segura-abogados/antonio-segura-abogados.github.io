@@ -1,0 +1,15 @@
+{
+  "titulo": "Empiezo por extranjería.",
+  "lineasTitulo": ["Empiezo por", "extranjería."],
+  "intro": "El cliente llega con un objetivo: residencia, nacionalidad… Vuestro valor está en orientar su decisión, preparar su caso y acompañar el proceso.",
+  "etapas": [
+    { "titulo": "Entrevista", "valor": ["Valorar la vía", "jurídica"] },
+    { "titulo": "Encargo", "valor": ["Definir alcance", "y honorarios"] },
+    { "titulo": "Documentos", "opciones": ["Los aporta el cliente", "Gestión opcional de AS"], "valor": ["Orientar y", "validar"] },
+    { "titulo": "Tramitación", "valor": ["Revisar y", "presentar"] },
+    { "titulo": "Resolución", "valor": ["Informar y", "acompañar"] }
+  ],
+  "nota": "Una lectura externa del recorrido, para contrastar con vuestro equipo.",
+  "puente": "LA PREGUNTA: ¿CÓMO LLEVAR ESE VALOR A MÁS CLIENTES?",
+  "estado": "dirección aprobada por Pol el 17-09-2026; base del relato"
+}

@@ -29,13 +29,19 @@ if __name__=='__main__':
     entries={}
     for route in data['routes']:
         dest=data['publicBaseUrl']+'#'+route['path']
-        if route['id']=='expediente': dest+='?tour=1'
+        if route.get('guided') or route['id']=='expediente': dest+='?tour=1'
+        unchanged=route.get('qrUrl')==dest
         entries[route['id']]=export_qr(dest,out/route['id'])
         route['qrGenerated']=True
+        route['qrDecoded']=route.get('qrDecoded',False) if unchanged else False
+        route['printReady']=False
         route['qrUrl']=dest
         route['qrSvg']='generados/'+route['id']+'.svg'
     for source in data.get('external',[]):
         entries[source['id']]=export_qr(source['url'],out/source['id']);source['qrGenerated']=True;source['qrSvg']='generados/'+source['id']+'.svg'
+        source.setdefault('qrDecoded',False)
+        source.setdefault('decodedFromPageRaster',False)
+        source['printReady']=False
     (HERE/'destinos.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
     (out/'registro.json').write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n')
     print(f'{len(entries)} QR generados en SVG y PNG. Base: {data["publicBaseUrl"]}')

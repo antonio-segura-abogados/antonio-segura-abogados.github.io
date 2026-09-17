@@ -33,3 +33,10 @@ Dar entrada a una candidatura personal de Pol Surriel a director tecnológico. M
 Aplicar las [reglas comunes de diseño y variantes](../../PLAN-EDITORIAL.md).
 Esta ficha no crea un diseño ni implementa la pantalla. Al desarrollar,
 guardar las variantes completas en esta misma carpeta y anotar la elegida.
+
+## Render vigente y publicación
+
+Petición posterior de Pol: un `index.pdf` y un `index.png` en la raíz de cada
+diapositiva, como render de la variante elegida, y la presentación completa en
+la home del vertical. [Selección común](../../seleccion.json) y
+[compilador](../../COMPILAR.md). Los `index` se regeneran, no se editan a mano.

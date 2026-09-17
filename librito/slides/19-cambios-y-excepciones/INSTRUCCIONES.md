@@ -1,6 +1,6 @@
 # Aplicar un cambio con control sobre cada expediente
 
-Estado: **ficha de planificación**, 17-09-2026. Página propuesta **19/24**;
+Estado: **desarrollada; pendiente de revisión de Pol**, 17-09-2026. Página **19/24**;
 identificador estable `cambios-y-excepciones`. Pareja enfrentada 18–19.
 Origen: **S11, ruta personalizada y aplicación del cambio**.
 
@@ -14,7 +14,7 @@ conserva el resto y las aclaraciones posteriores.
 > 
 > QR de vertical silbe incluido. Aquí como es algo más complejo, estaría bien usar un sistema de tutorial guiado.
 
-## Desarrollo propuesto, pendiente de revisión
+## Desarrollo previsto en la planificación de origen
 
 Demostrar control de versiones, aplicación a casos y adaptación individual sin romper el proceso común.
 
@@ -29,6 +29,24 @@ Demostrar control de versiones, aplicación a casos y adaptación individual sin
 - [PLAN-DEMO.md](../../../vertical/PLAN-DEMO.md)
 
 Aplicar las [reglas comunes de diseño y variantes](../../PLAN-EDITORIAL.md).
-Esta ficha no crea un diseño ni implementa la pantalla. Al desarrollar,
-guardar las variantes completas en esta misma carpeta y anotar la elegida.
+Las instrucciones de origen se conservan arriba. El resultado actual se registra debajo.
 
+
+## Implementación de la continuación
+
+Petición posterior de Pol: «implementa las que faltan». Se desarrollan las páginas 14–24 en orden.
+
+Cambio ficticio con vigencia, alcance explícito y excepción de Lucía. Omar y la plantilla quedan intactos. La excepción tiene vista previa del cliente.
+
+Variante actual: [`01-alcance`](variantes/01-alcance/README.md), con texto editable, PDF y PNG. No equivale a aprobación del diseño.
+
+Destino implementado del QR: `https://antonio-segura-abogados.github.io/#/gestion/cambios?tour=1`. Esta dirección sustituye la URL orientativa de la planificación.
+
+Ver [tanda 14–24 y comprobaciones](../../muestras/14-24-cierre/README.md).
+
+## Render vigente y publicación
+
+Petición posterior de Pol: un `index.pdf` y un `index.png` en la raíz de cada
+diapositiva, como render de la variante elegida, y la presentación completa en
+la home del vertical. [Selección común](../../seleccion.json) y
+[compilador](../../COMPILAR.md). Los `index` se regeneran, no se editan a mano.

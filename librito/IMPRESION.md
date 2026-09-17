@@ -86,7 +86,7 @@ a color por decisión de diseño; el interior podrá mantener fondo blanco.
 | Márgenes | Interior 15 mm; exterior 12 mm; superior 14 mm; inferior 15 mm |
 | Caja útil del interior | 183 × 119 mm |
 | Cuerpo | Plus Jakarta Sans 10,5 pt / interlineado 1,5 |
-| Títulos interiores | 20–28 pt; subtítulos 13 pt |
+| Títulos interiores | Según función: apertura 38–59 pt; contenido 20–28 pt; subtítulos 13 pt |
 | Portada | Composición propia; titular hasta 132 pt, fondo azul y franja blanca |
 | Texto pequeño | 8,5 pt como mínimo editorial de partida |
 | QR | Reservar 28 × 28 mm incluida zona limpia; etiqueta y URL legible |
@@ -151,3 +151,11 @@ las capturas, transparencia del reverso, color azul, nitidez del logo, orden
 de páginas y escaneo de cada QR. El plegado y la impresión a doble cara deben
 quedar orientados correctamente; si imprime el taller, que aplique su flujo
 de cuadernillo en lugar de fijar de antemano un giro de dúplex.
+
+## Versión completa disponible
+
+El [librito final de revisión](librito-final.pdf) tiene 24 páginas A5 individuales.
+Las dos cubiertas exteriores usan azul hasta el borde; confirmar y preparar
+sangrado de ambas según el taller. El PDF conserva RGB y no se ha certificado
+como PDF/X. La primera versión completa y sus trece QR están comprobados en
+pantalla. Falta la prueba física; los PDFs de parejas son solo de revisión.

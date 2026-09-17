@@ -1,0 +1,24 @@
+{
+  "titulo": "Más alcance. Mejor operación.",
+  "intro": "La propuesta conecta la experiencia del cliente con una forma de crecer más allá de la atención presencial.",
+  "beneficios": [
+    {
+      "titulo": "Más mercado",
+      "texto": "Atender desde Cataluña a clientes de toda España."
+    },
+    {
+      "titulo": "Equipo distribuido",
+      "texto": "Explorar salarios inferiores a los de Barcelona para perfiles equivalentes."
+    },
+    {
+      "titulo": "Menos repetición",
+      "texto": "Instrucciones y pasos comunes; tiempo profesional para lo particular."
+    },
+    {
+      "titulo": "Más visibilidad",
+      "texto": "Saber qué falta, quién debe actuar y dónde se detiene un caso."
+    }
+  ],
+  "nota": "Beneficios potenciales. Ahorro y rentabilidad por contrastar con datos del despacho.",
+  "puente": "La siguiente pregunta es cómo llevarlo a la práctica."
+}

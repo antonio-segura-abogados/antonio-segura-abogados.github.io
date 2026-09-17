@@ -1,0 +1,31 @@
+{
+  "fechaDescarga": "2026-09-17",
+  "paginaDeOrigen": "https://www.campmanyabogados.com/premium",
+  "titular": "Campmany",
+  "uso": "Referencia visual en la página 6 de la candidatura de Pol Surriel a AS",
+  "tratamiento": "SVG originales intactos; PNG transparentes a 1800 px de ancho, con geometría, proporciones y colores conservados",
+  "renderizador": {
+    "paquete": "@resvg/resvg-js",
+    "version": "2.6.2",
+    "script": "renderizar.cjs"
+  },
+  "licenciaLibreIdentificada": false,
+  "recursos": [
+    {
+      "id": "logo-oficial",
+      "urlOriginal": "https://www.campmanyabogados.com/hubfs/Campmany%20Abogados/Branding/Logo/2023/campmany_logo.svg",
+      "original": "logo-oficial.svg",
+      "sha256Original": "3b95d8ece81e23180bcba2aa937083b971363882b3c842a0aee1d8d41f8d9127",
+      "derivado": "logo-oficial.png",
+      "sha256Derivado": "2e53956fd29d344809719b82e9c2a757c174f5d4834f6275571faa7b49240471"
+    },
+    {
+      "id": "premium-hero-oficial",
+      "urlOriginal": "https://www.campmanyabogados.com/hubfs/Campmany%20Abogados/Campmany%20Premium/2.0/assets/ca-premium-hero.svg",
+      "original": "premium-hero-oficial.svg",
+      "sha256Original": "4dd816df4e16406d61ce5bb976534a187d31c7429f1eee7a6445265f3f0961b2",
+      "derivado": "premium-hero-oficial.png",
+      "sha256Derivado": "1084c519465a1c4ac5a4b6cb0dace34d57bd02694323c6b2dcad655c54aa0fc5"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Cada paso se convierte en una acción concreta
 
-Estado: **tres variantes rechazadas; pendiente de rediseño cuando corresponda en el relato**, 17-09-2026. Página propuesta **13/24**;
+Estado: **variante 04 desarrollada en orden, pendiente de revisión; variantes 01–03 rechazadas**, 17-09-2026. Página propuesta **13/24**;
 identificador estable `paso-actual`. Pareja enfrentada 12–13.
 Origen: **S05, tipos de paso; S08, seguimiento**.
 
@@ -17,7 +17,7 @@ conserva el resto y las aclaraciones posteriores.
 > - Duolingo del examen
 > - Espera de resolución (consulta estado)
 
-## Desarrollo aplicado en la muestra, pendiente de elección
+## Exploración anterior (rechazada)
 
 Pasar de una línea de progreso decorativa a acciones y responsables concretos.
 
@@ -51,7 +51,7 @@ Se autoriza la primera prueba: tres variantes de la pareja 12–13 y home.
 La escena carga de forma autónoma. Esta pareja se desarrolla para probar
 composición y relación papel/interfaz, sin imponer un orden al resto de demos.
 
-## Variantes y resultado
+## Variantes anteriores y resultado
 
 - [01 Editorial](descartadas/01-editorial/README.md).
 - [02 Diagonal](descartadas/02-diagonal/README.md).
@@ -61,3 +61,27 @@ composición y relación papel/interfaz, sin imponer un orden al resto de demos.
 Interfaz del papel: maqueta vectorial editorial con datos ficticios; no captura
 del navegador. El espacio QR está reservado, pendiente de URL pública.
 La guía y el detalle web usan interacciones locales. Variantes 01, 02 y 03 rechazadas. La UX web sí recibe valoración positiva.
+
+## Tanda de seis páginas: desarrollo vigente
+
+> haz una tanda de 6 diapositivas
+
+Se desarrollan las páginas 08–13 en orden. Se conserva la dirección de la
+portada diagonal y de 02–07, con la UX dentro de móviles hechos en HTML/CSS.
+La paginación mantiene las parejas enfrentadas 8–9, 10–11 y 12–13.
+
+**Variante actual:** [04-movil](variantes/04-movil/README.md), pendiente de revisión.
+
+Detalle autónomo de documentación; aportar ejemplo cambia a recibido y conserva la revisión pendiente.
+
+**URL de esta escena:** `#/expediente/pasos/documentacion?tour=1`. QR vectorial de 28 mm, con tutorial opcional y reinicio. Cada URL es autónoma.
+
+Las interfaces se capturan desde el navegador; las cifras y el caso son ficticios.
+El generador conserva los PDF originales de 01–07 y todas las variantes rechazadas.
+
+## Render vigente y publicación
+
+Petición posterior de Pol: un `index.pdf` y un `index.png` en la raíz de cada
+diapositiva, como render de la variante elegida, y la presentación completa en
+la home del vertical. [Selección común](../../seleccion.json) y
+[compilador](../../COMPILAR.md). Los `index` se regeneran, no se editan a mano.

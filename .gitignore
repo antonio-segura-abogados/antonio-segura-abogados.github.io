@@ -9,4 +9,6 @@ vertical/dist/
 librito/exportaciones/
 anexos/privado/
 recursos-compartidos/investigacion/web/
-
+.venv-librito/
+__pycache__/
+vertical/public/presentacion/

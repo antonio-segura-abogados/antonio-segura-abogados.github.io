@@ -27,11 +27,15 @@ Figura candidata: **figura 4, p. 34**, sobre empleo y desempleo en los tres
 escenarios. Se ha renderizado y revisado para identificar su composición.
 Para el libro, preferir un solo panel legible conservando ejes y los tres
 escenarios, con pie que indique población, horizonte y carácter hipotético;
-no ampliar únicamente el escenario extremo. Captura definitiva pendiente de
-maquetación, sin alterar datos. El original se guarda en investigación,
+no ampliar únicamente el escenario extremo. Primer panel incorporado a la propuesta de página 3, conservando escenarios y
+ejes; captura extraída del PDF a 400 ppp, sin alterar los datos. El QR directo
+al PDF está generado y su lectura comprobada. Pol ha aprobado la dirección de
+esa apertura. El original se guarda en investigación,
 fuera de `anexos/`, siguiendo literalmente «no pongas en la carpeta de anexos».
 
 ## Campmany
+
+Oferta revalidada el 17-09-2026 al desarrollar las páginas 6–7.
 
 [Campmany Premium](https://www.campmanyabogados.com/premium) confirma área
 privada, asesoramiento escrito, revisión documental, planes y modalidades de
@@ -45,6 +49,20 @@ remota, estructura salarial ni ausencia de oficinas. El crecimiento nacional,
 la menor carga repetitiva y la flexibilidad de equipo son hipótesis de aplicación
 a AS. No se ha hecho un estudio de tamaño de mercado o competencia suficiente
 para afirmar «hay mercado libre».
+
+La [página 6](../../librito/slides/06-referente-campmany/variantes/02-referente-visual/README.md)
+incorpora este referente con fuente y fecha, y una síntesis gráfica del servicio.
+El esquema no reproduce su interfaz ni afirma haber probado el área privada.
+La variante 02 incorpora el logo y la ilustración comercial enlazados por esa
+web. Sus originales y hashes están en la
+[carpeta de recursos oficiales](../assets/referentes/campmany/README.md).
+La [página 7](../../librito/slides/07-modelo-operativo/variantes/01-procesos/README.md)
+identifica como propuestas para AS los mecanismos de alcance, coste salarial y
+reducción de tareas repetidas. No utiliza tarifas ni cifras de rentabilidad.
+Por la última aclaración de Pol, el punto 2 compara posibles salarios fuera
+de Barcelona con los de la ciudad para perfiles equivalentes. Es una hipótesis
+de ahorro para AS; no se aportan cifras salariales verificadas ni se atribuye
+esta política de contratación a Campmany.
 
 ## AS: punto de partida observable
 
@@ -65,6 +83,19 @@ La regulación de pruebas se consulta separadamente en el
 Por ello no usar «dos años con examen / diez sin examen» como lógica del producto.
 No se cierra en esta fase una determinación de elegibilidad individual.
 
+Al desarrollar 08–13 se reconsultaron el artículo 22 y la
+[información del Ministerio de Justicia](https://www.mjusticia.gob.es/es/ciudadania/tramites/nacionalidad-residencia)
+el 17-09-2026. La demo distingue residencia legal de llegada y evita convertir
+un requisito de residencia en un plazo de resolución. Sus tres tarjetas muestran
+una vía a estudiar, una revisión complementaria de residencia y una valoración
+individual; el abogado confirmaría el encaje. No se han inventado tres vías
+jurídicas equivalentes ni una decisión automática de elegibilidad.
+
+Perfil ilustrativo en `demo/entrada.json`: Lucía, origen colombiano, llegada
+en mayo de 2022 y residencia legal desde julio de 2023. Ningún dato corresponde
+a un cliente real. Precios de 19/29 € mensuales y 190/290 € anuales inventados
+para explicar la elección comercial, sin atribuirlos a AS ni a Campmany.
+
 ## Preparación del examen
 
 El Instituto Cervantes ofrece manual y app oficial gratuita: véase la
@@ -84,3 +115,11 @@ documento, no de resultados de búsqueda. Se omiten las skills desactualizadas
 por indicación de Pol. Ver [base de CV](../../anexos/BASE-CV.md) para la
 selección de experiencias, límites y fotografías; es material de la candidatura,
 no datos simulados.
+
+## Fuentes del cierre 14–24
+
+- Práctica: [manual oficial CCSE 2026](https://examenes.cervantes.es/sites/default/files/manual-ccse-2026-def.pdf), consultado 17-09-2026. Cinco preguntas de redacción propia sobre capital, Cortes, Constitución, incorporación a la CEE y bandera europea. Cada explicación enlaza la página del manual. [Publicación del manual](https://examenes.cervantes.es/es/noticias/publicacion-manual-ccse-2026). No se reproduce un banco de examen ni se promete aprobado.
+- Cartografía: [Natural Earth, Admin 0 1:50m](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/), dominio público según sus [condiciones](https://www.naturalearthdata.com/about/terms-of-use/). Geometría española y procedencia en `assets/mapas/`. Flechas de alcance potencial, no clientes reales.
+- CV: PDF y fotos aportados por Pol, con selección documentada en `anexos/BASE-CV.md`. No se han añadido resultados de VIEWNEXT ni skills obsoletas.
+- Logística, agenda, expedientes y cambio de procedimiento son ficticios. La versión 2 no se presenta como un BOE auténtico.
+- Publicación automática: flujo de Actions contrastado con [documentación oficial de GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).

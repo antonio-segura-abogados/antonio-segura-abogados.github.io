@@ -1,0 +1,14 @@
+{
+  "titulo": "Cada documento, en su sitio.",
+  "captura": "14-documentos.png",
+  "intro": "El cliente sabe qué falta. El equipo recibe cada archivo con su contexto y una revisión pendiente claramente identificada.",
+  "claves": [
+    "Aportar la copia.",
+    "Corregir lo que falta.",
+    "Saber qué está revisado."
+  ],
+  "qr": "documentos",
+  "qrTitulo": "Abre la carpeta",
+  "qrDetalle": "Filtra y corrige un documento de ejemplo.",
+  "puente": "Y cuando una copia no basta, el proceso continúa."
+}

@@ -1,0 +1,24 @@
+{
+  "titulo": "Elegir con claridad.",
+  "intro": "Mostraría qué se puede valorar, qué falta por confirmar y qué implica cada opción.",
+  "criterios": [
+    {
+      "titulo": "Condiciones visibles",
+      "texto": "Lo que encaja y lo que requiere revisión."
+    },
+    {
+      "titulo": "Pasos comprensibles",
+      "texto": "Qué habría que preparar y quién interviene."
+    },
+    {
+      "titulo": "Costes separados",
+      "texto": "Acompañamiento, trámites y gastos."
+    }
+  ],
+  "captura": "10-opciones.png",
+  "qr": "opciones",
+  "qrTitulo": "Explora las opciones",
+  "qrDetalle": "Abre el detalle y elige para el ejemplo.",
+  "puente": "DESPUÉS, ELEGIR CÓMO QUIERES QUE TE ACOMPAÑEN.",
+  "estado": "desarrollada, pendiente de revisión de Pol"
+}

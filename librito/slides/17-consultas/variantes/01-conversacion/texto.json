@@ -1,0 +1,14 @@
+{
+  "titulo": "Una consulta, con todo el contexto.",
+  "captura": "17-consultas.png",
+  "intro": "La conversación empieza con el expediente a mano y termina con próximos pasos claros. Por escrito o por videollamada, en el mismo espacio.",
+  "claves": [
+    "Mensaje y documentos.",
+    "Cita y conversación.",
+    "Resumen y siguiente paso."
+  ],
+  "qr": "consultas",
+  "qrTitulo": "Entra en la consulta",
+  "qrDetalle": "Mensaje, cita y sala de ejemplo.",
+  "puente": "Para sostener esta experiencia, el despacho necesita poder adaptar el proceso."
+}

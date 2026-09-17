@@ -1,0 +1,28 @@
+{
+  "titulo": "Crecer también es organizar mejor.",
+  "lineasTitulo": ["Crecer también es", "organizar mejor."],
+  "intro": "Exploraría tres cambios para convertir el canal digital en capacidad de negocio.",
+  "mecanismos": [
+    {
+      "titulo": "Clientes a distancia",
+      "texto": "Canal digital y entrega de originales.",
+      "resultado": "Más mercado",
+      "beneficio": "Atender demanda en toda España."
+    },
+    {
+      "titulo": "Equipo distribuido",
+      "texto": "Especialistas coordinados desde toda España.",
+      "resultado": "Menor coste salarial",
+      "beneficio": "Explorar salarios inferiores a los de Barcelona para perfiles equivalentes."
+    },
+    {
+      "titulo": "Procesos reutilizables",
+      "texto": "Instrucciones, documentos y estados comunes.",
+      "resultado": "Más tiempo jurídico",
+      "beneficio": "Reducir explicaciones y gestiones repetidas."
+    }
+  ],
+  "nota": "Propuesta para AS: validaría demanda, costes y tiempo por expediente.",
+  "puente": "AHORA, LA IDEA TOMA FORMA: TU APP DE EXTRANJERÍA.",
+  "estado": "variante desarrollada, pendiente de revisión de Pol"
+}

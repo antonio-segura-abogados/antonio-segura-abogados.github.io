@@ -1,5 +1,5 @@
 {
-  "estado": "portada 03 elegida; interiores 12–13 rechazados; desarrollo en orden desde página 2; UX conservada",
+  "estado": "24 páginas desarrolladas en orden; portada 03 elegida y dirección 02–05 aprobada; 06–24 pendientes de revisión; primeras variantes 12–13 rechazadas y conservadas",
   "fecha": "2026-09-17",
   "formato": "A5 horizontal",
   "paginasIncluidasCubiertas": 24,
@@ -56,13 +56,16 @@
       "origen": "Portada existente; continuidad solicitada",
       "titulo": "Quiero ser vuestro director tecnológico",
       "instrucciones": "../slides/01-portada/INSTRUCCIONES.md",
-      "carpeta": "../slides/01-portada"
+      "carpeta": "../slides/01-portada",
+      "variante": "../slides/01-portada/variantes/03-diagonal"
     },
     {
       "pagina": 2,
       "id": "presentacion",
       "origen": "S02",
-      "titulo": "Una candidatura personal, con una propuesta concreta",
+      "titulo": "Quiero trabajar con vosotros.",
+      "estado": "dirección aprobada por Pol el 17-09-2026",
+      "variante": "../slides/02-presentacion/variantes/01-candidatura",
       "instrucciones": "../slides/02-presentacion/INSTRUCCIONES.md",
       "carpeta": "../slides/02-presentacion"
     },
@@ -70,7 +73,9 @@
       "pagina": 3,
       "id": "direccion-tecnologica",
       "origen": "S03-IA (primera slide 3)",
-      "titulo": "La próxima década exige dirección tecnológica",
+      "titulo": "El cambio necesita dirección.",
+      "estado": "dirección aprobada por Pol el 17-09-2026",
+      "variante": "../slides/03-direccion-tecnologica/variantes/01-direccion",
       "instrucciones": "../slides/03-direccion-tecnologica/INSTRUCCIONES.md",
       "carpeta": "../slides/03-direccion-tecnologica"
     },
@@ -78,7 +83,9 @@
       "pagina": 4,
       "id": "cadena-de-valor",
       "origen": "S03-CADENA (segunda slide 3)",
-      "titulo": "De la primera consulta a la resolución",
+      "titulo": "Empiezo por extranjería.",
+      "estado": "dirección aprobada por Pol el 17-09-2026",
+      "variante": "../slides/04-cadena-de-valor/variantes/01-recorrido",
       "instrucciones": "../slides/04-cadena-de-valor/INSTRUCCIONES.md",
       "carpeta": "../slides/04-cadena-de-valor"
     },
@@ -86,7 +93,9 @@
       "pagina": 5,
       "id": "oportunidad",
       "origen": "S04, pregunta de apertura",
-      "titulo": "Una experiencia más sencilla. Una operación capaz de crecer",
+      "titulo": "Vuestro criterio. A mayor escala.",
+      "estado": "dirección aprobada por Pol el 17-09-2026",
+      "variante": "../slides/05-oportunidad/variantes/01-escala",
       "instrucciones": "../slides/05-oportunidad/INSTRUCCIONES.md",
       "carpeta": "../slides/05-oportunidad"
     },
@@ -94,7 +103,9 @@
       "pagina": 6,
       "id": "referente-campmany",
       "origen": "S04, referencia de mercado",
-      "titulo": "Un referente de servicio jurídico digital",
+      "titulo": "Asesoramiento por suscripción.",
+      "estado": "variante 02 con logo e ilustración oficiales; pendiente de revisión",
+      "variante": "../slides/06-referente-campmany/variantes/02-referente-visual",
       "instrucciones": "../slides/06-referente-campmany/INSTRUCCIONES.md",
       "carpeta": "../slides/06-referente-campmany"
     },
@@ -102,7 +113,9 @@
       "pagina": 7,
       "id": "modelo-operativo",
       "origen": "S04, argumentos de negocio",
-      "titulo": "Qué podemos aprender de ese modelo",
+      "titulo": "Crecer también es organizar mejor.",
+      "estado": "punto 2 revisado: comparación salarial con Barcelona para perfiles equivalentes, como hipótesis de ahorro; pendiente de revisión",
+      "variante": "../slides/07-modelo-operativo/variantes/01-procesos",
       "instrucciones": "../slides/07-modelo-operativo/INSTRUCCIONES.md",
       "carpeta": "../slides/07-modelo-operativo"
     },
@@ -110,137 +123,173 @@
       "pagina": 8,
       "id": "concepto-app",
       "origen": "S05",
-      "titulo": "Tu app de extranjería",
+      "titulo": "Tu app de extranjería.",
       "instrucciones": "../slides/08-concepto-app/INSTRUCCIONES.md",
-      "carpeta": "../slides/08-concepto-app"
+      "carpeta": "../slides/08-concepto-app",
+      "estado": "desarrollada en la tanda 08–13; pendiente de revisión de Pol",
+      "variante": "../slides/08-concepto-app/variantes/01-producto"
     },
     {
       "pagina": 9,
       "id": "entrevista",
       "origen": "S06",
-      "titulo": "Una primera entrevista que prepara el trabajo del abogado",
+      "titulo": "Cada caso empieza por escuchar.",
       "instrucciones": "../slides/09-entrevista/INSTRUCCIONES.md",
-      "carpeta": "../slides/09-entrevista"
+      "carpeta": "../slides/09-entrevista",
+      "estado": "desarrollada en la tanda 08–13; pendiente de revisión de Pol",
+      "variante": "../slides/09-entrevista/variantes/01-conversacion"
     },
     {
       "pagina": 10,
       "id": "opciones",
       "origen": "S07, pantalla p1",
-      "titulo": "Entender las opciones antes de decidir",
+      "titulo": "Elegir con claridad.",
       "instrucciones": "../slides/10-opciones/INSTRUCCIONES.md",
-      "carpeta": "../slides/10-opciones"
+      "carpeta": "../slides/10-opciones",
+      "estado": "desarrollada en la tanda 08–13; pendiente de revisión de Pol",
+      "variante": "../slides/10-opciones/variantes/01-decision"
     },
     {
       "pagina": 11,
       "id": "contratacion",
       "origen": "S07, pantallas p2 y p3",
-      "titulo": "Elegir acompañamiento y contratar",
+      "titulo": "El valor, claro. La cuota, también.",
       "instrucciones": "../slides/11-contratacion/INSTRUCCIONES.md",
-      "carpeta": "../slides/11-contratacion"
+      "carpeta": "../slides/11-contratacion",
+      "estado": "desarrollada en la tanda 08–13; pendiente de revisión de Pol",
+      "variante": "../slides/11-contratacion/variantes/01-acompanamiento"
     },
     {
       "pagina": 12,
       "id": "seguimiento",
       "origen": "S08, home",
-      "titulo": "Saber dónde estoy y qué viene después",
+      "titulo": "¿Cómo va lo mío?",
       "instrucciones": "../slides/12-seguimiento/INSTRUCCIONES.md",
-      "carpeta": "../slides/12-seguimiento"
+      "carpeta": "../slides/12-seguimiento",
+      "estado": "desarrollada en la tanda 08–13; pendiente de revisión de Pol",
+      "variante": "../slides/12-seguimiento/variantes/04-movil"
     },
     {
       "pagina": 13,
       "id": "paso-actual",
       "origen": "S05, tipos de paso; S08, seguimiento",
-      "titulo": "Cada paso se convierte en una acción concreta",
+      "titulo": "Saber qué falta. Y cómo resolverlo.",
       "instrucciones": "../slides/13-paso-actual/INSTRUCCIONES.md",
-      "carpeta": "../slides/13-paso-actual"
+      "carpeta": "../slides/13-paso-actual",
+      "estado": "desarrollada en la tanda 08–13; pendiente de revisión de Pol",
+      "variante": "../slides/13-paso-actual/variantes/04-movil"
     },
     {
       "pagina": 14,
       "id": "documentos",
       "origen": "S08, gestión documental",
-      "titulo": "Mis documentos, ordenados y revisados",
+      "titulo": "Cada documento, en su sitio.",
       "instrucciones": "../slides/14-documentos/INSTRUCCIONES.md",
-      "carpeta": "../slides/14-documentos"
+      "carpeta": "../slides/14-documentos",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/14-documentos/variantes/01-carpeta"
     },
     {
       "pagina": 15,
       "id": "originales",
       "origen": "S08, entrega de originales",
-      "titulo": "Cuando hace falta un original, también hay un proceso",
+      "titulo": "También hay un camino para el papel.",
       "instrucciones": "../slides/15-originales/INSTRUCCIONES.md",
-      "carpeta": "../slides/15-originales"
+      "carpeta": "../slides/15-originales",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/15-originales/variantes/01-logistica"
     },
     {
       "pagina": 16,
       "id": "practica",
       "origen": "S09",
-      "titulo": "Preparar el examen en sesiones breves",
+      "titulo": "Un poco cada día.",
       "instrucciones": "../slides/16-practica/INSTRUCCIONES.md",
-      "carpeta": "../slides/16-practica"
+      "carpeta": "../slides/16-practica",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/16-practica/variantes/01-habito"
     },
     {
       "pagina": 17,
       "id": "consultas",
       "origen": "S10",
-      "titulo": "Consultas conectadas con el expediente",
+      "titulo": "Una consulta, con todo el contexto.",
       "instrucciones": "../slides/17-consultas/INSTRUCCIONES.md",
-      "carpeta": "../slides/17-consultas"
+      "carpeta": "../slides/17-consultas",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/17-consultas/variantes/01-conversacion"
     },
     {
       "pagina": 18,
       "id": "configurador",
       "origen": "S11, rutas por tipología",
-      "titulo": "Actualizar los procesos desde un configurador",
+      "titulo": "Vuestro criterio. Reglas configurables.",
       "instrucciones": "../slides/18-configurador/INSTRUCCIONES.md",
-      "carpeta": "../slides/18-configurador"
+      "carpeta": "../slides/18-configurador",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/18-configurador/variantes/01-rutas"
     },
     {
       "pagina": 19,
       "id": "cambios-y-excepciones",
       "origen": "S11, ruta personalizada y aplicación del cambio",
-      "titulo": "Aplicar un cambio con control sobre cada expediente",
+      "titulo": "Actualizar la ruta. Decidir a quién afecta.",
       "instrucciones": "../slides/19-cambios-y-excepciones/INSTRUCCIONES.md",
-      "carpeta": "../slides/19-cambios-y-excepciones"
+      "carpeta": "../slides/19-cambios-y-excepciones",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/19-cambios-y-excepciones/variantes/01-alcance"
     },
     {
       "pagina": 20,
       "id": "beneficios",
       "origen": "S12",
-      "titulo": "Más alcance, menos trabajo repetido",
+      "titulo": "Más alcance. Mejor operación.",
       "instrucciones": "../slides/20-beneficios/INSTRUCCIONES.md",
-      "carpeta": "../slides/20-beneficios"
+      "carpeta": "../slides/20-beneficios",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/20-beneficios/variantes/01-alcance"
     },
     {
       "pagina": 21,
       "id": "puesta-en-marcha",
       "origen": "Propuesta editorial añadida, no slide original",
-      "titulo": "Cómo llevaría esta propuesta a la práctica",
+      "titulo": "Yo lideraría la puesta en marcha.",
       "instrucciones": "../slides/21-puesta-en-marcha/INSTRUCCIONES.md",
-      "carpeta": "../slides/21-puesta-en-marcha"
+      "carpeta": "../slides/21-puesta-en-marcha",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/21-puesta-en-marcha/variantes/01-direccion"
     },
     {
       "pagina": 22,
       "id": "curriculum",
       "origen": "S13 y materiales posteriores",
-      "titulo": "Pol Surriel: experiencia relevante",
+      "titulo": "Pol Surriel. Desarrollo, equipos y formación.",
       "instrucciones": "../slides/22-curriculum/INSTRUCCIONES.md",
-      "carpeta": "../slides/22-curriculum"
+      "carpeta": "../slides/22-curriculum",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/22-curriculum/variantes/01-experiencias"
     },
     {
       "pagina": 23,
       "id": "conversacion",
       "origen": "S13, fotos aportadas y cierre editorial",
-      "titulo": "Experiencia en equipos. Una conversación sobre vuestro próximo paso",
+      "titulo": "Me gustaría hacerlo con vosotros.",
       "instrucciones": "../slides/23-conversacion/INSTRUCCIONES.md",
-      "carpeta": "../slides/23-conversacion"
+      "carpeta": "../slides/23-conversacion",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/23-conversacion/variantes/01-equipo"
     },
     {
       "pagina": 24,
       "id": "contraportada",
       "origen": "Petición expresa de cierre",
-      "titulo": "Contraportada",
+      "titulo": "¿Hablamos?",
       "instrucciones": "../slides/24-contraportada/INSTRUCCIONES.md",
-      "carpeta": "../slides/24-contraportada"
+      "carpeta": "../slides/24-contraportada",
+      "estado": "desarrollada en la tanda 14–24; pendiente de revisión de Pol",
+      "variante": "../slides/24-contraportada/variantes/01-diagonal"
     }
-  ]
+  ],
+  "pdfCompleto": "../librito-final.pdf",
+  "seleccionVariantes": "../seleccion.json"
 }

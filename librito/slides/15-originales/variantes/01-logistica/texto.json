@@ -1,0 +1,16 @@
+{
+  "titulo": "También hay un camino para el papel.",
+  "captura": "15-originales.png",
+  "intro": "Si hace falta un original, la experiencia digital puede acompañarlo: preparación, punto cercano y seguimiento hasta su devolución.",
+  "pasos": [
+    "Entrega",
+    "Transporte",
+    "Recepción",
+    "Devolución"
+  ],
+  "nota": "Red logística propuesta, pendiente de validar con operadores. El envío no sustituye la apostilla ni la revisión.",
+  "qr": "originales",
+  "qrTitulo": "Sigue un original",
+  "qrDetalle": "Elige un punto y simula su recorrido.",
+  "puente": "Una experiencia completa también resuelve lo que ocurre fuera de la pantalla."
+}

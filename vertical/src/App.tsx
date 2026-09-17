@@ -9,11 +9,13 @@ import { PracticaScene } from './features/acompanamiento/Practica';
 import { ConsultasScene } from './features/acompanamiento/Consultas';
 import { PerfilScene } from './features/acompanamiento/Perfil';
 import { RutasScene, CambiosScene } from './features/gestion/Gestion';
+import { Presentacion } from './features/presentacion/Presentacion';
 
 export function App() {
   return (
         <Routes>
-          <Route path="/" element={
+          <Route path="/" element={<Presentacion />} />
+          <Route path="/demos" element={
             <main className="scene-index" id="contenido">
               <p className="eyebrow">Pol Surriel · Propuesta para AS</p>
               <h1>Tu app de extranjería.<br />Del objetivo al siguiente paso.</h1>
@@ -31,7 +33,7 @@ export function App() {
                 <Link to="/gestion/rutas/residencia-demo?tour=1">18 <span>Configurar el proceso<small>Pasos, instrucciones, vista previa y revisión</small></span><b aria-hidden="true">↗</b></Link>
                 <Link to="/gestion/cambios?tour=1">19 <span>Gestionar cambios y excepciones<small>Versiones, alcance y casos particulares</small></span><b aria-hidden="true">↗</b></Link>
               </div>
-              <footer>Demo con datos ficticios · Propuesta de Pol Surriel</footer>
+              <footer>Demo con datos ficticios · Propuesta de Pol Surriel<br /><Link to="/">← Volver a la presentación</Link></footer>
             </main>
           } />
           <Route path="/entrevista" element={<EntrevistaScene />} />

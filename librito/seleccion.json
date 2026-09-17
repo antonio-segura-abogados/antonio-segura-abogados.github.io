@@ -1,0 +1,102 @@
+{
+  "titulo": "Quiero ser vuestro director tecnológico",
+  "autor": "Pol Surriel",
+  "paginas": [
+    {
+      "carpeta": "01-portada",
+      "variante": "03-diagonal"
+    },
+    {
+      "carpeta": "02-presentacion",
+      "variante": "01-candidatura"
+    },
+    {
+      "carpeta": "03-direccion-tecnologica",
+      "variante": "01-direccion"
+    },
+    {
+      "carpeta": "04-cadena-de-valor",
+      "variante": "01-recorrido"
+    },
+    {
+      "carpeta": "05-oportunidad",
+      "variante": "01-escala"
+    },
+    {
+      "carpeta": "06-referente-campmany",
+      "variante": "02-referente-visual"
+    },
+    {
+      "carpeta": "07-modelo-operativo",
+      "variante": "01-procesos"
+    },
+    {
+      "carpeta": "08-concepto-app",
+      "variante": "01-producto"
+    },
+    {
+      "carpeta": "09-entrevista",
+      "variante": "01-conversacion"
+    },
+    {
+      "carpeta": "10-opciones",
+      "variante": "01-decision"
+    },
+    {
+      "carpeta": "11-contratacion",
+      "variante": "01-acompanamiento"
+    },
+    {
+      "carpeta": "12-seguimiento",
+      "variante": "04-movil"
+    },
+    {
+      "carpeta": "13-paso-actual",
+      "variante": "04-movil"
+    },
+    {
+      "carpeta": "14-documentos",
+      "variante": "01-carpeta"
+    },
+    {
+      "carpeta": "15-originales",
+      "variante": "01-logistica"
+    },
+    {
+      "carpeta": "16-practica",
+      "variante": "01-habito"
+    },
+    {
+      "carpeta": "17-consultas",
+      "variante": "01-conversacion"
+    },
+    {
+      "carpeta": "18-configurador",
+      "variante": "01-rutas"
+    },
+    {
+      "carpeta": "19-cambios-y-excepciones",
+      "variante": "01-alcance"
+    },
+    {
+      "carpeta": "20-beneficios",
+      "variante": "01-alcance"
+    },
+    {
+      "carpeta": "21-puesta-en-marcha",
+      "variante": "01-direccion"
+    },
+    {
+      "carpeta": "22-curriculum",
+      "variante": "01-experiencias"
+    },
+    {
+      "carpeta": "23-conversacion",
+      "variante": "01-equipo"
+    },
+    {
+      "carpeta": "24-contraportada",
+      "variante": "01-diagonal"
+    }
+  ]
+}

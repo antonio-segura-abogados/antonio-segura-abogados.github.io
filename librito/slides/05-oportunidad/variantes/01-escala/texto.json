@@ -1,0 +1,12 @@
+{
+  "titulo": "Vuestro criterio. A mayor escala.",
+  "lineasTitulo": ["Vuestro criterio.", "A mayor escala."],
+  "intro": "Un recorrido más sencillo para el cliente y una forma de atender más demanda, con el equipo centrado en lo que requiere su criterio.",
+  "objetivos": [
+    { "titulo": "Cómodo.", "texto": "Cada cliente sabe qué hacer y qué viene después." },
+    { "titulo": "Digital.", "texto": "Canal online, acceso controlado y gestión de originales." },
+    { "titulo": "Escalable.", "texto": "Menos tareas repetidas para atender más casos." }
+  ],
+  "puente": "¿QUÉ PODEMOS APRENDER DE OTROS DESPACHOS?",
+  "estado": "dirección aprobada por Pol el 17-09-2026; base del relato"
+}

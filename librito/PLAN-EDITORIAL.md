@@ -1,24 +1,20 @@
 # Propuesta de estructura del librito
 
-17 de septiembre de 2026. **Estructura en revisión; primera muestra 12–13
-autorizada y desarrollada. No hay una maquetación interior elegida.**
+17 de septiembre de 2026. **Desarrollo en orden, por instrucción de Pol.**
+La portada 03 diagonal está elegida. Las tres variantes de 12–13 se han rechazado;
+la UX se conserva. Pol ha aprobado la dirección de las páginas 2–5. La pareja
+6–7 está desarrollada y pendiente de revisión. La tanda **8–13**, solicitada
+después, está desarrollada en orden. La petición «implementa las que faltan»
+completa **14–24**. El librito íntegro está maquetado; 06–24 quedan en revisión.
 
-Se han leído los nueve bocetos de `../tmp/`. El encargo se conserva en
-[ENCARGO-2026-09-17.md](planificacion/ENCARGO-2026-09-17.md), y cada página
-propuesta tiene su ficha de instrucciones. El [plan de la demo](../vertical/PLAN-DEMO.md)
-define las pantallas e interacciones que respaldarán el papel. Las
-[fuentes contrastadas](../recursos-compartidos/investigacion/FUENTES-PROPUESTA.md)
-separan evidencias, hipótesis y asuntos pendientes.
-
-**Decisión posterior confirmada:** Pol elige la portada **03 diagonal** y
-mantiene la organización por carpetas para explorar variantes. La estructura
-interior sigue siendo propuesta. Se han desarrollado tres variantes de 12–13
-y la primera escena local. [Ver la muestra](muestras/12-13/README.md).
-
-**Demo por pantallas autónomas:** Pol ha aclarado que cada URL abre su propia
-escena. No se requiere una aplicación navegable ni un recorrido de principio
-a fin. Esta decisión sustituye las referencias al recorrido conectado del
-primer plan; no impide compartir componentes o tener interacción en una pantalla.
+El [encargo](planificacion/ENCARGO-2026-09-17.md) guarda las instrucciones de origen.
+Cada una de las 24 carpetas bajo `slides/` tiene prefijo numérico e instrucciones.
+Ver la [apertura](muestras/01-03-apertura/README.md), la
+[continuación 4–5](muestras/04-05-negocio/README.md), la
+[pareja 6–7 y lectura acumulada](muestras/06-07-modelo/README.md) y la
+[tanda 8–13 con móviles y QR](muestras/08-13-app/README.md), además de la
+[guía narrativa](GUIA-NARRATIVA.md) y el [cierre y PDF completo](muestras/14-24-cierre/README.md). Las pantallas de la demo son autónomas;
+**el libro se desarrolla en orden aunque las URLs sean independientes**.
 
 ## Hilo del relato
 
@@ -34,8 +30,8 @@ candidatura; el cierre recupera la persona y propone una conversación.
 Propuesta: **24 páginas A5 horizontales, incluidas las cuatro caras de cubierta**.
 Coincide con el objetivo de impresión existente. Son 20 páginas interiores y
 cuatro de cubierta, aunque las caras interiores de cubierta también llevan
-contenido. No se añaden páginas en blanco. La extensión sigue pendiente de
-validación mediante maquetación al tamaño real.
+contenido. No se añaden páginas en blanco. Las 24 páginas ya están maquetadas y
+comprobadas como A5; falta validarlas en la prueba física.
 
 ## Qué significa dividir un tema
 
@@ -52,14 +48,15 @@ documentación 14–15 y configuración 18–19. La antigua slide 8 se convierte
 dos parejas, cada una con una idea completa. No hace falta recordar una pantalla
 del reverso para interpretar su continuación.
 
-Se entregará el PDF futuro en páginas individuales y orden de lectura. Los
+El PDF completo está en páginas individuales y orden de lectura. Los
 elementos importantes no cruzarán el lomo. Mantener la
 [especificación de impresión](IMPRESION.md), con prueba física pendiente.
 
-## Paginación propuesta
+## Paginación implementada, pendiente de revisión editorial
 
-Los identificadores de carpeta describen el contenido y **no dependen del número**.
-Se puede reordenar el libro sin renombrar originales, variantes ni destinos QR.
+Las carpetas llevan **número de página de dos cifras y título**, por petición de Pol.
+Los ids semánticos del manifiesto y las rutas QR son estables. Si se reordena el libro,
+actualizar los prefijos de carpeta y sus referencias para que el orden siga visible.
 La doble «slide 3» del encargo se distingue como **S03-IA** y **S03-CADENA**.
 
 | Página | Contenido y propósito | Tratamiento previsto | Origen / ficha |
@@ -67,27 +64,27 @@ La doble «slide 3» del encargo se distingue como **S03-IA** y **S03-CADENA**.
 | 1 | Quiero ser vuestro director tecnológico | Elegida la 03 diagonal; conservar firma y protagonismo del cargo | [Portada](slides/01-portada/INSTRUCCIONES.md) |
 | 2 | Una candidatura personal, con una propuesta concreta | Carta de 60–85 palabras: quién soy, qué busco y por qué he preparado esto | [S02](slides/02-presentacion/INSTRUCCIONES.md) |
 | 3 | La próxima década exige dirección tecnológica | Tesis breve, una figura del informe, pie de fuente y QR directo al PDF | [S03-IA](slides/03-direccion-tecnologica/INSTRUCCIONES.md) |
-| 4 | De la primera consulta a la resolución | Cadena de valor: cliente, despacho y fricciones; lectura gráfica | [S03-CADENA](slides/04-cadena-de-valor/INSTRUCCIONES.md) |
-| 5 | Una experiencia más sencilla. Una operación capaz de crecer | Tres objetivos: comodidad, relación digital con seguridad diseñada y capacidad operativa | [S04, apertura](slides/05-oportunidad/INSTRUCCIONES.md) |
-| 6 | Un referente de servicio jurídico digital | Campmany: secuencia de contratación, consultas y documentos en un área privada | [S04, evidencia](slides/06-referente-campmany/INSTRUCCIONES.md) |
-| 7 | Qué podemos aprender de ese modelo | Asincronía, especialización, equipo distribuido y procesos repetibles; aplicación propuesta a AS | [S04, lectura de negocio](slides/07-modelo-operativo/INSTRUCCIONES.md) |
+| 4 | Empiezo por extranjería | Recorrido del cliente, bifurcación documental y trabajo del despacho alineado debajo; variante desarrollada | [S03-CADENA](slides/04-cadena-de-valor/INSTRUCCIONES.md) |
+| 5 | Vuestro criterio. A mayor escala | Tres objetivos: cómodo, digital y escalable; variante desarrollada | [S04, apertura](slides/05-oportunidad/INSTRUCCIONES.md) |
+| 6 | Asesoramiento por suscripción | Campmany Premium: logo e ilustración oficiales, argumento y recorrido en cuatro momentos; variante 02 | [S04, evidencia](slides/06-referente-campmany/INSTRUCCIONES.md) |
+| 7 | Crecer también es organizar mejor | Clientes a distancia, equipo distribuido y procesos reutilizables; tres relaciones con beneficios esperados para AS | [S04, lectura de negocio](slides/07-modelo-operativo/INSTRUCCIONES.md) |
 | 8 | Tu app de extranjería | Concepto e índice visual: entender, elegir, avanzar, resolver; números de página definitivos al cerrar | [S05](slides/08-concepto-app/INSTRUCCIONES.md) |
-| 9 | Una primera entrevista que prepara el trabajo del abogado | Chat con controles estructurados, resumen y derivación; QR de entrevista | [S06](slides/09-entrevista/INSTRUCCIONES.md) |
-| 10 | Entender las opciones antes de decidir | Tres tarjetas comparables y detalle de una ruta, con condiciones y desglose de costes | [S07, p1](slides/10-opciones/INSTRUCCIONES.md) |
-| 11 | Elegir acompañamiento y contratar | Dos planes y una ampliación del resumen de compra; mensual/anual y pago simulado | [S07, p2 → p3](slides/11-contratacion/INSTRUCCIONES.md) |
-| 12 | Saber dónde estoy y qué viene después | Home con siguiente acción, progreso y menú inferior | [S08, home](slides/12-seguimiento/INSTRUCCIONES.md) |
-| 13 | Cada paso se convierte en una acción concreta | Detalle del paso y catálogo de acciones: instrucciones, documentos, originales, servicio, práctica y espera | [S05 + S08](slides/13-paso-actual/INSTRUCCIONES.md) |
-| 14 | Mis documentos, ordenados y revisados | Pendientes, recibidos, subsanaciones y validados; demo de aportación | [S08, documentos](slides/14-documentos/INSTRUCCIONES.md) |
-| 15 | Cuando hace falta un original, también hay un proceso | Punto cercano, resguardo, transporte, recepción y devolución; propuesta logística | [S08, originales](slides/15-originales/INSTRUCCIONES.md) |
-| 16 | Preparar el examen en sesiones breves | Pregunta, corrección explicada y progreso personal; QR de práctica | [S09](slides/16-practica/INSTRUCCIONES.md) |
-| 17 | Consultas conectadas con el expediente | Escrito → reserva → videollamada → resumen; QR de consulta | [S10](slides/17-consultas/INSTRUCCIONES.md) |
-| 18 | Actualizar los procesos desde un configurador | Plantilla versionada de pasos, condiciones y previsualización | [S11, plantilla](slides/18-configurador/INSTRUCCIONES.md) |
-| 19 | Aplicar un cambio con control sobre cada expediente | Diferencias, validación jurídica, vigencia y adaptación individual | [S11, aplicación](slides/19-cambios-y-excepciones/INSTRUCCIONES.md) |
-| 20 | Más alcance, menos trabajo repetido | Mapa desde Cataluña y cuatro beneficios vinculados a mecanismos del producto | [S12](slides/20-beneficios/INSTRUCCIONES.md) |
-| 21 | Cómo llevaría esta propuesta a la práctica | Piloto, validación, medición y ampliación; funciones que Pol propone asumir | [Añadido editorial](slides/21-puesta-en-marcha/INSTRUCCIONES.md) |
-| 22 | Pol Surriel: experiencia relevante | CV comprimido: VIEWNEXT, Surreal Boost, docencia y formación | [S13](slides/22-curriculum/INSTRUCCIONES.md) |
-| 23 | Experiencia en equipos. Una conversación sobre vuestro próximo paso | Dos fotos con contexto, aportación propuesta y contacto | [S13 + cierre editorial](slides/23-conversacion/INSTRUCCIONES.md) |
-| 24 | Contraportada | Firma, destinatario y acceso general a demo; composición muy limpia | [Petición de contraportada](slides/24-contraportada/INSTRUCCIONES.md) |
+| 9 | Cada caso empieza por escuchar | Chat con fecha, respuesta desconocida y resumen editable; captura y QR | [S06](slides/09-entrevista/INSTRUCCIONES.md) |
+| 10 | Elegir con claridad | Vía a estudiar, revisión complementaria y valoración individual; detalle local y QR | [S07, p1](slides/10-opciones/INSTRUCCIONES.md) |
+| 11 | El valor, claro. La cuota, también | Comparación de dos planes; mensual/anual y confirmación simulada en la demo | [S07, p2 → p3](slides/11-contratacion/INSTRUCCIONES.md) |
+| 12 | ¿Cómo va lo mío? | Captura de la home, siguiente acción y responsables; nueva variante 04 | [S08, home](slides/12-seguimiento/INSTRUCCIONES.md) |
+| 13 | Saber qué falta. Y cómo resolverlo | Detalle documental, instrucciones y responsable; recibido distinto de revisado; variante 04 | [S05 + S08](slides/13-paso-actual/INSTRUCCIONES.md) |
+| 14 | Cada documento, en su sitio. | Pendientes, recibidos, subsanaciones y validados; demo de aportación | [S08, documentos](slides/14-documentos/INSTRUCCIONES.md) |
+| 15 | También hay un camino para el papel. | Punto cercano, resguardo, transporte, recepción y devolución; propuesta logística | [S08, originales](slides/15-originales/INSTRUCCIONES.md) |
+| 16 | Un poco cada día. | Pregunta, corrección explicada y progreso personal; QR de práctica | [S09](slides/16-practica/INSTRUCCIONES.md) |
+| 17 | Una consulta, con todo el contexto. | Escrito → reserva → videollamada → resumen; QR de consulta | [S10](slides/17-consultas/INSTRUCCIONES.md) |
+| 18 | Vuestro criterio. Reglas configurables. | Plantilla versionada de pasos, condiciones y previsualización | [S11, plantilla](slides/18-configurador/INSTRUCCIONES.md) |
+| 19 | Actualizar la ruta. Decidir a quién afecta. | Diferencias, validación jurídica, vigencia y adaptación individual | [S11, aplicación](slides/19-cambios-y-excepciones/INSTRUCCIONES.md) |
+| 20 | Más alcance. Mejor operación. | Mapa desde Cataluña y cuatro beneficios vinculados a mecanismos del producto | [S12](slides/20-beneficios/INSTRUCCIONES.md) |
+| 21 | Yo lideraría la puesta en marcha. | Piloto, validación, medición y ampliación; funciones que Pol propone asumir | [Añadido editorial](slides/21-puesta-en-marcha/INSTRUCCIONES.md) |
+| 22 | Pol Surriel. Desarrollo, equipos y formación. | CV comprimido: VIEWNEXT, Surreal Boost, docencia y formación | [S13](slides/22-curriculum/INSTRUCCIONES.md) |
+| 23 | Me gustaría hacerlo con vosotros. | Dos fotos con contexto, aportación propuesta y contacto | [S13 + cierre editorial](slides/23-conversacion/INSTRUCCIONES.md) |
+| 24 | ¿Hablamos? | Firma, destinatario y acceso general a demo; composición muy limpia | [Petición de contraportada](slides/24-contraportada/INSTRUCCIONES.md) |
 
 La página 21 es una sugerencia editorial, no una instrucción original atribuida
 a Pol. Convierte el producto en una propuesta de liderazgo. La 23 desarrolla
@@ -116,12 +113,16 @@ al PDF oficial, como pide el encargo.
 
 ### Cadena de valor con comprensión de negocio
 
-Reinterpretar `slide3.png` en dos bandas alineadas. Arriba, acciones del cliente:
-consulta → evaluación → elección/contratación → preparación documental →
-presentación/seguimiento → resolución y siguientes necesidades. Debajo, trabajo
-del despacho: clasificación, criterio jurídico, encargo, revisión, tramitación,
-comunicación y cierre. Señalar solo tres fricciones como hipótesis: información
-incompleta, explicaciones repetidas y preguntas de estado.
+La variante desarrollada reinterpreta `slide3.png` en dos bandas alineadas.
+Arriba, recorrido del cliente: entrevista → encargo → documentos → tramitación
+→ resolución. Debajo, el trabajo correspondiente del despacho: valorar la vía,
+definir alcance y honorarios, orientar y validar, revisar y presentar, informar
+y acompañar. El mapa identifica el proceso como una interpretación externa.
+
+Las fricciones por validar —información incompleta, explicaciones repetidas y
+preguntas de estado— se reservan para 6–7, junto a los mecanismos operativos.
+Así el mapa establece primero dónde se aporta valor sin atribuir a AS problemas
+internos no comprobados.
 
 No mostrar residencia → nacionalidad como destino inevitable de todo expediente.
 La secuencia se ramifica según objetivo. En el tramo documental caben autogestión
@@ -136,9 +137,21 @@ salarial ni ausencia de oficinas. La hipótesis es que un servicio especializado
 y repetible puede atender más demanda con una estructura distinta. Validarla
 exigirá conocer demanda, capacidad, costes y disposición a pagar de AS.
 
-La ventaja del equipo distribuido se formulará como acceso a talento de distintas
-zonas y flexibilidad de capacidad; el efecto en costes se medirá. El texto
-original sobre costes laborales se conserva en las instrucciones.
+**Última aclaración de Pol:** añadir las comparaciones salariales al punto 2.
+La ventaja del equipo distribuido incluye explorar salarios inferiores a los
+de Barcelona para perfiles equivalentes. Se presenta como hipótesis de ahorro
+por validar, sin importes inventados ni atribuir esta estructura a Campmany.
+Esta aclaración sustituye la exclusión anterior; ambas quedan conservadas
+en las instrucciones de la página.
+
+Las variantes desarrolladas hacen explícita esa distinción. P. 6 presenta el
+referente y su recorrido, con fuente fechada y enlace. La variante 02 incorpora
+el logo y la ilustración oficial de Campmany, tras la corrección visual de Pol;
+la primera composición se conserva. P. 7 habla de lo que
+Pol exploraría para AS y concreta tres cambios: atender a distancia, coordinar
+un equipo distribuido y reutilizar instrucciones, documentos y estados. Demanda,
+costes y tiempo por expediente quedan como medidas por validar. El cierre
+introduce «Tu app de extranjería».
 
 ### Opciones y monetización
 
@@ -202,7 +215,7 @@ P. 21 propone fases y criterios de avance, sin comprometer un calendario con
 información insuficiente: observar el servicio, pilotar una ruta, medir y ampliar.
 Explicitar qué lideraría Pol y qué debe decidir el equipo jurídico.
 
-P. 22 se diseñará desde trayectoria real. Pol ha aportado el PDF de LinkedIn y
+P. 22 se ha diseñado desde la trayectoria real. Pol ha aportado el PDF de LinkedIn y
 cuatro fotos. La [base de CV](../anexos/BASE-CV.md) permite priorizar la progresión
 Senior → Tech Lead en VIEWNEXT, la coordinación de ocho personas en Surreal Boost
 y la docencia. Se omiten las skills desactualizadas por petición expresa. No
@@ -218,54 +231,50 @@ cierre y contacto; SIGMA y la otra foto de VIEWNEXT quedan como alternativas.
 - No reducir una pantalla de escritorio completa hasta volverla ilegible. Usar
   recortes con contexto en 18–19 y un detalle de compra en 11. Máximo dos focos
   visuales en una página, relacionados entre sí.
-- QR de 28 mm con zona limpia y etiqueta de acción. Un QR por pareja cuando
+- QR de 27–28 mm con zona limpia y etiqueta de acción (27 mm en 18–19). Un QR por pareja cuando
   comparte recorrido; dos solo si abren escenas distintas útiles. Un capítulo
   debe entenderse sin abrir su QR.
 - Variantes que cambien composición y jerarquía, no solo frases. Explorar primero
-  una pareja representativa: pantalla protagonista frente a composición editorial
-  con detalle ampliado. Elegir un sistema antes de diseñar 24 páginas.
+  desde el inicio del relato. La anterior prueba 12–13 no sirve como base: Pol
+  rechaza su falta de fuerza comercial. Mantener una lectura persuasiva y secuencial.
 - Cada carpeta tendrá `INSTRUCCIONES.md` y, al ejecutar, `variantes/01-…/`,
   `variantes/02-…/` con fuente editable, PDF y PNG. La portada conserva sus
   archivos actuales. Compartir tipografía, color y recursos, sin duplicar paletas.
-- La selección de variante, las capturas y el folio final se anotarán después;
-  las fichas de ahora son documentación y no indican páginas ya diseñadas.
+- Cada ficha registra su estado: propuesta, diseño en revisión, aprobado o
+  rechazado. La dirección de 2–5 está aprobada; 6–24 están en revisión;
+  las tres maquetaciones anteriores de 12–13 están rechazadas.
 
-## Orden de trabajo posterior
+## Revisión del conjunto y siguientes variantes
 
-1. Revisar esta estructura y definir el interior a partir de la portada 03 elegida.
-2. Cerrar un caso ficticio coherente, los nombres de las rutas y los planes.
-3. Desarrollar escenas autónomas en el orden que convenga al relato, sin
-   exigir haber implementado la home ni pantallas anteriores.
-4. Capturar la misma demo que abrirán los QR y maquetar por parejas enfrentadas.
-5. Editar el CV desde el PDF y las fotos aportadas; revisar el texto final.
-6. Publicar cuando se conozca la cuenta/repositorio; verificar rutas y generar QR.
-7. Exportar las 24 páginas, revisar a tamaño real y hacer prueba de copistería.
+La versión de 24 páginas está completa. Revisar 06–24 con Pol en la lectura
+continua, manteniendo 01–05 aprobadas. Las cinco parejas nuevas 14–23 permiten
+valorar ritmo y espacio; 24 cierra como contraportada. Si una revisión requiere
+otra composición, conservar la anterior en la carpeta de variantes.
 
-Si la pareja 10–11 no admite planes y resumen de compra legibles, la alternativa
-es **28 páginas**, añadiendo cuatro páginas útiles y recalculando todas las
-parejas. Primero se intentará simplificar el papel y dejar el detalle interactivo
-en la demo. No reducir cuerpo ni comprimir capturas para sostener artificialmente
-las 24 páginas.
+Las escenas correspondientes están implementadas y comprobadas. Los trece QR
+se han leído desde el PDF completo. Las fuentes jurídicas y de práctica están
+referenciadas; logística, cambios de procedimiento y resultados de negocio son
+propuestas o simulaciones identificadas. CV y fotos usan los materiales aportados.
 
-## Forma de continuar recomendada
+La siguiente fase de producción debe ajustar sangrado y color a la copistería,
+revisar legibilidad al tamaño real y escanear una prueba física. El PDF de parejas
+es de revisión; el taller recibe páginas individuales y decide la imposición.
 
-Recomendación del 17-09-2026. La primera muestra ya se ha autorizado y realizado;
-la elección visual y la ampliación a otras parejas siguen pendientes.
+## Forma de continuar acordada tras la corrección
 
-Mantener un chat de coordinación y trabajar por parejas enfrentadas o capítulos.
-El primer encargo sugerido es desarrollar **tres variantes de la pareja 12–13**
-y un diseño de home coherente con ellas. Sirve para decidir jerarquías de texto,
-escala de pantalla, tratamiento del QR y continuidad entre papel y producto.
-Las variantes deben cambiar composición, no limitarse a recolorear.
+Un chat de coordinación y **páginas en orden**. Primera lectura: portada elegida,
+quién es Pol y qué quiere, por qué propone dirección tecnológica. Continuar con
+cadena de valor y oportunidad, después referente, producto y beneficios.
 
-Tras elegir esa base, cerrar componentes compartidos y datos por escena. Se
-podrá repartir trabajo independiente entre dos o tres agentes: módulos de demo,
-parejas del librito y revisión. Cada tarea tendrá carpetas propias; componentes compartidos,
-tokens y ensamblado final tendrán un responsable de integración.
-Guardar las variantes en la carpeta de cada slide, pero revisarlas como pareja.
+La calidad de la UX y la del librito se juzgan por separado. Pol valora la UX
+existente y rechaza las tres maquetaciones de 12–13. No volver a pedir que elija
+entre ellas. Conservarlas identificadas como descartadas.
 
-Los chats separados son útiles para un bloque con autonomía, por ejemplo CV
-y cierre o práctica del examen. Abrir uno por cada página fragmentaría decisiones
-que comparten ambos entregables. Cada nueva sesión debe leer el README y la
-ficha del bloque. Cerrar cada entrega registrando variante elegida, pendientes
-y estado real de implementación.
+Al llegar a las demostraciones, presentar la interfaz dentro de una silueta de
+móvil HTML/CSS con escala legible y detalles ampliados donde sea necesario. El
+móvil debe servir a la explicación, no convertirse en decoración repetida en todas
+las páginas. Antes de cada función, establecer el problema y el beneficio.
+
+Guardar variantes por página, revisar las parejas enfrentadas y actualizar el
+estado. Las páginas 1–5 están aprobadas como dirección y 6–24 están en revisión.
+El desarrollo previsto está completo; continuar con variantes y revisión del conjunto.

@@ -8,7 +8,7 @@
     "svg": "inicio.svg"
   },
   "entrevista": {
-    "destino": "https://antonio-segura-abogados.github.io/#/entrevista",
+    "destino": "https://antonio-segura-abogados.github.io/#/entrevista?tour=1",
     "modulos": 33,
     "margenModulos": 4,
     "correccion": "M",
@@ -24,7 +24,7 @@
     "svg": "expediente.svg"
   },
   "documentos": {
-    "destino": "https://antonio-segura-abogados.github.io/#/documentos",
+    "destino": "https://antonio-segura-abogados.github.io/#/documentos?tour=1",
     "modulos": 33,
     "margenModulos": 4,
     "correccion": "M",
@@ -32,7 +32,7 @@
     "svg": "documentos.svg"
   },
   "consultas": {
-    "destino": "https://antonio-segura-abogados.github.io/#/consultas",
+    "destino": "https://antonio-segura-abogados.github.io/#/consultas?tour=1",
     "modulos": 33,
     "margenModulos": 4,
     "correccion": "M",
@@ -40,12 +40,60 @@
     "svg": "consultas.svg"
   },
   "paso-documentacion": {
-    "destino": "https://antonio-segura-abogados.github.io/#/expediente/pasos/documentacion",
+    "destino": "https://antonio-segura-abogados.github.io/#/expediente/pasos/documentacion?tour=1",
     "modulos": 37,
     "margenModulos": 4,
     "correccion": "M",
     "png": "paso-documentacion.png",
     "svg": "paso-documentacion.svg"
+  },
+  "opciones": {
+    "destino": "https://antonio-segura-abogados.github.io/#/opciones?tour=1",
+    "modulos": 33,
+    "margenModulos": 4,
+    "correccion": "M",
+    "png": "opciones.png",
+    "svg": "opciones.svg"
+  },
+  "planes": {
+    "destino": "https://antonio-segura-abogados.github.io/#/planes?tour=1",
+    "modulos": 33,
+    "margenModulos": 4,
+    "correccion": "M",
+    "png": "planes.png",
+    "svg": "planes.svg"
+  },
+  "originales": {
+    "destino": "https://antonio-segura-abogados.github.io/#/originales?tour=1",
+    "modulos": 33,
+    "margenModulos": 4,
+    "correccion": "M",
+    "png": "originales.png",
+    "svg": "originales.svg"
+  },
+  "practica": {
+    "destino": "https://antonio-segura-abogados.github.io/#/practica?tour=1",
+    "modulos": 33,
+    "margenModulos": 4,
+    "correccion": "M",
+    "png": "practica.png",
+    "svg": "practica.svg"
+  },
+  "configurador": {
+    "destino": "https://antonio-segura-abogados.github.io/#/gestion/rutas/residencia-demo?tour=1",
+    "modulos": 37,
+    "margenModulos": 4,
+    "correccion": "M",
+    "png": "configurador.png",
+    "svg": "configurador.svg"
+  },
+  "cambios": {
+    "destino": "https://antonio-segura-abogados.github.io/#/gestion/cambios?tour=1",
+    "modulos": 37,
+    "margenModulos": 4,
+    "correccion": "M",
+    "png": "cambios.png",
+    "svg": "cambios.svg"
   },
   "informe-anthropic": {
     "destino": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf",

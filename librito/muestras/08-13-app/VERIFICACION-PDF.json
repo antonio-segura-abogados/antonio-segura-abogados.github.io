@@ -1,0 +1,24 @@
+{
+  "fecha": "2026-09-17",
+  "resultado": "correcto",
+  "paginasNuevas": 6,
+  "formatoMm": [
+    210,
+    148
+  ],
+  "originales01a07": "idénticos al render anterior",
+  "qrPngDecodificados": 9,
+  "qrLeidosDesdePdf300ppp": 5,
+  "metodo": "Apple Vision; destino exacto comparado con cada enlace PDF",
+  "enlacesConservados": [
+    "Anthropic (p. 3)",
+    "Campmany (p. 6)",
+    "cinco escenas de demo (p. 9–13)"
+  ],
+  "sha256": {
+    "app-08-13.pdf": "6204edb77ea2b2af370bde7dc8da3568e4421f27d73a2b07ba97c115feb3bcee",
+    "parejas-08-13.pdf": "e91ea10703a8380bfab7bad6cef4338b8cf61beffe75e059c086fd28624ea30d",
+    "librito-01-13.pdf": "ab072766afc4dbcc8f95cb28b7299a7e0970dac1fafca36168fa2209fdf0c2b4"
+  },
+  "pruebaFisica": "pendiente"
+}

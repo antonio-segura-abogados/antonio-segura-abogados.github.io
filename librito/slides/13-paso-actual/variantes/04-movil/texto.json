@@ -1,0 +1,24 @@
+{
+  "titulo": "Saber qué falta. Y cómo resolverlo.",
+  "intro": "Cada paso reuniría lo necesario para avanzar. El cliente actúa; el equipo recibe la información con contexto.",
+  "instrucciones": [
+    {
+      "titulo": "Qué aportar",
+      "texto": "El documento pendiente, identificado."
+    },
+    {
+      "titulo": "Cómo prepararlo",
+      "texto": "Instrucciones junto a la acción."
+    },
+    {
+      "titulo": "Quién lo revisa",
+      "texto": "Recibido y validado son estados distintos."
+    }
+  ],
+  "captura": "13-documentacion.png",
+  "qr": "paso-documentacion",
+  "qrTitulo": "Completa un paso",
+  "qrDetalle": "Aporta el documento de ejemplo y observa el estado.",
+  "puente": "DESPUÉS, CADA DOCUMENTO EN SU SITIO.",
+  "estado": "desarrollada, pendiente de revisión de Pol"
+}

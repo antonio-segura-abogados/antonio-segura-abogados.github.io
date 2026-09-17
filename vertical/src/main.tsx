@@ -7,6 +7,7 @@ import '../../recursos-compartidos/estilos/base.css';
 import './app.css';
 import './product.css';
 import './acompanamiento.css';
+import './presentacion.css';
 
 document.querySelector<HTMLLinkElement>('link[rel="icon"]')!.href = favicon;
 

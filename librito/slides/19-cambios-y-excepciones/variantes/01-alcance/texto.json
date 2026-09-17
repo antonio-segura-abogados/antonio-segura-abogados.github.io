@@ -1,0 +1,10 @@
+{
+  "titulo": "Actualizar la ruta. Decidir a quién afecta.",
+  "captura": "19-cambios.png",
+  "intro": "Versiones con fecha de vigencia, cambios explícitos en los casos abiertos y pasos personalizados cuando un expediente lo necesita.",
+  "nota": "Cambio ficticio: el criterio jurídico determina el alcance. Los pasos completados se conservan.",
+  "qr": "cambios",
+  "qrTitulo": "Prueba un cambio",
+  "qrDetalle": "Versiones y excepciones.",
+  "puente": "Así, una misma base permite trabajar con orden sin tratar todos los casos igual."
+}

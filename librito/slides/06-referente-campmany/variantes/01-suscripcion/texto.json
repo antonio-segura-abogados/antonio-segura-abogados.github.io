@@ -1,0 +1,23 @@
+{
+  "titulo": "Asesoramiento por suscripción.",
+  "lineasTitulo": ["Asesoramiento", "por suscripción."],
+  "referente": "Campmany Premium",
+  "intro": "Su especialización laboral y de Seguridad Social se ofrece también mediante suscripción, con asesoramiento escrito y revisión documental.",
+  "idea": ["El cliente escribe.", "El abogado responde."],
+  "explicacionIdea": "Cada uno en su momento.",
+  "recorrido": [
+    { "titulo": "Elige un plan", "texto": "Activa su suscripción." },
+    { "titulo": "Accede a su área", "texto": "Plantea su consulta por escrito." },
+    { "titulo": "Aporta documentos", "texto": "El abogado los revisa." },
+    { "titulo": "Recibe orientación", "texto": "Entiende sus siguientes pasos." }
+  ],
+  "notaPlanes": "Plus y Pensionista incluyen 2 llamadas al año de 15 minutos.",
+  "fuente": {
+    "titulo": "Campmany Premium",
+    "url": "https://www.campmanyabogados.com/premium",
+    "fechaConsulta": "2026-09-17",
+    "pie": "Fuente: campmanyabogados.com/premium · 17-09-2026."
+  },
+  "puente": "UN MODELO QUE INSPIRA UNA PROPUESTA PARA AS.",
+  "estado": "composición histórica; sustituida por la variante 02 con recursos oficiales tras la corrección de Pol"
+}

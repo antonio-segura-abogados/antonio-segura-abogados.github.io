@@ -1,0 +1,182 @@
+{
+  "seleccion": "seleccion.json",
+  "paginas": 24,
+  "formatoMm": [
+    210,
+    148
+  ],
+  "sha256Pdf": "69c23f6c61e321792bb9e2635897c541b5822ae9393a100f67714ffc5202521c",
+  "versionWeb": "69c23f6c61e3",
+  "pdf": "librito-final.pdf",
+  "salidaWeb": "../vertical/public/presentacion",
+  "variantes": [
+    {
+      "pagina": 1,
+      "carpeta": "01-portada",
+      "variante": "03-diagonal",
+      "sha256Pdf": "21d3e680fb5c0a8fb746500ac0e6d3d9d8b8c97566070abf95ca6181f2a51fd0",
+      "sha256Png": "a0489b442c8a22b7cd78712b66e263e609417039cb116a85d42e87b5110363e3"
+    },
+    {
+      "pagina": 2,
+      "carpeta": "02-presentacion",
+      "variante": "01-candidatura",
+      "sha256Pdf": "406c80f5d85db88728c21c415d26e8e131affec13a7a93bd4f5b2f93c226bffc",
+      "sha256Png": "6872ad5adb8179aef3b928991fdc2c05fd7dbd2891f98ad891e397e0774514b2"
+    },
+    {
+      "pagina": 3,
+      "carpeta": "03-direccion-tecnologica",
+      "variante": "01-direccion",
+      "sha256Pdf": "b24e994cc679863e8f9fbcefa66d561c9f7a16485d9ba62f3719308884a08bd2",
+      "sha256Png": "da4c891635a4df0def429f267c95dc1a594aaf07a14e4c17d574ce59f2258efe"
+    },
+    {
+      "pagina": 4,
+      "carpeta": "04-cadena-de-valor",
+      "variante": "01-recorrido",
+      "sha256Pdf": "9b531babe4e2dde5389b465c9c22a794603561e86a1cd2a360f4921438893fa7",
+      "sha256Png": "ced284246f1c98054c2e3f05aa8f91da0a257c5665312ca354a5bfafc883b5ae"
+    },
+    {
+      "pagina": 5,
+      "carpeta": "05-oportunidad",
+      "variante": "01-escala",
+      "sha256Pdf": "6ef10893ec1b3fa0c32fe565f7e7626c958ba428e0231d2f10a1dea4212a9cec",
+      "sha256Png": "85dc879d10dbdd1b20e6532b8f0ab9562107064ed0b16ef0f7da5febf055a237"
+    },
+    {
+      "pagina": 6,
+      "carpeta": "06-referente-campmany",
+      "variante": "02-referente-visual",
+      "sha256Pdf": "2046baaa79d6fda937a9fe2c9b6aa1c27814ea8129e82fac5308b2814008c235",
+      "sha256Png": "ed28f8f13f5e6e6f6ebfe9085ef95bff4772cd1fc4ce01fe4c39c5ec020c6628"
+    },
+    {
+      "pagina": 7,
+      "carpeta": "07-modelo-operativo",
+      "variante": "01-procesos",
+      "sha256Pdf": "6f9468457a51947cb5bd8148d8e17b081af95f14c935cdef8b4e3612c046ae0d",
+      "sha256Png": "8bdcec919847da304594691a5fabfccaae775686e5f63b14da4a2dbf3e4949b8"
+    },
+    {
+      "pagina": 8,
+      "carpeta": "08-concepto-app",
+      "variante": "01-producto",
+      "sha256Pdf": "50de592752d5e1b13f8bc0ac324ea26a7a58f774b4d3f1cde43e192a1614f745",
+      "sha256Png": "cdd25be721843b1474c4350287e88140ee1d4b625cda18094766614b2a9a031a"
+    },
+    {
+      "pagina": 9,
+      "carpeta": "09-entrevista",
+      "variante": "01-conversacion",
+      "sha256Pdf": "a9fc92e40e0747f2be3665a6dda77e4d4422acfcbc67a3a526ca00c137108e8b",
+      "sha256Png": "1d2a3a6230d159b14b661a27a22bb6b03f6a80aa463bd08f677c1eceecbc9295"
+    },
+    {
+      "pagina": 10,
+      "carpeta": "10-opciones",
+      "variante": "01-decision",
+      "sha256Pdf": "f90a91d710ce3f53eb02b3e0ecdd74866cbc71aa28107a7e476d50794557e210",
+      "sha256Png": "01fc00e356e7e8d0214d180b3ef4c40e01d88f9cd717a347c264e3a1041e09ba"
+    },
+    {
+      "pagina": 11,
+      "carpeta": "11-contratacion",
+      "variante": "01-acompanamiento",
+      "sha256Pdf": "7ffb375703c98fd32d8f5a8f4ed0f0d0f85e50d047aedf96980395cb8bf814e3",
+      "sha256Png": "62b8517fdd4cd6d805d8beca64dfa3486a71f68ae9f7914e1942a2dfb53132e1"
+    },
+    {
+      "pagina": 12,
+      "carpeta": "12-seguimiento",
+      "variante": "04-movil",
+      "sha256Pdf": "ed16c554754afe34de81d8d0b2b28341fbdc3f441dcfad9f740fca51943dcdc5",
+      "sha256Png": "e44c6a38e65a91249198a7b397e02a0415967f573a9e47582a07cf148a5ef99e"
+    },
+    {
+      "pagina": 13,
+      "carpeta": "13-paso-actual",
+      "variante": "04-movil",
+      "sha256Pdf": "474c44e054234deaf60ce3d05a792a1e2f17c3483d56df082499358a308f4a50",
+      "sha256Png": "3f9a00cb37bece7c95cc171db7b439a836b7fcb6a178662cc2e903339be58c04"
+    },
+    {
+      "pagina": 14,
+      "carpeta": "14-documentos",
+      "variante": "01-carpeta",
+      "sha256Pdf": "fba207ca756380d717483b963be51c2277c4668bfb1db23a929bca60921717a4",
+      "sha256Png": "bb17dab12a20d6a05a277fc288bc445b245e00b54fb2006b386bcc8f7991902d"
+    },
+    {
+      "pagina": 15,
+      "carpeta": "15-originales",
+      "variante": "01-logistica",
+      "sha256Pdf": "5a7e2978ac089edfc6c811bb0f37c88800e7ea4cb4b533fce5b1c4898b9ab6f4",
+      "sha256Png": "5be69d9645120a3e7877aa6a2d4e6045a8d3143e325180046d131a6b7f2f73b5"
+    },
+    {
+      "pagina": 16,
+      "carpeta": "16-practica",
+      "variante": "01-habito",
+      "sha256Pdf": "b4f886109f99617f6029c617fb49a67e122c651fd4df2b74428a46e16b646729",
+      "sha256Png": "0d03626bafd90110000b36f6c025499041503dca9ba3cfcac40377c093156220"
+    },
+    {
+      "pagina": 17,
+      "carpeta": "17-consultas",
+      "variante": "01-conversacion",
+      "sha256Pdf": "c5f328396a9531a0a52fb8ba9a885e44e79b23aaa28a82b5b0861be66a757bcd",
+      "sha256Png": "b19a44952b48e9af9489db42aca605c5f84734be3a3ec05db891a853a16de483"
+    },
+    {
+      "pagina": 18,
+      "carpeta": "18-configurador",
+      "variante": "01-rutas",
+      "sha256Pdf": "f5370558bf3c6fcf595b33095be5eb98cb5e649ca2c4a18e09ad8db4c89a36a4",
+      "sha256Png": "cd21399566703870271cd8ba5b07a40eba599b3c75faa429dd9548cab26ad351"
+    },
+    {
+      "pagina": 19,
+      "carpeta": "19-cambios-y-excepciones",
+      "variante": "01-alcance",
+      "sha256Pdf": "2c100685ffc5c964c89e0acb4bbe8385980f18f946e9d90a7f5f3d1e448c33d0",
+      "sha256Png": "b413f25801feb36eac14944a9a36425b2e65e89bf3d67b3f6cc4aaaddb8dabe3"
+    },
+    {
+      "pagina": 20,
+      "carpeta": "20-beneficios",
+      "variante": "01-alcance",
+      "sha256Pdf": "b4628698c7ec1b2d13df70aac359809d982403be1eea0e8fe41c8dc8062d3c76",
+      "sha256Png": "bf12951964b84373afdafe8725be4be7171038bba6fbf987eb532ac9be6692ad"
+    },
+    {
+      "pagina": 21,
+      "carpeta": "21-puesta-en-marcha",
+      "variante": "01-direccion",
+      "sha256Pdf": "e08c386a305cdd75498d86ada5bceed77a679a1ad69aba8c8b88869539999846",
+      "sha256Png": "af7704ad49241709a2abf1cd7d222358773c58069f5588ae22820fb76201d975"
+    },
+    {
+      "pagina": 22,
+      "carpeta": "22-curriculum",
+      "variante": "01-experiencias",
+      "sha256Pdf": "81d44d2d51e7774e548706be22c2df7c59a96a8ad901cd792f240eb0a9ba5e81",
+      "sha256Png": "48e132477c3d69adb93052b278a6980af234f9ef5f6626d661d04ce26520bde2"
+    },
+    {
+      "pagina": 23,
+      "carpeta": "23-conversacion",
+      "variante": "01-equipo",
+      "sha256Pdf": "9848e64412ee7c24ad7ca383c0906b5974ce051974e8b69f716b9fd0e2caa1cd",
+      "sha256Png": "e9b67e266c54bcba343eeda618690948374a40ef3f4ded7bb20f1a9c5c053c58"
+    },
+    {
+      "pagina": 24,
+      "carpeta": "24-contraportada",
+      "variante": "01-diagonal",
+      "sha256Pdf": "7c64387ef5d142cbd7c0a70a328823edafe36c9199462f1ff4e34a7876f60bfd",
+      "sha256Png": "e073a2c3ec3a3d03672e8122be4e7c6386183703e6d357fa628ed8e2b69383e4"
+    }
+  ]
+}

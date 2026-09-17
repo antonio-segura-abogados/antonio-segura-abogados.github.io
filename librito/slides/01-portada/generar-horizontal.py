@@ -46,6 +46,8 @@ def fuentes(temporal):
         destino = temporal / f"{nombre}.ttf"
         with Fuente(origen) as original:
             estatica = instantiateVariableFont(original, {"wght": peso}, inplace=False)
+            # El render debe depender del contenido, no de la hora de compilación.
+            estatica.recalcTimestamp = False
             for identificador, valor in {
                 1: "Plus Jakarta Sans",
                 2: estilo,

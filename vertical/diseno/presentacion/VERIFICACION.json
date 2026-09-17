@@ -1,0 +1,28 @@
+{
+  "fecha": "2026-09-17",
+  "version": "a11f0ee38150",
+  "resultado": "correcto",
+  "paginas": 24,
+  "anchos": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "pruebas": [
+    "24 imágenes cargadas sin errores",
+    "navegación, límites y teclado",
+    "índice, miniaturas y enlace de página persistente al recargar",
+    "texto accesible y PDF descargable",
+    "acceso a la demo contextual con guía",
+    "ampliación con desplazamiento y cierre Escape",
+    "sin visor PDF insertado",
+    "sin desbordamiento horizontal ni errores JS"
+  ],
+  "capturas": [
+    "inicio-escritorio.png",
+    "pagina-14-escritorio.png",
+    "inicio-movil.png",
+    "indice.png"
+  ]
+}
