@@ -59,7 +59,14 @@ try {
   }
   await page.setViewportSize({width:1440,height:1100});await page.goto(`${base}/#/?pagina=14`);await ready();await page.getByRole('button',{name:'Ver índice',exact:true}).click();
   await page.screenshot({path:`${out}/indice.png`,fullPage:true});
+  const scenes = ['/entrevista','/opciones','/planes','/contratacion','/expediente','/expediente/pasos/documentacion','/documentos','/originales','/practica','/consultas','/consultas/sala-demo','/perfil','/gestion/rutas','/gestion/rutas/residencia-demo','/gestion/cambios','/gestion/expedientes/lucia-demo'];
+  for (const route of scenes) {
+    await page.goto(`${base}/#${route}?tour=1`);
+    await page.locator('.client-screen').waitFor();
+    assert.equal(await page.locator('.tour-panel').isVisible(), true, route);
+    assert.equal(await page.getByRole('link', { name: 'Volver a la presentación', exact: true }).isVisible(), true, route);
+  }
   assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
-  const report={fecha:'2026-09-17',base,version:pdfPath.match(/librito-([a-f0-9]+)\.pdf/)?.[1]||book.version,resultado:'correcto',paginas:24,anchos:[320,390,768,1440],pruebas:['24 imágenes cargadas sin errores','navegación, límites y teclado','índice, miniaturas y enlace de página persistente al recargar','texto accesible y PDF descargable','acceso a la demo contextual con guía','ampliación con desplazamiento y cierre Escape','sin visor PDF insertado','sin desbordamiento horizontal ni errores JS'],capturas:['inicio-escritorio.png','pagina-14-escritorio.png','inicio-movil.png','indice.png']};
+  const report={fecha:'2026-09-17',base,version:pdfPath.match(/librito-([a-f0-9]+)\.pdf/)?.[1]||book.version,resultado:'correcto',paginas:24,anchos:[320,390,768,1440],escenasVerificadas:scenes,pruebas:['24 imágenes cargadas sin errores','navegación, límites y teclado','índice, miniaturas y enlace de página persistente al recargar','texto accesible y PDF descargable','acceso a la demo contextual con guía','ampliación con desplazamiento y cierre Escape','sin visor PDF insertado','16 escenas cargadas con guía y enlace de vuelta','sin desbordamiento horizontal ni errores JS'],capturas:['inicio-escritorio.png','pagina-14-escritorio.png','inicio-movil.png','indice.png']};
   await writeFile(`${out}/${base.includes('github.io')?'VERIFICACION-PUBLICA':'VERIFICACION'}.json`,JSON.stringify(report,null,2)+'\n');console.log('Presentación de 24 páginas verificada: navegación, índice, ampliación, móvil, texto, PDF y demos.');
 } finally {await browser.close();}

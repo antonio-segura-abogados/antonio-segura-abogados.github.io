@@ -1,0 +1,54 @@
+{
+  "fecha": "2026-09-17",
+  "base": "https://antonio-segura-abogados.github.io",
+  "version": "a78b8ba349e1",
+  "resultado": "correcto",
+  "paginas": 24,
+  "anchos": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "escenasVerificadas": [
+    "/entrevista",
+    "/opciones",
+    "/planes",
+    "/contratacion",
+    "/expediente",
+    "/expediente/pasos/documentacion",
+    "/documentos",
+    "/originales",
+    "/practica",
+    "/consultas",
+    "/consultas/sala-demo",
+    "/perfil",
+    "/gestion/rutas",
+    "/gestion/rutas/residencia-demo",
+    "/gestion/cambios",
+    "/gestion/expedientes/lucia-demo"
+  ],
+  "pruebas": [
+    "24 imágenes cargadas sin errores",
+    "navegación, límites y teclado",
+    "índice, miniaturas y enlace de página persistente al recargar",
+    "texto accesible y PDF descargable",
+    "acceso a la demo contextual con guía",
+    "ampliación con desplazamiento y cierre Escape",
+    "sin visor PDF insertado",
+    "16 escenas cargadas con guía y enlace de vuelta",
+    "sin desbordamiento horizontal ni errores JS"
+  ],
+  "capturas": [
+    "inicio-escritorio.png",
+    "pagina-14-escritorio.png",
+    "inicio-movil.png",
+    "indice.png"
+  ],
+  "pdfPublicado": {
+    "sha256": "a78b8ba349e1fdceca2d5a62054e1b6007923de6d87e5331b0c1fcacfcd857f1",
+    "comparacionConLocal": "24 páginas visualmente idénticas, texto y enlaces idénticos; el hash binario varía entre los entornos de compilación"
+  },
+  "commitVerificado": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
+  "workflow": "https://github.com/antonio-segura-abogados/antonio-segura-abogados.github.io/actions/runs/35179389212"
+}

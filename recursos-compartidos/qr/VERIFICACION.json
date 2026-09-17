@@ -73,77 +73,6 @@
     "decodificado": true,
     "destinoLeido": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf"
   },
-  "publicacionDemo": {
-    "fecha": "2026-09-17",
-    "url": "https://antonio-segura-abogados.github.io/",
-    "commit": "36f85d35e503ccc94d015d7dd96320924cce6757",
-    "httpStatus": 200,
-    "despliegueRealizado": true,
-    "recursos": [
-      {
-        "recurso": "assets/favicon-2navDK5I.png",
-        "httpStatus": 200,
-        "coincideConLocal": true,
-        "sha256": "0dc065a0d3a774c38f4ce04b81ebf1ccac7ac7edceb5ab3d528f7a891bfd0cb6"
-      },
-      {
-        "recurso": "assets/index-DS6W0ra6.js",
-        "httpStatus": 200,
-        "coincideConLocal": true,
-        "sha256": "ab1535f221fc3c9d8fe174b4e4a6646e9f63cc2c59ca30aba4e481762ffb9189"
-      },
-      {
-        "recurso": "assets/index-Jez8cpL_.css",
-        "httpStatus": 200,
-        "coincideConLocal": true,
-        "sha256": "54149ae9d50ca8b2ac97ac9466c7bbd951b7a180df7608698f1a3c0a10197a39"
-      },
-      {
-        "recurso": "assets/logo-azul-web-VjliNjZI.jpg",
-        "httpStatus": 200,
-        "coincideConLocal": true,
-        "sha256": "69873ba067f9eab7678d374266b09104851b2555fd36ba9e11723c7ddf3a71df"
-      },
-      {
-        "recurso": "assets/plus-jakarta-sans-italic-latin-DnD1KgkH.woff2",
-        "httpStatus": 200,
-        "coincideConLocal": true,
-        "sha256": "bb113d8f5be89636a9a31ffa0966762126546b98be171d6fa81115abb2cd5352"
-      },
-      {
-        "recurso": "assets/plus-jakarta-sans-italic-latin-ext-DJWiFoht.woff2",
-        "httpStatus": 200,
-        "coincideConLocal": true,
-        "sha256": "7524d4b5f829201192882f775b90d78dbd9f9b3014ea729cfb7a47f5261ec7cb"
-      },
-      {
-        "recurso": "assets/plus-jakarta-sans-latin-eXO_dkmS.woff2",
-        "httpStatus": 200,
-        "coincideConLocal": true,
-        "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
-      },
-      {
-        "recurso": "assets/plus-jakarta-sans-latin-ext-DmpS2jIq.woff2",
-        "httpStatus": 200,
-        "coincideConLocal": true,
-        "sha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f"
-      },
-      {
-        "recurso": "index.html",
-        "httpStatus": 200,
-        "coincideConLocal": true,
-        "sha256": "b6b5ae5e7ca29cc0ce76678ef8730541d0f1c56b2040e0792d2fd9e33db7e50f"
-      },
-      {
-        "recurso": "licencias/PlusJakartaSans-OFL.txt",
-        "httpStatus": 200,
-        "coincideConLocal": true,
-        "sha256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99"
-      }
-    ],
-    "interacciones": "Comprobadas en local con Chrome sobre el mismo código; no repetidas en el sitio público",
-    "pruebaFisica": "pendiente"
-  },
   "pruebaFisica": "pendiente",
   "paginas09a13": {
     "fecha": "2026-09-17",
@@ -264,5 +193,96 @@
     },
     "pruebaFisica": "pendiente",
     "produccion": "PDF A5 de revisión; sangrado de cubiertas e imposición por cerrar con imprenta"
+  },
+  "publicacionAnterior36f85d3": {
+    "fecha": "2026-09-17",
+    "url": "https://antonio-segura-abogados.github.io/",
+    "commit": "36f85d35e503ccc94d015d7dd96320924cce6757",
+    "httpStatus": 200,
+    "despliegueRealizado": true,
+    "recursos": [
+      {
+        "recurso": "assets/favicon-2navDK5I.png",
+        "httpStatus": 200,
+        "coincideConLocal": true,
+        "sha256": "0dc065a0d3a774c38f4ce04b81ebf1ccac7ac7edceb5ab3d528f7a891bfd0cb6"
+      },
+      {
+        "recurso": "assets/index-DS6W0ra6.js",
+        "httpStatus": 200,
+        "coincideConLocal": true,
+        "sha256": "ab1535f221fc3c9d8fe174b4e4a6646e9f63cc2c59ca30aba4e481762ffb9189"
+      },
+      {
+        "recurso": "assets/index-Jez8cpL_.css",
+        "httpStatus": 200,
+        "coincideConLocal": true,
+        "sha256": "54149ae9d50ca8b2ac97ac9466c7bbd951b7a180df7608698f1a3c0a10197a39"
+      },
+      {
+        "recurso": "assets/logo-azul-web-VjliNjZI.jpg",
+        "httpStatus": 200,
+        "coincideConLocal": true,
+        "sha256": "69873ba067f9eab7678d374266b09104851b2555fd36ba9e11723c7ddf3a71df"
+      },
+      {
+        "recurso": "assets/plus-jakarta-sans-italic-latin-DnD1KgkH.woff2",
+        "httpStatus": 200,
+        "coincideConLocal": true,
+        "sha256": "bb113d8f5be89636a9a31ffa0966762126546b98be171d6fa81115abb2cd5352"
+      },
+      {
+        "recurso": "assets/plus-jakarta-sans-italic-latin-ext-DJWiFoht.woff2",
+        "httpStatus": 200,
+        "coincideConLocal": true,
+        "sha256": "7524d4b5f829201192882f775b90d78dbd9f9b3014ea729cfb7a47f5261ec7cb"
+      },
+      {
+        "recurso": "assets/plus-jakarta-sans-latin-eXO_dkmS.woff2",
+        "httpStatus": 200,
+        "coincideConLocal": true,
+        "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+      },
+      {
+        "recurso": "assets/plus-jakarta-sans-latin-ext-DmpS2jIq.woff2",
+        "httpStatus": 200,
+        "coincideConLocal": true,
+        "sha256": "38e3b8fd8045048eb311d90170a4429ed2c8f405852dc3d91b5af8452758703f"
+      },
+      {
+        "recurso": "index.html",
+        "httpStatus": 200,
+        "coincideConLocal": true,
+        "sha256": "b6b5ae5e7ca29cc0ce76678ef8730541d0f1c56b2040e0792d2fd9e33db7e50f"
+      },
+      {
+        "recurso": "licencias/PlusJakartaSans-OFL.txt",
+        "httpStatus": 200,
+        "coincideConLocal": true,
+        "sha256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99"
+      }
+    ],
+    "interacciones": "Comprobadas en local con Chrome sobre el mismo código; no repetidas en el sitio público",
+    "pruebaFisica": "pendiente"
+  },
+  "publicacionDemo": {
+    "fecha": "2026-09-17",
+    "url": "https://antonio-segura-abogados.github.io/",
+    "commit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
+    "workflow": "https://github.com/antonio-segura-abogados/antonio-segura-abogados.github.io/actions/runs/35179389212",
+    "despliegueRealizado": true,
+    "httpStatus": 200,
+    "metodo": "Chrome sobre la URL pública, comprobación de imágenes y PDF; comparación visual de las 24 páginas publicadas con el PDF local",
+    "paginasPresentacion": 24,
+    "escenasCargadasConGuia": 16,
+    "anchosPresentacion": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "interacciones": "Presentación, índice, teclado, ampliación, PDF y enlace contextual comprobados públicamente; interacciones internas de las 16 escenas comprobadas localmente",
+    "registro": "../../vertical/diseno/presentacion/VERIFICACION-PUBLICA.json",
+    "pruebaFisica": "pendiente"
   }
 }

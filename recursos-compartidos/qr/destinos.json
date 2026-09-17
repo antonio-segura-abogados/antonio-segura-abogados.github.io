@@ -1,6 +1,6 @@
 {
   "publicBaseUrl": "https://antonio-segura-abogados.github.io/",
-  "status": "Páginas 14–24 en desarrollo; nuevas escenas verificadas localmente; actualización pública pendiente; prueba física pendiente",
+  "status": "24 páginas y 16 escenas publicadas; compilación automática y navegación pública verificadas; prueba física pendiente",
   "routes": [
     {
       "id": "inicio",
@@ -12,10 +12,12 @@
       "qrSvg": "generados/inicio.svg",
       "qrDecoded": true,
       "published": true,
-      "scene": "autónoma; publicada en GitHub Pages",
-      "publishedCommit": "36f85d35e503ccc94d015d7dd96320924cce6757",
+      "scene": "presentación completa; publicada en GitHub Pages",
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
       "publicResourcesVerified": true,
-      "decodedFromPageRaster": true
+      "decodedFromPageRaster": true,
+      "localInteractionVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "entrevista",
@@ -27,19 +29,20 @@
       "qrSvg": "generados/entrevista.svg",
       "qrDecoded": true,
       "guided": true,
-      "scene": "autónoma; publicada en GitHub Pages",
+      "scene": "autónoma; publicada en GitHub Pages con guía",
       "decodedFromPageRaster": true,
       "published": true,
-      "publishedCommit": "36f85d35e503ccc94d015d7dd96320924cce6757",
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
       "publicResourcesVerified": true,
-      "localInteractionVerified": true
+      "localInteractionVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "expediente",
       "path": "/expediente",
       "implemented": true,
       "printReady": false,
-      "scene": "autónoma; publicada en GitHub Pages",
+      "scene": "autónoma; publicada en GitHub Pages con guía",
       "qrGenerated": true,
       "qrUrl": "https://antonio-segura-abogados.github.io/#/expediente?tour=1",
       "qrSvg": "generados/expediente.svg",
@@ -47,9 +50,10 @@
       "guided": true,
       "decodedFromPageRaster": true,
       "published": true,
-      "publishedCommit": "36f85d35e503ccc94d015d7dd96320924cce6757",
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
       "publicResourcesVerified": true,
-      "localInteractionVerified": true
+      "localInteractionVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "documentos",
@@ -60,11 +64,14 @@
       "qrUrl": "https://antonio-segura-abogados.github.io/#/documentos?tour=1",
       "qrSvg": "generados/documentos.svg",
       "qrDecoded": true,
-      "published": false,
+      "published": true,
       "guided": true,
       "localInteractionVerified": true,
-      "scene": "autónoma; implementación local verificada; publicación pendiente",
-      "decodedFromPageRaster": true
+      "scene": "autónoma; publicada en GitHub Pages con guía",
+      "decodedFromPageRaster": true,
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
+      "publicResourcesVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "consultas",
@@ -75,18 +82,21 @@
       "qrUrl": "https://antonio-segura-abogados.github.io/#/consultas?tour=1",
       "qrSvg": "generados/consultas.svg",
       "qrDecoded": true,
-      "published": false,
+      "published": true,
       "guided": true,
       "localInteractionVerified": true,
-      "scene": "autónoma; implementación local verificada; publicación pendiente",
-      "decodedFromPageRaster": true
+      "scene": "autónoma; publicada en GitHub Pages con guía",
+      "decodedFromPageRaster": true,
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
+      "publicResourcesVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "paso-documentacion",
       "path": "/expediente/pasos/documentacion",
       "implemented": true,
       "printReady": false,
-      "scene": "autónoma; publicada en GitHub Pages",
+      "scene": "autónoma; publicada en GitHub Pages con guía",
       "qrGenerated": true,
       "qrUrl": "https://antonio-segura-abogados.github.io/#/expediente/pasos/documentacion?tour=1",
       "qrSvg": "generados/paso-documentacion.svg",
@@ -94,9 +104,10 @@
       "guided": true,
       "decodedFromPageRaster": true,
       "published": true,
-      "publishedCommit": "36f85d35e503ccc94d015d7dd96320924cce6757",
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
       "publicResourcesVerified": true,
-      "localInteractionVerified": true
+      "localInteractionVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "opciones",
@@ -104,16 +115,17 @@
       "implemented": true,
       "guided": true,
       "printReady": false,
-      "scene": "autónoma; publicada en GitHub Pages",
+      "scene": "autónoma; publicada en GitHub Pages con guía",
       "qrGenerated": true,
       "qrDecoded": true,
       "qrUrl": "https://antonio-segura-abogados.github.io/#/opciones?tour=1",
       "qrSvg": "generados/opciones.svg",
       "decodedFromPageRaster": true,
       "published": true,
-      "publishedCommit": "36f85d35e503ccc94d015d7dd96320924cce6757",
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
       "publicResourcesVerified": true,
-      "localInteractionVerified": true
+      "localInteractionVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "planes",
@@ -121,16 +133,17 @@
       "implemented": true,
       "guided": true,
       "printReady": false,
-      "scene": "autónoma; publicada en GitHub Pages",
+      "scene": "autónoma; publicada en GitHub Pages con guía",
       "qrGenerated": true,
       "qrDecoded": true,
       "qrUrl": "https://antonio-segura-abogados.github.io/#/planes?tour=1",
       "qrSvg": "generados/planes.svg",
       "decodedFromPageRaster": true,
       "published": true,
-      "publishedCommit": "36f85d35e503ccc94d015d7dd96320924cce6757",
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
       "publicResourcesVerified": true,
-      "localInteractionVerified": true
+      "localInteractionVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "originales",
@@ -138,14 +151,17 @@
       "implemented": true,
       "guided": true,
       "printReady": false,
-      "published": false,
+      "published": true,
       "localInteractionVerified": true,
-      "scene": "autónoma; implementación local verificada; publicación pendiente",
+      "scene": "autónoma; publicada en GitHub Pages con guía",
       "qrGenerated": true,
       "qrDecoded": true,
       "qrUrl": "https://antonio-segura-abogados.github.io/#/originales?tour=1",
       "qrSvg": "generados/originales.svg",
-      "decodedFromPageRaster": true
+      "decodedFromPageRaster": true,
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
+      "publicResourcesVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "practica",
@@ -153,14 +169,17 @@
       "implemented": true,
       "guided": true,
       "printReady": false,
-      "published": false,
+      "published": true,
       "localInteractionVerified": true,
-      "scene": "autónoma; implementación local verificada; publicación pendiente",
+      "scene": "autónoma; publicada en GitHub Pages con guía",
       "qrGenerated": true,
       "qrDecoded": true,
       "qrUrl": "https://antonio-segura-abogados.github.io/#/practica?tour=1",
       "qrSvg": "generados/practica.svg",
-      "decodedFromPageRaster": true
+      "decodedFromPageRaster": true,
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
+      "publicResourcesVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "configurador",
@@ -168,14 +187,17 @@
       "implemented": true,
       "guided": true,
       "printReady": false,
-      "published": false,
+      "published": true,
       "localInteractionVerified": true,
-      "scene": "autónoma; implementación local verificada; publicación pendiente",
+      "scene": "autónoma; publicada en GitHub Pages con guía",
       "qrGenerated": true,
       "qrDecoded": true,
       "qrUrl": "https://antonio-segura-abogados.github.io/#/gestion/rutas/residencia-demo?tour=1",
       "qrSvg": "generados/configurador.svg",
-      "decodedFromPageRaster": true
+      "decodedFromPageRaster": true,
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
+      "publicResourcesVerified": true,
+      "publicNavigationVerified": true
     },
     {
       "id": "cambios",
@@ -183,14 +205,17 @@
       "implemented": true,
       "guided": true,
       "printReady": false,
-      "published": false,
+      "published": true,
       "localInteractionVerified": true,
-      "scene": "autónoma; implementación local verificada; publicación pendiente",
+      "scene": "autónoma; publicada en GitHub Pages con guía",
       "qrGenerated": true,
       "qrDecoded": true,
       "qrUrl": "https://antonio-segura-abogados.github.io/#/gestion/cambios?tour=1",
       "qrSvg": "generados/cambios.svg",
-      "decodedFromPageRaster": true
+      "decodedFromPageRaster": true,
+      "publishedCommit": "1099bfbc2d9bb3431ff8435043d7249d4a053dbb",
+      "publicResourcesVerified": true,
+      "publicNavigationVerified": true
     }
   ],
   "external": [

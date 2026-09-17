@@ -99,3 +99,12 @@ Referencias consultadas el 14-09-2026:
 [base relativa de Vite](https://vite.dev/guide/build#relative-base),
 [assets de Vite](https://vite.dev/guide/assets) y
 [HashRouter](https://reactrouter.com/api/declarative-routers/HashRouter).
+
+## Presentación publicada y comprobada
+
+Primera compilación automática completada desde `1099bfb`. La
+[prueba en la URL pública](diseno/presentacion/VERIFICACION-PUBLICA.json) recorre
+las 24 páginas, descarga el PDF, prueba índice/teclado/ampliación y abre las
+16 escenas con su guía. Anchos de 320, 390, 768 y 1440 px; sin errores JS ni
+recursos fallidos. El PDF publicado conserva exactamente el render, texto y
+enlaces del local; los hashes binarios pueden diferir entre macOS y Linux.

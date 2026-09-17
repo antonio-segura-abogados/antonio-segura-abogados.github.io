@@ -37,7 +37,9 @@ URL pública: `https://antonio-segura-abogados.github.io/`. Publicación desde
 **GitHub Actions**, tras sustituir la publicación antigua desde `main → /docs`.
 Cada push a `main` compila las variantes seleccionadas, el librito y la web.
 La home muestra las 24 páginas; `/demos` reúne las 16 escenas.
-Pruebas locales del visor y las escenas superadas; primer despliegue automático en comprobación.
+Primera compilación y publicación automáticas completadas y verificadas en la URL pública: 24 páginas, descarga PDF y 16 escenas con guía.
+[Comprobación pública](vertical/diseno/presentacion/VERIFICACION-PUBLICA.json) ·
+[Workflow verificado](https://github.com/antonio-segura-abogados/antonio-segura-abogados.github.io/actions/runs/35179389212).
 
 ```text
 as-abogados/
@@ -109,7 +111,7 @@ La portada elegida sigue siendo la **03 diagonal**. Pol ha aprobado la direcció
 de la [apertura 01–03](librito/muestras/01-03-apertura/README.md) con
 «EXCELENTE. ESTE ES EL CAMINO. Sigue así». Las páginas 2–3 se conservan como base.
 Pol ha aprobado también la línea de **4–5: cadena de valor y oportunidad** con
-«Bien, continua en esta linea». Los PDF 1–5 permanecen intactos.
+«Bien, continua en esta linea». El diseño de las páginas 1–5 se conserva.
 Se han desarrollado después **6–7: referente Campmany y modelo operativo**,
 pendientes de revisión. La [muestra 06–07](librito/muestras/06-07-modelo/README.md)
 incluye la pareja enfrentada y las siete primeras páginas en orden.
@@ -124,7 +126,7 @@ cambios, beneficios, puesta en marcha, CV, fotos y contraportada.
 La [tanda 14–24](librito/muestras/14-24-cierre/README.md) contiene el
 **[librito completo de 24 páginas](librito/librito-final.pdf)**,
 las once páginas nuevas y cinco parejas enfrentadas. Cada página conserva
-instrucciones, texto editable y exportaciones. Las páginas 01–13 siguen intactas.
+instrucciones, texto editable y exportaciones. Las páginas 01–13 conservan su diseño.
 
 **Corrección posterior en 6–7:** Pol pide recursos visuales reales de Campmany.
 La página 6 usa ahora la variante 02 con logo e ilustración oficiales descargados;
@@ -348,7 +350,7 @@ teclado, miniaturas, índice, ampliación y texto accesible, sin incrustar un vi
   El PDF del informe se ha verificado como documento legible de 57 páginas.
 - Tanda **14–24** completa: once páginas nuevas y PDF de **24 páginas A5**.
   CV desde LinkedIn, fotos originales y mapa vectorial de España documentados.
-  Los PDF anteriores permanecen intactos. Revisión de Pol pendiente en 06–24.
+  Las muestras anteriores se conservan. Revisión de Pol pendiente en 06–24.
 - Verificación: TypeScript/build, 16 URLs a 320/390 px y pruebas de las
   interacciones. Se usó Chrome con perfil temporal al no haber navegador
   integrado conectado. Puntuación/repaso, revisión documental, logística,
@@ -357,6 +359,13 @@ teclado, miniaturas, índice, ampliación y texto accesible, sin incrustar un vi
 - PDF revisado visualmente: tamaño, fuentes, imágenes, parejas y contacto.
   Trece QR leídos desde el PDF completo y desde los PNG de registro.
   La prueba física y la preparación de sangrado para imprenta quedan pendientes.
+
+- Presentación completa publicada en la home, sin visor PDF insertado. Selección
+  de variantes en `librito/seleccion.json`, `index.pdf`/`index.png` por carpeta
+  y PDF final compilado. Actions ejecuta la compilación en cada push a `main`;
+  verificado el primer despliegue (`1099bfb`). Navegación pública comprobada a
+  320, 390, 768 y 1440 px, con carga de 24 páginas y 16 escenas con sus guías.
+  El PDF de Actions conserva visualmente las 24 páginas, textos y enlaces del local.
 
 ## Próximos pasos
 

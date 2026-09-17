@@ -35,7 +35,7 @@ Los trece PNG y los trece QR del PDF completo se han decodificado con Apple
 Vision y coinciden con sus destinos. Páginas 3, 9–19 y 24; códigos de 27–28 mm.
 [Registro de comprobación](VERIFICACION.json).
 
-Antes de imprimir la tirada: publicar las escenas correspondientes, comprobar
-cada URL en un móvil y con recarga, y escanear una prueba física a tamaño real.
+La presentación y las 16 escenas ya están publicadas y comprobadas.
+Antes de imprimir la tirada, escanear una prueba física a tamaño real en un móvil.
 Conservar los destinos después de imprimir. No sustituir enlaces por códigos
 visualmente decorativos ni anunciar como publicada una ruta solo porque exista su QR.
