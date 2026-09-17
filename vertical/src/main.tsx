@@ -5,6 +5,7 @@ import { App } from './App';
 import favicon from '../../recursos-compartidos/assets/marca/favicon.png';
 import '../../recursos-compartidos/estilos/base.css';
 import './app.css';
+import './product.css';
 
 document.querySelector<HTMLLinkElement>('link[rel="icon"]')!.href = favicon;
 

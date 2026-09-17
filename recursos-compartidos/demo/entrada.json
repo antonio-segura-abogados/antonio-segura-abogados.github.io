@@ -1,0 +1,42 @@
+{
+  "persona": "Lucía",
+  "fechaReferencia": "2026-09-17",
+  "perfil": { "origen": "Colombia", "llegada": "2022-05-01", "residenciaLegal": "2023-07-01", "vinculo": "No" },
+  "objetivos": ["Solicitar la nacionalidad", "Gestionar mi residencia", "Traer a mi familia"],
+  "opciones": [
+    {
+      "id": "nacionalidad",
+      "titulo": "Nacionalidad por residencia",
+      "estado": "A estudiar",
+      "resumen": "Revisar tu residencia legal y el resto de requisitos.",
+      "detalle": "El equipo comprobaría la duración y continuidad de tu residencia legal, tu documentación y los demás requisitos antes de confirmar la vía.",
+      "pasos": ["Revisión inicial del caso", "Preparación de documentos y pruebas aplicables", "Revisión jurídica y presentación", "Seguimiento de la resolución"],
+      "nota": "El plazo de residencia exigido depende del supuesto. No es el tiempo de resolución.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763#art22"
+    },
+    {
+      "id": "residencia",
+      "titulo": "Revisar mi residencia",
+      "estado": "Complementaria",
+      "resumen": "Comprobar la autorización actual y sus próximas fechas.",
+      "detalle": "Esta revisión atiende a tu situación de residencia. No es otra forma de obtener la nacionalidad ni sustituye la revisión de sus requisitos.",
+      "pasos": ["Identificar la autorización actual", "Revisar sus fechas y condiciones", "Valorar si corresponde alguna gestión"],
+      "nota": "La gestión concreta se definiría tras revisar el caso."
+    },
+    {
+      "id": "valoracion",
+      "titulo": "Valoración individual",
+      "estado": "Faltan datos",
+      "resumen": "Resolver dudas que necesitan el criterio de un abogado.",
+      "detalle": "Si no conoces una fecha o tu situación no encaja en las preguntas, el equipo recibe el contexto y las dudas pendientes.",
+      "pasos": ["Recoger las dudas pendientes", "Revisión por un especialista", "Propuesta de siguientes pasos"],
+      "nota": "La entrevista prepara el caso; el abogado valora las alternativas."
+    }
+  ],
+  "planes": [
+    { "id": "esencial", "nombre": "Esencial", "mensualCentimos": 1900, "anualCentimos": 19000, "descripcion": "Organiza tu proceso", "incluye": ["Ruta y seguimiento", "Documentos e instrucciones", "Práctica del examen"] },
+    { "id": "acompanado", "nombre": "Acompañado", "mensualCentimos": 2900, "anualCentimos": 29000, "descripcion": "Con el equipo más cerca", "incluye": ["Todo lo de Esencial", "Consultas escritas", "Dos videollamadas al año"] }
+  ],
+  "precioNota": "Precios ficticios, IVA incluido. Trámites, tasas y gastos externos se presupuestan aparte.",
+  "nota": "Caso ficticio. Las opciones son ejemplos para revisión profesional, no una decisión de elegibilidad."
+}
