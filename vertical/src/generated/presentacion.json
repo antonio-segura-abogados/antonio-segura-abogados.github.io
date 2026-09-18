@@ -1,8 +1,8 @@
 {
   "titulo": "Quiero ser vuestro director tecnológico",
   "autor": "Pol Surriel",
-  "version": "663cc88c8e48",
-  "pdf": "librito-663cc88c8e48.pdf",
+  "version": "9bcf9736290a",
+  "pdf": "librito-9bcf9736290a.pdf",
   "slides": [
     {
       "numero": 1,
@@ -109,8 +109,8 @@
       "numero": 9,
       "titulo": "Cada caso empieza por escuchar.",
       "capitulo": "La propuesta",
-      "imagen": "09-0aa51423c09e.webp",
-      "miniatura": "mini-09-0aa51423c09e.webp",
+      "imagen": "09-3e24bcc7c0ed.webp",
+      "miniatura": "mini-09-3e24bcc7c0ed.webp",
       "ancho": 1680,
       "alto": 1184,
       "texto": "01 / ENTENDER\nCada caso empieza\npor escuchar.\nUna entrevista guiada recogería el objetivo y el\ncontexto antes de dedicar tiempo jurídico a valorar\nel caso.\nEl abogado recibe un resumen listo\npara revisar.\nDemo interactiva\nPrueba la entrevista\nResponde, corrige y consulta el resumen.\nDatos ficticios\nCONOCER LA SITUACIÓN PARA PLANTEAR LAS OPCIONES.\n09",
@@ -207,23 +207,22 @@
       "numero": 16,
       "titulo": "Un poco cada día.",
       "capitulo": "El acompañamiento",
-      "imagen": "16-c56aea90458d.webp",
-      "miniatura": "mini-16-c56aea90458d.webp",
+      "imagen": "16-5f9833e2c38f.webp",
+      "miniatura": "mini-16-5f9833e2c38f.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "04 / ACOMPAÑAR\nUn poco\ncada día.\nDel manual a una rutina: preguntas breves,\nexplicación al instante y repaso de los errores dentro\ndel acompañamiento.\nPracticar.\nEntender.\nVolver a intentarlo.\nPreguntas propias basadas en el manual CCSE 2026. El Instituto Cervantes también\nofrece práctica gratuita.\nDemo interactiva\nPrueba una sesión\nCinco preguntas, puntos y repaso de errores.\nDatos ficticios\nLa tecnología ayuda a avanzar; el equipo sigue estando cerca.\n16",
+      "texto": "04 / ACOMPAÑAR\nUn poco\ncada día.\nUna rutina de estudio\ndentro del\nacompañamiento:\nelegir cómo practicar,\navanzar por el temario y\naprender de cada\nrespuesta.\n01 / ELIGE\n02 / AVANZA\n03 / PRACTICA\nDemo interactiva\nManual CCSE 2026. El Instituto Cervantes también\nofrece práctica gratuita.\nLa tecnología ayuda a avanzar; el equipo sigue estando cerca.\n16",
       "enlaces": [
-        "https://examenes.cervantes.es/sites/default/files/manual-ccse-2026-def.pdf",
         "https://antonio-segura-abogados.github.io/#/practica?tour=1"
       ],
-      "variante": "01-habito"
+      "variante": "02-tres-momentos"
     },
     {
       "numero": 17,
       "titulo": "Una consulta, con todo el contexto.",
       "capitulo": "El acompañamiento",
-      "imagen": "17-12a0079a43bd.webp",
-      "miniatura": "mini-17-12a0079a43bd.webp",
+      "imagen": "17-683b58bf867f.webp",
+      "miniatura": "mini-17-683b58bf867f.webp",
       "ancho": 1680,
       "alto": 1184,
       "texto": "04 / ACOMPAÑAR\nUna consulta,\ncon todo el contexto.\nLa conversación empieza con el expediente a mano y\ntermina con próximos pasos claros. Por escrito o por\nvideollamada, en el mismo espacio.\nMensaje y documentos.\nCita y conversación.\nResumen y siguiente paso.\nDemo interactiva\nEntra en la consulta\nMensaje, cita y sala de ejemplo.\nDatos ficticios\nPara sostener esta experiencia, el despacho necesita poder adaptar el proceso.\n17",

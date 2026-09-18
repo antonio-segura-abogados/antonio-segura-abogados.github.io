@@ -3,7 +3,9 @@
 Implementación local del 18-09-2026, según las indicaciones de Pol después de
 preparar el [banco de 300 preguntas](../../../recursos-compartidos/ccse/README.md).
 URL conservada: `/#/practica`. Esta revisión sigue pendiente de publicación.
-Las capturas del librito no incorporan todavía la nueva familia de iconos.
+Las capturas del librito se renovaron el 18-09-2026. Pol aprobó y seleccionó
+`02-tres-momentos` para la página 16: entrada actual, ruta con su icono de
+sección y una respuesta comprobada. `01-habito` se conserva como alternativa.
 La mejora detallada de la UX de los
 cuestionarios y del examen queda para la siguiente fase con Pol.
 

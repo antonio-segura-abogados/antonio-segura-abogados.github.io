@@ -1,0 +1,12 @@
+{
+  "titulo": "Un poco cada día.",
+  "intro": "Una rutina de estudio dentro del acompañamiento: elegir cómo practicar, avanzar por el temario y aprender de cada respuesta.",
+  "capturas": [
+    { "archivo": "16-practica.png", "titulo": "01 / ELIGE" },
+    { "archivo": "16-practica-ruta.png", "titulo": "02 / AVANZA" },
+    { "archivo": "16-practica-pregunta.png", "titulo": "03 / PRACTICA" }
+  ],
+  "nota": "Manual CCSE 2026. El Instituto Cervantes también ofrece práctica gratuita.",
+  "qr": "practica",
+  "puente": "La tecnología ayuda a avanzar; el equipo sigue estando cerca."
+}

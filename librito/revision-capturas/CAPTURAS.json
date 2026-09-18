@@ -1,0 +1,45 @@
+{
+  "fecha": "2026-09-18T02:27:26.331Z",
+  "base": "http://127.0.0.1:5173",
+  "navegador": "Chrome, perfil temporal limpio",
+  "capturas": [
+    {
+      "archivo": "08-13/08-objetivo.png",
+      "ruta": "#/entrevista?tour=1",
+      "estado": "Elección de objetivo",
+      "escala": 3
+    },
+    {
+      "archivo": "08-13/09-entrevista.png",
+      "ruta": "#/entrevista?tour=1",
+      "estado": "Primera pregunta, ubicación actual",
+      "escala": 3
+    },
+    {
+      "archivo": "14-19/16-practica.png",
+      "ruta": "#/practica",
+      "estado": "Entrada: preparación y cuatro modos",
+      "escala": 3
+    },
+    {
+      "archivo": "14-19/16-practica-ruta.png",
+      "ruta": "#/practica",
+      "estado": "Primera sección ilustrada y camino de aprendizaje",
+      "escala": 3
+    },
+    {
+      "archivo": "14-19/16-practica-pregunta.png",
+      "ruta": "#/practica",
+      "estado": "Respuesta correcta comprobada y racha de sesión",
+      "escala": 3
+    },
+    {
+      "archivo": "14-19/17-consultas.png",
+      "ruta": "#/consultas/sala-demo",
+      "estado": "Videollamada inmersiva con controles superpuestos",
+      "escala": 3
+    }
+  ],
+  "errores": [],
+  "entrevistaSinUrlVisible": true
+}

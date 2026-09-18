@@ -5,8 +5,8 @@
     210,
     148
   ],
-  "sha256Pdf": "663cc88c8e488b18216765d98e7530c571278b66865f05d09d250f3bc7a24cd8",
-  "versionWeb": "663cc88c8e48",
+  "sha256Pdf": "9bcf9736290ae9c9b6cc0625a66fd9d8c9f3221a6f9aac0e7c972458d50b7268",
+  "versionWeb": "9bcf9736290a",
   "pdf": "librito-final.pdf",
   "salidaWeb": "../vertical/public/presentacion",
   "variantes": [
@@ -70,8 +70,8 @@
       "pagina": 9,
       "carpeta": "09-entrevista",
       "variante": "01-conversacion",
-      "sha256Pdf": "603013ae5bad8756f4bb18a6fa89f5c50bf8c9a245ab78527f75996fa5a2de07",
-      "sha256Png": "0aa51423c09e4fe84e706d48e8377860718bbb97a0ebf9c82d69244a94025361"
+      "sha256Pdf": "637cc501d0be0e40e905af0f9dc78c318a51f7204bc7d67cd9c007e503bc3847",
+      "sha256Png": "3e24bcc7c0ed5b4d29907b769ed4dfbc8749d938f1c3764d025f0abf340a478c"
     },
     {
       "pagina": 10,
@@ -118,16 +118,16 @@
     {
       "pagina": 16,
       "carpeta": "16-practica",
-      "variante": "01-habito",
-      "sha256Pdf": "de287c969dc4c7c43d328c69ea24aee22ba3459869aeac5cbab2390c9069927a",
-      "sha256Png": "c56aea90458dea511cb0599ce309df0dd16f8aa64a144c1d69d5b374bd1edf29"
+      "variante": "02-tres-momentos",
+      "sha256Pdf": "3af7d28be8b01bb27d41d0bbbc0d995176a7d5ba90e1e69c3d259e9e522b49c5",
+      "sha256Png": "5f9833e2c38fa170eaf299f2ceaf864a1edf3c2e0179a28b29fef8a6b3479636"
     },
     {
       "pagina": 17,
       "carpeta": "17-consultas",
       "variante": "01-conversacion",
-      "sha256Pdf": "2a0a6540530967770885966b33d28fe3f932261bdcb51503106f4a74dd2d3825",
-      "sha256Png": "12a0079a43bd2e67b18c1ea18019423a9afbbfa3592c9df89435beafb91cdfb8"
+      "sha256Pdf": "173d5a30c4a1695421be7b34c089329b66a1b7fd7bcc5e08383e4c07d08c2b8b",
+      "sha256Png": "683b58bf867f18cfee6f5d0c51bacf7b7a9de99361e785e8a97f0e2c4aaa2348"
     },
     {
       "pagina": 18,

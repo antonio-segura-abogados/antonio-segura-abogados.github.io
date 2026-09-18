@@ -1,0 +1,58 @@
+{
+  "fecha": "2026-09-18T02:32:40.664Z",
+  "base": "http://127.0.0.1:5173",
+  "paginas": [
+    {
+      "numero": 8,
+      "width": 1440,
+      "imagen": "08-8a95ab03e9bd.webp",
+      "coincideConCompilacion": true
+    },
+    {
+      "numero": 9,
+      "width": 1440,
+      "imagen": "09-3e24bcc7c0ed.webp",
+      "coincideConCompilacion": true
+    },
+    {
+      "numero": 16,
+      "width": 1440,
+      "imagen": "16-5f9833e2c38f.webp",
+      "coincideConCompilacion": true
+    },
+    {
+      "numero": 17,
+      "width": 1440,
+      "imagen": "17-683b58bf867f.webp",
+      "coincideConCompilacion": true
+    },
+    {
+      "numero": 8,
+      "width": 390,
+      "imagen": "08-8a95ab03e9bd.webp",
+      "coincideConCompilacion": true
+    },
+    {
+      "numero": 9,
+      "width": 390,
+      "imagen": "09-3e24bcc7c0ed.webp",
+      "coincideConCompilacion": true
+    },
+    {
+      "numero": 16,
+      "width": 390,
+      "imagen": "16-5f9833e2c38f.webp",
+      "coincideConCompilacion": true
+    },
+    {
+      "numero": 17,
+      "width": 390,
+      "imagen": "17-683b58bf867f.webp",
+      "coincideConCompilacion": true
+    }
+  ],
+  "pdf": "librito-9bcf9736290a.pdf",
+  "sha256Pdf": "9bcf9736290ae9c9b6cc0625a66fd9d8c9f3221a6f9aac0e7c972458d50b7268",
+  "variante16": "02-tres-momentos",
+  "errores": []
+}

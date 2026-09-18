@@ -698,6 +698,23 @@ Dos QR decodificados desde el PDF a 300 ppp; composición revisada.
 
 ## Selección y renders vigentes
 
+El 18-09-2026, por petición de Pol, se recapturan las escenas de las páginas
+**8, 9, 16 y 17** desde el servidor local. La entrevista ya no mostraba la URL
+como texto; la captura de inicio de la 8 resulta idéntica a la vigente. La 9
+muestra la primera pregunta con ubicación seleccionada; la 16 incorpora la
+entrada actual de práctica y la 17 la videollamada inmersiva. Se conservan los
+textos y composiciones de las cuatro variantes seleccionadas.
+
+Creada además la [variante 02 de la página 16](librito/slides/16-practica/variantes/02-tres-momentos/README.md),
+con tres capturas reales: entrada, ruta ilustrada y respuesta comprobada.
+**Aprobada y seleccionada después por Pol**: «la versión con 3 capturas me gusta
+más». `02-tres-momentos` alimenta ahora el index, el librito y el visor;
+`01-habito` se conserva como alternativa anterior. Regenerados el PDF de 24 páginas y los recursos
+web. Comprobados el visor local a 1440/390 px, los archivos servidos y la igualdad
+del PDF descargable con el final, además de TypeScript/build y composición visual.
+[Procedencia y verificación](librito/revision-capturas/README.md).
+Publicación pendiente.
+
 El 18-09-2026, por petición de Pol, se sustituye literalmente la introducción de
 la diapositiva 15 por el texto sobre automatizar la logística y simplificar la
 entrega del original. Regenerados la página, el PDF final y los recursos del

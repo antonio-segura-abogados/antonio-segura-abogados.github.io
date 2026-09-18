@@ -1,0 +1,25 @@
+{
+  "paginas": 24,
+  "paginasConRenderDistinto": [
+    9,
+    16,
+    17
+  ],
+  "pagina8": "Recapturada: idéntica a la versión vigente, ya sin URL visible.",
+  "textosYEnlacesConservados": [
+    8,
+    9,
+    17
+  ],
+  "indexCoincideConPdf": true,
+  "variante16Alternativa": {
+    "imagenes": 3,
+    "seleccionada": true,
+    "tamanoMm": [
+      210,
+      148
+    ],
+    "aprobadaPorPol": true,
+    "indexYPdfCoinciden": true
+  }
+}

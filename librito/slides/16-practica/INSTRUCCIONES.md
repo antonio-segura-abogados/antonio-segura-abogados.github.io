@@ -52,3 +52,17 @@ Petición posterior de Pol: un `index.pdf` y un `index.png` en la raíz de cada
 diapositiva, como render de la variante elegida, y la presentación completa en
 la home del vertical. [Selección común](../../seleccion.json) y
 [compilador](../../COMPILAR.md). Los `index` se regeneran, no se editan a mano.
+
+## Revisión de capturas y alternativa · 18-09-2026
+
+Petición de Pol: actualizar la captura de la variante vigente sin cambiar su
+diseño y preparar un segundo diseño con tres capturas de `/practica`, sin activarlo.
+
+Implementado: `01-habito` muestra la entrada actual; sus textos y composición
+se conservan. [02-tres-momentos](variantes/02-tres-momentos/README.md) muestra
+entrada, ruta de aprendizaje y respuesta comprobada. Exportada a PDF y PNG.
+
+**Aprobación posterior de Pol:** «confirmo que la versión con 3 capturas me gusta
+más. Haz q sea la visible en el librito para la slide 16-practica».
+`02-tres-momentos` queda seleccionada en `seleccion.json`; index, PDF completo
+y visor local regenerados. La anterior se conserva.
