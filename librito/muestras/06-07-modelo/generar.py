@@ -129,7 +129,7 @@ def page7(p, data):
 
     # Cada fila explica una relación concreta, de cambio operativo a beneficio.
     for i, item in enumerate(data["mecanismos"]):
-        y = 218 + i * 57
+        y = (212, 264, 337)[i]
         p.text(f"{i+1:02d}", 43, y + 9, 24, "ExtraBold", BLUE, -.8)
         p.text(item["titulo"], 93, y, 12, "SemiBold")
         end_left = p.para(item["texto"], 93, y + 18, 210, 10.1, 12.4)
@@ -138,8 +138,14 @@ def page7(p, data):
         p.text(item["resultado"], 352, y + 2, 15.7, "ExtraBold", DARK, -.45)
         end_right = p.para(item["beneficio"], 352, y + 20, 207, 10.1, 12.4)
         assert max(end_left, end_right) <= y + 46, "Una relación necesita más altura"
+        if item.get("beneficioAdicional"):
+            # La comparación salarial complementa la capacidad y coordinación.
+            assert i == 1, "El complemento está previsto dentro del segundo mecanismo"
+            assert pdfmetrics.stringWidth(item["beneficioAdicional"], "Jakarta-Regular", 9.6) <= 466
+            p.text(item["beneficioAdicional"], 93, 313, 9.6, ink=MUTED)
         if i < 2:
-            p.line(93, y + 39, 559, y + 39, LINE, .6)
+            separator = 249 if i == 0 else 322
+            p.line(93, separator, 559, separator, LINE, .6)
 
     p.text(data["nota"], 43, 382, 8.5, ink=MUTED)
     common.footer(p, 7, data["puente"])

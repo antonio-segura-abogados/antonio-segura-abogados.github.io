@@ -12,8 +12,9 @@
     {
       "titulo": "Equipo distribuido",
       "texto": "Especialistas coordinados desde toda España.",
-      "resultado": "Menor coste salarial",
-      "beneficio": "Explorar salarios inferiores a los de Barcelona para perfiles equivalentes."
+      "resultado": "Más capacidad",
+      "beneficio": "Repartir la carga y asignar cada caso al perfil adecuado.",
+      "beneficioAdicional": "Además, explorar salarios inferiores a los de Barcelona para perfiles equivalentes."
     },
     {
       "titulo": "Procesos reutilizables",

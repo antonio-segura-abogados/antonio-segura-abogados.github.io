@@ -1,6 +1,6 @@
 # Qué podemos aprender de ese modelo
 
-Estado: **variante revisada en su punto 2, pendiente de revisión**, 17-09-2026. Página propuesta **7/24**;
+Estado: **punto 2 corregido: capacidad, coordinación y comparación salarial adicional; pendiente de revisión**, 18-09-2026. Página propuesta **7/24**;
 identificador estable `modelo-operativo`. Pareja enfrentada 6–7.
 Origen: **S04, argumentos de negocio**.
 
@@ -43,7 +43,8 @@ pendiente de revisión. Se desarrolla después de la 6, dentro de la dirección
 que Pol pide continuar.
 
 Tres relaciones causa y efecto: clientes a distancia → más mercado; equipo
-distribuido → menor coste salarial; procesos reutilizables → más tiempo jurídico.
+distribuido → más capacidad, con un posible ahorro salarial adicional; procesos
+reutilizables → más tiempo jurídico.
 El texto habla en primera persona de lo que Pol exploraría para AS y explicita
 la validación futura de demanda, costes y tiempo por expediente.
 
@@ -59,14 +60,25 @@ Esta corrección dio lugar a una versión centrada en capacidad y coordinación,
 sin comparación salarial. Se conserva como referencia histórica; la aclaración
 siguiente sustituye esa exclusión.
 
-## Última aclaración de Pol: incluir la comparación salarial
+## Aclaración anterior: incluir la comparación salarial
 
 > añade las comparaciones salariales a ese punto 2 porfavor.
 
-El punto 2 mantiene el equipo distribuido y añade **menor coste salarial** como
-beneficio buscado: «Explorar salarios inferiores a los de Barcelona para perfiles
-equivalentes». Se presenta como propuesta por validar, sin cifras inventadas.
-La pareja 6–7 y la lectura acumulada 1–7 incorporan esta versión.
+La primera interpretación sustituyó el beneficio de capacidad y coordinación
+por «Menor coste salarial». Pol corrige esta interpretación en la aclaración
+siguiente. Las muestras históricas 6–7 y 1–7 conservan aquella versión;
+el render vigente es `index.pdf` / `index.png` y el librito compilado.
+
+## Aclaración de Pol del 18-09-2026: añadir, sin sustituir
+
+> Cuando te dije que cambiases el punto 2 de la diapositiva 7, te dije que añadieras el tema del coste salarial, NO que reemplazaras todo el punto solo por ese aspecto conreto.
+
+Se recupera «Equipo distribuido → Más capacidad»: especialistas coordinados
+desde toda España, reparto de la carga y asignación de cada caso al perfil
+adecuado. Debajo, dentro del mismo punto, se añade «Además, explorar salarios
+inferiores a los de Barcelona para perfiles equivalentes». La comparación
+complementa el argumento operativo; no lo sustituye ni lo reduce al ahorro.
+No se inventan cifras. Se mantiene la validación de costes del pie de página.
 
 ## Render vigente y publicación
 
