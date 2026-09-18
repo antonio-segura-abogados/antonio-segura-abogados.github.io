@@ -312,6 +312,23 @@ teclado, miniaturas, índice, ampliación y texto accesible, sin incrustar un vi
 
 ## Estado actual
 
+**Publicación completa del 18-09-2026:** por petición de Pol, todos los cambios
+acumulados se han subido a `main` en el commit `b8c319e` y publicado en
+[GitHub Pages](https://antonio-segura-abogados.github.io/).
+El [despliegue de Actions](https://github.com/antonio-segura-abogados/antonio-segura-abogados.github.io/actions/runs/35299248570)
+ha terminado correctamente. Incluye las 24 páginas y su PDF, las nuevas variantes
+3 y 6, los QR y capturas vigentes, la lectura ampliada, la entrevista condicional,
+la práctica CCSE con iconos y rachas, las consultas y el CRM completo.
+Comprobados `npm run build:pages`, las ocho pruebas de práctica y los 41 casos
+y 7.776 cruces de entrevista. Verificados en la URL pública la presentación,
+la ampliación, el catálogo del CRM, la práctica y la entrevista; descarga del
+PDF actual con HTTP 200.
+
+Las menciones a «publicación pendiente» en las notas anteriores de este README
+y los documentos de cada área describen el estado previo a este despliegue y
+quedan resueltas para lo implementado. La publicación no cambia las revisiones
+editoriales pendientes, las capturas que aún deban actualizarse ni la prueba física.
+
 **Aclaración de Pol, 18-09-2026, página 7:** la comparación salarial debía
 añadirse al argumento del equipo distribuido. El punto 2 recupera coordinación
 de especialistas, reparto de carga y asignación de cada caso al perfil adecuado;
