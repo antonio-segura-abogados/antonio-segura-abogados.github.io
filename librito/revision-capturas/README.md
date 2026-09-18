@@ -27,7 +27,10 @@ La variante anterior permanece en su carpeta.
 Revisión visual del PDF final y la alternativa completada; TypeScript/Vite
 correctos. QR de la alternativa decodificado desde su render con Apple Vision:
 `https://antonio-segura-abogados.github.io/#/practica?tour=1`.
-No se alteran las muestras históricas ni se publica esta revisión.
+No se alteran las muestras históricas. Esta revisión se publicó después por
+petición de Pol, junto con la selección de `02-tres-momentos`, en el commit
+`2308a59`. [Despliegue completado](https://github.com/antonio-segura-abogados/antonio-segura-abogados.github.io/actions/runs/35299970858)
+y página 16 comprobada visualmente en la web pública.
 
 Desde `as-abogados/`, con Playwright externo y Chrome como en las otras revisiones:
 

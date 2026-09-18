@@ -312,6 +312,15 @@ teclado, miniaturas, índice, ampliación y texto accesible, sin incrustar un vi
 
 ## Estado actual
 
+**Segunda publicación del 18-09-2026:** incorporados los cambios terminados en
+paralelo al primer despliegue, en el commit `2308a59`. El
+[nuevo despliegue](https://github.com/antonio-segura-abogados/antonio-segura-abogados.github.io/actions/runs/35299970858)
+ha finalizado correctamente tras recompilar las 24 páginas y la web.
+Incluye las capturas renovadas de 9 y 17 y la variante aprobada
+`02-tres-momentos` de la página 16. Verificada visualmente en la URL pública la
+página 16 con sus tres móviles; el visor enlaza el nuevo PDF
+`librito-4215cf26bd43.pdf`.
+
 **Publicación completa del 18-09-2026:** por petición de Pol, todos los cambios
 acumulados se han subido a `main` en el commit `b8c319e` y publicado en
 [GitHub Pages](https://antonio-segura-abogados.github.io/).
@@ -713,7 +722,7 @@ más». `02-tres-momentos` alimenta ahora el index, el librito y el visor;
 web. Comprobados el visor local a 1440/390 px, los archivos servidos y la igualdad
 del PDF descargable con el final, además de TypeScript/build y composición visual.
 [Procedencia y verificación](librito/revision-capturas/README.md).
-Publicación pendiente.
+Publicada y verificada en el segundo despliegue del 18-09-2026 (`2308a59`).
 
 El 18-09-2026, por petición de Pol, se sustituye literalmente la introducción de
 la diapositiva 15 por el texto sobre automatizar la logística y simplificar la
