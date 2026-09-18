@@ -1,0 +1,1628 @@
+{
+  "fecha": "2026-09-18",
+  "resultado": "correcto",
+  "casos": [
+    {
+      "caso": "Nacionalidad de residente temporal",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Turista con otra solicitud pendiente",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "stayEnd",
+        "schengenTrips",
+        "application",
+        "applicationDate",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Visita terminada sin permiso anterior",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "stayEnd",
+        "schengenTrips",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Entrada irregular sin autorización",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Renovación pendiente con permiso vencido",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Permiso vencido sin renovar",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Estudiante que consulta nacionalidad",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "expiry",
+        "renewal",
+        "application",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Estudios vencidos con prórroga pendiente",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Larga duración con tarjeta vencida",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "cardExpiry",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Asilo pendiente",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Protección internacional concedida",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Protección temporal",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Protección desconocida no equivale a ninguna",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Llegada prevista desde otro país",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "application",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Residente español temporalmente fuera",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Doble nacionalidad europea con registro",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Europeo sin registro que consulta nacionalidad",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "euArrival",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Europeo con registro pendiente",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "euArrival",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Ciudadanía suiza",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "residenceNeed",
+        "family"
+      ]
+    },
+    {
+      "caso": "Ciudadanía británica con residencia Brexit",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Nacionalidad desconocida",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Apatridia",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Menor con residencia que consulta nacionalidad",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "guardian",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Menor sin autorización",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "guardian",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family"
+      ]
+    },
+    {
+      "caso": "Español que quiere traer a su hijo",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "relative",
+        "relativeLocation",
+        "relativeCountry",
+        "relativeNationality",
+        "relativeAge",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Residente que quiere traer a su hijo",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "relative",
+        "relativeLocation",
+        "relativeCountry",
+        "relativeNationality",
+        "relativeAge",
+        "housing",
+        "familyIncome",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Familiar en el exterior que se reúne con español",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "application",
+        "protection",
+        "relative",
+        "relativeLocation",
+        "relativeNationality",
+        "relativeAge",
+        "dependency",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Ambos familiares ya en España",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "relative",
+        "relativeLocation",
+        "relativeNationality",
+        "relativeAge",
+        "relativeStatus",
+        "dependency",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Familia que quiere trasladarse desde el exterior",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "application",
+        "protection",
+        "relative",
+        "relativeLocation",
+        "relativeCountry",
+        "relativeNationality",
+        "relativeAge",
+        "dependency",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Parentesco aún por aclarar",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "relative",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Notificación urgente con fecha",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "noticeType",
+        "noticeDate",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Nacionalidad con varios vínculos",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext",
+        "marriageDate"
+      ]
+    },
+    {
+      "caso": "Nacido aquí que ha vivido siempre en España",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Nacido aquí que regresó desde el extranjero",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Entrada desde Schengen con permiso",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "entryDocument",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Varios grupos familiares sin selección excluyente",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "familyRelation",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Gestión solo de tarjeta",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "residenceNeed",
+        "family"
+      ]
+    },
+    {
+      "caso": "Español en gestión de residencia por error",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "spanishNeed"
+      ]
+    },
+    {
+      "caso": "Nacionalidad no incluida sin asignar régimen",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "nationalityDetails",
+        "age",
+        "notice",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Otra autorización y otro trámite",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "permitDetails",
+        "expiry",
+        "renewal",
+        "application",
+        "applicationDetails",
+        "applicationDate",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Residencia permanente anterior sin inferir extinción",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "previousType",
+        "previousCardExpiry",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Nacionalidad de residente temporal",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Turista con otra solicitud pendiente",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "stayEnd",
+        "schengenTrips",
+        "application",
+        "applicationDate",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Visita terminada sin permiso anterior",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "stayEnd",
+        "schengenTrips",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Entrada irregular sin autorización",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Renovación pendiente con permiso vencido",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Permiso vencido sin renovar",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Estudiante que consulta nacionalidad",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "expiry",
+        "renewal",
+        "application",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Estudios vencidos con prórroga pendiente",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Larga duración con tarjeta vencida",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "cardExpiry",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Asilo pendiente",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Protección internacional concedida",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Protección temporal",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Protección desconocida no equivale a ninguna",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Llegada prevista desde otro país",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "application",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Residente español temporalmente fuera",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Doble nacionalidad europea con registro",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Europeo sin registro que consulta nacionalidad",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "euArrival",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Europeo con registro pendiente",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "euArrival",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Ciudadanía suiza",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "residenceNeed",
+        "family"
+      ]
+    },
+    {
+      "caso": "Ciudadanía británica con residencia Brexit",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Nacionalidad desconocida",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Apatridia",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Menor con residencia que consulta nacionalidad",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "guardian",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Menor sin autorización",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "guardian",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family"
+      ]
+    },
+    {
+      "caso": "Español que quiere traer a su hijo",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "relative",
+        "relativeLocation",
+        "relativeCountry",
+        "relativeNationality",
+        "relativeAge",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Residente que quiere traer a su hijo",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "relative",
+        "relativeLocation",
+        "relativeCountry",
+        "relativeNationality",
+        "relativeAge",
+        "housing",
+        "familyIncome",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Familiar en el exterior que se reúne con español",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "application",
+        "protection",
+        "relative",
+        "relativeLocation",
+        "relativeNationality",
+        "relativeAge",
+        "dependency",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Ambos familiares ya en España",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "relative",
+        "relativeLocation",
+        "relativeNationality",
+        "relativeAge",
+        "relativeStatus",
+        "dependency",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Familia que quiere trasladarse desde el exterior",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "application",
+        "protection",
+        "relative",
+        "relativeLocation",
+        "relativeCountry",
+        "relativeNationality",
+        "relativeAge",
+        "dependency",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Parentesco aún por aclarar",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "relative",
+        "moreRelatives"
+      ]
+    },
+    {
+      "caso": "Notificación urgente con fecha",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "noticeType",
+        "noticeDate",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Nacionalidad con varios vínculos",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext",
+        "marriageDate"
+      ]
+    },
+    {
+      "caso": "Nacido aquí que ha vivido siempre en España",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Nacido aquí que regresó desde el extranjero",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ]
+    },
+    {
+      "caso": "Entrada desde Schengen con permiso",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "entryDocument",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Varios grupos familiares sin selección excluyente",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "familyRelation",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Gestión solo de tarjeta",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "residenceNeed",
+        "family"
+      ]
+    },
+    {
+      "caso": "Español en gestión de residencia por error",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "spanishNeed"
+      ]
+    },
+    {
+      "caso": "Nacionalidad no incluida sin asignar régimen",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "nationalityDetails",
+        "age",
+        "notice",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Otra autorización y otro trámite",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "permitDetails",
+        "expiry",
+        "renewal",
+        "application",
+        "applicationDetails",
+        "applicationDate",
+        "residenceNeed",
+        "family",
+        "activity"
+      ]
+    },
+    {
+      "caso": "Residencia permanente anterior sin inferir extinción",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "previousType",
+        "previousCardExpiry",
+        "family",
+        "activity"
+      ]
+    }
+  ],
+  "anchosSelectores": [
+    1440,
+    390,
+    320
+  ],
+  "comprobaciones": [
+    "Selector país, provincia y nacionalidades; tildes, teclado y selección múltiple",
+    "41 recorridos completos en ordenador y móvil",
+    "Resumen correcto y sin preguntas improcedentes",
+    "Edición atómica: cancelar, quitar/reponer selección y cambiar de rama",
+    "Conservación de respuestas válidas y preguntas nuevas pendientes",
+    "Fechas inválidas con explicación y avance deshabilitado",
+    "Dos acciones finales, confirmación simulada y reinicio",
+    "Sin desbordamiento horizontal ni errores JavaScript"
+  ],
+  "capturas": "/private/tmp/asa-auditoria-entrevista"
+}

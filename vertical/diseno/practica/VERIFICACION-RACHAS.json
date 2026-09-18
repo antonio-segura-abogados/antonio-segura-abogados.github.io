@@ -1,0 +1,15 @@
+{
+  "fecha": "2026-09-18T01:46:03.164Z",
+  "url": "http://127.0.0.1:5173",
+  "comprobaciones": [
+    "12 aciertos consecutivos; cinco intensidades crecientes y racha conservada al avanzar.",
+    "El fallo reinicia la racha y activa sacudida/destello rojo; el siguiente acierto inicia una nueva.",
+    "La racha desaparece fuera del cuestionario y empieza en cero al reabrir y recargar.",
+    "Sin desbordamientos a 320, 390 y 1100 px; capturas en cada ancho.",
+    "Movimiento reducido: acierto/fallo mantienen texto y color sin animaciones ni sacudidas.",
+    "Al completar el cuestionario desaparecen contador y efectos; la pantalla de resultados conserva su contenido.",
+    "Simulacro con corrección diferida intacta y respuesta correcta en consola al cambiar de pregunta."
+  ],
+  "errores": [],
+  "respuestasRegistradasEnConsola": 24
+}

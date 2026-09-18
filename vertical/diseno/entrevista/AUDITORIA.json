@@ -1,0 +1,861 @@
+{
+  "fecha": "2026-09-18",
+  "resultado": "correcto",
+  "casos": [
+    {
+      "caso": "Nacionalidad de residente temporal",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ],
+      "numero": 15
+    },
+    {
+      "caso": "Turista con otra solicitud pendiente",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "stayEnd",
+        "schengenTrips",
+        "application",
+        "applicationDate",
+        "residenceNeed",
+        "family",
+        "activity"
+      ],
+      "numero": 15
+    },
+    {
+      "caso": "Visita terminada sin permiso anterior",
+      "objetivo": "regularizar",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "stayEnd",
+        "schengenTrips",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ],
+      "numero": 17
+    },
+    {
+      "caso": "Entrada irregular sin autorización",
+      "objetivo": "regularizar",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ],
+      "numero": 15
+    },
+    {
+      "caso": "Renovación pendiente con permiso vencido",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ],
+      "numero": 16
+    },
+    {
+      "caso": "Permiso vencido sin renovar",
+      "objetivo": "regularizar",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "family",
+        "activity"
+      ],
+      "numero": 17
+    },
+    {
+      "caso": "Estudiante que consulta nacionalidad",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "expiry",
+        "renewal",
+        "application",
+        "nationalityContext"
+      ],
+      "numero": 12
+    },
+    {
+      "caso": "Estudios vencidos con prórroga pendiente",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ],
+      "numero": 16
+    },
+    {
+      "caso": "Larga duración con tarjeta vencida",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "cardExpiry",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ],
+      "numero": 13
+    },
+    {
+      "caso": "Asilo pendiente",
+      "objetivo": "regularizar",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "family",
+        "activity"
+      ],
+      "numero": 11
+    },
+    {
+      "caso": "Protección internacional concedida",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "nationalityContext"
+      ],
+      "numero": 10
+    },
+    {
+      "caso": "Protección temporal",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ],
+      "numero": 12
+    },
+    {
+      "caso": "Protección desconocida no equivale a ninguna",
+      "objetivo": "regularizar",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "family",
+        "activity"
+      ],
+      "numero": 12
+    },
+    {
+      "caso": "Llegada prevista desde otro país",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "application",
+        "protection",
+        "residenceNeed",
+        "family",
+        "activity"
+      ],
+      "numero": 11
+    },
+    {
+      "caso": "Residente español temporalmente fuera",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "nationalityContext"
+      ],
+      "numero": 12
+    },
+    {
+      "caso": "Doble nacionalidad europea con registro",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ],
+      "numero": 9
+    },
+    {
+      "caso": "Europeo sin registro que consulta nacionalidad",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "euArrival",
+        "nationalityContext"
+      ],
+      "numero": 8
+    },
+    {
+      "caso": "Europeo con registro pendiente",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "euArrival",
+        "residenceNeed",
+        "family",
+        "activity"
+      ],
+      "numero": 10
+    },
+    {
+      "caso": "Ciudadanía suiza",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "euRegistration",
+        "residenceNeed",
+        "family"
+      ],
+      "numero": 8
+    },
+    {
+      "caso": "Ciudadanía británica con residencia Brexit",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "residenceNeed",
+        "family",
+        "activity"
+      ],
+      "numero": 15
+    },
+    {
+      "caso": "Nacionalidad desconocida",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "nationalityContext"
+      ],
+      "numero": 6
+    },
+    {
+      "caso": "Apatridia",
+      "objetivo": "regularizar",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ],
+      "numero": 15
+    },
+    {
+      "caso": "Menor con residencia que consulta nacionalidad",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "guardian",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ],
+      "numero": 16
+    },
+    {
+      "caso": "Menor sin autorización",
+      "objetivo": "regularizar",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "guardian",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family"
+      ],
+      "numero": 15
+    },
+    {
+      "caso": "Español que quiere traer a su hijo",
+      "objetivo": "familia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "relative",
+        "relativeLocation",
+        "relativeCountry",
+        "relativeNationality",
+        "relativeAge",
+        "moreRelatives"
+      ],
+      "numero": 11
+    },
+    {
+      "caso": "Residente que quiere traer a su hijo",
+      "objetivo": "familia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "relative",
+        "relativeLocation",
+        "relativeCountry",
+        "relativeNationality",
+        "relativeAge",
+        "housing",
+        "familyIncome",
+        "moreRelatives"
+      ],
+      "numero": 20
+    },
+    {
+      "caso": "Familiar en el exterior que se reúne con español",
+      "objetivo": "familia",
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "application",
+        "protection",
+        "relative",
+        "relativeLocation",
+        "relativeNationality",
+        "relativeAge",
+        "dependency",
+        "moreRelatives"
+      ],
+      "numero": 14
+    },
+    {
+      "caso": "Ambos familiares ya en España",
+      "objetivo": "familia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "relative",
+        "relativeLocation",
+        "relativeNationality",
+        "relativeAge",
+        "relativeStatus",
+        "dependency",
+        "moreRelatives"
+      ],
+      "numero": 19
+    },
+    {
+      "caso": "Familia que quiere trasladarse desde el exterior",
+      "objetivo": "familia",
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "notice",
+        "status",
+        "application",
+        "protection",
+        "relative",
+        "relativeLocation",
+        "relativeCountry",
+        "relativeNationality",
+        "relativeAge",
+        "dependency",
+        "moreRelatives"
+      ],
+      "numero": 15
+    },
+    {
+      "caso": "Parentesco aún por aclarar",
+      "objetivo": "familia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "relative",
+        "moreRelatives"
+      ],
+      "numero": 14
+    },
+    {
+      "caso": "Notificación urgente con fecha",
+      "objetivo": "regularizar",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "noticeType",
+        "noticeDate",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity"
+      ],
+      "numero": 17
+    },
+    {
+      "caso": "Nacionalidad con varios vínculos",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext",
+        "marriageDate"
+      ],
+      "numero": 16
+    },
+    {
+      "caso": "Nacido aquí que ha vivido siempre en España",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ],
+      "numero": 14
+    },
+    {
+      "caso": "Nacido aquí que regresó desde el extranjero",
+      "objetivo": "nacionalidad",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "legalStart",
+        "absences",
+        "nationalityContext"
+      ],
+      "numero": 15
+    },
+    {
+      "caso": "Entrada desde Schengen con permiso",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "entryDocument",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "residenceNeed",
+        "family",
+        "activity"
+      ],
+      "numero": 16
+    },
+    {
+      "caso": "Varios grupos familiares sin selección excluyente",
+      "objetivo": "regularizar",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "familyRelation",
+        "activity"
+      ],
+      "numero": 16
+    },
+    {
+      "caso": "Gestión solo de tarjeta",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "application",
+        "residenceNeed",
+        "family"
+      ],
+      "numero": 14
+    },
+    {
+      "caso": "Español en gestión de residencia por error",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "spanishNeed"
+      ],
+      "numero": 6
+    },
+    {
+      "caso": "Nacionalidad no incluida sin asignar régimen",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "nationalityDetails",
+        "age",
+        "notice",
+        "residenceNeed",
+        "family",
+        "activity"
+      ],
+      "numero": 9
+    },
+    {
+      "caso": "Otra autorización y otro trámite",
+      "objetivo": "residencia",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "permitDetails",
+        "expiry",
+        "renewal",
+        "application",
+        "applicationDetails",
+        "applicationDate",
+        "residenceNeed",
+        "family",
+        "activity"
+      ],
+      "numero": 18
+    },
+    {
+      "caso": "Residencia permanente anterior sin inferir extinción",
+      "objetivo": "regularizar",
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "notice",
+        "entry",
+        "arrival",
+        "status",
+        "application",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "previousType",
+        "previousCardExpiry",
+        "family",
+        "activity"
+      ],
+      "numero": 17
+    }
+  ],
+  "combinaciones": 7776,
+  "validaciones": [
+    "Orden causal de las preguntas durante cada recorrido",
+    "Ausencia de preguntas duplicadas y opciones repetidas",
+    "Edición conserva datos pertinentes y retira ramas/opciones incompatibles",
+    "Fechas imposibles, futuras y fin de estancia anterior a llegada",
+    "Nacionalidades duplicadas, apatridia incompatible y España según objetivo",
+    "No se asume que nacionalidad desconocida sea de un tercer país",
+    "No se equipara solicitud pendiente, visita vencida y tarjeta de larga duración vencida"
+  ],
+  "textosLibres": "Solo aclaraciones de otras opciones, nacionalidades/países no incluidos, ausencias y familiares adicionales."
+}

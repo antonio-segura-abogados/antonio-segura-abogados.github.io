@@ -1,0 +1,417 @@
+{
+  "fecha": "2026-09-18",
+  "resultado": "correcto",
+  "navegador": "Chrome headless, perfil temporal",
+  "comprobaciones": [
+    {
+      "width": 1440,
+      "height": 1050,
+      "escenasSinTutorial": 16,
+      "modales": 4
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "escenasSinTutorial": 16,
+      "modales": 4
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "escenasSinTutorial": 16,
+      "modales": 4
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "escenasSinTutorial": 16,
+      "modales": 4
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "escenasSinTutorial": 16,
+      "modales": 4
+    }
+  ],
+  "entrevistas": [
+    {
+      "caso": "Residente que consulta nacionalidad",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "legalStart",
+        "absences",
+        "family",
+        "nationalityContext",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Turista exento de visado",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "stayEnd",
+        "schengenTrips",
+        "family",
+        "activity",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Entrada irregular sin autorización",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Renovación pendiente tras vencimiento",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "protection",
+        "family",
+        "activity",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Estancia por estudios",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "absences",
+        "family",
+        "activity",
+        "nationalityContext",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Asilo pendiente",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "family",
+        "activity",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Familia desde el extranjero",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "family",
+        "familyDetails",
+        "relative",
+        "relativeLocation",
+        "dependency",
+        "familyResources",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Doble nacionalidad de la Unión",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "euRegistration",
+        "family",
+        "activity",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Consulta para un menor",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "guardian",
+        "family",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Notificación con fecha",
+      "ancho": 1440,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity",
+        "notice",
+        "noticeDetails"
+      ]
+    },
+    {
+      "caso": "Residente que consulta nacionalidad",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "legalStart",
+        "absences",
+        "family",
+        "nationalityContext",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Turista exento de visado",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "stayEnd",
+        "schengenTrips",
+        "family",
+        "activity",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Entrada irregular sin autorización",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Renovación pendiente tras vencimiento",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "protection",
+        "family",
+        "activity",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Estancia por estudios",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "permitType",
+        "expiry",
+        "renewal",
+        "absences",
+        "family",
+        "activity",
+        "nationalityContext",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Asilo pendiente",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "family",
+        "activity",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Familia desde el extranjero",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "country",
+        "nationality",
+        "age",
+        "family",
+        "familyDetails",
+        "relative",
+        "relativeLocation",
+        "dependency",
+        "familyResources",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Doble nacionalidad de la Unión",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "euRegistration",
+        "family",
+        "activity",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Consulta para un menor",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "guardian",
+        "family",
+        "notice"
+      ]
+    },
+    {
+      "caso": "Notificación con fecha",
+      "ancho": 390,
+      "preguntas": [
+        "location",
+        "place",
+        "nationality",
+        "age",
+        "entry",
+        "arrival",
+        "status",
+        "protection",
+        "absences",
+        "evidence",
+        "previousPermit",
+        "family",
+        "activity",
+        "notice",
+        "noticeDetails"
+      ]
+    }
+  ],
+  "pruebas": [
+    "Diálogos contenidos y sin desbordamiento; Escape, Tab y retorno de foco",
+    "Confirmación de plan, selección de opción y aportación documental",
+    "Recorte de las cuatro esquinas y redimensionado con modal abierto",
+    "Registro: objetivo inicial, cambio, entrevista, reinicio y recarga; sin header solo en /entrevista",
+    "Diálogos nativos de gestión y libro conservados",
+    "Sin tutoriales incluso con los enlaces anteriores ?tour=1",
+    "Sin errores JavaScript",
+    "Selectores a 1440, 390 y 320 px: provincia válida, tildes, teclado y nacionalidad múltiple",
+    "España excluida al solicitar nacionalidad y disponible para reunión familiar; ciudadanía derivada",
+    "Edición con vuelta directa al resumen, conservación de datos pertinentes y nuevas preguntas pendientes",
+    "Dos acciones finales y confirmación de envío expresamente simulada"
+  ],
+  "capturasLocales": "/private/tmp/asa-revision-movil"
+}

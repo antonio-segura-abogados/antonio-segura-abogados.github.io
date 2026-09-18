@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-17",
+  "fecha": "2026-09-18",
   "navegador": "Chrome headless, perfil temporal",
   "capturas": [
     {
@@ -46,11 +46,11 @@
     }
   ],
   "pruebas": [
-    "entrevista: desconocido, resumen, edición y reinicio",
+    "entrevista: elección de objetivo, entrada desde el exterior, respuesta desconocida, vuelta atrás y reinicio",
     "opciones: detalle y selección",
     "planes: importes mensual/anual, redondeo, resumen y confirmación",
     "documentación: recibido distinto de revisado, aislamiento y recarga",
-    "seis URLs: acceso directo y guía a 320 y 390 px",
+    "seis URLs: acceso directo sin tutoriales a 320 y 390 px",
     "sin errores de JavaScript ni desbordamientos horizontales"
   ],
   "resultado": "correcto"

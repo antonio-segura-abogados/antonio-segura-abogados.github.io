@@ -1,18 +1,8 @@
 import { useState } from 'react';
 import contenido from '../../../../recursos-compartidos/demo/seguimiento.json';
 import { Icon } from '../../components/Icon';
-import { DemoScene, SceneDialog, type GuideStep } from '../../components/DemoScene';
+import { DemoScene, SceneDialog } from '../../components/DemoScene';
 
-const guide: GuideStep[] = [
-  { title: 'Una siguiente acción', text: 'La tarea pendiente aparece primero. El cliente sabe qué necesita el despacho para continuar.', target: 'next-action' },
-  { title: 'Cada fase tiene un responsable', text: 'El recorrido distingue lo completado, tu turno y las fases que corresponden al despacho o a la Administración.', target: 'case-progress' },
-  { title: 'Las instrucciones, a mano', text: '«Ver qué falta» abre el detalle dentro de esta escena. Las demás secciones del menú muestran la estructura propuesta.', target: 'next-action' },
-];
-const detailGuide: GuideStep[] = [
-  { title: 'Saber qué falta', text: 'El paso reúne los documentos pendientes y las instrucciones. Todo está en el mismo lugar.' },
-  { title: 'Aportar el ejemplo', text: 'Pulsa «Usar documento de ejemplo». El certificado pasa a recibido; no necesitas subir archivos personales.' },
-  { title: 'Recibir no es validar', text: 'El equipo todavía tiene que revisar el documento. La recepción no completa automáticamente la etapa.' },
-];
 
 function DocumentDetail() {
   const [exampleAdded, setExampleAdded] = useState(false);
@@ -30,15 +20,15 @@ function DocumentDetail() {
   </div>;
 }
 
-function HomeScreen({ openDetail, highlight }: { openDetail: () => void; highlight?: string }) {
+function HomeScreen({ openDetail }: { openDetail: () => void }) {
   return <>
     <div className="greeting"><p>{contenido.saludo}</p><h1>{contenido.titular}</h1></div>
-    <section id="next-action" className={`next-action ${highlight === 'next-action' ? 'is-highlighted' : ''}`}>
+    <section id="next-action" className="next-action">
       <div className="action-top"><span className="status-label"><span />Tu turno</span><span>Paso 2 de 5</span></div>
       <h2>Completar<br />documentación</h2><p>{contenido.resumen}</p>
       <button className="primary-button" onClick={openDetail}>{contenido.cta}<Icon name="arrow" /></button>
     </section>
-    <section id="case-progress" className={`case-progress ${highlight === 'case-progress' ? 'is-highlighted' : ''}`} aria-labelledby="progress-title">
+    <section id="case-progress" className="case-progress" aria-labelledby="progress-title">
       <div className="section-heading"><h2 id="progress-title">Tu recorrido</h2><span>5 etapas</span></div>
       <ol className="step-list">{contenido.pasos.map((step, index) => <li className={`step step--${step.estado}`} key={step.id} aria-current={step.estado === 'current' ? 'step' : undefined}>
         <span className="step-node">{step.estado === 'completed' ? <Icon name="check" /> : String(index + 1).padStart(2, '0')}</span>
@@ -54,9 +44,11 @@ export function SeguimientoScene({ detail = false }: { detail?: boolean }) {
   const [opened, setOpened] = useState(false);
   const [resetKey, setResetKey] = useState(0);
   return <>
-    <DemoScene title={detail ? 'Documentación del expediente' : 'Seguimiento del expediente'} label={contenido.objetivo} guide={detail ? detailGuide : guide} onReset={() => { setOpened(false); setResetKey(key => key + 1); }} navigation note={contenido.nota}>
-      {highlight => detail ? <DocumentDetail key={resetKey} /> : <HomeScreen openDetail={() => setOpened(true)} highlight={highlight} />}
-    </DemoScene>
+    <DemoScene dialog={
     <SceneDialog open={opened} onClose={() => setOpened(false)} title="Documentación · Paso 2 de 5"><DocumentDetail key={resetKey} /></SceneDialog>
+  } title={detail ? 'Documentación del expediente' : 'Seguimiento del expediente'} label={contenido.objetivo} onReset={() => { setOpened(false); setResetKey(key => key + 1); }} navigation note={contenido.nota}>
+      {detail ? <DocumentDetail key={resetKey} /> : <HomeScreen openDetail={() => setOpened(true)} />}
+    </DemoScene>
+
   </>;
 }

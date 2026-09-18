@@ -1,0 +1,28 @@
+{
+  "titulo": "Extranjería vía app. Un espacio por ocupar.",
+  "antetitulo": "LO QUE REVELA MI ESTUDIO DE MERCADO",
+  "lineasTitulo": ["Extranjería vía app.", "Un espacio por ocupar."],
+  "estudio": "He hecho un estudio de mercado. Mi conclusión: el espacio para gestionar procesos de extranjería de principio a fin vía app está libre.",
+  "oportunidad": "Antonio Segura puede liderar este espacio.",
+  "respaldo": {
+    "etiqueta": "UN CASO DE ÉXITO",
+    "logo": "logo-oficial.png",
+    "modelo": "Campmany aplica estos principios a bajas e incapacidades: suscripción, consultas escritas y documentos en una app.",
+    "resultado": "Campmany demuestra que un despacho especializado puede crecer con un modelo digital. Mi propuesta es llevar estos principios a extranjería."
+  },
+  "fuente": {
+    "pie": "Estudio: Pol Surriel. Fuentes: Campmany Premium · Caso de éxito de HubSpot · 18-09-2026.",
+    "enlaces": [
+      { "etiqueta": "Campmany Premium", "url": "https://www.campmanyabogados.com/premium" },
+      { "etiqueta": "Caso de éxito de HubSpot", "url": "https://www.hubspot.com/case-studies/campmany-abogados" }
+    ],
+    "fechaConsulta": "2026-09-18"
+  },
+  "puente": "LA OPORTUNIDAD ES VUESTRA. EL SIGUIENTE PASO: CÓMO APROVECHARLA.",
+  "criterio": {
+    "estudio": "Conclusión del estudio de mercado comunicada por Pol el 18-09-2026. No se ha aportado su metodología ni el inventario de competidores.",
+    "facturacion": "Pol conoce personalmente su historia; no dispone de cifras. El caso publicado por HubSpot documenta ingresos duplicados en cuatro meses tras adoptar su estrategia de marketing y ventas digitales en 2017. Es un caso del proveedor, no una auditoría independiente ni una prueba del impacto específico de la app. La redacción aprobada expresa el precedente de crecimiento sin añadir cifras a la página.",
+    "aplicacionAS": "Oportunidad estratégica propuesta por Pol; no es una promesa de ingresos ni de ausencia permanente de competencia."
+  },
+  "estado": "variante 03 seleccionada localmente; frase de cierre de Campmany aprobada por Pol; publicación pendiente"
+}

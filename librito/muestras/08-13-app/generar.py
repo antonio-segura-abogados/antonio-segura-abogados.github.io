@@ -14,8 +14,6 @@ import pymupdf
 from PIL import Image
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
-from reportlab.graphics.barcode.qr import QrCodeWidget
-from reportlab.lib.colors import HexColor
 
 HERE = Path(__file__).resolve().parent
 BOOK = HERE.parents[1]
@@ -25,6 +23,9 @@ c = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(c)
 P, W, H = c.P, c.W, c.H
 BLUE, DARK, WHITE, MUTED, PALE, LINE = c.BLUE, c.DARK, c.WHITE, c.MUTED, c.PALE, c.LINE
+spec = importlib.util.spec_from_file_location('etiqueta_qr', ROOT / 'recursos-compartidos/qr/etiqueta.py')
+qr_diseno = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(qr_diseno)
 ASSETS = ROOT / 'recursos-compartidos/assets/demo/08-13'
 QR = json.loads((ROOT / 'recursos-compartidos/qr/generados/registro.json').read_text())
 PRODUCT = json.loads((ROOT / 'recursos-compartidos/demo/entrada.json').read_text())
@@ -45,25 +46,9 @@ def phone(p, data, x, top, width):
     p.c.drawImage(ImageReader(path), x, H - top - height, width, height, mask='auto')
 
 
-def qr(p, data, x, top, tx, ty, tw=180):
+def qr(p, data, x, top, tx, tw=180):
     url = QR[data['qr']]['destino']
-    size = 28 * 72 / 25.4
-    code = QrCodeWidget(url, barLevel='M', barBorder=4)
-    code.qr.make()
-    n = code.qr.moduleCount
-    cell = size / (n + 8)
-    # Vector negro con cuatro módulos blancos de margen, igual que el PNG registrado.
-    p.rect(x, top, size, size)
-    p.c.setFillColor(HexColor('#000000'))
-    for row, values in enumerate(code.qr.modules):
-        for col, ink in enumerate(values):
-            if ink:
-                p.c.rect(x + (col + 4) * cell, H - top - (row + 5) * cell, cell, cell, stroke=0, fill=1)
-    p.c.linkURL(url, (x, H - top - size, x + size, H - top), relative=0)
-    p.text(data['qrTitulo'], tx, ty, 11, 'SemiBold')
-    end = p.para(data['qrDetalle'], tx, ty + 17, tw, 9.5, 13)
-    p.text('Demo con datos ficticios', tx, end + 5, 7.4, ink=MUTED)
-    assert end + 5 < 384
+    qr_diseno.demo(p, H, data, url, x, top, tx, tw, BLUE, LINE, MUTED)
 
 
 def p8(p, d):
@@ -93,7 +78,7 @@ def p9(p, d):
     p.line(43, 248, 68, 248, BLUE, 2)
     p.para(d['destacado'], 43, 267, 287, 15.8, 20, DARK, 'SemiBold')
     phone(p, d, 388, 41, 160)
-    qr(p, d, 39, 308, 135, 329, 190)
+    qr(p, d, 39, 308, 135, 190)
     c.footer(p, 9, d['puente'])
 
 
@@ -108,7 +93,7 @@ def p10(p, d):
         y = 234 + i * 23
         p.circle(236, y - 3, 2.5, BLUE)
         p.text(item['titulo'], 246, y, 10.7, 'SemiBold')
-    qr(p, d, 465, 302, 232, 320, 205)
+    qr(p, d, 232, 302, 328, 215)
     c.footer(p, 10, d['puente'])
 
 
@@ -128,7 +113,7 @@ def p11(p, d):
     p.para(d['nota'], 43, 291, 294, 7.6, 10.5)
     phone(p, d, 388, 41, 160)
     # QR arranca a 310; el texto corto ocupa la parte izquierda a su lado.
-    qr(p, d, 39, 310, 135, 329, 192)
+    qr(p, d, 39, 310, 135, 192)
     c.footer(p, 11, d['puente'])
 
 
@@ -144,7 +129,7 @@ def p12(p, d):
         if i < 2: p.line(x + 8, 266, x + 95, 266, LINE, 1)
         p.text(item['titulo'], x, 285, 9.8, 'SemiBold')
     phone(p, d, 385, 41, 160)
-    qr(p, d, 31, 309, 127, 330, 210)
+    qr(p, d, 31, 309, 127, 210)
     c.footer(p, 12, d['puente'])
 
 
@@ -159,7 +144,7 @@ def p13(p, d):
         y = 234 + i * 23
         p.text(str(i + 1).zfill(2), 234, y, 9, 'SemiBold', BLUE)
         p.text(item['titulo'], 258, y, 10.7, 'SemiBold')
-    qr(p, d, 468, 306, 234, 324, 205)
+    qr(p, d, 234, 306, 330, 215)
     c.footer(p, 13, d['puente'])
 
 

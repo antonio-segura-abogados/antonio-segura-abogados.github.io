@@ -25,28 +25,26 @@ try {
     records.push({ archivo: `${name}.png`, ruta: route, origen: 'Captura de React en Chrome; móvil HTML/CSS compartido', escala: 3 });
   }
   await capture('08-objetivo', '/entrevista?vista=objetivo');
-  await capture('09-entrevista', '/entrevista', () => page.getByRole('button', { name: 'Continuar', exact: true }).click());
+  await capture('09-entrevista', '/entrevista', async () => { await page.getByRole('button', { name: 'Comenzar mi entrevista' }).click(); });
   await capture('10-opciones', '/opciones');
   await capture('11-planes', '/planes');
   await capture('11-contratacion', '/contratacion');
   await capture('12-seguimiento', '/expediente');
   await capture('13-documentacion', '/expediente/pasos/documentacion');
 
-  // Casos relevantes: respuesta desconocida, edición, importes y revisión documental.
+  // Las ramas completas se prueban en vertical/diseno/entrevista/comprobar.mjs.
   await open('/entrevista?tour=1');
-  await page.getByRole('button', { name: 'Siguiente', exact: true }).click();
-  await page.getByRole('button', { name: 'Anterior', exact: true }).click();
-  await page.getByRole('button', { name: 'Cerrar guía' }).click();
+  await page.getByRole('button', { name: 'Comenzar mi entrevista' }).click();
+  assert.equal(await page.getByRole('button', { name: 'Continuar', exact: true }).isDisabled(), true);
+  await page.getByRole('radio', { name: 'No, estoy en otro país', exact: true }).check();
   await page.getByRole('button', { name: 'Continuar', exact: true }).click();
-  await page.getByLabel('No lo sé; necesito revisarlo').check();
-  assert.equal(await page.getByLabel('Fecha de inicio').isDisabled(), true);
-  await page.getByRole('button', { name: 'Continuar', exact: true }).click();
-  await page.getByRole('button', { name: 'Ver mi resumen' }).click();
-  assert.match(await page.locator('.answer-summary').innerText(), /Pendiente de confirmar/);
-  await page.getByRole('button', { name: 'Editar mis respuestas' }).click();
-  assert.equal(await page.getByLabel('País del ejemplo').inputValue(), 'Colombia');
+  assert.equal(await page.locator('[data-question]').getAttribute('data-question'), 'country');
+  await page.getByRole('checkbox').check();
+  assert.equal(await page.locator('#country').isDisabled(), true);
+  await page.getByRole('button', { name: 'Volver a la pregunta anterior' }).click();
+  assert.equal(await page.getByRole('radio', { name: 'No, estoy en otro país', exact: true }).isChecked(), true);
   await page.getByRole('button', { name: 'Reiniciar', exact: true }).click();
-  assert.match(await page.locator('.interview-progress').innerText(), /Pregunta 1 de 3/);
+  assert.equal(await page.getByRole('button', { name: 'Comenzar mi entrevista' }).isVisible(), true);
 
   await open('/opciones');
   await page.getByRole('button', { name: /A estudiar Nacionalidad/ }).click();
@@ -78,28 +76,25 @@ try {
   assert.match(await page.locator('.review-message').innerText(), /revisión del equipo sigue pendiente/);
   await page.getByRole('button', { name: 'Cerrar detalle' }).click();
   await open('/expediente/pasos/documentacion?tour=1');
-  await page.getByRole('button', { name: 'Cerrar guía' }).click();
   assert.match(await page.locator('.document-list').innerText(), /Pendiente/);
   await page.getByRole('button', { name: 'Usar documento de ejemplo' }).click();
   assert.equal(await page.getByRole('button', { name: 'Ejemplo recibido' }).isDisabled(), true);
   await page.reload();
   assert.match(await page.locator('.document-list').innerText(), /Pendiente/);
 
-  // Entrada directa, guía y ancho móvil: ninguna escena depende de la anterior.
+  // Entrada directa y ancho móvil: ninguna escena depende de la anterior.
   for (const width of [320, 390]) {
     await page.setViewportSize({ width, height: 844 });
     for (const route of ['/entrevista', '/opciones', '/planes', '/contratacion', '/expediente', '/expediente/pasos/documentacion']) {
       await open(`${route}?tour=1`);
-      assert.equal(await page.getByRole('button', { name: 'Cerrar guía' }).isVisible(), true);
+      assert.equal(await page.locator('.tour-panel').count(), 0);
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
       assert.equal(overflow, false, `Desbordamiento ${route} a ${width}px`);
-      await page.getByRole('button', { name: 'Cerrar guía' }).click();
-      await page.getByRole('button', { name: 'Ver guía' }).click();
     }
   }
   assert.deepEqual(errors, []);
-  const report = { fecha: '2026-09-17', navegador: 'Chrome headless, perfil temporal', capturas: records, pruebas: ['entrevista: desconocido, resumen, edición y reinicio', 'opciones: detalle y selección', 'planes: importes mensual/anual, redondeo, resumen y confirmación', 'documentación: recibido distinto de revisado, aislamiento y recarga', 'seis URLs: acceso directo y guía a 320 y 390 px', 'sin errores de JavaScript ni desbordamientos horizontales'], resultado: 'correcto' };
+  const report = { fecha: new Date().toISOString().slice(0, 10), navegador: 'Chrome headless, perfil temporal', capturas: records, pruebas: ['entrevista: elección de objetivo, entrada desde el exterior, respuesta desconocida, vuelta atrás y reinicio', 'opciones: detalle y selección', 'planes: importes mensual/anual, redondeo, resumen y confirmación', 'documentación: recibido distinto de revisado, aislamiento y recarga', 'seis URLs: acceso directo sin tutoriales a 320 y 390 px', 'sin errores de JavaScript ni desbordamientos horizontales'], resultado: 'correcto' };
   await writeFile(`${out}/procedencia.json`, JSON.stringify(report, null, 2) + '\n');
   await writeFile(fileURLToPath(new URL('./VERIFICACION-UI.json', import.meta.url)), JSON.stringify(report, null, 2) + '\n');
-  console.log('7 capturas reales; interacciones, importes, guías y móvil verificados.');
+  console.log('7 capturas reales; interacciones, importes y móvil verificados.');
 } finally { await browser.close(); }

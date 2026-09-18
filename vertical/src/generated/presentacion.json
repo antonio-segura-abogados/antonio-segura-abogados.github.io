@@ -1,8 +1,8 @@
 {
   "titulo": "Quiero ser vuestro director tecnológico",
   "autor": "Pol Surriel",
-  "version": "69c23f6c61e3",
-  "pdf": "librito-69c23f6c61e3.pdf",
+  "version": "663cc88c8e48",
+  "pdf": "librito-663cc88c8e48.pdf",
   "slides": [
     {
       "numero": 1,
@@ -30,17 +30,17 @@
     },
     {
       "numero": 3,
-      "titulo": "El cambio necesita dirección.",
+      "titulo": "Vais a necesitar un experto tecnológico",
       "capitulo": "La candidatura",
-      "imagen": "03-da4c891635a4.webp",
-      "miniatura": "mini-03-da4c891635a4.webp",
+      "imagen": "03-4d5bdac4b5dc.webp",
+      "miniatura": "mini-03-4d5bdac4b5dc.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "EL CAMBIO QUE VIENE\nEl cambio\nnecesita\ndirección.\nLa IA puede transformar el trabajo jurídico. Mi\npropuesta es ayudaros a decidir cómo\nincorporarla, qué procesos rediseñar y dónde\nconvertir ese cambio en una oportunidad para el\ndespacho.\nLeer el informe\nEconomic Scenarios for\nTransformative AI\nAnthropic Institute · 2026\nanthropic.com\nTRES ESCENARIOS DE IA\nEmpleo cognitivo en EE. UU. Los tres escenarios\nincluyen ocupaciones jurídicas; no son\npredicciones.\nFuente: fig. 4, p. 34; sectores, p. 25.\nEL PRIMER PASO: ENTENDER VUESTRO NEGOCIO.\n03",
+      "texto": "EL CAMBIO QUE VIENE\nVais a necesitar\nun experto\ntecnológico\nAdaptar el despacho a los cambios de la IA exige\nun experto que decida qué automatizar y dirija su\nimplantación. Contar con esa dirección será\nimprescindible para seguir siendo competitivos.\nMi propuesta es asumirla.\nInforme completo aquí\nEconomic Scenarios for\nTransformative AI\nAnthropic Institute · 2026\nTRES ESCENARIOS DE IA\nEmpleo cognitivo en EE. UU. Los tres escenarios\nincluyen ocupaciones jurídicas; no son\npredicciones.\nFuente: fig. 4, p. 34; sectores, p. 25.\nEL PRIMER PASO: ENTENDER VUESTRO NEGOCIO.\n03",
       "enlaces": [
         "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf"
       ],
-      "variante": "01-direccion"
+      "variante": "02-experto-tecnologico"
     },
     {
       "numero": 4,
@@ -68,27 +68,28 @@
     },
     {
       "numero": 6,
-      "titulo": "Asesoramiento por suscripción.",
+      "titulo": "Extranjería vía app. Un espacio por ocupar.",
       "capitulo": "La oportunidad",
-      "imagen": "06-ed28f8f13f5e.webp",
-      "miniatura": "mini-06-ed28f8f13f5e.webp",
+      "imagen": "06-268d22168101.webp",
+      "miniatura": "mini-06-268d22168101.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "UN REFERENTE REAL\nAsesoramiento\npor suscripción.\nPREMIUM\nCampmany Premium ofrece asesoramiento laboral y\nde Seguridad Social mediante suscripción, con\nconsultas escritas y revisión documental.\nEl cliente escribe.\nEl abogado responde.\nCada uno en su momento.\n01\nSuscripción\n02\nConsulta escrita\n03\nDocumentos\n04\nOrientación\nPlus y Pensionista incluyen 2 llamadas al año de 15 minutos.\nFuente e imagen: campmanyabogados.com/premium · 17-09-2026.\nUN MODELO QUE INSPIRA UNA PROPUESTA PARA AS.\n06",
+      "texto": "LO QUE REVELA MI ESTUDIO DE MERCADO\nExtranjería vía app.\nUn espacio por ocupar.\nHe hecho un estudio de mercado. Mi conclusión: el espacio para gestionar procesos de\nextranjería de principio a fin vía app está libre.\nAntonio Segura puede liderar este espacio.\nUN CASO DE ÉXITO\nCAMPMANY PREMIUM\nCampmany aplica estos principios a bajas e incapacidades:\nsuscripción, consultas escritas y documentos en una app.\nCampmany demuestra que un despacho especializado puede crecer\ncon un modelo digital. Mi propuesta es llevar estos principios a\nextranjería.\nEstudio: Pol Surriel. Fuentes: Campmany Premium · Caso de éxito de HubSpot · 18-09-2026.\nLA OPORTUNIDAD ES VUESTRA. EL SIGUIENTE PASO: CÓMO APROVECHARLA.\n06",
       "enlaces": [
-        "https://www.campmanyabogados.com/premium"
+        "https://www.campmanyabogados.com/premium",
+        "https://www.hubspot.com/case-studies/campmany-abogados"
       ],
-      "variante": "02-referente-visual"
+      "variante": "03-oportunidad-de-mercado"
     },
     {
       "numero": 7,
       "titulo": "Crecer también es organizar mejor.",
       "capitulo": "La oportunidad",
-      "imagen": "07-8bdcec919847.webp",
-      "miniatura": "mini-07-8bdcec919847.webp",
+      "imagen": "07-101224576303.webp",
+      "miniatura": "mini-07-101224576303.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "QUÉ APLICARÍA A AS\nCrecer también es\norganizar mejor.\nExploraría tres cambios para convertir el canal digital en capacidad de negocio.\n01\nClientes a distancia\nCanal digital y entrega de originales.\nMás mercado\nAtender demanda en toda España.\n02\nEquipo distribuido\nEspecialistas coordinados desde toda\nEspaña.\nMenor coste salarial\nExplorar salarios inferiores a los de\nBarcelona para perfiles equivalentes.\n03\nProcesos reutilizables\nInstrucciones, documentos y estados\ncomunes.\nMás tiempo jurídico\nReducir explicaciones y gestiones\nrepetidas.\nPropuesta para AS: validaría demanda, costes y tiempo por expediente.\nAHORA, LA IDEA TOMA FORMA: TU APP DE EXTRANJERÍA.\n07",
+      "texto": "QUÉ APLICARÍA A AS\nCrecer también es\norganizar mejor.\nExploraría tres cambios para convertir el canal digital en capacidad de negocio.\n01\nClientes a distancia\nCanal digital y entrega de originales.\nMás mercado\nAtender demanda en toda España.\n02\nEquipo distribuido\nEspecialistas coordinados desde toda\nEspaña.\nMás capacidad\nRepartir la carga y asignar cada caso al\nperfil adecuado.\nAdemás, explorar salarios inferiores a los de Barcelona para perfiles equivalentes.\n03\nProcesos reutilizables\nInstrucciones, documentos y estados\ncomunes.\nMás tiempo jurídico\nReducir explicaciones y gestiones\nrepetidas.\nPropuesta para AS: validaría demanda, costes y tiempo por expediente.\nAHORA, LA IDEA TOMA FORMA: TU APP DE EXTRANJERÍA.\n07",
       "enlaces": [],
       "variante": "01-procesos"
     },
@@ -96,8 +97,8 @@
       "numero": 8,
       "titulo": "Tu app de extranjería.",
       "capitulo": "La propuesta",
-      "imagen": "08-cdd25be72184.webp",
-      "miniatura": "mini-08-cdd25be72184.webp",
+      "imagen": "08-8a95ab03e9bd.webp",
+      "miniatura": "mini-08-8a95ab03e9bd.webp",
       "ancho": 1680,
       "alto": 1184,
       "texto": "LA PROPUESTA\nTu app de\nextranjería.\nConvertiría la experiencia de AS en un servicio que\nacompaña al cliente, desde la primera duda hasta su\nsiguiente paso.\nEntender\n09\nLa primera entrevista\nElegir\n10–11\nOpciones y acompañamiento\nAvanzar\n12–15\nExpediente y documentos\nResolver\n16–19\nPráctica, consultas y gestión\nASÍ EMPIEZA EL ACOMPAÑAMIENTO.\n08",
@@ -108,11 +109,11 @@
       "numero": 9,
       "titulo": "Cada caso empieza por escuchar.",
       "capitulo": "La propuesta",
-      "imagen": "09-1d2a3a6230d1.webp",
-      "miniatura": "mini-09-1d2a3a6230d1.webp",
+      "imagen": "09-0aa51423c09e.webp",
+      "miniatura": "mini-09-0aa51423c09e.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "01 / ENTENDER\nCada caso empieza\npor escuchar.\nUna entrevista guiada recogería el objetivo y el\ncontexto antes de dedicar tiempo jurídico a valorar\nel caso.\nEl abogado recibe un resumen listo\npara revisar.\nPrueba la entrevista\nResponde, corrige y consulta el resumen.\nDemo con datos ficticios\nCONOCER LA SITUACIÓN PARA PLANTEAR LAS OPCIONES.\n09",
+      "texto": "01 / ENTENDER\nCada caso empieza\npor escuchar.\nUna entrevista guiada recogería el objetivo y el\ncontexto antes de dedicar tiempo jurídico a valorar\nel caso.\nEl abogado recibe un resumen listo\npara revisar.\nDemo interactiva\nPrueba la entrevista\nResponde, corrige y consulta el resumen.\nDatos ficticios\nCONOCER LA SITUACIÓN PARA PLANTEAR LAS OPCIONES.\n09",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/entrevista?tour=1"
       ],
@@ -122,11 +123,11 @@
       "numero": 10,
       "titulo": "Elegir con claridad.",
       "capitulo": "La propuesta",
-      "imagen": "10-01fc00e356e7.webp",
-      "miniatura": "mini-10-01fc00e356e7.webp",
+      "imagen": "10-2c9f967782a1.webp",
+      "miniatura": "mini-10-2c9f967782a1.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "02 / ELEGIR\nElegir con\nclaridad.\nMostraría qué se puede valorar, qué falta por confirmar y\nqué implica cada opción.\nCondiciones visibles\nPasos comprensibles\nCostes separados\nExplora las opciones\nAbre el detalle y elige para el ejemplo.\nDemo con datos ficticios\nDESPUÉS, ELEGIR CÓMO QUIERES QUE TE ACOMPAÑEN.\n10",
+      "texto": "02 / ELEGIR\nElegir con\nclaridad.\nMostraría qué se puede valorar, qué falta por confirmar y\nqué implica cada opción.\nCondiciones visibles\nPasos comprensibles\nCostes separados\nDemo interactiva\nExplora las opciones\nAbre el detalle y elige para el ejemplo.\nDatos ficticios\nDESPUÉS, ELEGIR CÓMO QUIERES QUE TE ACOMPAÑEN.\n10",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/opciones?tour=1"
       ],
@@ -136,11 +137,11 @@
       "numero": 11,
       "titulo": "El valor, claro. La cuota, también.",
       "capitulo": "La propuesta",
-      "imagen": "11-62b8517fdd4c.webp",
-      "miniatura": "mini-11-62b8517fdd4c.webp",
+      "imagen": "11-3bcaad2b8833.webp",
+      "miniatura": "mini-11-3bcaad2b8833.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "02 / ELEGIR\nEl valor, claro.\nLa cuota, también.\nEl cliente entendería qué incluye su\nacompañamiento antes de contratarlo.\nEsencial\n19 €\n/ mes\no 190 € / año\nAcompañado\n29 €\n/ mes\no 290 € / año\nEjemplo comercial: precios ficticios, IVA incluido. Trámites, tasas y gastos aparte.\nCompara los planes\nCambia la periodicidad y prueba la\ncontratación.\nDemo con datos ficticios\nDE LA CONTRATACIÓN AL SIGUIENTE PASO.\n11",
+      "texto": "02 / ELEGIR\nEl valor, claro.\nLa cuota, también.\nEl cliente entendería qué incluye su\nacompañamiento antes de contratarlo.\nEsencial\n19 €\n/ mes\no 190 € / año\nAcompañado\n29 €\n/ mes\no 290 € / año\nEjemplo comercial: precios ficticios, IVA incluido. Trámites, tasas y gastos aparte.\nDemo interactiva\nCompara los planes\nCambia la periodicidad y prueba la\ncontratación.\nDatos ficticios\nDE LA CONTRATACIÓN AL SIGUIENTE PASO.\n11",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/planes?tour=1"
       ],
@@ -150,11 +151,11 @@
       "numero": 12,
       "titulo": "¿Cómo va lo mío?",
       "capitulo": "El acompañamiento",
-      "imagen": "12-e44c6a38e65a.webp",
-      "miniatura": "mini-12-e44c6a38e65a.webp",
+      "imagen": "12-0962af6e41db.webp",
+      "miniatura": "mini-12-0962af6e41db.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "03 / AVANZAR\n«¿Cómo va\nlo mío?»\nLa respuesta estaría en su móvil: dónde está el\nexpediente, qué toca hacer y quién tiene el siguiente\nturno.\nTu turno\nEl despacho\nAdministración\nAbre tu expediente\nExplora la home y consulta la siguiente acción.\nDemo con datos ficticios\nUN ESTADO ÚTIL LLEVA A UNA ACCIÓN CONCRETA.\n12",
+      "texto": "03 / AVANZAR\n«¿Cómo va\nlo mío?»\nLa respuesta estaría en su móvil: dónde está el\nexpediente, qué toca hacer y quién tiene el siguiente\nturno.\nTu turno\nEl despacho\nAdministración\nDemo interactiva\nAbre tu expediente\nExplora la home y consulta la siguiente acción.\nDatos ficticios\nUN ESTADO ÚTIL LLEVA A UNA ACCIÓN CONCRETA.\n12",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/expediente?tour=1"
       ],
@@ -164,11 +165,11 @@
       "numero": 13,
       "titulo": "Saber qué falta. Y cómo resolverlo.",
       "capitulo": "El acompañamiento",
-      "imagen": "13-3f9a00cb37be.webp",
-      "miniatura": "mini-13-3f9a00cb37be.webp",
+      "imagen": "13-57882183427f.webp",
+      "miniatura": "mini-13-57882183427f.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "03 / AVANZAR\nSaber qué falta.\nY cómo resolverlo.\nCada paso reuniría lo necesario para avanzar. El cliente\nactúa; el equipo recibe la información con contexto.\n01\nQué aportar\n02\nCómo prepararlo\n03\nQuién lo revisa\nCompleta un paso\nAporta el documento de ejemplo y observa el\nestado.\nDemo con datos ficticios\nDESPUÉS, CADA DOCUMENTO EN SU SITIO.\n13",
+      "texto": "03 / AVANZAR\nSaber qué falta.\nY cómo resolverlo.\nCada paso reuniría lo necesario para avanzar. El cliente\nactúa; el equipo recibe la información con contexto.\n01\nQué aportar\n02\nCómo prepararlo\n03\nQuién lo revisa\nDemo interactiva\nCompleta un paso\nAporta el documento de ejemplo y observa el\nestado.\nDatos ficticios\nDESPUÉS, CADA DOCUMENTO EN SU SITIO.\n13",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/expediente/pasos/documentacion?tour=1"
       ],
@@ -178,11 +179,11 @@
       "numero": 14,
       "titulo": "Cada documento, en su sitio.",
       "capitulo": "El acompañamiento",
-      "imagen": "14-bb17dab12a20.webp",
-      "miniatura": "mini-14-bb17dab12a20.webp",
+      "imagen": "14-1e9b5bc074cf.webp",
+      "miniatura": "mini-14-1e9b5bc074cf.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "03 / AVANZAR\nCada documento,\nen su sitio.\nEl cliente sabe qué falta. El equipo recibe cada\narchivo con su contexto y una revisión pendiente\nclaramente identificada.\n01\nAportar la copia.\n02\nCorregir lo que falta.\n03\nSaber qué está revisado.\nAbre la carpeta\nFiltra y corrige un documento de ejemplo.\nDemo con datos ficticios\nY cuando una copia no basta, el proceso continúa.\n14",
+      "texto": "03 / AVANZAR\nCada documento,\nen su sitio.\nEl cliente sabe qué falta. El equipo recibe cada\narchivo con su contexto y una revisión pendiente\nclaramente identificada.\n01\nAportar la copia.\n02\nCorregir lo que falta.\n03\nSaber qué está revisado.\nDemo interactiva\nAbre la carpeta\nFiltra y corrige un documento de ejemplo.\nDatos ficticios\nY cuando una copia no basta, el proceso continúa.\n14",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/documentos?tour=1"
       ],
@@ -192,11 +193,11 @@
       "numero": 15,
       "titulo": "También hay un camino para el papel.",
       "capitulo": "El acompañamiento",
-      "imagen": "15-5be69d964512.webp",
-      "miniatura": "mini-15-5be69d964512.webp",
+      "imagen": "15-a8e9dd678e38.webp",
+      "miniatura": "mini-15-a8e9dd678e38.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "03 / AVANZAR\nTambién hay un camino\npara el papel.\nSi hace falta un original, la experiencia digital puede\nacompañarlo: preparación, punto cercano y seguimiento\nhasta su devolución.\nEntrega\nTransporte\nRecepción\nDevolución\nRed logística propuesta, pendiente de validar con operadores. El envío no sustituye la\napostilla ni la revisión.\nSigue un original\nElige un punto y simula su recorrido.\nDemo con datos ficticios\nUna experiencia completa también resuelve lo que ocurre fuera de la pantalla.\n15",
+      "texto": "03 / AVANZAR\nTambién hay un camino\npara el papel.\nSi hace falta original, la experiencia digital puede\nautomatizar la logística y simplificar la entrega a 'Lleva el\ndocumento a esta dirección.' además de ofrecer\nseguimiento del envío y devolución.\nEntrega\nTransporte\nRecepción\nDevolución\nRed logística propuesta, pendiente de validar con operadores. El envío no sustituye la\napostilla ni la revisión.\nDemo interactiva\nSigue un original\nElige un punto y simula su recorrido.\nDatos ficticios\nUna experiencia completa también resuelve lo que ocurre fuera de la pantalla.\n15",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/originales?tour=1"
       ],
@@ -206,11 +207,11 @@
       "numero": 16,
       "titulo": "Un poco cada día.",
       "capitulo": "El acompañamiento",
-      "imagen": "16-0d03626bafd9.webp",
-      "miniatura": "mini-16-0d03626bafd9.webp",
+      "imagen": "16-c56aea90458d.webp",
+      "miniatura": "mini-16-c56aea90458d.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "04 / ACOMPAÑAR\nUn poco\ncada día.\nDel manual a una rutina: preguntas breves,\nexplicación al instante y repaso de los errores dentro\ndel acompañamiento.\nPracticar.\nEntender.\nVolver a intentarlo.\nPreguntas propias basadas en el manual CCSE 2026. El Instituto Cervantes también\nofrece práctica gratuita.\nPrueba una sesión\nCinco preguntas, puntos y repaso de errores.\nDemo con datos ficticios\nLa tecnología ayuda a avanzar; el equipo sigue estando cerca.\n16",
+      "texto": "04 / ACOMPAÑAR\nUn poco\ncada día.\nDel manual a una rutina: preguntas breves,\nexplicación al instante y repaso de los errores dentro\ndel acompañamiento.\nPracticar.\nEntender.\nVolver a intentarlo.\nPreguntas propias basadas en el manual CCSE 2026. El Instituto Cervantes también\nofrece práctica gratuita.\nDemo interactiva\nPrueba una sesión\nCinco preguntas, puntos y repaso de errores.\nDatos ficticios\nLa tecnología ayuda a avanzar; el equipo sigue estando cerca.\n16",
       "enlaces": [
         "https://examenes.cervantes.es/sites/default/files/manual-ccse-2026-def.pdf",
         "https://antonio-segura-abogados.github.io/#/practica?tour=1"
@@ -221,11 +222,11 @@
       "numero": 17,
       "titulo": "Una consulta, con todo el contexto.",
       "capitulo": "El acompañamiento",
-      "imagen": "17-b19a44952b48.webp",
-      "miniatura": "mini-17-b19a44952b48.webp",
+      "imagen": "17-12a0079a43bd.webp",
+      "miniatura": "mini-17-12a0079a43bd.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "04 / ACOMPAÑAR\nUna consulta,\ncon todo el contexto.\nLa conversación empieza con el expediente a mano y\ntermina con próximos pasos claros. Por escrito o por\nvideollamada, en el mismo espacio.\nMensaje y documentos.\nCita y conversación.\nResumen y siguiente paso.\nEntra en la consulta\nMensaje, cita y sala de ejemplo.\nDemo con datos ficticios\nPara sostener esta experiencia, el despacho necesita poder adaptar el proceso.\n17",
+      "texto": "04 / ACOMPAÑAR\nUna consulta,\ncon todo el contexto.\nLa conversación empieza con el expediente a mano y\ntermina con próximos pasos claros. Por escrito o por\nvideollamada, en el mismo espacio.\nMensaje y documentos.\nCita y conversación.\nResumen y siguiente paso.\nDemo interactiva\nEntra en la consulta\nMensaje, cita y sala de ejemplo.\nDatos ficticios\nPara sostener esta experiencia, el despacho necesita poder adaptar el proceso.\n17",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/consultas?tour=1"
       ],
@@ -235,11 +236,11 @@
       "numero": 18,
       "titulo": "Vuestro criterio. Reglas configurables.",
       "capitulo": "La operación",
-      "imagen": "18-cd2139956670.webp",
-      "miniatura": "mini-18-cd2139956670.webp",
+      "imagen": "18-73085d5480c9.webp",
+      "miniatura": "mini-18-73085d5480c9.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "05 / DIRIGIR LA OPERACIÓN\nVuestro criterio.\nReglas configurables.\nEdita una ruta\nDemo guiada\nCuando cambian los requisitos, el equipo adapta instrucciones y secuencias desde un panel, con\nrevisión profesional antes de publicar.\nContenido y secuencia configurables. Nuevas funciones o integraciones pueden requerir desarrollo.\n18",
+      "texto": "05 / DIRIGIR LA OPERACIÓN\nVuestro criterio.\nReglas configurables.\nCuando cambian los\nrequisitos, el equipo\nadapta instrucciones y\nsecuencias desde un\npanel, con revisión\nprofesional antes de\npublicar.\nDemo interactiva\nContenido y secuencia configurables. Nuevas funciones o integraciones pueden requerir desarrollo.\n18",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/gestion/rutas/residencia-demo?tour=1"
       ],
@@ -249,11 +250,11 @@
       "numero": 19,
       "titulo": "Actualizar la ruta. Decidir a quién afecta.",
       "capitulo": "La operación",
-      "imagen": "19-b413f25801fe.webp",
-      "miniatura": "mini-19-b413f25801fe.webp",
+      "imagen": "19-b398a78560bc.webp",
+      "miniatura": "mini-19-b398a78560bc.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "05 / DIRIGIR LA OPERACIÓN\nActualizar la ruta.\nDecidir a quién afecta.\nPrueba un cambio\nDemo guiada\nVersiones con fecha de vigencia, cambios explícitos en los casos abiertos y pasos personalizados\ncuando un expediente lo necesita.\nCambio ficticio: el criterio jurídico determina el alcance. Los pasos completados se conservan.\n19",
+      "texto": "05 / DIRIGIR LA OPERACIÓN\nActualizar la ruta.\nDecidir a quién afecta.\nVersiones con fecha de\nvigencia, cambios\nexplícitos en los casos\nabiertos y pasos\npersonalizados cuando\nun expediente lo\nnecesita.\nDemo interactiva\nCambio ficticio: el criterio jurídico determina el alcance. Los pasos completados se conservan.\n19",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/gestion/cambios?tour=1"
       ],
@@ -263,8 +264,8 @@
       "numero": 20,
       "titulo": "Más alcance. Mejor operación.",
       "capitulo": "El impacto",
-      "imagen": "20-bf12951964b8.webp",
-      "miniatura": "mini-20-bf12951964b8.webp",
+      "imagen": "20-bf8f4b796862.webp",
+      "miniatura": "mini-20-bf8f4b796862.webp",
       "ancho": 1680,
       "alto": 1184,
       "texto": "LO QUE CAMBIA PARA EL DESPACHO\nMás alcance.\nMejor operación.\nDesde Cataluña\nCanarias · recuadro\nAlcance potencial · flechas ilustrativas\nMás mercado\nAtender desde Cataluña a clientes de toda\nEspaña.\nEquipo distribuido\nExplorar salarios inferiores a los de Barcelona para\nperfiles equivalentes.\nMenos repetición\nInstrucciones y pasos comunes; tiempo\nprofesional para lo particular.\nMás visibilidad\nSaber qué falta, quién debe actuar y dónde se\ndetiene un caso.\nBeneficios potenciales. Ahorro y rentabilidad por contrastar con datos del despacho.\n20",
@@ -301,14 +302,14 @@
       "numero": 23,
       "titulo": "Me gustaría hacerlo con vosotros.",
       "capitulo": "La persona",
-      "imagen": "23-e9b67e266c54.webp",
-      "miniatura": "mini-23-e9b67e266c54.webp",
+      "imagen": "23-3a568b95deea.webp",
+      "miniatura": "mini-23-3a568b95deea.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "LA CONVERSACIÓN QUE ME GUSTARÍA ABRIR\nMe gustaría\nhacerlo con vosotros.\nVIEWNEXT · etapa como TechLead\nSurreal Boost · equipo\nMe gustaría conocer vuestras prioridades y hablar de dónde puedo aportar más.\npsurrielm@gmail.com\nlinkedin.com/in/psurriel\nPol Surriel · Candidatura a dirección tecnológica\n23",
+      "texto": "LA CONVERSACIÓN QUE ME GUSTARÍA ABRIR\nMe gustaría\nhacerlo con vosotros.\nVIEWNEXT · etapa como TechLead\nMi LinkedIn\nPuedes leer recomendaciones en\nmi perfil de LinkedIn.\nMe gustaría conocer vuestras prioridades y hablar de dónde puedo aportar más.\npsurrielm@gmail.com\nlinkedin.com/in/psurriel\nPol Surriel · Candidatura a dirección tecnológica\n23",
       "enlaces": [
-        "mailto:psurrielm@gmail.com",
-        "https://www.linkedin.com/in/psurriel/"
+        "https://www.linkedin.com/in/psurriel/",
+        "mailto:psurrielm@gmail.com"
       ],
       "variante": "01-equipo"
     },
@@ -316,11 +317,11 @@
       "numero": 24,
       "titulo": "¿Hablamos?",
       "capitulo": "La persona",
-      "imagen": "24-e073a2c3ec3a.webp",
-      "miniatura": "mini-24-e073a2c3ec3a.webp",
+      "imagen": "24-fd78bc416e13.webp",
+      "miniatura": "mini-24-fd78bc416e13.webp",
       "ancho": 1680,
       "alto": 1184,
-      "texto": "UNA CANDIDATURA DE POL SURRIEL\n¿Hablamos?\nTecnología para hacer crecer el despacho.\nPol Surriel\npsurrielm@gmail.com\nUna propuesta para Antonio Segura Abogados.\nExplora la demo\nTodas las escenas, a un\nescaneo.\nantonio-segura-abogados.github.io",
+      "texto": "UNA CANDIDATURA DE POL SURRIEL\n¿Hablamos?\nTecnología para hacer crecer el despacho.\nPol Surriel\npsurrielm@gmail.com\nUna propuesta para Antonio Segura Abogados.\nExplora el proyecto\nPresentación y demos, a un\nescaneo.\nantonio-segura-abogados.github.io",
       "enlaces": [
         "https://antonio-segura-abogados.github.io/#/",
         "mailto:psurrielm@gmail.com"

@@ -1,0 +1,147 @@
+{
+  "fecha": "2026-09-18",
+  "resultado": "correcto",
+  "paginasConMarcoAnterior": 10,
+  "rango": [
+    8,
+    17
+  ],
+  "paginas": [
+    {
+      "pagina": 8,
+      "carpeta": "08-concepto-app",
+      "captura": "recursos-compartidos/assets/demo/08-13/08-objetivo.png",
+      "dimensionesCaptura": [
+        1242,
+        2616
+      ],
+      "sha256Captura": "6bb63fd69c08c721b251412546a0df43555fc6048ee458814e787415685ff2ee",
+      "sha256SlideAnterior": "cdd25be721843b1474c4350287e88140ee1d4b625cda18094766614b2a9a031a",
+      "sha256SlideActual": "8a95ab03e9bda7bbe6fc8fc485473b0bb85f2f8b1d07e7f93e05fc3707e254c8"
+    },
+    {
+      "pagina": 9,
+      "carpeta": "09-entrevista",
+      "captura": "recursos-compartidos/assets/demo/08-13/09-entrevista.png",
+      "dimensionesCaptura": [
+        1242,
+        2616
+      ],
+      "sha256Captura": "91a7f7fc9eda70c204d104381e06e9c3dd91a761ea7d7db0d7a7309a57e2b131",
+      "sha256SlideAnterior": "fad31a9d83386150f410b68c5fac81168767b289c0c10f7f25e846e27c3e5d6f",
+      "sha256SlideActual": "0aa51423c09e4fe84e706d48e8377860718bbb97a0ebf9c82d69244a94025361"
+    },
+    {
+      "pagina": 10,
+      "carpeta": "10-opciones",
+      "captura": "recursos-compartidos/assets/demo/08-13/10-opciones.png",
+      "dimensionesCaptura": [
+        1242,
+        2616
+      ],
+      "sha256Captura": "e488e4acd0e4e78fe340316c0994c8825affe9ef601ec3db167c9b69ec5fc707",
+      "sha256SlideAnterior": "6bb395494b0d5c78f02c10ff927b7c2f2aa3fd39270e9b5dd91a4f1170009dd0",
+      "sha256SlideActual": "2c9f967782a19e2dcd81e8799b422c8c740245c93ad36effc8c665f16f82bb0d"
+    },
+    {
+      "pagina": 11,
+      "carpeta": "11-contratacion",
+      "captura": "recursos-compartidos/assets/demo/08-13/11-planes.png",
+      "dimensionesCaptura": [
+        1242,
+        2616
+      ],
+      "sha256Captura": "e471a05e20a624f19f6dea1c836fd97a86a4f45f76737929137aa07aaa9b77b9",
+      "sha256SlideAnterior": "41c60c38b945e0375df7260bb789bf678cafb54c6528e345f31b8b2223532c49",
+      "sha256SlideActual": "3bcaad2b8833283c5d4d6022f65b97ed0834e8e5cbf0155cbcfc12b36c4949c8"
+    },
+    {
+      "pagina": 12,
+      "carpeta": "12-seguimiento",
+      "captura": "recursos-compartidos/assets/demo/08-13/12-seguimiento.png",
+      "dimensionesCaptura": [
+        1242,
+        2616
+      ],
+      "sha256Captura": "8481e6773186d9ef59f54b1e0bb2f45632f278431871930a084bb51ba7feff12",
+      "sha256SlideAnterior": "6af09f03030d17505b4d997231be8eb2a8fc77fd6d210c4fcb71e88786137ac9",
+      "sha256SlideActual": "0962af6e41dba8a759f9eb7c9f37bb66ae82be15c7a28b07089458d699deddb6"
+    },
+    {
+      "pagina": 13,
+      "carpeta": "13-paso-actual",
+      "captura": "recursos-compartidos/assets/demo/08-13/13-documentacion.png",
+      "dimensionesCaptura": [
+        1242,
+        2616
+      ],
+      "sha256Captura": "092703f42ce57f2f052573c7ef66bbb297d7a933093d87d7c746267e9244c58d",
+      "sha256SlideAnterior": "7fd4e197f130c8cfeb077f0884ea3cd57f39546e53b4979b47c134371468945a",
+      "sha256SlideActual": "57882183427ffa7b45450884b6450e5d310167d099bf4a458f18390b58f3010d"
+    },
+    {
+      "pagina": 14,
+      "carpeta": "14-documentos",
+      "captura": "recursos-compartidos/assets/demo/14-19/14-documentos.png",
+      "dimensionesCaptura": [
+        1242,
+        2616
+      ],
+      "sha256Captura": "825300d4a5e1ad9abb4fb6cd4374922e9e4a1c2abf09da943395b9e4c175eaca",
+      "sha256SlideAnterior": "7e2ede78ceab2d13e98c25448b53716b8b6616c398e12beb9f7a704b17d37d83",
+      "sha256SlideActual": "1e9b5bc074cffe839f3457eaa152f0122877cd52653219b6b78bdf83f90f4a66"
+    },
+    {
+      "pagina": 15,
+      "carpeta": "15-originales",
+      "captura": "recursos-compartidos/assets/demo/14-19/15-originales.png",
+      "dimensionesCaptura": [
+        1242,
+        2616
+      ],
+      "sha256Captura": "9d4671dea5b4189290911ef16a04626c4151438b4b8dc61430fa80e41de928ce",
+      "sha256SlideAnterior": "57304e9c1cebf22339ff2820def1708ea8e84f6c1658ac8e24443eda6f2cbbd3",
+      "sha256SlideActual": "b1bba32960074556b9731fc9ee24f021248c6aaf3da276b741bfe6932f1ed1d2"
+    },
+    {
+      "pagina": 16,
+      "carpeta": "16-practica",
+      "captura": "recursos-compartidos/assets/demo/14-19/16-practica.png",
+      "dimensionesCaptura": [
+        1242,
+        2616
+      ],
+      "sha256Captura": "16212f887eb76cd75d6b0954e04fd22c706f667cc03f4dc6366aab14e032d5eb",
+      "sha256SlideAnterior": "165b2f096277bf7b1b72ad3456f6eef5f7fbf1535fe665a38c2850e790ee2b4b",
+      "sha256SlideActual": "c56aea90458dea511cb0599ce309df0dd16f8aa64a144c1d69d5b374bd1edf29"
+    },
+    {
+      "pagina": 17,
+      "carpeta": "17-consultas",
+      "captura": "recursos-compartidos/assets/demo/14-19/17-consultas.png",
+      "dimensionesCaptura": [
+        1242,
+        2616
+      ],
+      "sha256Captura": "d01f3ebcb5a52a78202fbbc03da50eede237f3049bbbb36d3f2e3a2002237c42",
+      "sha256SlideAnterior": "0c8f0847e275411ffc4e01702b1477eddc8ce1e9b392a40890b089ec6bb6f7ea",
+      "sha256SlideActual": "12a0079a43bd2e67b18c1ea18019423a9afbbfa3592c9df89435beafb91cdfb8"
+    }
+  ],
+  "salidas": [
+    "Variantes seleccionadas: pagina.pdf y pagina.png",
+    "index.pdf y index.png de cada slide",
+    "librito/librito-final.pdf",
+    "vertical/public/presentacion y manifiesto generado"
+  ],
+  "verificacion": [
+    "Recaptura del marco HTML/CSS a escala 3 en Chrome",
+    "Revisión visual de las 10 diapositivas renderizadas",
+    "Comparación ampliada del bisel inferior antes/después",
+    "Recorte de las cuatro esquinas comprobado en navegador",
+    "24 páginas A5 horizontales y texto dentro de límites validados por el compilador"
+  ],
+  "numeroPaginasPdf": 24,
+  "muestrasHistoricas": "Acumulados y parejas anteriores conservados, no son la salida vigente",
+  "publicacion": "pendiente"
+}

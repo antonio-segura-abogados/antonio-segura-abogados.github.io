@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-17",
+  "fecha": "2026-09-18",
   "resultado": "correcto",
   "navegador": "Chrome headless",
   "capturas": [
@@ -69,7 +69,7 @@
     "Consultas: mensaje local, reserva, controles visuales y resumen",
     "Configurador: vista previa, orden, nuevo paso, revisión invalidada al editar, fecha y publicación",
     "Cambios: aplicación explícita, progreso conservado, excepción individual y cancelación del borrador",
-    "Diez URLs: acceso directo, guía y ausencia de desbordamiento a 320 y 390 px",
+    "Diez URLs: acceso directo y ausencia de desbordamiento a 320 y 390 px",
     "Sin errores de JavaScript"
   ],
   "limitacion": "Demostraciones con estado local; no servicios reales conectados"

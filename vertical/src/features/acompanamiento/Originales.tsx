@@ -1,13 +1,8 @@
 import { useState } from 'react';
 import data from '../../../../recursos-compartidos/demo/acompanamiento.json';
-import { DemoScene, type GuideStep } from '../../components/DemoScene';
+import { DemoScene } from '../../components/DemoScene';
 import { Icon } from '../../components/Icon';
 
-const guide: GuideStep[] = [
-  { title: 'Un punto cercano', text: 'Elige una ciudad y un punto ficticio. El mapa y las distancias ilustran una red logística por validar.', target: 'puntos' },
-  { title: 'Preparar y dejar constancia', text: 'Confirma la preparación y crea un resguardo de ejemplo. La entrega queda asociada al expediente.' },
-  { title: 'Seguir el original', text: 'Prueba los estados de transporte, recepción, incidencia y devolución. Recibir el sobre no valida ni apostilla el documento.' },
-];
 
 export function OriginalesScene() {
   const [city, setCity] = useState('Barcelona');
@@ -18,9 +13,9 @@ export function OriginalesScene() {
   const [incident, setIncident] = useState(false);
   const selected = data.puntos.find(p => p.id === point)!;
   function reset() { setCity('Barcelona'); setPoint(data.puntos[0].id); setPhase('puntos'); setReady(false); setStage(0); setIncident(false); }
-  return <DemoScene title="Entrega de originales" label="Del documento al despacho" guide={guide} navigation activeSection="documents" onReset={reset} note="Red logística propuesta. Puntos, distancias, resguardos y envíos ficticios.">{highlight => <>
+  return <DemoScene title="Entrega de originales" label="Del documento al despacho" navigation activeSection="documents" onReset={reset} note="Red logística propuesta. Puntos, distancias, resguardos y envíos ficticios.">{<>
     <div className="greeting"><p>Cuando hace falta el original.</p><h1>{phase === 'envio' ? 'Siempre localizado.' : 'Entrégalo cerca.'}</h1></div>
-    {phase === 'puntos' && <div className={highlight === 'puntos' ? 'is-highlighted' : ''}>
+    {phase === 'puntos' && <div>
       <label className="field-label" htmlFor="ciudad">Ciudad del ejemplo</label><select id="ciudad" className="product-select" value={city} onChange={e => setCity(e.target.value)}>{['Barcelona', 'Madrid', 'Sevilla'].map(c => <option key={c}>{c}</option>)}</select>
       <div className="pickup-map"><svg viewBox="0 0 340 215" role="img" aria-label="Esquema de tres puntos ficticios"><rect width="340" height="215" fill="#edf6fa" /><path d="M0 58H340M0 120H340M0 183H340M48 0V215M118 0V215M234 0V215M304 0V215" stroke="white" strokeWidth="17" /><path d="M340 0Q220 60 320 215" fill="none" stroke="#d0e8ec" strokeWidth="35" />{data.puntos.map((p, i) => <g key={p.id}><circle cx={p.x} cy={p.y} r={p.id === point ? 18 : 14} fill={p.id === point ? '#0192e5' : '#06283d'} /><text x={p.x} y={p.y + 4} textAnchor="middle" fill="white" fontSize="11" fontWeight="700">{i + 1}</text></g>)}</svg><span>Esquema · ubicaciones ficticias</span></div>
       <div className="pickup-list">{data.puntos.map((p, i) => <button key={p.id} aria-pressed={point === p.id} className={point === p.id ? 'selected' : ''} onClick={() => setPoint(p.id)}><b>{String(i + 1).padStart(2, '0')}</b><span><strong>{p.nombre}</strong><small>{p.horario}</small></span><em>{p.distancia}</em></button>)}</div>

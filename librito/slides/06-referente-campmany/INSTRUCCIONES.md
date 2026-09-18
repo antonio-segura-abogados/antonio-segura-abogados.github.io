@@ -1,6 +1,6 @@
-# Un referente de servicio jurídico digital
+# Una oportunidad de mercado para Antonio Segura
 
-Estado: **variante 02 con recursos oficiales, pendiente de revisión**, 17-09-2026. Página propuesta **6/24**;
+Estado: **variante 03, oportunidad de mercado, pendiente de revisión**, 18-09-2026. Página propuesta **6/24**;
 identificador estable `referente-campmany`. Pareja enfrentada 6–7.
 Origen: **S04, referencia de mercado**.
 
@@ -16,7 +16,7 @@ conserva el resto y las aclaraciones posteriores.
 > 
 > Además tiene derecho a 2 llamadas al año sin coste adicional para consultas.
 
-## Desarrollo propuesto, pendiente de revisión
+## Desarrollo inicial, conservado en las variantes 01 y 02
 
 Mostrar una oferta real que ayuda a entender el tipo de servicio propuesto; conectar sus elementos con la siguiente página.
 
@@ -47,7 +47,7 @@ La fuente aparece con fecha y enlace clicable en el PDF. No se inventa una
 pantalla de Campmany ni se implementa una demo de su producto. El cierre
 conecta con la propuesta para AS de la página enfrentada.
 
-## Corrección de Pol y variante vigente
+## Primera corrección de Pol y variante 02
 
 > Deberías haber descargado el logo de caqmpmany etc.
 
@@ -57,6 +57,31 @@ SVG, PNG para maquetación y su procedencia se guardan en recursos compartidos.
 Se conservan proporciones, colores y degradados. El recorrido pasa a la parte
 inferior para dar presencia a los recursos reales. La primera variante se
 conserva; la 02 queda en revisión.
+
+## Corrección de enfoque de Pol · 18-09-2026
+
+> He hecho un estudio de mercado que muestra que el mercado de procesos
+> jurídicos vía app en extranjeria está libre.
+>
+> Hay algún despacho que ha aplicado los mismos principios (este en concreto)
+> a las bajas laborales y han sido un éxito en multiplicar facturación.
+>
+> Yo lo que quiero es que presten atención a la oportunidad y que el caso de
+> estudio sea un refuerzo de seguridad.
+
+La [variante 03](variantes/03-oportunidad-de-mercado/README.md) aplica esta
+jerarquía: estudio de Pol, conclusión de mercado, oportunidad para Antonio
+Segura y Campmany como respaldo. Pol aclara después que conoce personalmente
+la historia de Campmany, sin disponer de cifras. Se localiza el caso de HubSpot
+sobre crecimiento con marketing y ventas digitales; la página de Premium
+respalda las prestaciones del servicio. Se conserva el logo oficial en menor tamaño.
+Seleccionada para revisión en la URL local `/#/?pagina=6`, sin publicación.
+Las variantes anteriores permanecen disponibles en sus carpetas.
+
+**Cierre aprobado por Pol y aplicado:** «Campmany demuestra que un despacho
+especializado puede crecer con un modelo digital. Mi propuesta es llevar estos
+principios a extranjería». Sustituye la atribución del crecimiento al estudio
+de Pol y refuerza la oportunidad para AS. El pie enlaza ambas fuentes.
 
 ## Render vigente y publicación
 

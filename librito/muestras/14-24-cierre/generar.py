@@ -11,9 +11,8 @@ import pymupdf
 from PIL import Image
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
-from reportlab.lib.utils import ImageReader
-from reportlab.graphics.barcode.qr import QrCodeWidget
 from reportlab.lib.colors import HexColor
+from reportlab.lib.utils import ImageReader
 
 HERE = Path(__file__).resolve().parent
 BOOK = HERE.parents[1]
@@ -51,23 +50,11 @@ def phone(p, d, x, top, width=160):
 
 def code(p, key, x, top, size=28 * 72 / 25.4):
     url = QR[key]['destino']
-    widget = QrCodeWidget(url, barLevel='M', barBorder=4)
-    widget.qr.make()
-    cell = size / (widget.qr.moduleCount + 8)
-    p.rect(x, top, size, size)
-    p.c.setFillColor(HexColor('#000000'))
-    for row, values in enumerate(widget.qr.modules):
-        for col, ink in enumerate(values):
-            if ink: p.c.rect(x + (col + 4) * cell, H - top - (row + 5) * cell, cell, cell, stroke=0, fill=1)
-    p.c.linkURL(url, (x, H - top - size, x + size, H - top), relative=0)
+    a.qr_diseno.codigo(p.c, H, url, x, top, size, LINE)
 
 
-def qr(p, d, x, top, tx, ty, tw=180):
-    code(p, d['qr'], x, top)
-    p.text(d['qrTitulo'], tx, ty, 11, 'SemiBold')
-    end = p.para(d['qrDetalle'], tx, ty + 17, tw, 9.5, 13)
-    p.text('Demo con datos ficticios', tx, end + 5, 7.4, ink=MUTED)
-    assert end + 5 < 384
+def qr(p, d, x, top, tx, tw=180):
+    a.qr_diseno.demo(p, H, d, QR[d['qr']]['destino'], x, top, tx, tw, BLUE, LINE, MUTED)
 
 
 def p14(p, d):
@@ -80,7 +67,7 @@ def p14(p, d):
         p.text(str(i + 1).zfill(2), 35, 253 + i * 22, 9, 'SemiBold', BLUE)
         p.text(line, 59, 253 + i * 22, 10.8, 'SemiBold')
     phone(p, d, 385, 41)
-    qr(p, d, 31, 309, 127, 330, 206)
+    qr(p, d, 31, 309, 127, 206)
     c.footer(p, 14, d['puente'])
 
 
@@ -97,7 +84,7 @@ def p15(p, d):
         if i < 3: p.line(x + 9, 253, x + 71, 253, LINE, 1)
         p.text(label, x, 272, 8.8, 'SemiBold')
     p.para(d['nota'], 236, 289, 305, 7.4, 10)
-    qr(p, d, 468, 311, 236, 330, 200)
+    qr(p, d, 236, 311, 332, 211)
     c.footer(p, 15, d['puente'])
 
 
@@ -114,7 +101,7 @@ def p16(p, d):
     p.para(d['nota'], 35, 287, 301, 7.6, 10)
     p.c.linkURL('https://examenes.cervantes.es/sites/default/files/manual-ccse-2026-def.pdf', (35, H - 303, 336, H - 278), relative=0)
     phone(p, d, 385, 41)
-    qr(p, d, 31, 311, 127, 330, 209)
+    qr(p, d, 31, 311, 127, 209)
     c.footer(p, 16, d['puente'])
 
 
@@ -128,7 +115,7 @@ def p17(p, d):
     for i, label in enumerate(d['claves']):
         p.circle(239, 241 + i * 22, 2.5, BLUE)
         p.text(label, 250, 244 + i * 22, 10.5, 'SemiBold')
-    qr(p, d, 468, 309, 236, 328, 202)
+    qr(p, d, 236, 309, 332, 211)
     c.footer(p, 17, d['puente'])
 
 
@@ -137,13 +124,23 @@ def management(p, d, number, title1, title2, size):
     p.text('05 / DIRIGIR LA OPERACIÓN', x, 43, 8.5, 'SemiBold', MUTED, .7)
     p.text(title1, x - 3, 84, 33, 'ExtraBold', tracking=-.9)
     p.slanted(title2, x, 129, size, 2.6)
-    code(p, d['qr'], 477, 38, 27 * 72 / 25.4)
-    p.centered(d['qrTitulo'], 515, 128, 8.1, 'SemiBold')
-    p.centered('Demo guiada', 515, 141, 7.2, ink=MUTED)
-    end = p.para(d['intro'], x, 156, 507, 10.7, 15, DARK)
-    assert end <= 186
-    bottom = picture(p, ASSETS / d['captura'], x, 183, 513 if number % 2 else 520, 400)
-    assert bottom < 384, (number, bottom)
+    # El CRM completo incluye navegación y cabecera. La captura de escritorio
+    # necesita más altura que el antiguo recorte del tablero: texto y QR pasan
+    # a la columna derecha, conservando titulares y contenido editorial.
+    image_width = 368
+    image_top = 142
+    bottom = picture(p, ASSETS / d['captura'], x, image_top, image_width, 350)
+    assert bottom < 383, (number, bottom)
+    tx = x + image_width + 20
+    end = p.para(d['intro'], tx, 158, 555 - tx, 10.2, 14.5, DARK)
+    assert end <= 274, (number, end)
+    qr_size = 27 * 72 / 25.4
+    qr_x = tx + (555 - tx - qr_size) / 2
+    code(p, d['qr'], qr_x, 282, qr_size)
+    badge_width, _ = a.qr_diseno.medidas('Demo interactiva', 7.7)
+    a.qr_diseno.etiqueta(p.c, H, 'Demo interactiva',
+                        qr_x + qr_size / 2 - badge_width / 2, 365,
+                        BLUE, QR[d['qr']]['destino'], 'arriba', 7.7)
     c.footer(p, number, d['nota'])
 
 
@@ -159,14 +156,32 @@ def geographic_map(p):
         for n, ring in enumerate(polygon):
             if max(v[0] for v in ring) < -10: continue
             p.poly([project(*v) for v in ring], '#d9ecf7' if n == 0 else WHITE)
-    origin = project(2.17, 41.39)
-    for lon, lat in [(-8.55, 42.88), (-2.94, 43.26), (-3.70, 40.42), (-.38, 39.47), (-5.98, 37.39)]:
+    barcelona = project(2.17, 41.39)
+    # Ajuste óptico hacia el noreste sobre la costa simplificada del mapa.
+    origin = (barcelona[0] + 4, barcelona[1] - 4)
+    p.c.saveState()
+    p.c.setStrokeColor(HexColor(BLUE))
+    p.c.setLineWidth(.9)
+    p.c.setLineCap(1)
+    # El arco corto del norte es más bajo para separarlo de la ruta a Galicia.
+    for lon, lat, curvature in [(-8.55, 42.88, .35), (-2.94, 43.26, .18),
+                                (-3.70, 40.42, .35), (-.38, 39.47, .35),
+                                (-5.98, 37.39, .35)]:
         dest = project(lon, lat)
-        p.line(*origin, *dest, BLUE, .9)
         dx, dy = dest[0] - origin[0], dest[1] - origin[1]
-        length = math.hypot(dx, dy)
-        ux, uy = dx / length, dy / length
+        # Arco parabólico: control perpendicular al trayecto, hacia arriba.
+        control = ((origin[0] + dest[0]) / 2 - curvature * dy,
+                   (origin[1] + dest[1]) / 2 + curvature * dx)
+        # Conversión exacta de la curva cuadrática al Bézier cúbico del PDF.
+        c1 = tuple(start + 2 / 3 * (middle - start) for start, middle in zip(origin, control))
+        c2 = tuple(end + 2 / 3 * (middle - end) for end, middle in zip(dest, control))
+        p.c.bezier(origin[0], H - origin[1], c1[0], H - c1[1],
+                   c2[0], H - c2[1], dest[0], H - dest[1])
+        tangent = (dest[0] - control[0], dest[1] - control[1])
+        length = math.hypot(*tangent)
+        ux, uy = tangent[0] / length, tangent[1] / length
         p.poly([dest, (dest[0] - 6 * ux + 2.3 * uy, dest[1] - 6 * uy - 2.3 * ux), (dest[0] - 6 * ux - 2.3 * uy, dest[1] - 6 * uy + 2.3 * ux)], BLUE)
+    p.c.restoreState()
     p.circle(*origin, 5, DARK)
     p.text('Desde Cataluña', origin[0] - 10, origin[1] - 12, 9, 'SemiBold')
     p.rect(226, 340, 93, 30, WHITE, LINE, 3)
@@ -248,10 +263,14 @@ def p23(p, d):
     p.text('Me gustaría', 40, 94, 43, 'ExtraBold', tracking=-1.3)
     p.slanted('hacerlo con vosotros.', 43, 145, 39.2, 3)
     files = ROOT / 'tmp/fotos'
-    # Originales completos, sin retocar ni atribuir identidades a los participantes.
-    picture(p, files / d['fotos'][0]['archivo'], 43, 171, 191, 300)
-    picture(p, files / d['fotos'][1]['archivo'], 251, 171, 298, 300)
-    for i, x in enumerate([43, 251]): p.text(d['fotos'][i]['pie'], x, 333, 8.5, 'SemiBold', MUTED)
+    # Foto original completa, en su posición inicial y sin retoques.
+    photo_x = 43
+    picture(p, files / d['fotos'][0]['archivo'], photo_x, 171, 191, 300)
+    p.text(d['fotos'][0]['pie'], photo_x, 333, 8.5, 'SemiBold', MUTED)
+    code(p, d['qr'], 270, 204)
+    a.qr_diseno.etiqueta(p.c, H, d['qrTitulo'], 366, 205, BLUE,
+                        QR[d['qr']]['destino'], 'izquierda')
+    p.para(d['qrDetalle'], 366, 251, 183, 11, 16, DARK)
     p.para(d['cierre'], 43, 357, 505, 10.8, 15, DARK)
     p.text(d['email'], 43, 383, 11.4, 'SemiBold', BLUE)
     p.text('linkedin.com/in/psurriel', 361, 383, 9.5, ink=MUTED)
@@ -270,8 +289,9 @@ def p24(p, d):
     p.text(d['email'], 43, 334, 13.7, 'SemiBold', BLUE)
     p.text(d['destinatario'], 43, 358, 9.2, ink=MUTED)
     code(p, d['qr'], 473, 285)
-    p.text(d['qrTitulo'], 348, 316, 10.7, 'SemiBold')
-    p.para(d['qrDetalle'], 348, 334, 110, 9.2, 13, MUTED)
+    a.qr_diseno.etiqueta(p.c, H, d['qrTitulo'], 330, 289, BLUE,
+                        QR[d['qr']]['destino'], 'derecha', 8.5)
+    p.para(d['qrDetalle'], 335, 339, 119, 9.2, 13, MUTED)
     p.text(d['urlVisible'], 43, 393, 9, 'SemiBold')
     p.c.linkURL('mailto:' + d['email'], (43, H - 339, 320, H - 315), relative=0)
     p.c.linkURL(QR['inicio']['destino'], (43, H - 397, 400, H - 380), relative=0)

@@ -1,0 +1,982 @@
+[
+  {
+    "value": "102",
+    "label": "Austria",
+    "european": true
+  },
+  {
+    "value": "103",
+    "label": "Bélgica",
+    "european": true
+  },
+  {
+    "value": "104",
+    "label": "Bulgaria",
+    "european": true
+  },
+  {
+    "value": "106",
+    "label": "Chipre",
+    "european": true
+  },
+  {
+    "value": "107",
+    "label": "Dinamarca",
+    "european": true
+  },
+  {
+    "value": "108",
+    "label": "España",
+    "european": true
+  },
+  {
+    "value": "109",
+    "label": "Finlandia",
+    "european": true
+  },
+  {
+    "value": "110",
+    "label": "Francia",
+    "european": true
+  },
+  {
+    "value": "111",
+    "label": "Grecia",
+    "european": true
+  },
+  {
+    "value": "112",
+    "label": "Hungría",
+    "european": true
+  },
+  {
+    "value": "113",
+    "label": "Irlanda",
+    "european": true
+  },
+  {
+    "value": "115",
+    "label": "Italia",
+    "european": true
+  },
+  {
+    "value": "117",
+    "label": "Luxemburgo",
+    "european": true
+  },
+  {
+    "value": "118",
+    "label": "Malta",
+    "european": true
+  },
+  {
+    "value": "121",
+    "label": "Países Bajos",
+    "european": true
+  },
+  {
+    "value": "122",
+    "label": "Polonia",
+    "european": true
+  },
+  {
+    "value": "123",
+    "label": "Portugal",
+    "european": true
+  },
+  {
+    "value": "126",
+    "label": "Alemania",
+    "european": true
+  },
+  {
+    "value": "128",
+    "label": "Rumanía",
+    "european": true
+  },
+  {
+    "value": "131",
+    "label": "Suecia",
+    "european": true
+  },
+  {
+    "value": "136",
+    "label": "Letonia",
+    "european": true
+  },
+  {
+    "value": "141",
+    "label": "Estonia",
+    "european": true
+  },
+  {
+    "value": "142",
+    "label": "Lituania",
+    "european": true
+  },
+  {
+    "value": "143",
+    "label": "República Checa",
+    "european": true
+  },
+  {
+    "value": "144",
+    "label": "República Eslovaca",
+    "european": true
+  },
+  {
+    "value": "146",
+    "label": "Croacia",
+    "european": true
+  },
+  {
+    "value": "147",
+    "label": "Eslovenia",
+    "european": true
+  },
+  {
+    "value": "101",
+    "label": "Albania",
+    "european": false
+  },
+  {
+    "value": "114",
+    "label": "Islandia",
+    "european": true
+  },
+  {
+    "value": "116",
+    "label": "Liechtenstein",
+    "european": true
+  },
+  {
+    "value": "119",
+    "label": "Mónaco",
+    "european": false
+  },
+  {
+    "value": "120",
+    "label": "Noruega",
+    "european": true
+  },
+  {
+    "value": "124",
+    "label": "Andorra",
+    "european": false
+  },
+  {
+    "value": "125",
+    "label": "Reino Unido",
+    "european": false
+  },
+  {
+    "value": "129",
+    "label": "San Marino",
+    "european": false
+  },
+  {
+    "value": "130",
+    "label": "Santa Sede",
+    "european": false
+  },
+  {
+    "value": "132",
+    "label": "Suiza",
+    "european": true
+  },
+  {
+    "value": "135",
+    "label": "Ucrania",
+    "european": false
+  },
+  {
+    "value": "137",
+    "label": "Moldavia",
+    "european": false
+  },
+  {
+    "value": "138",
+    "label": "Belarús",
+    "european": false
+  },
+  {
+    "value": "139",
+    "label": "Georgia",
+    "european": false
+  },
+  {
+    "value": "145",
+    "label": "Bosnia y Herzegovina",
+    "european": false
+  },
+  {
+    "value": "148",
+    "label": "Armenia",
+    "european": false
+  },
+  {
+    "value": "154",
+    "label": "Rusia",
+    "european": false
+  },
+  {
+    "value": "156",
+    "label": "Macedonia del Norte",
+    "european": false
+  },
+  {
+    "value": "157",
+    "label": "Serbia",
+    "european": false
+  },
+  {
+    "value": "158",
+    "label": "Montenegro",
+    "european": false
+  },
+  {
+    "value": "436",
+    "label": "Turquía",
+    "european": false
+  },
+  {
+    "value": "201",
+    "label": "Burkina Faso",
+    "european": false
+  },
+  {
+    "value": "202",
+    "label": "Angola",
+    "european": false
+  },
+  {
+    "value": "203",
+    "label": "Argelia",
+    "european": false
+  },
+  {
+    "value": "204",
+    "label": "Benin",
+    "european": false
+  },
+  {
+    "value": "205",
+    "label": "Botswana",
+    "european": false
+  },
+  {
+    "value": "206",
+    "label": "Burundi",
+    "european": false
+  },
+  {
+    "value": "207",
+    "label": "Cabo Verde",
+    "european": false
+  },
+  {
+    "value": "208",
+    "label": "Camerún",
+    "european": false
+  },
+  {
+    "value": "209",
+    "label": "Comores",
+    "european": false
+  },
+  {
+    "value": "210",
+    "label": "Congo",
+    "european": false
+  },
+  {
+    "value": "211",
+    "label": "Costa de Marfil",
+    "european": false
+  },
+  {
+    "value": "212",
+    "label": "Djibouti",
+    "european": false
+  },
+  {
+    "value": "213",
+    "label": "Egipto",
+    "european": false
+  },
+  {
+    "value": "214",
+    "label": "Etiopía",
+    "european": false
+  },
+  {
+    "value": "215",
+    "label": "Gabón",
+    "european": false
+  },
+  {
+    "value": "216",
+    "label": "Gambia",
+    "european": false
+  },
+  {
+    "value": "217",
+    "label": "Ghana",
+    "european": false
+  },
+  {
+    "value": "218",
+    "label": "Guinea",
+    "european": false
+  },
+  {
+    "value": "219",
+    "label": "Guinea-Bissau",
+    "european": false
+  },
+  {
+    "value": "220",
+    "label": "Guinea Ecuatorial",
+    "european": false
+  },
+  {
+    "value": "221",
+    "label": "Kenia",
+    "european": false
+  },
+  {
+    "value": "222",
+    "label": "Lesotho",
+    "european": false
+  },
+  {
+    "value": "223",
+    "label": "Liberia",
+    "european": false
+  },
+  {
+    "value": "224",
+    "label": "Libia",
+    "european": false
+  },
+  {
+    "value": "225",
+    "label": "Madagascar",
+    "european": false
+  },
+  {
+    "value": "226",
+    "label": "Malawi",
+    "european": false
+  },
+  {
+    "value": "227",
+    "label": "Mali",
+    "european": false
+  },
+  {
+    "value": "228",
+    "label": "Marruecos",
+    "european": false
+  },
+  {
+    "value": "229",
+    "label": "Mauricio",
+    "european": false
+  },
+  {
+    "value": "230",
+    "label": "Mauritania",
+    "european": false
+  },
+  {
+    "value": "231",
+    "label": "Mozambique",
+    "european": false
+  },
+  {
+    "value": "232",
+    "label": "Namibia",
+    "european": false
+  },
+  {
+    "value": "233",
+    "label": "Níger",
+    "european": false
+  },
+  {
+    "value": "234",
+    "label": "Nigeria",
+    "european": false
+  },
+  {
+    "value": "235",
+    "label": "República Centroafricana",
+    "european": false
+  },
+  {
+    "value": "236",
+    "label": "Sudáfrica",
+    "european": false
+  },
+  {
+    "value": "237",
+    "label": "Ruanda",
+    "european": false
+  },
+  {
+    "value": "238",
+    "label": "Santo Tomé y Príncipe",
+    "european": false
+  },
+  {
+    "value": "239",
+    "label": "Senegal",
+    "european": false
+  },
+  {
+    "value": "240",
+    "label": "Seychelles",
+    "european": false
+  },
+  {
+    "value": "241",
+    "label": "Sierra Leona",
+    "european": false
+  },
+  {
+    "value": "242",
+    "label": "Somalia",
+    "european": false
+  },
+  {
+    "value": "243",
+    "label": "Sudán",
+    "european": false
+  },
+  {
+    "value": "244",
+    "label": "Swazilandia",
+    "european": false
+  },
+  {
+    "value": "245",
+    "label": "Tanzania",
+    "european": false
+  },
+  {
+    "value": "246",
+    "label": "Chad",
+    "european": false
+  },
+  {
+    "value": "247",
+    "label": "Togo",
+    "european": false
+  },
+  {
+    "value": "248",
+    "label": "Túnez",
+    "european": false
+  },
+  {
+    "value": "249",
+    "label": "Uganda",
+    "european": false
+  },
+  {
+    "value": "250",
+    "label": "República Democrática del Congo",
+    "european": false
+  },
+  {
+    "value": "251",
+    "label": "Zambia",
+    "european": false
+  },
+  {
+    "value": "252",
+    "label": "Zimbabwe",
+    "european": false
+  },
+  {
+    "value": "253",
+    "label": "Eritrea",
+    "european": false
+  },
+  {
+    "value": "254",
+    "label": "Sudán del Sur",
+    "european": false
+  },
+  {
+    "value": "301",
+    "label": "Canadá",
+    "european": false
+  },
+  {
+    "value": "302",
+    "label": "Estados Unidos de América",
+    "european": false
+  },
+  {
+    "value": "303",
+    "label": "México",
+    "european": false
+  },
+  {
+    "value": "310",
+    "label": "Antigua y Barbuda",
+    "european": false
+  },
+  {
+    "value": "311",
+    "label": "Bahamas",
+    "european": false
+  },
+  {
+    "value": "312",
+    "label": "Barbados",
+    "european": false
+  },
+  {
+    "value": "313",
+    "label": "Belice",
+    "european": false
+  },
+  {
+    "value": "314",
+    "label": "Costa Rica",
+    "european": false
+  },
+  {
+    "value": "315",
+    "label": "Cuba",
+    "european": false
+  },
+  {
+    "value": "316",
+    "label": "Dominica",
+    "european": false
+  },
+  {
+    "value": "317",
+    "label": "El Salvador",
+    "european": false
+  },
+  {
+    "value": "318",
+    "label": "Granada",
+    "european": false
+  },
+  {
+    "value": "319",
+    "label": "Guatemala",
+    "european": false
+  },
+  {
+    "value": "320",
+    "label": "Haití",
+    "european": false
+  },
+  {
+    "value": "321",
+    "label": "Honduras",
+    "european": false
+  },
+  {
+    "value": "322",
+    "label": "Jamaica",
+    "european": false
+  },
+  {
+    "value": "323",
+    "label": "Nicaragua",
+    "european": false
+  },
+  {
+    "value": "324",
+    "label": "Panamá",
+    "european": false
+  },
+  {
+    "value": "325",
+    "label": "San Vicente y las Granadinas",
+    "european": false
+  },
+  {
+    "value": "326",
+    "label": "República Dominicana",
+    "european": false
+  },
+  {
+    "value": "327",
+    "label": "Trinidad y Tobago",
+    "european": false
+  },
+  {
+    "value": "328",
+    "label": "Santa Lucía",
+    "european": false
+  },
+  {
+    "value": "329",
+    "label": "San Cristóbal y Nieves",
+    "european": false
+  },
+  {
+    "value": "340",
+    "label": "Argentina",
+    "european": false
+  },
+  {
+    "value": "341",
+    "label": "Bolivia",
+    "european": false
+  },
+  {
+    "value": "342",
+    "label": "Brasil",
+    "european": false
+  },
+  {
+    "value": "343",
+    "label": "Colombia",
+    "european": false
+  },
+  {
+    "value": "344",
+    "label": "Chile",
+    "european": false
+  },
+  {
+    "value": "345",
+    "label": "Ecuador",
+    "european": false
+  },
+  {
+    "value": "346",
+    "label": "Guyana",
+    "european": false
+  },
+  {
+    "value": "347",
+    "label": "Paraguay",
+    "european": false
+  },
+  {
+    "value": "348",
+    "label": "Perú",
+    "european": false
+  },
+  {
+    "value": "349",
+    "label": "Surinam",
+    "european": false
+  },
+  {
+    "value": "350",
+    "label": "Uruguay",
+    "european": false
+  },
+  {
+    "value": "351",
+    "label": "Venezuela",
+    "european": false
+  },
+  {
+    "value": "401",
+    "label": "Afganistán",
+    "european": false
+  },
+  {
+    "value": "402",
+    "label": "Arabia Saudí",
+    "european": false
+  },
+  {
+    "value": "403",
+    "label": "Bahréin",
+    "european": false
+  },
+  {
+    "value": "404",
+    "label": "Bangladesh",
+    "european": false
+  },
+  {
+    "value": "405",
+    "label": "Myanmar",
+    "european": false
+  },
+  {
+    "value": "407",
+    "label": "China",
+    "european": false
+  },
+  {
+    "value": "408",
+    "label": "Emiratos Árabes Unidos",
+    "european": false
+  },
+  {
+    "value": "409",
+    "label": "Filipinas",
+    "european": false
+  },
+  {
+    "value": "410",
+    "label": "India",
+    "european": false
+  },
+  {
+    "value": "411",
+    "label": "Indonesia",
+    "european": false
+  },
+  {
+    "value": "412",
+    "label": "Iraq",
+    "european": false
+  },
+  {
+    "value": "413",
+    "label": "Irán",
+    "european": false
+  },
+  {
+    "value": "414",
+    "label": "Israel",
+    "european": false
+  },
+  {
+    "value": "415",
+    "label": "Japón",
+    "european": false
+  },
+  {
+    "value": "416",
+    "label": "Jordania",
+    "european": false
+  },
+  {
+    "value": "417",
+    "label": "Camboya",
+    "european": false
+  },
+  {
+    "value": "418",
+    "label": "Kuwait",
+    "european": false
+  },
+  {
+    "value": "419",
+    "label": "Laos",
+    "european": false
+  },
+  {
+    "value": "420",
+    "label": "Líbano",
+    "european": false
+  },
+  {
+    "value": "421",
+    "label": "Malasia",
+    "european": false
+  },
+  {
+    "value": "422",
+    "label": "Maldivas",
+    "european": false
+  },
+  {
+    "value": "423",
+    "label": "Mongolia",
+    "european": false
+  },
+  {
+    "value": "424",
+    "label": "Nepal",
+    "european": false
+  },
+  {
+    "value": "425",
+    "label": "Omán",
+    "european": false
+  },
+  {
+    "value": "426",
+    "label": "Pakistán",
+    "european": false
+  },
+  {
+    "value": "427",
+    "label": "Qatar",
+    "european": false
+  },
+  {
+    "value": "430",
+    "label": "Corea",
+    "european": false
+  },
+  {
+    "value": "431",
+    "label": "Corea del Norte",
+    "european": false
+  },
+  {
+    "value": "432",
+    "label": "Singapur",
+    "european": false
+  },
+  {
+    "value": "433",
+    "label": "Siria",
+    "european": false
+  },
+  {
+    "value": "434",
+    "label": "Sri Lanka",
+    "european": false
+  },
+  {
+    "value": "435",
+    "label": "Tailandia",
+    "european": false
+  },
+  {
+    "value": "437",
+    "label": "Vietnam",
+    "european": false
+  },
+  {
+    "value": "439",
+    "label": "Brunei",
+    "european": false
+  },
+  {
+    "value": "440",
+    "label": "Islas Marshall",
+    "european": false
+  },
+  {
+    "value": "441",
+    "label": "Yemen",
+    "european": false
+  },
+  {
+    "value": "442",
+    "label": "Azerbaiyán",
+    "european": false
+  },
+  {
+    "value": "443",
+    "label": "Kazajstán",
+    "european": false
+  },
+  {
+    "value": "444",
+    "label": "Kirguistán",
+    "european": false
+  },
+  {
+    "value": "445",
+    "label": "Tayikistán",
+    "european": false
+  },
+  {
+    "value": "446",
+    "label": "Turkmenistán",
+    "european": false
+  },
+  {
+    "value": "447",
+    "label": "Uzbekistán",
+    "european": false
+  },
+  {
+    "value": "448",
+    "label": "Bhután",
+    "european": false
+  },
+  {
+    "value": "449",
+    "label": "Palestina",
+    "european": false
+  },
+  {
+    "value": "501",
+    "label": "Australia",
+    "european": false
+  },
+  {
+    "value": "502",
+    "label": "Fiji",
+    "european": false
+  },
+  {
+    "value": "504",
+    "label": "Nueva Zelanda",
+    "european": false
+  },
+  {
+    "value": "505",
+    "label": "Papúa Nueva Guinea",
+    "european": false
+  },
+  {
+    "value": "506",
+    "label": "Islas Salomón",
+    "european": false
+  },
+  {
+    "value": "507",
+    "label": "Samoa",
+    "european": false
+  },
+  {
+    "value": "508",
+    "label": "Tonga",
+    "european": false
+  },
+  {
+    "value": "509",
+    "label": "Vanuatu",
+    "european": false
+  },
+  {
+    "value": "511",
+    "label": "Micronesia",
+    "european": false
+  },
+  {
+    "value": "512",
+    "label": "Tuvalu",
+    "european": false
+  },
+  {
+    "value": "513",
+    "label": "Islas Cook",
+    "european": false
+  },
+  {
+    "value": "514",
+    "label": "Kiribati",
+    "european": false
+  },
+  {
+    "value": "515",
+    "label": "Nauru",
+    "european": false
+  },
+  {
+    "value": "516",
+    "label": "Palaos",
+    "european": false
+  },
+  {
+    "value": "517",
+    "label": "Timor Oriental",
+    "european": false
+  }
+]

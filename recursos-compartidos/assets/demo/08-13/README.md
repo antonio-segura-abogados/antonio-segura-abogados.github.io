@@ -9,6 +9,11 @@ superior se dibujan con HTML/CSS en `vertical/src/components/DemoScene.tsx` y
 [capturar.mjs](../../../../librito/muestras/08-13-app/capturar.mjs) permite
 reproducirlas desde un servidor local. Los textos del ejemplo están en
 `recursos-compartidos/demo/entrada.json` y `seguimiento.json`.
+La entrevista actual se define en `vertical/src/features/entrada/cuestionario.ts`.
+
+Actualizadas el 18-09-2026: recorte común de las cuatro esquinas dentro del
+bisel; objetivo inicial y preguntas actuales sin cabecera de usuario identificado.
+Usadas para regenerar las páginas vigentes 8–13 y el librito final.
 
 `11-contratacion.png` documenta el resumen de compra disponible como escena
 autónoma y como panel. La página impresa 11 utiliza `11-planes.png`, con los

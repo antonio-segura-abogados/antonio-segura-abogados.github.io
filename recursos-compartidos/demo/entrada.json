@@ -2,7 +2,6 @@
   "persona": "Lucía",
   "fechaReferencia": "2026-09-17",
   "perfil": { "origen": "Colombia", "llegada": "2022-05-01", "residenciaLegal": "2023-07-01", "vinculo": "No" },
-  "objetivos": ["Solicitar la nacionalidad", "Gestionar mi residencia", "Traer a mi familia"],
   "opciones": [
     {
       "id": "nacionalidad",

@@ -4,14 +4,13 @@
     {
       "archivo": "tech-lead-viewnext.png",
       "pie": "VIEWNEXT · etapa como TechLead"
-    },
-    {
-      "archivo": "team-surreal-boost.png",
-      "pie": "Surreal Boost · equipo"
     }
   ],
   "cierre": "Me gustaría conocer vuestras prioridades y hablar de dónde puedo aportar más.",
   "email": "psurrielm@gmail.com",
   "linkedin": "https://www.linkedin.com/in/psurriel/",
+  "qr": "linkedin-pol",
+  "qrTitulo": "Mi LinkedIn",
+  "qrDetalle": "Puedes leer recomendaciones en mi perfil de LinkedIn.",
   "puente": "Pol Surriel · Candidatura a dirección tecnológica"
 }

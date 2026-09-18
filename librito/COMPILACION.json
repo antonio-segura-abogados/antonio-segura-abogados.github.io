@@ -5,8 +5,8 @@
     210,
     148
   ],
-  "sha256Pdf": "69c23f6c61e321792bb9e2635897c541b5822ae9393a100f67714ffc5202521c",
-  "versionWeb": "69c23f6c61e3",
+  "sha256Pdf": "663cc88c8e488b18216765d98e7530c571278b66865f05d09d250f3bc7a24cd8",
+  "versionWeb": "663cc88c8e48",
   "pdf": "librito-final.pdf",
   "salidaWeb": "../vertical/public/presentacion",
   "variantes": [
@@ -27,9 +27,9 @@
     {
       "pagina": 3,
       "carpeta": "03-direccion-tecnologica",
-      "variante": "01-direccion",
-      "sha256Pdf": "b24e994cc679863e8f9fbcefa66d561c9f7a16485d9ba62f3719308884a08bd2",
-      "sha256Png": "da4c891635a4df0def429f267c95dc1a594aaf07a14e4c17d574ce59f2258efe"
+      "variante": "02-experto-tecnologico",
+      "sha256Pdf": "c2368627cbd856630b4b1456a9d6f4d7d052bad23745e11d7ebd096441d497be",
+      "sha256Png": "4d5bdac4b5dc9adb27319b823651f7ba98192c08dd59eb927812ea7c6486040d"
     },
     {
       "pagina": 4,
@@ -48,107 +48,107 @@
     {
       "pagina": 6,
       "carpeta": "06-referente-campmany",
-      "variante": "02-referente-visual",
-      "sha256Pdf": "2046baaa79d6fda937a9fe2c9b6aa1c27814ea8129e82fac5308b2814008c235",
-      "sha256Png": "ed28f8f13f5e6e6f6ebfe9085ef95bff4772cd1fc4ce01fe4c39c5ec020c6628"
+      "variante": "03-oportunidad-de-mercado",
+      "sha256Pdf": "989e056985faeed4068bd843672fe4a67550ce6a92479c704290f1418229cd84",
+      "sha256Png": "268d2216810120df80e0841832d5b223019e4ed695e2d2fc1819bd2b5387564a"
     },
     {
       "pagina": 7,
       "carpeta": "07-modelo-operativo",
       "variante": "01-procesos",
-      "sha256Pdf": "6f9468457a51947cb5bd8148d8e17b081af95f14c935cdef8b4e3612c046ae0d",
-      "sha256Png": "8bdcec919847da304594691a5fabfccaae775686e5f63b14da4a2dbf3e4949b8"
+      "sha256Pdf": "9aa267922841d99fe0a00378fcf8a619014edc9059f32470646ef47e7392ad05",
+      "sha256Png": "101224576303ac6a70946f58a720455ff600569dc7931bbf6448346f12c19e9d"
     },
     {
       "pagina": 8,
       "carpeta": "08-concepto-app",
       "variante": "01-producto",
-      "sha256Pdf": "50de592752d5e1b13f8bc0ac324ea26a7a58f774b4d3f1cde43e192a1614f745",
-      "sha256Png": "cdd25be721843b1474c4350287e88140ee1d4b625cda18094766614b2a9a031a"
+      "sha256Pdf": "c72afc07d05533328260810d5324d55a4f4482666b4e423bba6fab490e52030f",
+      "sha256Png": "8a95ab03e9bda7bbe6fc8fc485473b0bb85f2f8b1d07e7f93e05fc3707e254c8"
     },
     {
       "pagina": 9,
       "carpeta": "09-entrevista",
       "variante": "01-conversacion",
-      "sha256Pdf": "a9fc92e40e0747f2be3665a6dda77e4d4422acfcbc67a3a526ca00c137108e8b",
-      "sha256Png": "1d2a3a6230d159b14b661a27a22bb6b03f6a80aa463bd08f677c1eceecbc9295"
+      "sha256Pdf": "603013ae5bad8756f4bb18a6fa89f5c50bf8c9a245ab78527f75996fa5a2de07",
+      "sha256Png": "0aa51423c09e4fe84e706d48e8377860718bbb97a0ebf9c82d69244a94025361"
     },
     {
       "pagina": 10,
       "carpeta": "10-opciones",
       "variante": "01-decision",
-      "sha256Pdf": "f90a91d710ce3f53eb02b3e0ecdd74866cbc71aa28107a7e476d50794557e210",
-      "sha256Png": "01fc00e356e7e8d0214d180b3ef4c40e01d88f9cd717a347c264e3a1041e09ba"
+      "sha256Pdf": "2cdd9a63fc9bc8db017faa4ed309bee1c756386464900c9aff95449f1ac09f9d",
+      "sha256Png": "2c9f967782a19e2dcd81e8799b422c8c740245c93ad36effc8c665f16f82bb0d"
     },
     {
       "pagina": 11,
       "carpeta": "11-contratacion",
       "variante": "01-acompanamiento",
-      "sha256Pdf": "7ffb375703c98fd32d8f5a8f4ed0f0d0f85e50d047aedf96980395cb8bf814e3",
-      "sha256Png": "62b8517fdd4cd6d805d8beca64dfa3486a71f68ae9f7914e1942a2dfb53132e1"
+      "sha256Pdf": "2364e3211ae182a8f6cb32eaca71ef005bad547d199a68ca0eba1c6addec0214",
+      "sha256Png": "3bcaad2b8833283c5d4d6022f65b97ed0834e8e5cbf0155cbcfc12b36c4949c8"
     },
     {
       "pagina": 12,
       "carpeta": "12-seguimiento",
       "variante": "04-movil",
-      "sha256Pdf": "ed16c554754afe34de81d8d0b2b28341fbdc3f441dcfad9f740fca51943dcdc5",
-      "sha256Png": "e44c6a38e65a91249198a7b397e02a0415967f573a9e47582a07cf148a5ef99e"
+      "sha256Pdf": "a31bc5701ef45a628080e9629cab734de98d5dbdae74a12519f320f24b265f5a",
+      "sha256Png": "0962af6e41dba8a759f9eb7c9f37bb66ae82be15c7a28b07089458d699deddb6"
     },
     {
       "pagina": 13,
       "carpeta": "13-paso-actual",
       "variante": "04-movil",
-      "sha256Pdf": "474c44e054234deaf60ce3d05a792a1e2f17c3483d56df082499358a308f4a50",
-      "sha256Png": "3f9a00cb37bece7c95cc171db7b439a836b7fcb6a178662cc2e903339be58c04"
+      "sha256Pdf": "791b3564db38c3864952b931275a2bf3405a8824bd4e7a6ba82d10fb166cc8bd",
+      "sha256Png": "57882183427ffa7b45450884b6450e5d310167d099bf4a458f18390b58f3010d"
     },
     {
       "pagina": 14,
       "carpeta": "14-documentos",
       "variante": "01-carpeta",
-      "sha256Pdf": "fba207ca756380d717483b963be51c2277c4668bfb1db23a929bca60921717a4",
-      "sha256Png": "bb17dab12a20d6a05a277fc288bc445b245e00b54fb2006b386bcc8f7991902d"
+      "sha256Pdf": "61e7ba7e25250e676bba5b04c2cbc7d7114acb672f5195745fad06e3b45634cd",
+      "sha256Png": "1e9b5bc074cffe839f3457eaa152f0122877cd52653219b6b78bdf83f90f4a66"
     },
     {
       "pagina": 15,
       "carpeta": "15-originales",
       "variante": "01-logistica",
-      "sha256Pdf": "5a7e2978ac089edfc6c811bb0f37c88800e7ea4cb4b533fce5b1c4898b9ab6f4",
-      "sha256Png": "5be69d9645120a3e7877aa6a2d4e6045a8d3143e325180046d131a6b7f2f73b5"
+      "sha256Pdf": "d64e4568809cdec39926eb1d8f83f12d513e822a926860c8e52cb3ba7dc1dc7c",
+      "sha256Png": "a8e9dd678e38f37b0a95f78931ba616af9e28f5fc517974aa72e114fea47acea"
     },
     {
       "pagina": 16,
       "carpeta": "16-practica",
       "variante": "01-habito",
-      "sha256Pdf": "b4f886109f99617f6029c617fb49a67e122c651fd4df2b74428a46e16b646729",
-      "sha256Png": "0d03626bafd90110000b36f6c025499041503dca9ba3cfcac40377c093156220"
+      "sha256Pdf": "de287c969dc4c7c43d328c69ea24aee22ba3459869aeac5cbab2390c9069927a",
+      "sha256Png": "c56aea90458dea511cb0599ce309df0dd16f8aa64a144c1d69d5b374bd1edf29"
     },
     {
       "pagina": 17,
       "carpeta": "17-consultas",
       "variante": "01-conversacion",
-      "sha256Pdf": "c5f328396a9531a0a52fb8ba9a885e44e79b23aaa28a82b5b0861be66a757bcd",
-      "sha256Png": "b19a44952b48e9af9489db42aca605c5f84734be3a3ec05db891a853a16de483"
+      "sha256Pdf": "2a0a6540530967770885966b33d28fe3f932261bdcb51503106f4a74dd2d3825",
+      "sha256Png": "12a0079a43bd2e67b18c1ea18019423a9afbbfa3592c9df89435beafb91cdfb8"
     },
     {
       "pagina": 18,
       "carpeta": "18-configurador",
       "variante": "01-rutas",
-      "sha256Pdf": "f5370558bf3c6fcf595b33095be5eb98cb5e649ca2c4a18e09ad8db4c89a36a4",
-      "sha256Png": "cd21399566703870271cd8ba5b07a40eba599b3c75faa429dd9548cab26ad351"
+      "sha256Pdf": "87248729cbff0f84da4414aa80480733d2de820c9c73ec8567674331043bdb1f",
+      "sha256Png": "73085d5480c978c99d0e5051035b5510b286f26803d06660eae08ec690e0193e"
     },
     {
       "pagina": 19,
       "carpeta": "19-cambios-y-excepciones",
       "variante": "01-alcance",
-      "sha256Pdf": "2c100685ffc5c964c89e0acb4bbe8385980f18f946e9d90a7f5f3d1e448c33d0",
-      "sha256Png": "b413f25801feb36eac14944a9a36425b2e65e89bf3d67b3f6cc4aaaddb8dabe3"
+      "sha256Pdf": "8b06b31d22e2af24b53263f384d41fb832e7d5040e0f56b77c61b23d3d9f60e0",
+      "sha256Png": "b398a78560bcd829654f07da89408855bbe955256ac340dae9e53ecdc311755e"
     },
     {
       "pagina": 20,
       "carpeta": "20-beneficios",
       "variante": "01-alcance",
-      "sha256Pdf": "b4628698c7ec1b2d13df70aac359809d982403be1eea0e8fe41c8dc8062d3c76",
-      "sha256Png": "bf12951964b84373afdafe8725be4be7171038bba6fbf987eb532ac9be6692ad"
+      "sha256Pdf": "9d71ee75b3da5f1e57d0bdd12624d39c919b1babe3b66b4ad2c474ec79377ea6",
+      "sha256Png": "bf8f4b7968626d86ffa97b125facc0ba7f1dd477a0ca75e09e7c59e68d318ad1"
     },
     {
       "pagina": 21,
@@ -168,15 +168,15 @@
       "pagina": 23,
       "carpeta": "23-conversacion",
       "variante": "01-equipo",
-      "sha256Pdf": "9848e64412ee7c24ad7ca383c0906b5974ce051974e8b69f716b9fd0e2caa1cd",
-      "sha256Png": "e9b67e266c54bcba343eeda618690948374a40ef3f4ded7bb20f1a9c5c053c58"
+      "sha256Pdf": "4f24a67fd2a35d8253ecb41456a3b859bc5fda5d026a6c622434b9936d13aaa7",
+      "sha256Png": "3a568b95deea2945fb867955a20733ae7aac08fa913552e6d8e6707292c2e465"
     },
     {
       "pagina": 24,
       "carpeta": "24-contraportada",
       "variante": "01-diagonal",
-      "sha256Pdf": "7c64387ef5d142cbd7c0a70a328823edafe36c9199462f1ff4e34a7876f60bfd",
-      "sha256Png": "e073a2c3ec3a3d03672e8122be4e7c6386183703e6d357fa628ed8e2b69383e4"
+      "sha256Pdf": "a2481bcd7d2aa51925d2dc7670a14313fc5284fb4bc70d9d2ada3a8001030e2d",
+      "sha256Png": "fd78bc416e1325f28322e66fc143196b1d94c186f4b3ec58622ebfd73d2505a0"
     }
   ]
 }

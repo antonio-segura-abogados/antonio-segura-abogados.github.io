@@ -40,3 +40,22 @@ de sus materiales; el mapa usa geometría de Natural Earth en dominio público.
 `capturar.mjs` usa Chrome para capturar el marco HTML/CSS real. `generar.py`
 reproduce esta tanda. El compilador general reutiliza sus funciones y permite
 cambiar la variante seleccionada sin reconstruir muestras históricas.
+
+**Actualización 18-09-2026:** capturas de móvil de 14–17 renovadas para ajustar las
+esquinas inferiores al bisel. Regeneradas las variantes seleccionadas, los `index`,
+el PDF vigente y los recursos del visor. Las muestras acumuladas y parejas de esta
+carpeta conservan la instantánea histórica; las escenas actuales ya no tienen guías.
+
+## CRM actualizado · 18-09-2026
+
+Por petición de Pol, las capturas vigentes de las páginas 18–19 muestran ahora
+AS Workspace a pantalla completa. La [pareja actualizada](pareja-18-19-crm.png)
+recoge el nuevo encuadre de las dos páginas. Variantes, `index`, librito final
+y visor local actualizados; las muestras acumuladas anteriores se conservan
+como antecedentes. Los otros 22 renders no cambian.
+
+El script `capturar.mjs` de esta tanda sigue describiendo los flujos antiguos;
+para estas dos capturas se ha usado Chrome conectado, viewport 1920 × 1250,
+página completa, borrador del constructor y Lucía seleccionada en Cambios.
+Ver [procedencia](../../../recursos-compartidos/assets/demo/14-19/procedencia.json)
+y [verificación](../../VERIFICACION-CRM.json). Publicación pendiente.

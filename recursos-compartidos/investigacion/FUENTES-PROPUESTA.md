@@ -47,11 +47,46 @@ con condiciones propias. La página también enumera oficinas en Barcelona y Mad
 Esto acredita un referente de oferta digital, no su rentabilidad, plantilla
 remota, estructura salarial ni ausencia de oficinas. El crecimiento nacional,
 la menor carga repetitiva y la flexibilidad de equipo son hipótesis de aplicación
-a AS. No se ha hecho un estudio de tamaño de mercado o competencia suficiente
-para afirmar «hay mercado libre».
+a AS.
 
-La [página 6](../../librito/slides/06-referente-campmany/variantes/02-referente-visual/README.md)
-incorpora este referente con fuente y fecha, y una síntesis gráfica del servicio.
+**Aclaración de Pol, 18-09-2026:** sí ha realizado un estudio de mercado y
+comunica dos conclusiones: el mercado de procesos de extranjería vía app está
+libre y Campmany es un caso de éxito que ha multiplicado su facturación con
+estos principios aplicados a bajas laborales. La afirmación anterior de este
+documento («No se ha hecho un estudio…») describía la investigación disponible
+en el repositorio, no el trabajo realizado por Pol, y no debe negar ese trabajo.
+
+**Aclaración posterior y fuente localizada, 18-09-2026:** Pol conoce
+personalmente la historia de Campmany y sabe que les ha ido bien, pero no tiene
+cifras de facturación. El resultado económico no debe atribuirse a su estudio.
+La investigación posterior localiza el [caso de éxito publicado por HubSpot](https://www.hubspot.com/case-studies/campmany-abogados),
+que recoge la adopción de HubSpot en 2017 con la agencia InboundLead:
+
+- Ingresos duplicados en cuatro meses.
+- Clientes captados por mes: de 3 a una media de 20, resumido por el proveedor
+  como un aumento de 7 veces.
+- Estrategia integrada de contenidos, captación, automatización y gestión
+  comercial. El relato vincula los resultados a marketing y ventas digitales.
+
+Es una fuente primaria del proveedor con testimonios de Campmany e InboundLead,
+no una auditoría independiente. Es un resultado histórico; no describe las
+cifras actuales ni demuestra que la app Premium causara ese crecimiento.
+
+La [variante 03 de la página 6](../../librito/slides/06-referente-campmany/variantes/03-oportunidad-de-mercado/README.md)
+mantiene el estudio de mercado de Pol como origen de la oportunidad en
+extranjería. El informe completo, inventario de competidores y metodología
+no están incorporados al repositorio. La frase de respaldo, aprobada por Pol,
+es: «Campmany demuestra que un despacho especializado puede crecer con un
+modelo digital. Mi propuesta es llevar estos principios a extranjería».
+La página no añade cifras ni presenta el futuro modelo de AS como validado.
+
+La página oficial de Premium, reconsultada el 18-09-2026, confirma aplicación
+privada, suscripción, asesoramiento escrito y revisión documental. El pie
+enlaza por separado esta oferta y el caso de HubSpot. La aplicación a AS es
+una oportunidad estratégica, no una garantía de ingresos.
+
+La [variante 02 de la página 6](../../librito/slides/06-referente-campmany/variantes/02-referente-visual/README.md),
+conservada como antecedente, incorpora este referente con fuente y fecha, y una síntesis gráfica del servicio.
 El esquema no reproduce su interfaz ni afirma haber probado el área privada.
 La variante 02 incorpora el logo y la ilustración comercial enlazados por esa
 web. Sus originales y hashes están en la
@@ -95,6 +130,15 @@ Perfil ilustrativo en `demo/entrada.json`: Lucía, origen colombiano, llegada
 en mayo de 2022 y residencia legal desde julio de 2023. Ningún dato corresponde
 a un cliente real. Precios de 19/29 € mensuales y 190/290 € anuales inventados
 para explicar la elección comercial, sin atribuirlos a AS ni a Campmany.
+
+## Entrevista revisada el 18-09-2026
+
+Por petición de Pol se investigan las preguntas de una primera entrevista de
+extranjería y se sustituye el formulario de tres preguntas por ramas según la
+situación declarada. [Criterio, fuentes oficiales y límites](../../vertical/diseno/entrevista/CRITERIO.md).
+Las respuestas ya no se precargan con el perfil anterior. Se distinguen entrada,
+estancia, residencia, protección, ciudadanía europea y situación familiar.
+La demo prepara una revisión, sin decidir qué autorización corresponde.
 
 ## Preparación del examen
 

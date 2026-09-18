@@ -73,6 +73,16 @@ Son recursos de Campmany. El render conserva su diseño, colores y proporciones;
 los PNG ofrecen más de 600 ppp a su tamaño en el libro. No se incorporan a la
 demo ni se presentan como recursos propios de AS.
 
+## Iconos CCSE: actualización del 18-09-2026
+
+Pol aporta `familia-iconos-ccse.zip` con la familia de 20 iconos generada en su
+entorno a partir del encargo gráfico. Los SVG originales se extraen sin modificar
+a [ccse/tematicas/](../assets/ccse/tematicas/README.md) y se incorporan a las
+galerías y cabeceras de `/practica`. Los PNG, la lámina y el manifiesto permanecen
+en el ZIP de `vertical/diseno/practica/`. Los identificadores coinciden con las
+20 temáticas del banco CCSE. Son recursos para la demo; no sustituyen al logo
+del despacho. Integración local; publicación pendiente.
+
 ## Fuentes locales
 
 | Archivo | Fuente |

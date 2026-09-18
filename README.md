@@ -1,7 +1,7 @@
 # Candidatura proactiva · Antonio Segura Abogados
 
 Este README conserva el contexto del proyecto para poder retomarlo en un chat
-nuevo. Última actualización: **17 de septiembre de 2026**.
+nuevo. Última actualización: **18 de septiembre de 2026**.
 
 ## Objetivo personal y estrategia
 
@@ -129,11 +129,26 @@ las once páginas nuevas y cinco parejas enfrentadas. Cada página conserva
 instrucciones, texto editable y exportaciones. Las páginas 01–13 conservan su diseño.
 
 **Corrección posterior en 6–7:** Pol pide recursos visuales reales de Campmany.
-La página 6 usa ahora la variante 02 con logo e ilustración oficiales descargados;
+La página 6 incorpora entonces la variante 02 con logo e ilustración oficiales descargados;
 la composición anterior se conserva. En su última aclaración, Pol pide
 **añadir las comparaciones salariales al punto 2 de la página 7**. El equipo
 distribuido permite explorar salarios inferiores a los de Barcelona para
 perfiles equivalentes, como hipótesis de ahorro por validar, sin cifras inventadas.
+
+**Nuevo enfoque de la página 6, 18-09-2026:** Pol pide que su estudio de mercado
+y la oportunidad para Antonio Segura sean el mensaje principal. La
+[variante 03](librito/slides/06-referente-campmany/variantes/03-oportunidad-de-mercado/README.md),
+«Extranjería vía app. Un espacio por ocupar», recoge en primera persona su
+conclusión de mercado y propone a AS liderar ese espacio. Campmany pasa a una
+franja secundaria como caso de éxito. Tras aclarar Pol que conoce su historia
+personalmente, la investigación localiza un caso de HubSpot con ingresos
+duplicados en cuatro meses al integrar marketing y ventas digitales en 2017.
+Pol aprueba el cierre: «Campmany demuestra que un despacho especializado puede
+crecer con un modelo digital. Mi propuesta es llevar estos principios a
+extranjería». Aplicado con enlaces al servicio y al caso, sin atribuir el
+resultado económico al estudio de Pol ni específicamente a la app.
+Seleccionada en la presentación local; variantes anteriores conservadas.
+Pendientes la revisión editorial de Pol y la publicación.
 
 Las **24 carpetas están juntas en `librito/slides/` y llevan prefijo de página**:
 `01-portada`, `02-presentacion`, …, `24-contraportada`. El identificador semántico
@@ -155,7 +170,7 @@ Se conservan 24 páginas y todas las parejas enfrentadas previstas. Hay **16
 escenas autónomas más el índice**: entrada y seguimiento (seis), documentos,
 originales, práctica, consultas y sala, perfil, catálogo de rutas, editor,
 cambios y excepción individual (diez). Los detalles también pueden abrirse
-en un panel local. Todas las escenas admiten guía y reinicio. El catálogo de
+en un panel local. Todas las escenas admiten reinicio. Los tutoriales se han retirado por petición de Pol (18-09-2026). El catálogo de
 18 vistas queda cubierto sin sesión global ni navegación obligatoria de app.
 
 Decisiones y matices incorporados al plan:
@@ -167,8 +182,14 @@ Decisiones y matices incorporados al plan:
   fuera de anexos conforme a la frase literal del encargo. La selección de
   figura 4 (primer panel, con todos sus escenarios) ya está en la propuesta
   de página 3. QR directo al PDF generado y decodificado, también desde el render.
-- Campmany es una referencia de oferta digital comprobable. Rentabilidad,
-  ahorros, dimensionamiento de mercado y estructura interna son hipótesis.
+- Campmany es una referencia de oferta digital comprobable. La conclusión de
+  mercado libre en extranjería vía app procede del estudio de Pol. El crecimiento
+  del referente se respalda con el caso publicado por HubSpot, que documenta
+  ingresos duplicados en cuatro meses tras adoptar marketing y ventas digitales
+  en 2017. No es una auditoría independiente ni acredita el efecto de la app.
+  La página 6 recoge el precedente de crecimiento con la frase aprobada por
+  Pol, sin cifras. Rentabilidad, ahorros y estructura interna no se deducen
+  de la oferta pública.
   El logo y la ilustración de su web se conservan con procedencia en
   `recursos-compartidos/assets/referentes/campmany/` y se usan en la página 6.
 - La comparativa de opciones debe separar requisitos jurídicos, plazos de
@@ -178,7 +199,7 @@ Decisiones y matices incorporados al plan:
   de los expedientes existentes. No se promete adaptar cualquier cambio sin código.
 - Pol pide omitir las skills desactualizadas de LinkedIn y centrarse en las
   experiencias. La base de CV extrae VIEWNEXT, Surreal Boost, docencia y formación,
-  y relaciona las fotos aportadas. CV maquetado en p. 22 y dos fotos originales en p. 23, con contacto.
+  y relaciona las fotos aportadas. CV maquetado en p. 22 y foto original de VIEWNEXT en p. 23, con contacto.
   La presentación pública incluye esas páginas por petición posterior de Pol;
   el PDF fuente personal no se publica como recurso de la web.
 - La página de puesta en marcha y el cierre son aportaciones editoriales para
@@ -207,10 +228,17 @@ Decisiones y matices incorporados al plan:
 - **Recursos compartidos:** `recursos-compartidos/estilos/tokens.css` es la
   referencia de valores de estilo; `librito/formato.json` es la especificación
   de producción. Si cambia el formato, actualizar ambos y `librito/impresion.css`.
-- **QR:** base pública indicada por Pol. Trece QR generados en SVG y PNG:
-  doce de demo y uno externo del informe. Los trece se han decodificado también
-  desde el PDF completo a 300 ppp. Páginas 3, 9–19 y 24. Generado no significa publicado:
+- **QR:** base pública indicada por Pol. Catorce QR generados en SVG y PNG:
+  doce de presentación/demo y dos externos, informe y LinkedIn. Todos se han
+  decodificado también desde el PDF a 300 ppp. Páginas 3, 9–19, 23 y 24. Generado no significa publicado:
   el registro conserva `printReady: false` hasta verificar destino y prueba física.
+  Por petición de Pol del 18/09, los QR del librito llevan una banda azul inclinada
+  5° y una flecha hacia el código: «Demo interactiva» en 9–19, «Informe completo
+  aquí» en la 3 y «Explora el proyecto» en la contraportada, cuyo destino es la
+  presentación con acceso a las demos. Componente compartido en
+  `recursos-compartidos/qr/etiqueta.py`; banda y código enlazan al mismo destino.
+  Se conservan las URLs exactas, la corrección M, los 27–28 mm y los cuatro
+  módulos de margen. El diseño nuevo está pendiente de revisión de Pol.
 - **Dirección de portada:** por petición de Pol, se han eliminado las cuatro
   propuestas verticales y la anterior 05 pasa a ser la **portada 1**. Se mantiene
   la composición horizontal de cartel, con el cargo en gran escala, franja
@@ -266,6 +294,7 @@ teclado, miniaturas, índice, ampliación y texto accesible, sin incrustar un vi
 - [Especificación de formato](librito/formato.json).
 - [Compilar, elegir variantes y publicar automáticamente](librito/COMPILAR.md).
 - [Base técnica y publicación](vertical/README.md).
+- [Banco completo CCSE 2026 por temáticas](recursos-compartidos/ccse/README.md).
 - [Convenciones de QR](recursos-compartidos/qr/README.md).
 - [Material disponible y pendiente en anexos](anexos/README.md).
 - [Plan editorial: páginas, parejas y trazas de diseño](librito/PLAN-EDITORIAL.md).
@@ -283,6 +312,180 @@ teclado, miniaturas, índice, ampliación y texto accesible, sin incrustar un vi
 
 ## Estado actual
 
+**Aclaración de Pol, 18-09-2026, página 7:** la comparación salarial debía
+añadirse al argumento del equipo distribuido. El punto 2 recupera coordinación
+de especialistas, reparto de carga y asignación de cada caso al perfil adecuado;
+el posible menor coste salarial frente a Barcelona queda como beneficio adicional.
+Texto, composición e instrucciones de la variante `01-procesos` corregidos.
+Los `index` y el librito compilado reflejan esta revisión.
+
+- **Preguntador más compacto, 18-09-2026:** retirados el subtítulo y el título
+  de sesión durante las preguntas. «Salir de la sesión» precede directamente
+  al contador de preguntas; el foco al avanzar pasa al enunciado. Implementado
+  localmente; publicación pendiente.
+
+- **Gamificación del preguntador, 18-09-2026:** racha de aciertos exclusiva de
+  cada cuestionario de ruta, temáticas o repaso inteligente. Cinco intensidades
+  de rayos y resplandor, dorado desde ocho aciertos; fallo con sacudida breve,
+  destello rojo y reinicio de racha. Respeta movimiento reducido. El simulacro
+  conserva la corrección al terminar. Por petición de Pol, la consola muestra
+  la respuesta correcta al abrir cada pregunta, también en simulacro.
+  Sin cambios en las otras pantallas ni persistencia de la racha de sesión.
+  Ver [criterios del preguntador](vertical/diseno/practica/README.md).
+  Compilación y [prueba de rachas en Chrome](vertical/diseno/practica/VERIFICACION-RACHAS.json)
+  correctas: 12 aciertos, fallo, recuperación, reinicio, fin de sesión,
+  movimiento reducido y anchos 320/390/1100 px. Capturas revisadas; sin errores.
+  Implementado localmente; publicación pendiente.
+
+- **Consultas y videollamada, 18-09-2026:** retirada la cabecera con logo/avatar
+  y la franja «Conversar con contexto / Tu espacio AS» de consultas. Al entrar
+  en la sala, la llamada ocupa toda la pantalla de la app: todo el interior del
+  marco en ordenador y el viewport en móvil. Se ocultan pestañas, expediente y
+  menú; cámara propia y controles quedan superpuestos. Colgar devuelve al resumen.
+  Sigue siendo una simulación sin acceso a cámara ni micrófono. Compilación y
+  TypeScript correctos; vista, controles y cierre verificados en Chrome.
+  Implementado localmente; publicación y capturas del librito pendientes.
+
+- **Medidor de preparación del 18-09-2026:** añadido un indicador circular a
+  la izquierda de «Más cerca de tu nacionalidad» en la entrada de `/practica`.
+  Muestra el porcentaje de preguntas del banco acertadas en el último intento,
+  usando el progreso local. Por petición posterior de Pol, se retira el texto
+  con las preguntas pendientes junto al titular. El porcentaje se redondea
+  hacia abajo para reservar el 100% al banco completo. Es una medida de avance, no una predicción de
+  aprobado. Compilación correcta y composición revisada en Chrome a 320, 390
+  y 1100 px, sin desbordamientos. Implementado localmente; publicación pendiente.
+
+- **Cabecera de práctica retirada el 18-09-2026:** todas las vistas de
+  `/practica`, incluidos cuestionarios y resultados, omiten el encabezado con
+  logo/avatar y la franja «Tu preparación CCSE / Tu espacio AS». Implementado
+  localmente; publicación pendiente.
+
+- **Ruta de aprendizaje, caminos corregidos el 18-09-2026:** sustituidas las
+  líneas verticales entre lecciones por curvas de puntos hacia la derecha o la
+  izquierda según la posición del siguiente nodo. El desplazamiento se adapta
+  al ancho de la ruta y el último paso no tiene conector. TypeScript y
+  compilación correctos; revisión visual pendiente por falta de navegador
+  conectado en esta sesión. Implementado localmente, publicación pendiente.
+
+- **Slide 20, ajuste estético del 18-09-2026:** punto de Barcelona desplazado
+  ligeramente hacia arriba y a la derecha sobre el mapa simplificado. Las cinco
+  flechas comparten ese origen y trazan arcos parabólicos, con puntas tangentes
+  a la llegada. Regenerados la variante `01-alcance`, sus `index`, el librito
+  y los recursos del visor local; composición revisada en el render. Las otras
+  23 páginas conservan su aspecto. Publicación pendiente.
+
+- **Slide 6, variante 03, preparada el 18-09-2026:** estudio de mercado de Pol
+  y oportunidad para AS en primer plano; Campmany como respaldo, con su logo
+  oficial y enlace al servicio. Texto editable, generador, PDF y PNG propios.
+  Selección local actualizada, junto con los `index`, el librito y los recursos
+  del visor. Las variantes 01 y 02 y las otras 23 páginas conservan sus renders.
+  Frase de cierre de Campmany aprobada por Pol y aplicada: «Campmany demuestra
+  que un despacho especializado puede crecer con un modelo digital. Mi propuesta
+  es llevar estos principios a extranjería». Añadido enlace al caso de HubSpot
+  y corregida la atribución económica anterior. Publicación pendiente.
+  Composición del PDF revisada; fuentes, tamaño, enlace y conservación de las
+  otras páginas verificados; dos enlaces correctos y HTTP 200 para la imagen
+  actualizada. En esta revisión, `npm run build` se detiene por TS2345 en
+  `Practica.tsx:90`, ajeno al cambio editorial. Sin navegador conectado para
+  una prueba de interacción.
+
+- **Slide 3, variante 2, aprobada y seleccionada el 18-09-2026:** por petición de Pol,
+  [«Vais a necesitar un experto tecnológico»](librito/slides/03-direccion-tecnologica/variantes/02-experto-tecnologico/README.md)
+  afirma la necesidad de un experto para adaptar el despacho a los cambios de
+  la IA, decidir qué automatizar y dirigir su implantación. La candidatura de
+  Pol responde a esa responsabilidad. Es un argumento estratégico de la
+  propuesta; el informe conserva sus escenarios y límites originales.
+  Nueva carpeta con texto editable, generador propio, configuración de render,
+  PDF y PNG. Composición revisada también junto a la página 2; originales del
+  generador de apertura y de sus renderizados conservados byte a byte. El QR,
+  sus enlaces y el gráfico permanecen idénticos. Pol confirma «esta es la buena»:
+  la selección vigente, los `index`, el librito final y los recursos de la
+  presentación local usan la variante 2. La variante 01 y sus originales se
+  conservan. Publicación en GitHub Pages pendiente.
+
+- **Banco CCSE 2026 completo, preparado el 18-09-2026:**
+  [JSON de 300 preguntas](recursos-compartidos/ccse/preguntas-2026.json) extraído
+  del manual aportado en anexos, organizado en 20 temáticas y 34 subcategorías
+  donde aportan valor. Conserva códigos, tareas oficiales, opciones, respuestas
+  y páginas del enunciado y del solucionario. Cotejados los 300 enunciados,
+  todas las opciones y las 300 soluciones mediante una segunda extracción
+  del PDF; ver [criterios y verificación](recursos-compartidos/ccse/README.md).
+  **Integrado localmente en `/practica`** con la estructura solicitada después
+  por Pol: ruta de aprendizaje, repaso por temáticas, repaso inteligente y
+  simulacro. La ruta tiene 20 secciones, 43 temas (34 subcategorías y 9 temas
+  únicos) y un repaso final por sección. El repaso inteligente prioriza errores
+  y preguntas pendientes en sesiones de hasta 10 preguntas y 5 minutos.
+  El simulacro usa el banco completo para seleccionar 25 preguntas con el
+  reparto oficial 10/3/2/3/7 y dura 30 minutos por petición de Pol; se distingue
+  de los 45 minutos de la prueba oficial. Historial y pasos completados se
+  guardan solo en este dispositivo; Reiniciar borra ese progreso. No se
+  establece una sesión global entre escenas.
+  **Pendientes:** revisión de esta estructura, siguiente fase de UX de
+  cuestionarios/exámenes y publicación. Ver [criterios de práctica](vertical/diseno/practica/README.md).
+  Por petición posterior de Pol, preparado el
+  [prompt para los 20 iconos de temática](vertical/diseno/practica/PROMPT-ICONOS-TEMATICAS.md)
+  para generarlos en otro entorno. Incluye una idea por temática, paleta compartida,
+  estilo redondeado, tamaños y archivos independientes. La lista facilitada
+  contenía 19; se añade Constitución e instituciones conforme al JSON.
+  **Iconos recibidos e integrados localmente el 18-09-2026:** Pol aporta
+  `familia-iconos-ccse.zip`. Sus 20 SVG originales se conservan en
+  [recursos compartidos](recursos-compartidos/assets/ccse/tematicas/README.md).
+  Las secciones se eligen ahora en una galería ilustrada, con iconos grandes,
+  progreso y selección actual. La cabecera de cada sección, el acceso a la
+  siguiente y el selector de repaso usan la misma familia. Comprobados los
+  20 iconos, ambas galerías, navegación y progreso en móvil y escritorio;
+  TypeScript, compilación y pruebas correctos. Pendientes la revisión de Pol,
+  la publicación y reflejar los iconos en las capturas editoriales del librito.
+
+- **Ajustes de demo del 18-09-2026, implementados localmente:** eliminados todos
+  los tutoriales, el botón «Ver guía» y sus resaltados. Los enlaces antiguos con
+  `?tour=1` siguen abriendo la escena, sin tutorial. `/entrevista` empieza por la
+  elección de objetivo y vuelve a ella al reiniciar; solo esa escena de registro
+  omite el encabezado con logo y avatar. Los modales de cliente se alojan dentro
+  de la pantalla del móvil en ordenador, con desplazamiento propio, cierre con
+  Escape y gestión del foco. Un recorte interior común ajusta las cuatro esquinas
+  de la pantalla al marco. Publicación de estos ajustes pendiente.
+- **Entrevista revisada el 18-09-2026:** investigación en Exteriores, Migraciones,
+  Interior/Policía, Justicia y BOE. Sustituidas las tres preguntas fijas por
+  preguntas condicionales: ubicación, nacionalidades, edad, entrada, situación
+  actual, autorizaciones, protección, permanencia y contexto familiar/laboral.
+  «Regularizar mi situación» se añade como objetivo. No se presupone residencia
+  legal ni se determina elegibilidad. Respuestas sin precargar, opciones
+  desconocidas y resumen editable. [Criterio y fuentes](vertical/diseno/entrevista/CRITERIO.md).
+  Provincia y nacionalidades usan selectores con búsqueda; nacionalidad admite
+  varias selecciones. La ciudadanía se obtiene de esas selecciones sin preguntar
+  lo mismo dos veces; España se excluye cuando el objetivo es obtener nacionalidad.
+  Editar una respuesta ofrece «Volver al resumen», conserva las respuestas
+  pertinentes y marca las preguntas nuevas pendientes. El cierre tiene «Editar
+  mis respuestas» y «Confirmar y enviar», con confirmación simulada, sin envío real.
+- **Auditoría del cuestionario, 18-09-2026:** revisadas y corregidas las ramas antes
+  de la prueba de Pol. Separados visita vencida, autorización vencida, tarjeta de
+  larga duración y solicitudes pendientes; situación migratoria también para
+  menores y personas temporalmente fuera de España. No se presume nacionalidad
+  ni protección cuando se desconocen. Notificaciones prioritarias al principio;
+  datos del familiar separados de los propios. País, permiso, trámite y parentesco
+  usan selectores/opciones; texto libre solo para aclaraciones. La edición guarda
+  al volver al resumen y puede cancelarse sin perder datos. Validadas fechas y
+  combinaciones incompatibles. **41 casos completos en ordenador y móvil (82
+  recorridos), selectores también a 320 px y 7.776 cruces del árbol.**
+  [Hallazgos y validación](vertical/diseno/entrevista/REVISION-COHERENCIA.md).
+  Compilación correcta; publicación pendiente.
+- **Capturas y slides actualizadas el 18-09-2026:** localizadas **10 páginas con
+  el marco de móvil anterior: 8–17**. Recapturadas las escenas a 3× y regeneradas
+  las variantes seleccionadas, sus `index.pdf/png`, el librito final y las imágenes
+  del visor. Esquinas inferiores ajustadas al bisel; las páginas 8–9 incorporan
+  también la entrevista actual sin logo/avatar. Las muestras acumuladas antiguas
+  se conservan como instantáneas históricas.
+  [Auditoría de las 10 páginas](librito/VERIFICACION-MARCOS.json). Publicación pendiente.
+- **Verificación local de estos ajustes:** TypeScript y compilación correctos;
+  16 escenas a 320, 390, 768, 1280 y 1440 px, los cuatro modales de cliente,
+  teclado, recorte del marco y cambio de tamaño con modal abierto. Diez
+  situaciones de entrevista recorridas en ordenador y móvil, con edición,
+  respuestas desconocidas y reinicio. Selectores comprobados también a 320 px,
+  búsqueda sin tildes, teclado, doble nacionalidad, España según objetivo,
+  vuelta directa al resumen y confirmación. Sin errores JavaScript. Ver
+  [informe del 18-09-2026](vertical/diseno/movil/VERIFICACION.json).
+
 - Investigación de contacto realizada el 17/09/2026: ficha individual del ICAB
   localizada con un móvil profesional distinto del WhatsApp general; correos
   públicos, antecedentes societarios y pistas históricas reunidos en
@@ -293,7 +496,7 @@ teclado, miniaturas, índice, ampliación y texto accesible, sin incrustar un vi
 - Estructura creada y contexto documentado.
 - Base React con índice y 16 escenas autónomas. Entrevista, opciones, planes,
   compra, seguimiento, documentación, originales, práctica, consultas, perfil
-  y gestión de rutas/cambios. Estado local, guías y reinicio; no sesión global.
+  y gestión de rutas/cambios. Estado local y reinicio; sin tutoriales ni sesión global.
 - Estilos compartidos creados a partir de la web y del proyecto antiguo.
 - Logotipos, fotografías seleccionadas y fuentes locales con licencia guardados.
 - Base de impresión actualizada a A5 horizontal en el formato, los tokens y
@@ -364,8 +567,80 @@ teclado, miniaturas, índice, ampliación y texto accesible, sin incrustar un vi
   de variantes en `librito/seleccion.json`, `index.pdf`/`index.png` por carpeta
   y PDF final compilado. Actions ejecuta la compilación en cada push a `main`;
   verificado el primer despliegue (`1099bfb`). Navegación pública comprobada a
-  320, 390, 768 y 1440 px, con carga de 24 páginas y 16 escenas con sus guías.
+  320, 390, 768 y 1440 px, con carga de 24 páginas y 16 escenas con sus guías en aquella versión; retiradas localmente el 18-09-2026.
   El PDF de Actions conserva visualmente las 24 páginas, textos y enlaces del local.
+
+### Revisión visual de los QR · 18/09/2026
+
+Implementadas las etiquetas inclinadas en las trece páginas con QR, con marco
+fino y texto breve. La zona de acceso se compone con el código a la izquierda
+del texto en las páginas de producto; 18–19 usan una banda inferior compacta.
+El PDF final, los `index` y los recursos de la presentación se regeneran desde
+la selección vigente. Las muestras históricas de las tandas conservan su diseño
+anterior. Esta revisión local todavía no se ha publicado; la prueba física
+sigue pendiente.
+Comprobados los trece códigos desde las páginas completas del PDF a 300 ppp
+con Apple Vision, con coincidencia exacta de destinos y enlaces de las bandas.
+Revisada la composición de las trece páginas; las otras once conservan el
+render anterior. Evidencia en `recursos-compartidos/qr/VERIFICACION.json`,
+apartado `etiquetas20260918`.
+
+### Lectura responsive y enlaces QR · 18/09/2026
+
+Implementado localmente: «Ampliar» abre `/#/presentacion?pagina=N` en una vista
+independiente, sin modal. La diapositiva se ajusta al espacio disponible en
+móvil, tableta y escritorio, también en horizontal. Incluye zoom opcional ×2,
+texto accesible, índice, navegación y vuelta al inicio conservando la página.
+En el inicio y en la vista ampliada, pulsar una diapositiva con QR abre su
+URL en una pestaña nueva. Los enlaces de `https://antonio-segura-abogados.github.io/`
+usan el origen local (incluido el puerto) al navegar desde `localhost`,
+`127.0.0.1` o `::1`; en GitHub Pages conservan el destino publicado. La ruta,
+los parámetros y el fragmento se mantienen. Los dominios externos no cambian.
+Se usa el registro compartido de destinos;
+las diapositivas sin QR mantienen su imagen sin enlace.
+
+Verificación local: compilación y TypeScript correctos; navegación, recarga,
+zoom, texto y controles a 320, 390, 768, 844 y 1440 px. Comprobadas las 24 páginas
+en ambas vistas y la apertura de sus QR, con destinos externos
+interceptados durante la prueba. [Registro](vertical/diseno/presentacion/VERIFICACION-LECTURA.json).
+Publicación pendiente.
+
+## CRM a pantalla completa · 18-09-2026
+
+**Nueva petición de Pol:** el configurador existente es una base insuficiente;
+quiere una UI mockeada de un CRM completo, profesional y a pantalla completa.
+Amplía expresamente la petición a `/gestion/cambios`, con componentes
+estructurales compartidos.
+
+**Implementado localmente:** AS Workspace ocupa el navegador con menú lateral,
+cabecera, búsqueda, notificaciones de muestra y diez vistas: vista general,
+expedientes, ficha individual, tareas/agenda, documentos, conversaciones,
+catálogo de rutas, constructor, control de cambios y equipo. Configurador y
+Cambios mantienen sus URLs de QR y usan la misma estructura de producto.
+Se puede editar, añadir y ordenar pasos, previsualizar la app, publicar una
+versión simulada, seleccionar el alcance de un cambio, registrar una excepción,
+crear expedientes, revisar documentos y responder conversaciones ficticias.
+
+**Decisión de alcance:** las escenas de cliente siguen siendo autónomas.
+Dentro de `/gestion/*` sí hay navegación y estado de demo compartido durante
+la sesión, necesario para enseñar el backoffice solicitado. Cada URL sigue
+admitiendo entrada directa. Recarga, salida del CRM o Reiniciar restauran la
+muestra. No hay backend, autenticación ni comunicaciones reales. El control
+de cambios usa un escenario preparado, no un motor jurídico general.
+
+**Verificado:** compilación/TypeScript, diez vistas a 1280, 768, 390 y 320 px,
+revisión visual en Chrome e interacciones principales; corregidos retorno de
+foco en diálogos, búsqueda sin tildes y conservación del borrador al navegar.
+[Alcance y verificación del CRM](vertical/diseno/crm/README.md).
+**Capturas actualizadas por petición de Pol:** las slides 18–19 incorporan
+ahora el CRM completo, incluido el menú y la cabecera, con imágenes reales de
+Chrome a 1920 × 1250 px. Ajustada la distribución de imagen, párrafo y QR para
+conservar toda la interfaz; titulares, textos y destinos sin cambios.
+Regeneradas las variantes elegidas, `index.pdf/png`, el librito de 24 páginas
+y los recursos del visor. Las otras 22 páginas conservan su render anterior.
+Dos QR decodificados desde el PDF a 300 ppp; composición revisada.
+[Verificación](librito/VERIFICACION-CRM.json).
+**Pendientes:** revisión visual de Pol y publicación.
 
 ## Próximos pasos
 
@@ -400,11 +675,24 @@ teclado, miniaturas, índice, ampliación y texto accesible, sin incrustar un vi
 - La exploración 12–13 fue rechazada. La nueva instrucción es desarrollar
   el librito secuencialmente, conservando la UX. No volver a recomendar las
   variantes rechazadas ni pedir elegir entre ellas. No se han usado subagentes.
-- La independencia de URLs es una decisión explícita de Pol. No restablecer
-  el recorrido conectado ni el estado global del plan inicial. Las pantallas
-  comparten componentes cuando aporta valor, no una sesión obligatoria.
+- La independencia de URLs sigue vigente para las escenas de cliente. La
+  petición posterior del CRM incorpora navegación y estado de demo entre las
+  vistas `/gestion/*`, sin exigir un recorrido previo para abrir ninguna URL.
 
 ## Selección y renders vigentes
+
+El 18-09-2026, por petición de Pol, se sustituye literalmente la introducción de
+la diapositiva 15 por el texto sobre automatizar la logística y simplificar la
+entrega del original. Regenerados la página, el PDF final y los recursos del
+visor local; composición revisada. Publicación pendiente.
+
+El 18-09-2026, por petición de Pol, se retira de la diapositiva 23 la foto de
+Surreal Boost y su pie. Tras su corrección, la foto de VIEWNEXT vuelve a su
+posición original a la izquierda, completa y sin retoques. A la derecha se añade
+un QR al LinkedIn de Pol con la misma banda azul de las demos y el texto «Puedes
+leer recomendaciones en mi perfil de LinkedIn». Actualizados los renders, el PDF
+final y los recursos del visor local.
+El archivo fotográfico original se conserva. Publicación pendiente.
 
 Petición de Pol: conservar variantes y tener un `index.pdf` y un `index.png`
 en la raíz de cada diapositiva. Implementado en las 24 carpetas. El compilador

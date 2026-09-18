@@ -1,0 +1,41 @@
+{
+  "fecha": "2026-09-18",
+  "resultado": "correcto",
+  "base": "http://127.0.0.1:5173",
+  "tamaños": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 844,
+      "height": 390
+    }
+  ],
+  "pruebas": [
+    "Vista independiente, ajuste sin desbordamiento, zoom y texto accesible",
+    "Navegación, teclado, límites, índice, recarga, regreso y Atrás del navegador",
+    "24 páginas en ambas vistas: los QR abren una pestaña nueva; las demos usan el origen local y los enlaces externos conservan su URL",
+    "Enlaces QR accesibles por teclado y sin window.opener",
+    "Sin errores JavaScript"
+  ],
+  "capturas": [
+    "/private/tmp/asa-lectura-320.png",
+    "/private/tmp/asa-lectura-390.png",
+    "/private/tmp/asa-lectura-768.png",
+    "/private/tmp/asa-lectura-1440.png",
+    "/private/tmp/asa-lectura-844.png"
+  ]
+}

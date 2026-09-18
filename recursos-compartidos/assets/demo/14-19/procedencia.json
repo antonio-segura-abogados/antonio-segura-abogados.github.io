@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-17",
+  "fecha": "2026-09-18",
   "resultado": "correcto",
   "navegador": "Chrome headless",
   "capturas": [
@@ -34,16 +34,28 @@
     {
       "archivo": "18-configurador.png",
       "ruta": "/gestion/rutas/residencia-demo",
-      "selector": "[data-capture=\"board\"]",
-      "escala": 3,
-      "origen": "React en Chrome; misma escena del QR"
+      "selector": ".crm-app (página completa)",
+      "escala": 1,
+      "origen": "React en Chrome conectado mediante extensión; captura íntegra del CRM real de la demo",
+      "viewport": {
+        "ancho": 1920,
+        "alto": 1250
+      },
+      "estado": "Borrador v2, documentación seleccionada",
+      "sha256": "7720084e2a483f17b5efd1297285b77db7dedd9b873b6676debaff143b5f005f"
     },
     {
       "archivo": "19-cambios.png",
       "ruta": "/gestion/cambios",
-      "selector": "[data-capture=\"board\"]",
-      "escala": 3,
-      "origen": "React en Chrome; misma escena del QR"
+      "selector": ".crm-app (página completa)",
+      "escala": 1,
+      "origen": "React en Chrome conectado mediante extensión; captura íntegra del CRM real de la demo",
+      "viewport": {
+        "ancho": 1920,
+        "alto": 1250
+      },
+      "estado": "Versión pendiente; Lucía seleccionada; cambio todavía sin aplicar",
+      "sha256": "155464c525be2c32db8ec993978deb075342a10e36873348bda4f8c7a1f3cf2b"
     }
   ],
   "rutas": [
@@ -69,8 +81,22 @@
     "Consultas: mensaje local, reserva, controles visuales y resumen",
     "Configurador: vista previa, orden, nuevo paso, revisión invalidada al editar, fecha y publicación",
     "Cambios: aplicación explícita, progreso conservado, excepción individual y cancelación del borrador",
-    "Diez URLs: acceso directo, guía y ausencia de desbordamiento a 320 y 390 px",
+    "Diez URLs: acceso directo y ausencia de desbordamiento a 320 y 390 px",
     "Sin errores de JavaScript"
   ],
-  "limitacion": "Demostraciones con estado local; no servicios reales conectados"
+  "limitacion": "Demostraciones con estado local; no servicios reales conectados",
+  "actualizacionCRM": {
+    "fecha": "2026-09-18",
+    "archivos": [
+      "18-configurador.png",
+      "19-cambios.png"
+    ],
+    "metodo": "Chrome conectado, captura de página completa con el mismo viewport; no se recompone ni se retoca la interfaz",
+    "dimensionesPx": [
+      1920,
+      1250
+    ],
+    "uso": "Slides 18–19; imagen de 368 pt de ancho, 375,65 ppp efectivos",
+    "nota": "Las pruebas y capturas 14–17 anteriores conservan su procedencia histórica."
+  }
 }

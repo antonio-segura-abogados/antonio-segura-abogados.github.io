@@ -44,7 +44,7 @@ Las carpetas incorporan el número de página para mostrar su orden.
 > El librito es una historia.
 > Haz las slides EN ORDEN.
 
-## Propuesta actual
+## Primera propuesta conservada
 
 [El cambio necesita dirección.](variantes/01-direccion/README.md).
 Pol aprueba la dirección de la apertura y pide continuar:
@@ -58,6 +58,15 @@ Captura real del informe, con los tres escenarios y los ejes. QR real al PDF
 oficial, generado y decodificado también desde el render de la página. La
 conclusión sobre dirección tecnológica es de Pol; el informe no clasifica a los
 abogados españoles por impacto ni asigna probabilidades a sus escenarios.
+
+## Variante 2 aprobada y seleccionada · 18-09-2026
+
+Pol pide afirmar que el despacho necesitará un experto tecnológico para
+adaptarse a los cambios de la IA y aprueba el resultado: «esta es la buena».
+La versión vigente es
+[«Vais a necesitar un experto tecnológico»](variantes/02-experto-tecnologico/README.md).
+Tiene generador propio, texto editable, PDF y PNG. La primera variante y el
+generador de la apertura se conservan intactos como originales.
 
 ## Render vigente y publicación
 

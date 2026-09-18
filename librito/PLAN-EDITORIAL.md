@@ -66,7 +66,7 @@ La doble «slide 3» del encargo se distingue como **S03-IA** y **S03-CADENA**.
 | 3 | La próxima década exige dirección tecnológica | Tesis breve, una figura del informe, pie de fuente y QR directo al PDF | [S03-IA](slides/03-direccion-tecnologica/INSTRUCCIONES.md) |
 | 4 | Empiezo por extranjería | Recorrido del cliente, bifurcación documental y trabajo del despacho alineado debajo; variante desarrollada | [S03-CADENA](slides/04-cadena-de-valor/INSTRUCCIONES.md) |
 | 5 | Vuestro criterio. A mayor escala | Tres objetivos: cómodo, digital y escalable; variante desarrollada | [S04, apertura](slides/05-oportunidad/INSTRUCCIONES.md) |
-| 6 | Asesoramiento por suscripción | Campmany Premium: logo e ilustración oficiales, argumento y recorrido en cuatro momentos; variante 02 | [S04, evidencia](slides/06-referente-campmany/INSTRUCCIONES.md) |
+| 6 | Extranjería vía app. Un espacio por ocupar. | Estudio de mercado de Pol y oportunidad para AS; Campmany como respaldo en una franja secundaria; variante 03 | [S04 y corrección del 18-09](slides/06-referente-campmany/INSTRUCCIONES.md) |
 | 7 | Crecer también es organizar mejor | Clientes a distancia, equipo distribuido y procesos reutilizables; tres relaciones con beneficios esperados para AS | [S04, lectura de negocio](slides/07-modelo-operativo/INSTRUCCIONES.md) |
 | 8 | Tu app de extranjería | Concepto e índice visual: entender, elegir, avanzar, resolver; números de página definitivos al cerrar | [S05](slides/08-concepto-app/INSTRUCCIONES.md) |
 | 9 | Cada caso empieza por escuchar | Chat con fecha, respuesta desconocida y resumen editable; captura y QR | [S06](slides/09-entrevista/INSTRUCCIONES.md) |
@@ -131,11 +131,16 @@ qué puede facturarse, sin dibujar un ingreso por cada clic.
 
 ### Referente y oportunidad
 
-La pareja 6–7 separa lo que ofrece públicamente Campmany de lo que Pol propone
-aprender de ello. No demuestra por sí sola «mercado libre», beneficios, ahorro
-salarial ni ausencia de oficinas. La hipótesis es que un servicio especializado
-y repetible puede atender más demanda con una estructura distinta. Validarla
-exigirá conocer demanda, capacidad, costes y disposición a pagar de AS.
+La página 6 parte del estudio de mercado de Pol y su conclusión de que el
+espacio de extranjería vía app está libre. Antonio Segura es el destinatario
+de esa oportunidad. Campmany refuerza el argumento como caso de éxito en
+bajas e incapacidades. Pol aprueba: «Campmany demuestra que un despacho
+especializado puede crecer con un modelo digital. Mi propuesta es llevar estos
+principios a extranjería». El crecimiento se respalda con el caso publicado
+por HubSpot sobre marketing y ventas digitales; la web de Premium acredita
+el servicio. No se atribuye el crecimiento al estudio de Pol ni a la app.
+La página 7 desarrolla la aplicación a AS. Conocer demanda, capacidad, costes
+y disposición a pagar será necesario para validar esa aplicación.
 
 **Última aclaración de Pol:** añadir las comparaciones salariales al punto 2.
 La ventaja del equipo distribuido incluye explorar salarios inferiores a los

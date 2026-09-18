@@ -228,6 +228,16 @@
       "qrSvg": "generados/informe-anthropic.svg",
       "qrDecoded": true,
       "decodedFromPageRaster": true
+    },
+    {
+      "id": "linkedin-pol",
+      "url": "https://www.linkedin.com/in/psurriel/",
+      "description": "Perfil de LinkedIn de Pol Surriel y recomendaciones; página 23",
+      "qrGenerated": true,
+      "qrDecoded": true,
+      "decodedFromPageRaster": true,
+      "printReady": false,
+      "qrSvg": "generados/linkedin-pol.svg"
     }
   ]
 }

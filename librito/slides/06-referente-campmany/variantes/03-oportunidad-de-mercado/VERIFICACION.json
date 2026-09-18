@@ -1,0 +1,21 @@
+{
+  "fecha": "2026-09-18",
+  "variante": "03-oportunidad-de-mercado",
+  "paginas": 24,
+  "cambiosRenders": [
+    "librito/slides/06-referente-campmany/index.png",
+    "librito/slides/06-referente-campmany/index.pdf"
+  ],
+  "otras23PaginasIdenticas": true,
+  "variantesAnterioresIdenticas": true,
+  "enlaceServicioCorrecto": true,
+  "pdfA5FuentesYLimitesVerificados": true,
+  "compilacionWeb": "Último intento: npm run build detenido por TS2345 en src/features/acompanamiento/Practica.tsx:90 (subcategoriaId null/string), archivo ajeno a esta revisión. Libro generado y nuevo WebP servido por HTTP 200.",
+  "servidorLocal": "HTTP 200 para la presentación y el nuevo WebP de la página 6",
+  "diffCheck": "git diff --check correcto",
+  "revisionVisual": "PNG de variante y página 6 del librito final",
+  "navegador": "No disponible: agent.browsers.list() devolvió lista vacía; sin prueba de interacción.",
+  "redaccionCierre": "Campmany demuestra que un despacho especializado puede crecer con un modelo digital. Mi propuesta es llevar estos principios a extranjería.",
+  "enlaceCasoHubSpotCorrecto": true,
+  "fuenteEconomica": "Caso de éxito publicado por HubSpot; no atribuida al estudio de Pol ni específicamente a la app."
+}

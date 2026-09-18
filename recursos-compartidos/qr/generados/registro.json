@@ -102,5 +102,13 @@
     "correccion": "M",
     "png": "informe-anthropic.png",
     "svg": "informe-anthropic.svg"
+  },
+  "linkedin-pol": {
+    "destino": "https://www.linkedin.com/in/psurriel/",
+    "modulos": 29,
+    "margenModulos": 4,
+    "correccion": "M",
+    "png": "linkedin-pol.png",
+    "svg": "linkedin-pol.svg"
   }
 }

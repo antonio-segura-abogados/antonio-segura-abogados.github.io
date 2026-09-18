@@ -6,6 +6,12 @@ orden el 17-09-2026, **pendiente de revisión**. Conserva intactas las páginas
 
 ## Lectura
 
+**Actualización 18-09-2026:** recapturadas las seis pantallas con el marco corregido
+y la entrevista actual; regenerados los `index` y variantes seleccionadas de 8–13,
+el [librito vigente](../../librito-final.pdf) y el visor web. Los acumulados y
+parejas enlazados a continuación conservan la instantánea histórica de esta tanda.
+La demo actual ya no incluye tutoriales; publicación de estos ajustes pendiente.
+
 - [Las seis páginas nuevas](app-08-13.pdf).
 - [Las tres parejas enfrentadas](parejas-08-13.pdf): 8–9, 10–11 y 12–13.
 - [Librito acumulado 01–13](librito-01-13.pdf), con portada diagonal.
@@ -38,7 +44,7 @@ La contratación es simulada. Ninguna pantalla recoge tarjetas o documentos real
 
 ## Pantallas y QR
 
-Las páginas 9–13 llevan cinco QR vectoriales de 28 mm con guía opcional:
+Las páginas 9–13 llevan cinco QR vectoriales de 28 mm:
 `/entrevista`, `/opciones`, `/planes`, `/expediente` y
 `/expediente/pasos/documentacion`. Existe también `/contratacion` como entrada
 directa al resumen. Cada URL tiene sus propios datos y estado local; no exige

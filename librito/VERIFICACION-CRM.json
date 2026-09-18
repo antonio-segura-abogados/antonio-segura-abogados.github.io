@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-09-18",
+  "paginasActualizadas": [
+    18,
+    19
+  ],
+  "capturas": {
+    "fecha": "2026-09-18",
+    "archivos": [
+      "18-configurador.png",
+      "19-cambios.png"
+    ],
+    "metodo": "Chrome conectado, captura de página completa con el mismo viewport; no se recompone ni se retoca la interfaz",
+    "dimensionesPx": [
+      1920,
+      1250
+    ],
+    "uso": "Slides 18–19; imagen de 368 pt de ancho, 375,65 ppp efectivos",
+    "nota": "Las pruebas y capturas 14–17 anteriores conservan su procedencia histórica."
+  },
+  "otrasPaginasConservadas": 22,
+  "comparacion": "SHA-256 de los 24 index.png antes y después; solo cambian 18 y 19",
+  "pdf": {
+    "archivo": "librito-final.pdf",
+    "paginas": 24,
+    "formatoMm": [
+      210,
+      148
+    ],
+    "qrLeidosDesdePaginasCompletas300ppp": 2,
+    "enlacesPorPagina": 2,
+    "contenidoEditorial": "Titulares, párrafos, notas y destinos conservados; captura a la izquierda, texto y QR a la derecha."
+  },
+  "compilacion": "Renderizadas las variantes 18–19 y ensamblado final con --sin-renderizar para conservar las otras páginas. La compilación general también regeneraba una salida pendiente de la página 15; se preservó su render anterior sin modificar sus fuentes.",
+  "publicacion": "Pendiente; actualización local.",
+  "compilacionWeb": "npm run build correcto",
+  "visorLocal": "Páginas 18 y 19 comprobadas en Chrome; imágenes WebP nuevas cargadas correctamente."
+}

@@ -12,9 +12,6 @@ from pypdf import PdfReader
 from reportlab.lib.colors import HexColor
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
-from reportlab.graphics.barcode.qr import QrCodeWidget
-from reportlab.graphics.shapes import Drawing
-from reportlab.graphics import renderPDF
 
 HERE=Path(__file__).resolve().parent
 BOOK=HERE.parents[1]; ROOT=BOOK.parent; SLIDES=BOOK/'slides'
@@ -22,6 +19,8 @@ spec=importlib.util.spec_from_file_location('recursos',SLIDES/'01-portada/genera
 base=importlib.util.module_from_spec(spec);spec.loader.exec_module(base)
 W,H=base.ANCHO,base.ALTO
 BLUE,DARK,WHITE=[base.COLORES[key] for key in ('as-blue-brand','as-blue-dark','as-white')]
+spec=importlib.util.spec_from_file_location('etiqueta_qr',ROOT/'recursos-compartidos/qr/etiqueta.py')
+qr_diseno=importlib.util.module_from_spec(spec);spec.loader.exec_module(qr_diseno)
 MUTED='#435e70'
 P2=SLIDES/'02-presentacion/variantes/01-candidatura'
 P3=SLIDES/'03-direccion-tecnologica/variantes/01-direccion'
@@ -75,11 +74,7 @@ def page2(p,text):
 
 
 def qr(p,x,y,side=79.37):
-    w=QrCodeWidget(REPORT_URL,barLevel='M',barBorder=4)
-    bounds=w.getBounds();dim=bounds[2]-bounds[0]
-    drawing=Drawing(side,side,transform=[side/dim,0,0,side/dim,0,0]);drawing.add(w)
-    renderPDF.draw(drawing,p.c,x,H-y-side)
-    p.c.linkURL(REPORT_URL,(x,H-y-side,x+side,H-y),relative=0,thickness=0)
+    qr_diseno.codigo(p.c,H,REPORT_URL,x,y,side,base.COLORES['as-blue-light'])
 
 
 def page3(p,text,capture):
@@ -89,11 +84,10 @@ def page3(p,text,capture):
     p.text('dirección.',39,187,44,'ExtraBold',BLUE,-1.5)
     p.para(text['argumento'],43,224,270,11.5,17,DARK)
     qr(p,41,300)
-    p.text('Leer el informe',138,317,10.5,'SemiBold')
-    p.text('Economic Scenarios for',138,336,8.5,'SemiBold',MUTED)
-    p.text('Transformative AI',138,349,8.5,'SemiBold',MUTED)
-    p.text('Anthropic Institute · 2026',138,364,8.5,ink=MUTED)
-    p.text('anthropic.com',138,379,8.5,'SemiBold',BLUE)
+    qr_diseno.etiqueta(p.c,H,'Informe completo aquí',138,301,BLUE,REPORT_URL,tamano=8.8)
+    p.text('Economic Scenarios for',138,348,8.5,'SemiBold',MUTED)
+    p.text('Transformative AI',138,361,8.5,'SemiBold',MUTED)
+    p.text('Anthropic Institute · 2026',138,378,8.2,ink=MUTED)
     p.text('TRES ESCENARIOS DE IA',354,75,8.5,'SemiBold',MUTED,.5)
     # Extracto real del primer panel, sin redibujar datos, recortar escenarios ni suprimir ejes.
     p.c.drawImage(str(capture),347,H-95-224.7,width=192,height=224.7,mask='auto')

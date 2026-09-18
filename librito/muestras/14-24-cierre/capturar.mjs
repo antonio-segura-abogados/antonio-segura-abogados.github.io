@@ -117,15 +117,14 @@ try {
     await page.setViewportSize({ width, height: 844 });
     for (const route of routes) {
       await open(`${route}?tour=1`);
+      assert.equal(await page.locator('.tour-panel').count(), 0);
       if (await page.getByRole('dialog').isVisible()) await page.getByRole('button', { name: 'Cerrar detalle' }).click();
-      assert.equal(await page.getByRole('button', { name: 'Cerrar guía' }).isVisible(), true);
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `Desbordamiento ${route} a ${width}px`);
-      await page.getByRole('button', { name: 'Cerrar guía' }).click(); await page.getByRole('button', { name: 'Ver guía' }).click();
       if (route === '/gestion/cambios' && width === 390) await page.screenshot({ path: `${out}/revision-movil-gestion.png`, fullPage: true });
     }
   }
   assert.deepEqual(errors, []);
-  const report = { fecha: '2026-09-17', resultado: 'correcto', navegador: 'Chrome headless', capturas: records, rutas: routes, anchosMoviles: [320, 390], pruebas: ['Documentos: filtros, subsanación, recibido distinto de validado, reinicio', 'Originales: preparación, incidencia, recepción pendiente de revisión y devolución', 'Práctica: respuesta incorrecta, puntuación única, cinco preguntas, repaso y reinicio', 'Consultas: mensaje local, reserva, controles visuales y resumen', 'Configurador: vista previa, orden, nuevo paso, revisión invalidada al editar, fecha y publicación', 'Cambios: aplicación explícita, progreso conservado, excepción individual y cancelación del borrador', 'Diez URLs: acceso directo, guía y ausencia de desbordamiento a 320 y 390 px', 'Sin errores de JavaScript'], limitacion: 'Demostraciones con estado local; no servicios reales conectados' };
+  const report = { fecha: new Date().toISOString().slice(0, 10), resultado: 'correcto', navegador: 'Chrome headless', capturas: records, rutas: routes, anchosMoviles: [320, 390], pruebas: ['Documentos: filtros, subsanación, recibido distinto de validado, reinicio', 'Originales: preparación, incidencia, recepción pendiente de revisión y devolución', 'Práctica: respuesta incorrecta, puntuación única, cinco preguntas, repaso y reinicio', 'Consultas: mensaje local, reserva, controles visuales y resumen', 'Configurador: vista previa, orden, nuevo paso, revisión invalidada al editar, fecha y publicación', 'Cambios: aplicación explícita, progreso conservado, excepción individual y cancelación del borrador', 'Diez URLs: acceso directo y ausencia de desbordamiento a 320 y 390 px', 'Sin errores de JavaScript'], limitacion: 'Demostraciones con estado local; no servicios reales conectados' };
   await writeFile(`${out}/procedencia.json`, JSON.stringify(report, null, 2) + '\n');
   await writeFile(fileURLToPath(new URL('./VERIFICACION-UI.json', import.meta.url)), JSON.stringify(report, null, 2) + '\n');
   console.log('6 capturas editoriales. Diez rutas e interacciones verificadas a 320 y 390 px.');

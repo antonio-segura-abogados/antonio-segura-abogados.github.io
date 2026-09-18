@@ -1,6 +1,6 @@
 # Plan de las escenas de demostración
 
-17 de septiembre de 2026. **Alcance corregido por Pol: una URL, una escena
+Actualizado el 18 de septiembre de 2026. **Alcance corregido por Pol: una URL, una escena
 autónoma.** Las 18 vistas previstas están cubiertas por 16 escenas, el índice de
 demos y el detalle local de opciones. La home muestra la presentación completa. Relación con el papel: [plan editorial](../librito/PLAN-EDITORIAL.md).
 
@@ -16,8 +16,8 @@ secciones ni completar pantallas anteriores**. Cada QR abre el ejemplo que
 explica su página del librito. Las URLs no se necesitan entre sí. La instrucción editorial posterior de Pol
 es desarrollar las páginas en orden; esa es la secuencia de trabajo vigente.
 
-Cada pantalla podrá tener interacciones locales, paneles, estados y tutorial si
-ayudan a entender la propuesta. Por ejemplo, comparar planes en la misma escena
+Cada pantalla puede tener interacciones locales, paneles y estados.
+**Petición de Pol del 18-09-2026: eliminar todos los tutoriales paso a paso.** Por ejemplo, comparar planes en la misma escena
 o abrir las instrucciones de una tarea. No se crea un flujo global de alta,
 entrevista, compra y expediente. Un índice de muestras es una comodidad de revisión.
 
@@ -56,7 +56,7 @@ preguntas provoca una aprobación inmediata.
 Son 18 vistas de producto para explicar ideas, **no una secuencia que deba completarse**.
 Cada ruta que se implemente cargará directamente sus datos. Se podrán agrupar
 estados secundarios en un panel de la misma escena cuando simplifique la muestra.
-Los parámetros van dentro del fragmento: `…/#/entrevista?tour=1`.
+Los parámetros van dentro del fragmento: `…/#/entrevista?vista=objetivo`.
 
 | ID | URL o vista prevista | Qué muestra y qué se puede probar localmente | Papel / estado |
 | --- | --- | --- | --- |
@@ -67,10 +67,10 @@ Los parámetros van dentro del fragmento: `…/#/entrevista?tour=1`.
 | V04 | `/planes` | Dos planes, mensual/anual y total coherente | 11; implementada |
 | V05 | `/contratacion` | Compra precargada, desglose y confirmación simulada | 11; implementada |
 | V06 | `/expediente` | Home, una siguiente acción, recorrido, responsables y menú ilustrativo | 12; revisada con marco HTML/CSS |
-| V07 | `/expediente/pasos/documentacion` | Instrucciones, dos documentos y aportación de ejemplo | 13; revisada con guía propia |
+| V07 | `/expediente/pasos/documentacion` | Instrucciones, dos documentos y aportación de ejemplo | 13; acceso directo al detalle |
 | V08 | `/documentos` | Recibido, revisión, subsanación y validado como estados diferentes | 14; implementada |
 | V09 | `/originales` | Puntos ficticios, preparación, resguardo y tracking | 15; implementada |
-| V10 | `/practica` | Sesión breve, correcciones explicadas y repaso | 16; implementada |
+| V10 | `/practica` | Ruta de aprendizaje, repaso por temáticas, repaso inteligente y simulacro | 16; estructura nueva local; UX de cuestionarios pendiente |
 | V11 | `/consultas` | Hilo escrito, documentos de contexto y reserva ficticia | 17; implementada |
 | V12 | `/consultas/sala-demo` o panel | Sala ilustrativa, controles y resumen | 17; implementada |
 | V13 | `/perfil` | Perfil ficticio y preferencias locales | Apoyo; implementada |
@@ -85,8 +85,8 @@ Los elementos decorativos no se presentan como enlaces activos sin destino.
 
 ## Estado de seguimiento y documentación
 
-- `/expediente`: home, menú inferior ilustrativo, detalle en diálogo y guía de
-  tres pasos. `?tour=1` abre la guía. También se puede abrir, cerrar y repetir.
+- `/expediente`: home, menú inferior ilustrativo y detalle en diálogo contenido
+  dentro del móvil en ordenador. No hay tutoriales.
 - `/expediente/pasos/documentacion`: carga directamente el mismo componente de
   instrucciones con su propio estado. No depende de haber abierto la home.
 - «Usar documento de ejemplo» cambia pendiente a recibido. La revisión sigue
@@ -97,41 +97,44 @@ Los elementos decorativos no se presentan como enlaces activos sin destino.
   la maqueta del librito. Las páginas 12–13
   vigentes utilizan capturas reales de navegador dentro del marco HTML/CSS.
 - TypeScript/build y pruebas interactivas con Chrome comprobados: recibido
-  frente a revisado, reinicio, acceso directo y recarga. Guía también en el detalle.
+  frente a revisado, reinicio, acceso directo y recarga.
 
 ## Entrevista, opciones y contratación
 
-- `/entrevista`: objetivo, tres preguntas preparadas, fecha legal diferenciada
-  de llegada, «No lo sé», resumen y edición. `?vista=objetivo` abre el selector inicial.
+- `/entrevista`: elección de objetivo al entrar y al reiniciar, seguida de preguntas
+  condicionales sobre ubicación, nacionalidades, edad, entrada, situación actual
+  y contexto. La residencia legal solo se pregunta cuando corresponde.
+  «No lo sé», selectores con búsqueda para provincia y múltiples nacionalidades,
+  resumen y edición con vuelta directa. Se conservan las respuestas pertinentes;
+  las nuevas se completan desde el resumen. Ciudadanía derivada de la selección,
+  sin ofrecer España cuando se quiere obtener nacionalidad española. Dos acciones
+  finales: editar o confirmar y enviar (simulado).
+  Revisión posterior de coherencia: plazos prioritarios al principio, situación
+  y solicitudes separadas, menores y familiares con contexto propio; países,
+  permisos y parentescos con opciones. Edición con borrador cancelable, sin
+  pérdidas por cambios temporales. [Auditoría y pruebas](diseno/entrevista/REVISION-COHERENCIA.md).
+  [Investigación y criterio del 18-09-2026](diseno/entrevista/CRITERIO.md).
+  La escena de registro omite el encabezado con logo y avatar.
+  El enlace anterior `?vista=objetivo` sigue funcionando.
 - `/opciones`: tres tarjetas con estados distintos. Cada una abre un detalle;
   elegir cambia solo el estado de esta escena. El contenido requiere revisión profesional.
 - `/planes`: 19/29 € al mes o 190/290 € al año (ficticios, IVA incluido). Total
   en céntimos y equivalente mensual redondeado; gastos y trámites separados.
 - La elección del plan abre un panel de resumen y confirmación simulada.
   `/contratacion` carga ese resumen directamente, con estado propio.
-- Todas las entradas incluyen guía opcional, cierre, anterior/siguiente y reinicio.
-- Marco y guías en `components/DemoScene.tsx`; datos comunes de los ejemplos en
+- Todas las entradas incluyen reinicio; no muestran tutoriales.
+- Marco y diálogos en `components/DemoScene.tsx`; datos comunes de los ejemplos en
   `recursos-compartidos/demo/entrada.json`. Estado con hooks locales.
 - Probados casos relevantes y seis URLs a 320/390 px; capturas y registro en
   `librito/muestras/08-13-app/VERIFICACION-UI.json`.
 
-## Tutoriales implementados
+## Tutoriales retirados
 
-Guías breves, opcionales, repetibles, de 3–5 pasos. No avanzan por tiempo y no
-requieren visitar otro capítulo. Botones visibles de cerrar, anterior y siguiente.
-No tapar los controles descritos en móvil. Al terminar, permitir explorar o reiniciar
-esa misma escena. La guía explica el valor del producto, no su infraestructura.
-
-| Escena / páginas | Qué explica | Objetivo de duración, sin medir |
-| --- | --- | --- |
-| Entrevista / 9 | Responder, editar y entender el resumen | 60–90 s |
-| Opciones / 10–11 | Condiciones, costes y planes; cada muestra con estado propio | 60–90 s |
-| Seguimiento / 12–13 | Próxima acción, responsables e instrucciones | 45–60 s |
-| Documentos / 14 | Aportar ejemplo y distinguir recibido de validado | 45–60 s |
-| Originales / 15 | Preparar entrega, resguardo y seguimiento | 45–60 s |
-| Práctica / 16 | Respuesta, explicación y repaso | 60 s |
-| Consultas / 17 | Contexto, cita y resumen | 60 s |
-| Configurador / 18–19 | Editar, previsualizar, revisar impacto y excepción | 90–120 s |
+El 18-09-2026 Pol pide eliminar todos los tutoriales paso a paso. Se retiran
+paneles, botones, textos, resaltados y estado de las guías en todas las escenas.
+Los QR y enlaces anteriores con `?tour=1` conservan su destino, pero el parámetro
+ya no activa ninguna interfaz. Las instrucciones propias del producto y los
+pasos del expediente, entrevista y configurador siguen formando parte de la demo.
 
 ## Qué se simula
 
@@ -181,7 +184,7 @@ modifica la plantilla de todos. No se promete adaptar cualquier norma sin códig
 3. Desarrollar las escenas al llegar a su capítulo del librito: entrevista,
    opciones/planes, documentos/originales, práctica, consultas, configurador.
 4. Revisar cada URL de forma independiente: acceso directo, recarga, reinicio,
-   contenido y móvil. Probar sus interacciones locales y su guía cuando existan.
+   contenido y móvil. Probar sus interacciones locales.
 5. Capturar las interfaces aprobadas, sustituir maquetas, publicar en la cuenta
    dedicada de GitHub Pages y generar los QR definitivos.
 
@@ -192,13 +195,18 @@ código. Las comprobaciones futuras no se dan por ejecutadas.
 
 ## Acompañamiento y operación implementados
 
-`acompanamiento.json` contiene documentos, puntos logísticos, práctica y consulta.
+`acompanamiento.json` contiene documentos, puntos logísticos, una muestra histórica
+de práctica y consulta. `/practica` usa ahora `recursos-compartidos/ccse/preguntas-2026.json`.
 `gestion.json` contiene una ruta v1, un cambio ficticio v2 y dos expedientes.
 Los datos alimentan escenas locales, sin sincronización entre URLs.
 
 - Documentos: filtro, instrucciones de subsanación y copia recibida pendiente de revisión.
 - Originales: punto, preparación, resguardo, incidencia, recepción y devolución.
-- Práctica: cinco preguntas propias, explicación referenciada, puntos por respuesta y repaso de errores.
+- Práctica: banco oficial de 300 preguntas, ruta por secciones/temas y repaso
+  final, selector de 20 temáticas, repaso inteligente de hasta 10 preguntas/5
+  minutos y simulacro de 25 preguntas/30 minutos. El historial local de estudio
+  persiste en el dispositivo hasta reiniciar; no se comparte con otras escenas.
+  Primera versión funcional de los cuestionarios, pendiente de la fase de UX.
 - Consultas: mensaje local, reserva ficticia, sala visual y resumen; sin cámara o micrófono.
 - Perfil: preferencias locales, sin traducción ni notificaciones conectadas.
 - Rutas: editor y vista cliente, orden y nuevo paso. Editar invalida la revisión; publicar conserva los casos abiertos.

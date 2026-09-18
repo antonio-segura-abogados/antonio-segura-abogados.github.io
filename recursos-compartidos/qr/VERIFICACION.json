@@ -284,5 +284,123 @@
     "interacciones": "Presentación, índice, teclado, ampliación, PDF y enlace contextual comprobados públicamente; interacciones internas de las 16 escenas comprobadas localmente",
     "registro": "../../vertical/diseno/presentacion/VERIFICACION-PUBLICA.json",
     "pruebaFisica": "pendiente"
+  },
+  "etiquetas20260918": {
+    "fecha": "2026-09-18",
+    "resultado": "correcto",
+    "metodo": "Apple Vision, VNDetectBarcodesRequest; páginas completas del PDF a 300 ppp",
+    "pdf": "librito/librito-final.pdf",
+    "sha256Pdf": "bf6aa6d8245c14cd661b980448cce30b424a8c1dca83ca07dc8afcfd6037d0a8",
+    "qrLeidosDesdePdf300ppp": 13,
+    "resultados": [
+      {
+        "pagina": 3,
+        "id": "informe-anthropic",
+        "destinoLeido": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      },
+      {
+        "pagina": 9,
+        "id": "entrevista",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/entrevista?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      },
+      {
+        "pagina": 10,
+        "id": "opciones",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/opciones?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      },
+      {
+        "pagina": 11,
+        "id": "planes",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/planes?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      },
+      {
+        "pagina": 12,
+        "id": "expediente",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/expediente?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      },
+      {
+        "pagina": 13,
+        "id": "paso-documentacion",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/expediente/pasos/documentacion?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      },
+      {
+        "pagina": 14,
+        "id": "documentos",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/documentos?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      },
+      {
+        "pagina": 15,
+        "id": "originales",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/originales?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      },
+      {
+        "pagina": 16,
+        "id": "practica",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/practica?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      },
+      {
+        "pagina": 17,
+        "id": "consultas",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/consultas?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      },
+      {
+        "pagina": 18,
+        "id": "configurador",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/gestion/rutas/residencia-demo?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 27.0
+      },
+      {
+        "pagina": 19,
+        "id": "cambios",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/gestion/cambios?tour=1",
+        "coincideConRegistro": true,
+        "tamanoMm": 27.0
+      },
+      {
+        "pagina": 24,
+        "id": "inicio",
+        "destinoLeido": "https://antonio-segura-abogados.github.io/#/",
+        "coincideConRegistro": true,
+        "tamanoMm": 28.0
+      }
+    ],
+    "etiquetasFueraDelQr": true,
+    "enlacesPdfDeQrYEtiquetas": "coinciden con el registro",
+    "revisionVisual": "13 páginas sin solapamientos de las etiquetas; 11 páginas sin QR conservan su render anterior",
+    "pruebaFisica": "pendiente",
+    "publicacionDeEstaRevision": "pendiente"
+  },
+  "linkedin20260918": {
+    "pagina": 23,
+    "destinoLeido": "https://www.linkedin.com/in/psurriel/",
+    "metodo": "Apple Vision; PNG del QR y página completa del PDF a 300 ppp",
+    "coincideConRegistro": true,
+    "tamanoMm": 28,
+    "enlacesPdfQrEtiquetaYPerfil": 3,
+    "sha256Pdf": "35af9689ddc1420bcfbcc2580439e142149e68ce6bbffad92516f87b417c68db",
+    "otras23Paginas": "renders idénticos a los anteriores",
+    "pruebaFisica": "pendiente",
+    "publicacion": "pendiente"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "fecha": "2026-09-18T01:13:41.826Z",
+  "resultado": "correcto",
+  "navegador": "Chrome headless con perfil temporal",
+  "base": "http://127.0.0.1:5177",
+  "pruebas": [
+    "Galería de 20 secciones con SVG distintos y cargados; la cabecera conserva el icono elegido. Cada sección abre sus temas y el repaso final completo. Diálogos contenidos en el marco.",
+    "Cuestionarios y repasos finales completan pasos; respuestas se registran una vez; sección y progreso sobreviven a la recarga.",
+    "Las 20 temáticas abren preguntas de su banco. Los errores de otros modos tienen prioridad en el repaso inteligente. Escape cierra la salida.",
+    "Simulacro completo: 25 preguntas, reparto 10/3/2/3/7, respuestas revisables, sin correcciones anticipadas, aprobado con 15 aciertos y temporizador detenido al terminar.",
+    "Entrega en blanco requiere confirmación y puntúa 0/25.",
+    "Iconos de 112–128 px en ambas galerías. Sin desbordamientos horizontales en 320, 390 y 768 px: inicio, ruta, secciones con nombres largos, selectores, cuestionario, diálogo, inteligente y examen.",
+    "Reiniciar borra el progreso guardado. Examen y repaso terminan automáticamente a los 30 y 5 minutos, incluido el salto de reloj."
+  ],
+  "erroresJavascript": [],
+  "limites": "Prueba local. No se ha publicado. Cuestionarios en primera versión funcional."
+}

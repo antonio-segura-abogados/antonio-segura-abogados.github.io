@@ -6,6 +6,12 @@ aporte el promotor del proyecto.
 
 ## Material disponible
 
+- [Manual CCSE 2026](Manual%20CCSE%202026.pdf): PDF aportado por Pol el 18-09-2026,
+  con el manual del Instituto Cervantes y páginas preliminares del despacho.
+  Sus 300 preguntas y el solucionario se han convertido en un
+  [banco JSON por temáticas](../recursos-compartidos/ccse/README.md) para preparar
+  el replanteamiento de `/practica`. El PDF original se conserva aquí.
+
 - [Base de CV y fotografías](BASE-CV.md): experiencia extraída del PDF de LinkedIn
   aportado por Pol el 17-09-2026, selección para las páginas 22–23 y cuatro fotos.
   Se omiten las skills desactualizadas por indicación de Pol. Es planificación y

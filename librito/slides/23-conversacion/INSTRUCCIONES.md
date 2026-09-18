@@ -42,7 +42,13 @@ Las instrucciones de origen se conservan arriba. El resultado actual se registra
 
 Petición posterior de Pol: «implementa las que faltan». Se desarrollan las páginas 14–24 en orden.
 
-Fotos originales completas de VIEWNEXT y Surreal Boost, pies por experiencia y contacto del CV. Sin retoque ni identificación de otras personas.
+Inicialmente se incluyeron fotos originales completas de VIEWNEXT y Surreal Boost.
+El 18-09-2026, Pol pide «en la diapositiva donde salen fotos mías, borra la de surreal boost».
+Se retiran esa foto y su pie. Tras la corrección posterior de Pol, VIEWNEXT vuelve
+a su posición original a la izquierda, completa y sin retoques. A la derecha se
+añade un QR a su LinkedIn con la banda azul de las demos y el comentario «Puedes
+leer recomendaciones en mi perfil de LinkedIn». Se conservan el contacto del CV
+y el archivo fotográfico original de Surreal Boost.
 
 Variante actual: [`01-equipo`](variantes/01-equipo/README.md), con texto editable, PDF y PNG. No equivale a aprobación del diseño.
 
